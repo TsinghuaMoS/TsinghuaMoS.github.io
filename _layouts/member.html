@@ -7,18 +7,22 @@ layout: default
 <div class="row">
 	<div class="col-sm-12">
 
-		<img class="pull-left pad-right content-photo" width=160
-			src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}">
+		<img class="pull-left pad-right content-photo"
+			width=160
+			src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+			style="margin-right: 20px;"> <!-- Add margin-right to space the image -->
 
+		<div>
+			<div class="bigtitle" style="margin-top: 10px;"> <!-- Add margin-top if needed -->
+				{{ member.title }}
+			</div>
+			<p>
+			<div class="smallhead" style="margin-top: 5px;"> <!-- Adjust spacing as needed -->
+				{{ member.position }}
+			</div>
+			</p>
+		</div>
 
-		<div class="bigtitle">
-			{{ member.title }}
-		</div>
-		<p>
-		<div class="smallhead">
-			{{ member.position }}
-		</div>
-		</p>
 	</div>
 </div>
 
