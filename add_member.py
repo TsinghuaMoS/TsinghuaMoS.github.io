@@ -31,7 +31,7 @@ photo: {handle}.png
 - BS, Degree, Univ (Year)"""
 
 STUDENT_TYPES = {
-    "1": "Post Doctal Student",
+    "1": "Post Doc",
     "2": "Ph.D. Student",
     "3": "Master's Student",
     "4": "Undergraduate Honor Student",
@@ -53,7 +53,7 @@ if __name__ == "__main__":
     name = input("type the student name: ")
     handle = name.replace(" ", "_").lower()
     member_type = input("""
-        1: Post Doctal Student,
+        1: Post Doc,
         2: Ph.D. Student,
         3: Master's Student,
         4: Undergraduate Honor Student,

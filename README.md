@@ -1,16 +1,7 @@
 # AICV Lab
 
-<img src="images/AICV_black.png" width="250">
+<img src="images/lab_logo_white_bg.jpg" width="250">
 
-## Hosting on a local machine
-You can use [this](https://hub.docker.com/repository/docker/kashu98/jekyll-serve/general) docker file to easily host this site on your local machine.
-
-```bash
-git clone https://github.com/UARK-AICV/UARK-AICV.github.io.git && cd UARK-AICV.github.io.git
-docker run -it --rm --network=host -v $(pwd):/site kashu98/jekyll-serve
-```
-
-Then you can visit the site at `http://localhost:4000`
 
 ## Usage
 ### Add publications
