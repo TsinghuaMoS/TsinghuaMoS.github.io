@@ -15,16 +15,6 @@ permalink: /
 The Tsinghua Mobility Science (MoS) Lab aims to  
 <br>
 
-## News
-
-* TBD
-
-
-## Prospective Students
-
-If you are interested in joining, please see the *[recruitment](recruitment)* page.
-
-<p style="color:red;">We have open positions for PhD students (Research Assistant) starting in Spring 2025!</p>
 
 ## Funding
 We are grateful for funding from our sponsors:
