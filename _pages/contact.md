@@ -1,5 +1,5 @@
 ---
-title: "AICV Lab - Contact"
+title: "MoS Lab - Contact"
 layout: textlay
 excerpt: "Contact."
 sitemap: false
@@ -11,8 +11,8 @@ If you are interested in joining our lab, please go to the [recruitment](../recr
 
 # Lab Locations
 
-## AICV Lab
-Our main AICV Lab is located in J.B. Hunt building (**Room 447**):
+## MoS Lab
+Our main MoS Lab is located in J.B. Hunt building (**Room 447**):
 
 
 <div style="position:relative;text-align:right;height:500px;width:100%;">

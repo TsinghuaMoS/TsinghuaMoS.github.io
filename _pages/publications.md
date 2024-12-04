@@ -1,7 +1,7 @@
 ---
-title: "AICV Lab - Publications"
+title: "MoS Lab - Publications"
 layout: gridlay
-excerpt: "AICV Lab -- Publications."
+excerpt: "MoS Lab -- Publications."
 sitemap: false
 permalink: /publications/
 ---

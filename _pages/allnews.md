@@ -1,7 +1,7 @@
 ---
-title: "AICV Lab - News"
+title: "MoS Lab - News"
 layout: textlay
-excerpt: "AICV Lab"
+excerpt: "MoS Lab"
 sitemap: false
 permalink: /allnews.html
 ---

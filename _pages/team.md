@@ -1,7 +1,7 @@
 ---
-title: "AICV Lab - Team"
+title: "MoS Lab - Team"
 layout: gridlay
-excerpt: "AICV Lab: Team members"
+excerpt: "MoS Lab: Team members"
 sitemap: false
 permalink: /team/
 ---

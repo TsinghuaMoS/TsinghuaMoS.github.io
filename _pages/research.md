@@ -1,7 +1,7 @@
 ---
-title: "AICV Lab - Research"
+title: "MoS Lab - Research"
 layout: textlay
-excerpt: "AICV Lab -- Research"
+excerpt: "MoS Lab -- Research"
 sitemap: false
 permalink: /research/
 ---
