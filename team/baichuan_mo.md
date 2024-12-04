@@ -8,7 +8,7 @@ twitter:
 github: 
 scholar: ORhrfXoAAAAJ
 photo: baichuan_mo.jpg
-web: mit.edu/~baichuan/
+web: https://www.mit.edu/~baichuan/
 resume: ../cv/CV_Baichuan_CN.pdf
 ---
 
