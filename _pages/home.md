@@ -6,10 +6,10 @@ sitemap: false
 permalink: /
 ---
 
-# Welcome to Tsinghua MoS Lab 欢迎访问清华大学交通科学实验室
+
 ![]({{ site.url }}{{ site.baseurl }}/images/lab_logo_white_bg.jpg){: style="width: 100%; border: 10px"}
 
-
+# Welcome to Tsinghua MoS Lab 欢迎访问清华大学交通科学实验室
 The Tsinghua Mobility Science (MoS) Lab aims to  
 <br>
 
