@@ -1,19 +1,18 @@
 ---
-title: "AICV Lab - Home"
+title: "MoS Lab - Home"
 layout: homelay
-excerpt: "AICV Lab"
+excerpt: "MoS Lab"
 sitemap: false
 permalink: /
 ---
 
-# Welcome to Tsinghua MoS Lab
-
+# Welcome to Tsinghua MoS Lab 欢迎访问清华大学交通科学实验室
 ![]({{ site.url }}{{ site.baseurl }}/images/lab_logo_white_bg.jpg){: style="width: 100%; border: 10px"}
 
 
 <!-- ![]({{ site.url }}{{ site.baseurl }}/images/AICV_black.png){: style="width: 150px; float: left;margin-right: 20px; border: 10px"} -->
 
-The Tsinghua MoS Lab aims to  
+The Tsinghua Mobility Science (MoS) Lab aims to  
 <br>
 
 ## News
@@ -29,10 +28,9 @@ If you are interested in joining, please see the *[recruitment](recruitment)* pa
 
 ## Funding
 We are grateful for funding from our sponsors:
-<!-- 
+
 <figure class="third">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nih.jpg" style="height: 90px"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsf.jpg" style="height: 90px"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/cobb.png" style="height: 90px"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/aviagen.jpg" style="height: 100px"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/adisseo.png" style="height: 100px">
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/winnow.jpg" style="height: 100px"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uark_agri.jpg" style="height: 100px"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/tyson.png" style="height: 80px"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ai_sustein.webp" style="height: 60px"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uark_eng.jpg" style="height: 90px"><img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ua_power_group.png" style="height: 90px">
 </figure>
--->
