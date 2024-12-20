@@ -7,7 +7,7 @@ permalink: /
 ---
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/lab_logo_white_bg.jpg){: style="width: 100%; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/lab_logo.jpg){: style="width: 100%; border: 10px"}
 
 <br>
 The Tsinghua Mobility Science (MoS) Lab aims to  
