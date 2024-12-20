@@ -1,6 +1,6 @@
 # Tsinghua MoS Lab
 
-<img src="images/lab_logo_white_bg.jpg" width="450">
+<img src="images/lab_logo.jpg" width="450">
 
 
 ## Usage
