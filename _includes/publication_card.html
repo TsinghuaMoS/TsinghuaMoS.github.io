@@ -7,9 +7,9 @@
       {% if include.pub.representative %}<span class="pub-topic pub-topic-accent">Representative</span>{% endif %}
     </div>
     <h3 class="pub-title">
-      {% if include.pub.pdf_url %}
+      {% if include.pub.pdf_url and include.pub.pdf_url != "" %}
       <a href="{{ pdf_href }}">{{ include.pub.title }}</a>
-      {% elsif include.pub.external_url %}
+      {% elsif include.pub.external_url and include.pub.external_url != "" %}
       <a href="{{ include.pub.external_url }}">{{ include.pub.title }}</a>
       {% else %}
       {{ include.pub.title }}
@@ -18,19 +18,19 @@
     <p class="pub-authors">{{ include.pub.authors_html }}</p>
     <p class="pub-venue">{{ include.pub.venue_display }}</p>
     <div class="pub-actions">
-      {% if include.pub.pdf_url %}
+      {% if include.pub.pdf_url and include.pub.pdf_url != "" %}
       <a class="pub-action" href="{{ pdf_href }}">PDF</a>
       {% endif %}
-      {% if include.pub.external_url %}
+      {% if include.pub.external_url and include.pub.external_url != "" %}
       <a class="pub-action" href="{{ include.pub.external_url }}">{{ include.pub.external_label }}</a>
       {% endif %}
-      {% if include.pub.code_url %}
+      {% if include.pub.code_url and include.pub.code_url != "" %}
       <a class="pub-action" href="{{ include.pub.code_url }}">Code</a>
       {% endif %}
-      {% if include.pub.impact_factor %}
+      {% if include.pub.impact_factor and include.pub.impact_factor != "" %}
       <span class="pub-metric">IF {{ include.pub.impact_factor }}</span>
       {% endif %}
-      {% if include.pub.cas_quartile %}
+      {% if include.pub.cas_quartile and include.pub.cas_quartile != "" %}
       <span class="pub-metric pub-metric-cas">CAS {{ include.pub.cas_quartile }}</span>
       {% endif %}
     </div>

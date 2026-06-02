@@ -1,0 +1,12 @@
+{% assign pdf_href = include.pub.pdf_url | relative_url | replace: "'", "%27" %}
+<div class="pub-line">
+  <p class="pub-line-title">
+    {% if include.pub.pdf_url and include.pub.pdf_url != "" %}<a href="{{ pdf_href }}">{{ include.pub.title }}</a>{% elsif include.pub.external_url and include.pub.external_url != "" %}<a href="{{ include.pub.external_url }}">{{ include.pub.title }}</a>{% else %}{{ include.pub.title }}{% endif %}
+  </p>
+  <p class="pub-line-authors">{{ include.pub.authors_html }}</p>
+  <p class="pub-line-venue">{{ include.pub.venue_display }}
+    {% if include.pub.pdf_url and include.pub.pdf_url != "" %}<a class="pub-line-link" href="{{ pdf_href }}">[PDF]</a>{% endif %}
+    {% if include.pub.external_url and include.pub.external_url != "" %}<a class="pub-line-link" href="{{ include.pub.external_url }}">[{{ include.pub.external_label }}]</a>{% endif %}
+    {% if include.pub.code_url and include.pub.code_url != "" %}<a class="pub-line-link" href="{{ include.pub.code_url }}">[Code]</a>{% endif %}
+  </p>
+</div>
