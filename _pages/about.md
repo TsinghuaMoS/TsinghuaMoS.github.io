@@ -6,11 +6,10 @@ sitemap: false
 permalink: /about/
 ---
 
-# About this website
+# About MoS Lab
 
-Our website is based on the open source templates designed and shared by the labs of [D. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](http://bedford.io/misc/about/). We downloaded source codes from their repository and modified our contents based on shared templates. We greatly thank for Allan and Trevor for allowing reuse of their codebase. 
+The Tsinghua Mobility Science (MoS) Lab studies resilient, intelligent, and sustainable transportation systems. The lab develops data-driven models and decision-support methods for public transit, travel behavior, demand modeling, urban resilience, and emerging mobility services.
 
-The website is deployed using [GitHub Pages](https://sanderslab.github.io) and the source code is available on [GitHub](https://github.com/sanderslab). Please feel free to reuse this code (making sure to cite the Bedford lab and Drummond lab as the original sources of the lab website template).
+# About this Website
 
-
-
+This website is based on open-source academic lab website templates originally shared by the labs of D. Allan Drummond and Trevor Bedford, with additional modifications from later academic lab templates. We appreciate the open-source work that made this site easier to build and maintain.

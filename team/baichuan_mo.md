@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Baichuan Mo (莫佰川)
-position: Assistant Professor (助理教授) & Principle Investigator (实验室负责人)
+position: Assistant Professor (助理教授) & Principal Investigator (实验室负责人)
 handle: baichuan_mo
 email: 
 twitter:
@@ -13,7 +13,9 @@ resume: ../cv/CV_Baichuan_CN.pdf
 ---
 
 ### Overview
-Dr. Baichuan Mo ...
+Dr. Baichuan Mo is the Principal Investigator of MoS Lab. His research focuses on resilient and intelligent transportation systems, with applications in public transit operations, passenger behavior modeling, mobility demand prediction, incident-aware control strategy design, and interactions between public transit and emerging mobility services.
+
+His work combines optimization, probability and statistics, machine learning, econometrics, and game theory to support data-driven decision-making in urban mobility systems.
 
 
 ### Education
@@ -49,4 +51,3 @@ Please refer to the [google scholar](https://scholar.google.com/citations?user=O
   - Research intern, *Jul 2019*
 - [**Singapore-MIT Alliance for Research and Technology (SMART) Center**](https://smart.mit.edu/)
   - Research intern, *Jun - Jul 2019, Jul - Aug 2018, Jul. - Aug 2017, June - July 2016*
-

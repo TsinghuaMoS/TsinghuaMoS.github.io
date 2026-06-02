@@ -1,5 +1,6 @@
 ---
 layout: member
+published: false
 title: First Last
 position: 
 handle: template

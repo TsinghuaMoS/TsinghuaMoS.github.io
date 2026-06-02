@@ -6,20 +6,24 @@ sitemap: false
 permalink: /recruitment/
 ---
 
-# Open Positions
+# Join Us
 
-We always actively seek talented and self-motivated students. We have several opening projects for PhD students (**fully funded research assistant**):
+MoS Lab welcomes highly motivated students and collaborators interested in resilient, intelligent, and sustainable transportation systems.
 
-**1. Geospatial and remote sensing** <br/> Focus on developing innovative deep learning-based computer vision algorithms for geospatial and remote sensing data analysis including satellite imagery (Sentinel-2, Planet) and UAV data, with the aim of addressing critical environmental and agricultural challenges.
+## Research Directions
 
-**2. Biomedical and healthcare** <br/>
-Engage in interdisciplinary research applying machine learning and computer vision methodologies to analyze medical imaging and healthcare systems.
+- Public transit resilience, disruption management, and path recommendation.
+- Travel behavior modeling, demand prediction, and mobility data analytics.
+- Machine learning, optimization, and econometrics for urban transportation systems.
+- Sustainable mobility, commuting emissions, and urban system resilience.
 
-**3. Machine learning, Data science** <br/> Develop machine learning, particularly with meta regression models to analyze structured data (tabular data), improving predictive modeling, inference, and data-driven decision-making.
+## Prospective Students
 
-# Application
+Please prepare:
 
-To apply for this position, please submit the following application materials to Dr. Ngan Le (thile@uark.edu).
+- CV or resume.
+- Transcript.
+- Publication list, if applicable.
+- A brief statement describing your research interests and how they connect with MoS Lab.
 
-- CV/Resume, highlighting your academic and research experience.
-- A list of your publications (if applicable).
+Please contact [Dr. Baichuan Mo]({{ site.url }}{{ site.baseurl }}/team/baichuan_mo.html) with the materials above.

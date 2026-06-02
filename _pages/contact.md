@@ -6,28 +6,14 @@ sitemap: false
 permalink: /contact/
 ---
 
+# Contact
+
+For research collaboration, student supervision, and prospective student inquiries, please contact [Dr. Baichuan Mo]({{ site.url }}{{ site.baseurl }}/team/baichuan_mo.html).
+
+# Location
+
+MoS Lab is based at Tsinghua University in Beijing, China.
+
 # Prospective Students
-If you are interested in joining our lab, please go to the [recruitment](../recruitment) page.
 
-# Lab Locations
-
-## MoS Lab
-Our main MoS Lab is located in J.B. Hunt building (**Room 447**):
-
-
-<div style="position:relative;text-align:right;height:500px;width:100%;">
-  <iframe width="100%" height="500" 
-          src="https://maps.google.com/maps?q=J.B.%20Hunt%20Transport%20Services%20Center%20for%20Academic%20Excellence%20(JBHT)&t=&z=16&ie=UTF8&iwloc=&output=embed" 
-          frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-  </iframe>
-</div>
-
-## Robotic Lab
-We are establishing Robotic Lab focuses on robotic control projects, which is located in Bell Engineering Center (**Room 4134C**):
-
-<div style="position:relative;text-align:right;height:500px;width:100%;">
-  <iframe width="100%" height="500" 
-      src="https://maps.google.com/maps?q=Bell%20Engineering%20Center,%20AR%2072701&t=&z=16&ie=UTF8&iwloc=&output=embed" 
-      frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-  </iframe>
-</div>
+If you are interested in joining the lab, please see the [Join Us]({{ site.url }}{{ site.baseurl }}/recruitment/) page and include your CV, transcript, publication list if applicable, and a short statement of research interests when reaching out.

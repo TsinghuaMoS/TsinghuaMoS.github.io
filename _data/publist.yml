@@ -1,923 +1,1035 @@
-# 2024
-- title: "Decoding Radiologists’ Intense Focus for Accurate CXR Diagnoses: A Controllable & Interpretable AI System "
-  image: thang_WACV24.png
-  description: 
-  authors:
-  link:
-    url:
-    display: WACV, 2024
+# Publications for MoS Lab / Baichuan Mo.
+# Generated from CV_Update/papers.xlsx plus local PDFs in New/Baichuan/publication.
+# type: 1 = conference papers, 2 = journal articles, 4 = preprints / working papers
+
+- title: 'Resilience analysis of urban cyber-physical-social systems: Insights from the 2023 Beijing rainstorm'
+  year: 2026
+  type: 2
+  paper_type: 'J'
+  category: 'Sustainable and Resilient Cities'
+  category_label: 'Journal Article'
+  venue: 'Reliability Engineering and System Safety'
+  issue_page: '272, 112579'
+  venue_display: 'Reliability Engineering and System Safety, 2026, 272, 112579'
+  authors_text: 'Wenxin Ma, Baichuan Mo, Ruimin Li'
+  authors_html: 'Wenxin Ma, <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>'
+  corresponding_authors: 'Ruimin Li'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Resilience%20analysis%20of%20urban%20cyber-physical-social%20systems%20Insights%20from%20the%202023%20Beijing%20rainstorm.pdf'
+  external_url: 'https://doi.org/10.1016/j.ress.2026.112579'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: ''
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: true
+  feature_image: '/images/featured/urban_resilience.svg'
+
+- title: 'Housing exchange framework to reduce carbon emissions from commuting'
+  year: 2025
+  type: 2
+  paper_type: 'J'
+  category: 'Sustainable and Resilient Cities'
+  category_label: 'Journal Article'
+  venue: 'Nature Sustainability'
+  issue_page: '8, 1259-1269'
+  venue_display: 'Nature Sustainability, 2025, 8, 1259-1269'
+  authors_text: 'Juanjuan Zhao, Baichuan Mo, Nicholas S. Caros, Jinhua Zhao'
+  authors_html: '<span class="author-equal-name">Juanjuan Zhao</span><sup class="author-equal">&dagger;</sup>, <strong class="author-me">Baichuan Mo</strong><sup class="author-equal">&dagger;</sup><sup class="author-corresponding">*</sup>, Nicholas S. Caros, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: 'Juanjuan Zhao, Baichuan Mo'
+  pdf_url: '/documents/publication/Housing%20exchange%20framework%20to%20reduce%20.pdf'
+  external_url: 'https://doi.org/10.1038/s41893-025-01658-x'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '27.2'
+  if_sci: true
+  representative: true
+  first_author: false
+  featured: true
+  feature_image: '/images/featured/sustainable_commuting.svg'
+
+- title: 'Robust binary and multinomial logit models for classification with data uncertainties'
+  year: 2025
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility AI'
+  category_label: 'Journal Article'
+  venue: 'European Journal of Operational Research'
+  issue_page: '327 (2), 577-591'
+  venue_display: 'European Journal of Operational Research, 2025, 327 (2), 577-591'
+  authors_text: 'Baichuan Mo, Yunhan Zheng, Xiaotong Guo, Ruoyun Ma, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yunhan Zheng</span><sup class="author-corresponding">*</sup>, Xiaotong Guo, Ruoyun Ma, Jinhua Zhao'
+  corresponding_authors: 'Yunhan Zheng'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Robust%20binary%20and%20multinomial%20logit%20models%20for%20classification%20with%20data%20.pdf'
+  external_url: 'https://doi.org/10.1016/j.ejor.2025.05.013'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '6.0'
+  if_sci: true
+  representative: true
+  first_author: true
+  featured: true
+  feature_image: '/images/featured/mobility_ai.svg'
+
+- title: 'Individual path recommendation under public transit service disruptions considering behavior uncertainty'
+  year: 2025
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'Transportation Science'
+  issue_page: 'Articles in Advance'
+  venue_display: 'Transportation Science, 2025, Articles in Advance'
+  authors_text: 'Baichuan Mo, Haris N Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Individual%20Path%20Recommendation%20Under%20Public.pdf'
+  external_url: 'https://doi.org/10.1287/trsc.2025.0042'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '4.8'
+  if_sci: true
+  representative: true
+  first_author: true
+  featured: true
+  feature_image: '/images/featured/transit_resilience.svg'
+
+- title: 'Data-driven analysis and modeling of individual longitudinal behavior response to fare incentives in public transport'
+  year: 2025
+  type: 2
+  paper_type: 'J'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Journal Article'
+  venue: 'Transportation'
+  issue_page: '52 (1), 263-286'
+  venue_display: 'Transportation, 2025, 52 (1), 263-286'
+  authors_text: 'Leizhen Wang, Xin Chen, Zhenliang Ma, Pengfei Zhang, Baichuan Mo, Peibo Duan'
+  authors_html: 'Leizhen Wang, Xin Chen, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Pengfei Zhang, <strong class="author-me">Baichuan Mo</strong>, Peibo Duan'
+  corresponding_authors: 'Zhenliang Ma'
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: 'https://doi.org/10.1007/s11116-023-10419-8'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '4.2'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Simulation-Based Optimization for Vertiport Location Selection: A Surrogate Model With Machine Learning Method'
+  year: 2025
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility AI'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Record'
+  issue_page: '2679 (2), 2099-2110'
+  venue_display: 'Transportation Research Record, 2025, 2679 (2), 2099-2110'
+  authors_text: 'Xuan Jiang, Shangqing Cao, Baichuan Mo, Junzhe Cao, Hao Yang, Yuhan Tang, Mark Hansen, Jinhua Zhao, Raja Sengupta'
+  authors_html: '<span class="author-corresponding-name">Xuan Jiang</span><sup class="author-corresponding">*</sup>, Shangqing Cao, <strong class="author-me">Baichuan Mo</strong>, Junzhe Cao, Hao Yang, Yuhan Tang, Mark Hansen, Jinhua Zhao, Raja Sengupta'
+  corresponding_authors: 'Xuan Jiang'
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: 'https://doi.org/10.1177/03611981241277755'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '1.6'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'SCOPE-MoE: Supply Chain Forecasting with a Pretrained MoE-Based Large Time Series Model in E-Commerce'
+  year: 2025
+  type: 1
+  paper_type: 'C'
+  category: 'Mobility AI'
+  category_label: 'Conference Paper'
+  venue: 'IEEE 28th International Conference on Intelligent Transportation Systems (ITSC 2025)'
+  issue_page: 'Accepted'
+  venue_display: 'IEEE 28th International Conference on Intelligent Transportation Systems (ITSC 2025), 2025, Accepted'
+  authors_text: 'Shiyu Wang, Xinyue Zhong, Jiawei Li, Baichuan Mo, Zhou Ye, Ming Jin'
+  authors_html: '<span class="author-corresponding-name">Shiyu Wang</span><sup class="author-corresponding">*</sup>, Xinyue Zhong, Jiawei Li, <strong class="author-me">Baichuan Mo</strong>, Zhou Ye, <span class="author-corresponding-name">Ming Jin</span><sup class="author-corresponding">*</sup>'
+  corresponding_authors: 'Shiyu Wang, Ming Jin'
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'TimeMixer++: A General Time Series Pattern Machine for Universal Predictive Analysis'
+  year: 2025
+  type: 1
+  paper_type: 'C'
+  category: 'Mobility AI'
+  category_label: 'Conference Paper'
+  venue: 'The 13th International Conference on Learning Representations (ICLR 2025)'
+  issue_page: 'Oral Presentation (0.6%)'
+  venue_display: 'The 13th International Conference on Learning Representations (ICLR 2025), 2025, Oral Presentation (0.6%)'
+  authors_text: 'Shiyu Wang, Jiawei Li, Xiaoming Shi, Zhou Ye, Baichuan Mo, Wenze Lin, Shengtong Ju, Zhixuan Chu, Ming Jin'
+  authors_html: '<span class="author-equal-name">Shiyu Wang</span><sup class="author-equal">&dagger;</sup>, <span class="author-equal-name">Jiawei Li</span><sup class="author-equal">&dagger;</sup>, Xiaoming Shi, Zhou Ye, <strong class="author-me">Baichuan Mo</strong>, Wenze Lin, Shengtong Ju, <span class="author-corresponding-name">Zhixuan Chu</span><sup class="author-corresponding">*</sup>, <span class="author-corresponding-name">Ming Jin</span><sup class="author-corresponding">*</sup>'
+  corresponding_authors: 'Zhixuan Chu, Ming Jin'
+  co_first_authors: 'Shiyu Wang, Jiawei Li'
+  pdf_url: ''
+  external_url: 'https://openreview.net/forum?id=1CLzLXSFNn'
+  external_label: 'OpenReview'
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Robust Transit Frequency Setting Problem With Demand Uncertainty'
   year: 2024
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'IEEE Transactions on Intelligent Transportation Systems'
+  issue_page: '25 (10), 13305-13322'
+  venue_display: 'IEEE Transactions on Intelligent Transportation Systems, 2024, 25 (10), 13305-13322'
+  authors_text: 'Xiaotong Guo, Baichuan Mo, Haris N. Koutsopoulos, Shenhao Wang, Jinhua Zhao'
+  authors_html: '<span class="author-corresponding-name">Xiaotong Guo</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Haris N. Koutsopoulos, Shenhao Wang, Jinhua Zhao'
+  corresponding_authors: 'Xiaotong Guo'
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: 'https://doi.org/10.1109/TITS.2024.3395050'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '7.9'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
 
-- title: "Z-GMOT with MA-SORT: Zero-shot Generic Multiple Object Tracking (GMOT) with Motion Appearance SORT (MA-SORT)"
-  image: k._tran_z_mot2024.png
-  description: 
-  authors: K. H. Tran, A. D. Le Dinh, T. P. Nguyen, T. Phan, P. Nguyen, K. Luu, D. Adjeroh, G. Doretto, N. Le
-  link:
-    url: https://fsoft-aic.github.io/Z-GMOT/
-    display: K. H. Tran, A. D. Le Dinh, T. P. Nguyen, T. Phan, P. Nguyen, K. Luu, D. Adjeroh, G. Doretto, N. Le, , 2024
-  type: 1
-  news2:
+- title: 'Robust Reinforcement Learning Strategies with Evolving Curriculum for Efficient Bus Operations in Smart Cities'
   year: 2024
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility AI'
+  category_label: 'Journal Article'
+  venue: 'Smart Cities'
+  issue_page: '7(6), 3658-3677'
+  venue_display: 'Smart Cities, 2024, 7(6), 3658-3677'
+  authors_text: 'Yuhan Tang, Ao Qu, Xuan Jiang, Baichuan Mo, Shangqing Cao, Joseph Rodriguez, Haris N. Koutsopoulos, Cathy Wu, Jinhua Zhao'
+  authors_html: 'Yuhan Tang, <span class="author-corresponding-name">Ao Qu</span><sup class="author-corresponding">*</sup>, Xuan Jiang, <strong class="author-me">Baichuan Mo</strong>, Shangqing Cao, Joseph Rodriguez, Haris N. Koutsopoulos, Cathy Wu, Jinhua Zhao'
+  corresponding_authors: 'Ao Qu'
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: 'https://doi.org/10.3390/smartcities7060141'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '7.0'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
 
-- title: Open-vocabulary affordance detection using knowledge distillation and text-point correlation
-  image: van_vo_icra24.png
-  description: 
-  authors: T. Van Vo, M. Nhat Vu, B. Huang, T. Nguyen, N. Le, T. Vo, A. Nguyen
-  link:
-    url: https://arxiv.org/abs/2309.10932
-    display: T. Van Vo, M. Nhat Vu, B. Huang, T. Nguyen, N. Le, T. Vo, A. Nguyen, ICRA, 2024
-  type: 1
-  news2:
+- title: 'Comparing hundreds of machine learning and discrete choice models for travel demand modeling: An empirical benchmark'
   year: 2024
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility AI'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part B: Methodological'
+  issue_page: '190, 103061'
+  venue_display: 'Transportation Research Part B: Methodological, 2024, 190, 103061'
+  authors_text: 'Shenhao Wang, Baichuan Mo, Yunhan Zheng, Stephane Hess, Jinhua Zhao'
+  authors_html: '<span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Yunhan Zheng, Stephane Hess, Jinhua Zhao'
+  corresponding_authors: 'Shenhao Wang'
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: 'https://doi.org/10.1016/j.trb.2024.103061'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '5.8'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
 
-- title: "I-AI: A Controllable and Interpretable AI System for Decoding Radiologists Intense Focus for Accurate CXR Diagnoses"
-  image: phametal_wacv2024.png
-  description: 
-  authors: T. Pham, J. Brecheisen, A. Nguyen, H. Nguyen, N. Le
-  link:
-    url: https://openaccess.thecvf.com/content/WACV2024/papers/Pham_I-AI_A_Controllable__Interpretable_AI_System_for_Decoding_Radiologists_WACV_2024_paper.pdf
-    display:  T. Pham, J. Brecheisen, A. Nguyen, H. Nguyen, N. Le, WACV, 2024
-  type: 1
-  news2:
-  year: 2024 
-
-- title: "WAVER: Writing-style Agnostic Video Retrieval via Distilling Vision-Language Models Through Open-Vocabulary Knowledge"
-  image: huy_le_icassp24.png
-  description: 
-  authors: H. Le, T. Kieu, A. Nguyen, N. Le 
-  link:
-    url: https://arxiv.org/abs/2312.09507
-    display: H. Le, T. Kieu, A. Nguyen, N. Le , ICASSP, 2024
-  type: 1
-  news2:
+- title: 'Modeling virus transmission risks in commuting with emerging mobility services: A case study of COVID-19'
   year: 2024
+  type: 2
+  paper_type: 'J'
+  category: 'Sustainable and Resilient Cities'
+  category_label: 'Journal Article'
+  venue: 'Travel Behaviour and Society'
+  issue_page: '34, 100689'
+  venue_display: 'Travel Behaviour and Society, 2024, 34, 100689'
+  authors_text: 'Baichuan Mo, Peyman Noursalehi, Haris N. Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Peyman Noursalehi, Haris N. Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Modeling%20virus%20transmission%20risks%20in%20commuting%20with%20emerging%20mobility%20.pdf'
+  external_url: 'https://doi.org/10.1016/j.tbs.2023.100689'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '5.1'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
 
-- title: "ZEETAD: Adapting Pretrained Vision-Language Model for Zero-Shot End-to-End Temporal Action Detection"
-  image: thinh_phan_wacv24.png
-  description: 
-  authors: T. Phan, K. Vo, D. Le, G. Doretto, D. Adjeroh, N. Le 
-  link:
-    url: https://openaccess.thecvf.com/content/WACV2024/html/Phan_ZEETAD_Adapting_Pretrained_Vision-Language_Model_for_Zero-Shot_End-to-End_Temporal_Action_WACV_2024_paper.html
-    display: T. Phan, K. Vo, D. Le, G. Doretto, D. Adjeroh, N. Le , WACV, 2024
-  type: 1
-  news2:
+- title: 'Large language models for travel behavior prediction'
   year: 2024
-
-- title: "SolarFormer: Multi-scale Transformer for Solar PV Profiling"
-  image: adrian_deluis_sgsma24.png
-  description: 
-  authors: A. de Luis, M. Tran, T. Hanyu, A. Tran, L. Haitao, R. McCann, A. Mantooth, Y. Huang, N. Le 
-  link:
-    url: https://arxiv.org/abs/2310.20057
-    display: A. de Luis, M. Tran, T. Hanyu, A. Tran, L. Haitao, R. McCann, A. Mantooth, Y. Huang, N. Le, SGSMA, 2024
-  type: 1
-  news2:
-  year: 2024
-
-
-- title: "Language-Conditioned Affordance-Pose Detection in 3D Point Clouds"
-  image: toan_nguyen_icra24.png
-  description: 
-  authors: T. Nguyen, M. Nhat Vu, B. Huang, T. Van Vo, V. Truong, N. Le, T. Vo, B. Le, A. Nguyen
-  link:
-    url: https://arxiv.org/abs/2309.10911
-    display: T. Nguyen, M. Nhat Vu, B. Huang, T. Van Vo, V. Truong, N. Le, T. Vo, B. Le, A. Nguyen, ICRA, 2024
-  type: 1
-  news2:
-  year: 2024
-
-- title: "Open-Fusion: Real-time Open-Vocabulary 3D Mapping and Queryable Scene Representation"
-  image: kashu_yamazaki_icra24.png
-  description: 
-  authors: K. Yamazaki, T. Hanyu, K. Vo, T. Pham, M. Tran, G. Doretto, A. Nguyen, N. Le
-  link:
-    url: https://arxiv.org/abs/2310.03923
-    display:  K. Yamazaki, T. Hanyu, K. Vo, T. Pham, M. Tran, G. Doretto, A. Nguyen, N. Le, ICRA, 2024
-  type: 1
-  news2:
-  year: 2024
-
-- title: "MEGANet: Multi-Scale Edge-Guided Attention Network for Weak Boundary Polyp Segmentation"
-  image: tan_wacv24.png
-  description: 
-  authors: N.-T Bui, D.-H Hoang, Q.-T Nguyen, M.-T Tran, N. Le
-  link:
-    url: https://openaccess.thecvf.com/content/WACV2024/html/Bui_MEGANet_Multi-Scale_Edge-Guided_Attention_Network_for_Weak_Boundary_Polyp_Segmentation_WACV_2024_paper.html
-    display:  N.-T Bui, D.-H Hoang, Q.-T Nguyen, M.-T Tran, N. Le, WACV, 2024
-  type: 1
-  news2:
-  year: 2024
-
-- title: "TSRNet: Simple Framework for Real-time ECG Anomaly Detection with Multimodal Time and Spectrogram Restoration Network"
-  image: tan_isbi24_tsr.png
-  description: 
-  authors: N.-T Bui*, D.-H Hoang*, T. Phan, M.-T Tran, B. Patel, D. Adjeroh, N. Le
-  link:
-    url: https://arxiv.org/abs/2312.10187
-    display: N.-T Bui*, D.-H Hoang*, T. Phan, M.-T Tran, B. Patel, D. Adjeroh, N. Le, ISBI, 2024
-  type: 1
-  news2:
-  year: 2024
-
-- title: "SAM3D: Segment Anything Model in Volumetric Medical Images"
-  image: tan_isbi24_sam.png
-  description: 
-  authors: N.-T Bui*, D.-H Hoang*, M.-T Tran, G. Doretto, D. Adjeroh, B. Patel, A. Choudhary, N. Le
-  link:
-    url: https://arxiv.org/abs/2309.03493
-    display:  N.-T Bui*, D.-H Hoang*, M.-T Tran, G. Doretto, D. Adjeroh, B. Patel, A. Choudhary, N. Le, ISBI, 2024
-  type: 1
-  news2:
-  year: 2024 
-
-# 2023
-
-- title: Chapter 19 - Neural architecture search for medical image applications
-  image: v-k_vo-ho_ap23.png
-  description: 
-  authors: V.-K Vo-Ho, K. Yamazaki, H. Hoang, M.-T Tran, N. Le
-  link:
-    url: https://arxiv.org/abs/2203.08951
-    display:  V.-K Vo-Ho, K. Yamazaki, H. Hoang, M.-T Tran, N. Le, Academic Press, 2023
-  type: 1
-  news2:
-  year: 2023 
-
-- title: "VLTinT: Visual-Linguistic Transformer-in-Transformer for Coherent Video Paragraph Captioning"
-  image: kashu_aaai23.png
-  description: 
-  authors: K. Yamazaki, K. Vo, S. Truong, B. Raj, N. Le
-  link:
-    url: https://ojs.aaai.org/index.php/AAAI/article/view/25412
-    display:  K. Yamazaki, K. Vo, S. Truong, B. Raj, N. Le, AAAI, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "CLIP-TSA: CLIP-Assisted Temporal Self-Attention for Weakly-Supervised Video Anomaly Detection"
-  image: h_kevin_joo_icip23.png
-  description: 
-  authors: D. Le, S. Truong, P. Brijesh, D. A. Adjeroh, N. Le
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/10222289
-    display:  D. Le, S. Truong, P. Brijesh, D. A. Adjeroh, N. Le, ICIP, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "sCL-ST: Supervised Contrastive Learning with Semantic Transformations for Multiple Lead ECG Arrhythmia Classification"
-  image: duc_lee_ieee23.png
-  description: 
-  authors: V.-K Vo-Ho, K. Yamazaki, H. Hoang, M.-T Tran, N. Le
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/10057484
-    display:  V.-K Vo-Ho, K. Yamazaki, H. Hoang, M.-T Tran, N. Le, IEEE, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "Open-Vocabulary Affordance Detection in 3D Point Clouds"
-  image: toan_nguyen_iros23.png
-  description: 
-  authors: T. Ngyen, M. N. Vu, A. Vuong, D. Nguyen, T. Vo, N. Le, A. Nguyen
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/10341553
-    display:  T. Ngyen, M. N. Vu, A. Vuong, D. Nguyen, T. Vo, N. Le, A. Nguyen, iROS, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "Fredom: Fairness domain adaptation approach to semantic scene understanding"
-  image: thanh-dat_troung_ieee23.png
-  description: 
-  authors: T.-D Truong, N. Le, B. Raj, J. Cothren, K. Luu
-  link:
-    url: https://openaccess.thecvf.com/content/CVPR2023/html/Truong_FREDOM_Fairness_Domain_Adaptation_Approach_to_Semantic_Scene_Understanding_CVPR_2023_paper.html
-    display:  T.-D Truong, N. Le, B. Raj, J. Cothren, K. Luu, IEEE/CVF, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "Z-GMOT: Zero-shot Generic Multiple Object Tracking"
-  image: kim_hoang_tran_arXiv23.png
-  description: 
-  authors: K. H. Tran, T.-P. Nguyen, A. D. Le Dinh, P. Nguyen, T. Phan, K. Luu, D. Adjeroh, N. Le
-  link:
-    url: https://arxiv.org/abs/2305.17648
-    display:  K. H. Tran, T.-P. Nguyen, A. D. Le Dinh, P. Nguyen, T. Phan, K. Luu, D. Adjeroh, N. Le, arXiv, 2023
-  type: 2
-  news2:
-  year: 2023
-
-- title: "DNA: Deformable Neural Articulations Network for Template-Free Dynamic 3D Human Reconstruction From Monocular RGB-D Video"
-  image: khoa_vo_ieee_cvf23.png
-  description: 
-  authors: K. Vo, T.-T Pham, K. Yamazaki, M. Tran, N. Le
-  link:
-    url: https://openaccess.thecvf.com/content/CVPR2023W/Precognition/html/Vo_DNA_Deformable_Neural_Articulations_Network_for_Template-Free_Dynamic_3D_Human_CVPRW_2023_paper.html
-    display:  K. Vo, T.-T Pham, K. Yamazaki, M. Tran, N. Le, IEEE/CVF, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "AerialFormer: Multi-resolution Transformer for Aerial Image Segmentation"
-  image: kashu_yamazaki_arxiv23.png
-  description: 
-  authors: K. Yamazaki, T. Hanyu, M. Tran, A. Garcia, A. Tran, R. McCann, H. Liao, C. Rainwater, M. Adkins, A. Molthan, J. Cothren, N. Le
-  link:
-    url: https://arxiv.org/abs/2306.06842
-    display:  K. Yamazaki, T. Hanyu, M. Tran, A. Garcia, A. Tran, R. McCann, H. Liao, C. Rainwater, M. Adkins, A. Molthan, J. Cothren, N. Le, arXiv, 2023
-  type: 2
-  news2:
-  year: 2023
-
-- title: "Neural architecture search for medical image applications"
-  image: viet-khoa_vo_ho_ap23.png
-  description: 
-  authors: V.-K. Vo-Ho, K. Yamazaki, H. Hoang, M.-T Tran, N. Le
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/B9780323998512000296
-    display:  V.-K. Vo-Ho, K. Yamazaki, H. Hoang, M.-T Tran, N. Le, Academic Press, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "LIAAD: Lightweight attentive angular distillation for large-scale age-invariant face recognition"
-  image: thanh-dat_truong_elsevier23.png
-  description: 
-  authors: T. -D Truong, C. N. Duong, K. G. Quach, N. Le, T. D. Bui, K. Luu
-  link:
-    url: https://www.sciencedirect.com/science/article/abs/pii/S0925231223003089
-    display:  T. -D Truong, C. N. Duong, K. G. Quach, N. Le, T. D. Bui, K. Luu, Elsevier, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "Decoding Radiologists Intense Focus for Accurate CXR Diagnoses: A Controllable and Interpretable AI System"
-  image: thanh-dat_truong_wacv23.png
-  description: 
-  authors: T. T. Pham, J. Brecheisen, A. Nguyen, H. Nguyen, N. Le
-  link:
-    url: https://arxiv.org/abs/2309.13550
-    display:  T. T. Pham, J. Brecheisen, A. Nguyen, H. Nguyen, N. Le, K. Luu, WACV, 2023
-  type: 1
-  news2:
-  year: 2023
-
-- title: "On the Out of Distribution Robustness of Foundation Models in Medical Image Segmentation"
-  image: duy_nguyen_neurips23.png
-  description: 
-  authors: Duy M. H. Nguyen, Tan N. Pham, N. T. Diep, N. Phan, Q. Pham, V. Tong, B. T. Nguyen, N. Le, N. Ho, P. Xie, D. Sonntag
-  link:
-    url: https://arxiv.org/abs/2311.11096
-    display:  Duy M. H. Nguyen, Tan N. Pham, N. T. Diep, N. Phan, Q. Pham, V. Tong, B. T. Nguyen, N. Le, N. Ho, P. Xie, D. Sonntag, NeurIPS, 2023
-  type: 1
-  news2:
-  year: 2023 
-
-#2022
-
-- title: "SS-3DCapsNet: Self-supervised 3D Capsule Networks for Medical Segmentation on Less Labeled Data"
-  image: minh_tran_isbi22.png
-  description: 
-  authors: M. Tran, L. Ly, B.-S Hua, N. Le
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9761627
-    display: M. Tran, L. Ly, B.-S Hua, N. Le , ISBI, 2022
-  type: 1
-  news2:
-  year: 2022
-
-- title: "Non-volume preserving-based fusion to group-level emotion recognition on crowd videos"
-  image: k_g_quach_pergamon22.png
-  description: 
-  authors:  K. G. Quach, N. Le, C. N. Duong, I. Jalata, K. Roy, K. Luu
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S0031320322001273
-    display: K. G. Quach, N. Le, C. N. Duong, I. Jalata, K. Roy, K. Luu , Pergamon, 2022
-  type: 2
-  news2:
-  year: 2022
-
-- title: "Invertible Residual Network with Regularization for Effective Volumetric Segmentation"
-  image: kashu_spie22.jpg
-  description: 
-  authors: K. Yamazaki, N. Le, V. Rathour
-  link:
-    url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/1159610/Invertible-residual-network-with-regularization-for-effective-volumetric-segmentation/10.1117/12.2581396.pdf
-    display:  K. Yamazaki, N. Le, V. Rathour, SPIE Medical Imaging, 2022
-  type: 1
-  news2:
-  year: 2022  
-
-- title: "Self-supervised Domain Adaptation in Crowd Counting"
-  image: p_nguyen_icip22.png
-  description: 
-  authors:  P. Nguyen, T.-D Truong, M. Huang, Y. Liang, N. Le, K. Luu
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9897440
-    display: P. Nguyen, T.-D Truong, M. Huang, Y. Liang, N. Le, K. Luu , ICIP, 2022
-  type: 1
-  news2:
-  year: 2022
-
-- title: "OTAdapt: Optimal Transport-based Approach For Unsupervised Domain Adaptation"
-  image: t-d_troung_icpr22.png
-  description: 
-  authors:  T.-D Truong, N. V. Sai Raviteja Chappa, X. B. Nguyen, N. Le, A. Dowling, K. Luu
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9956335
-    display: T.-D Truong, N. V. Sai Raviteja Chappa, X. B. Nguyen, N. Le, A. Dowling, K. Luu , ICPR, 2022
-  type: 1
-  news2:
-  year: 2022
-
-- title: "Multi-Camera Multiple 3D Object Tracking on the Move for Autonomous Vehicles"
-  image: p_nguyen_cvpr22.png
-  description: 
-  authors:  P. Nguyen, K. G. Quach, C. N. Duong, N. Le, X.-B. Nguyen, K. Luu
-  link:
-    url: https://openaccess.thecvf.com/content/CVPR2022W/Precognition/html/Nguyen_Multi-Camera_Multiple_3D_Object_Tracking_on_the_Move_for_Autonomous_CVPRW_2022_paper.html
-    display: P. Nguyen, K. G. Quach, C. N. Duong, N. Le, X.-B. Nguyen, K. Luu, CVPR, 2022
-  type: 1
-  news2:
-  year: 2022
-
-- title: "VLCap: Vision-Language with Contrastive Learning for Coherent Video Paragraph Captioning"
-  image: kashu_icip22.png
-  description: 
-  authors: K. Yamazaki, S. Truong, K. Vo, M. Kidd, C. Rainwater, K. Luu, N. Le
-  link:
-    url: https://ieeexplore.ieee.org/iel7/9897158/9897159/09897766.pdf
-    display:  K. Yamazaki, S. Truong, K. Vo, M. Kidd, C. Rainwater, K. Luu, N. Le, ICIP, 2022
-  type: 1
-  news2:
-  year: 2022
-
-- title: "Spiking neural networks and their applications: A Review"
-  image: kashu_bc22.png
-  description: 
-  authors: K. Yamazaki, K. Vo-Ho, D. Bulsara, N. Le
-  link:
-    url: https://www.mdpi.com/2076-3425/12/7/863/
-    display:  K. Yamazaki, K. Vo-Ho, D. Bulsara, N. Le, Brain Sciences, 2022
-  type: 2categor
-  news2:
-  year: 2022 
-  
-- title: "AOE-Net: Entities Interactions Modeling with Adaptive Attention Mechanism for Temporal Action Proposals Generation"
-  image: khoa_ijcv22.png
-  description: 
-  authors: K. Vo, S. Truong, K. Yamazaki, B. Raj, MT. Tran, N. Le
-  link:
-    url: https://link.springer.com/article/10.1007/s11263-022-01702-9
-    display:  K. Vo, S. Truong, K. Yamazaki, B. Raj, MT. Tran, N. Le, International Journal of Computer Vision (IJCV), 2022
-  type: 2
-  news2:
-  year: 2022
-
-- title: "EmbryosFormer: Deformable Transformer and Collaborative Encoding-Decoding for Embryos Stage Development Classification"
-  image: t-p_nguyen_wacv22.png
-  description: 
-  authors:  T.-P Nguyen, T.-T Pham, T Nguyen, H. Le, D. Nguyen, H. Lam, P. Nguyen, J. Fowler, M.-T Tran, N. Le
-  link:
-    url: https://openaccess.thecvf.com/content/WACV2023/html/Nguyen_EmbryosFormer_Deformable_Transformer_and_Collaborative_Encoding-Decoding_for_Embryos_Stage_Development_WACV_2023_paper.html
-    display: T.-P Nguyen, T.-T Pham, T Nguyen, H. Le, D. Nguyen, H. Lam, P. Nguyen, J. Fowler, M.-T Tran, N. Le, WACV, 2022
-  type: 1
-  news2:
-  year: 2022  
-
-- title: "AISFormer: Amodal Instance Segmentation with Transformer"
-  image: minh_bmvc22.png
-  description: 
-  authors: M. Tran, K. Vo, K. Yamazaki, A. Fernandes, M. Kidd, N. Le
-  link:
-    url: https://arxiv.org/abs/2210.06323
-    display:  M. Tran, K. Vo, K. Yamazaki, A. Fernandes, M. Kidd, N. Le, BMVC, 2022
-  type: 1
-  news2:
-  year: 2022
-
-- title: "Contextual Explainable Video Representation:\\Human Perception-based Understanding"
-  image: k_vo_ieee_22.png
-  description: 
-  authors:  K. Vo, K. Yamazaki, P. X Nguyen, P. Nguyen, K. Luu, N. Le
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/10052051
-    display: K. Vo, K. Yamazaki, P. X Nguyen, P. Nguyen, K. Luu, N. Le, IEEE Signal Processing Asilomar, 2022
-  type: 1
-  news2:
-  year: 2022
-
-
-- title: "Multimodality Multi-Lead ECG Arrhythmia Classification using Self-Supervised Learning"
-  image: t_phan_bhi22.png
-  description: 
-  authors:  T. Phan, D. Le, P. Brijesh, D. Adjeroh, J. Wu, M. Olgaard Jensen, N. Le
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9926925
-    display: T. Phan, D. Le, P. Brijesh, D. Adjeroh, J. Wu, M. Olgaard Jensen, N. Le, BHI, 2022
-  type: 1
-  news2:
-  year: 2022
-
-- title: "3DConvCaps: 3DUnet with Convolutional Capsule Encoder for Medical Image Segmentation"
-  image: m_tran_icpr22.png
-  description: 
-  authors:  M. Tran, V.-K Vo-Ho, N. Le
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9956588
-    display: M. Tran, V.-K Vo-Ho, N. Le, ICPR, 2022
-  type: 1
-  news2:
-  year: 2022
-
-- title: "Deep Reinforcement Learning in Computer Vision: A Comprehensive Survey"
-  image: le_air21.png
-  description: 
-  authors: N. Le, K. Yamazaki, V. Rathour, K. Luu, and M. Savvides
-  link:
-    url: https://link.springer.com/article/10.1007/s10462-021-10061-9
-    display:  N. Le, K. Yamazaki, V. Rathour, K. Luu, and M. Savvides, Artificial Intelligence Review, 2021
-  type: 2
-  news2:
-  year: 2022
-
-
-- title: "Spiking neural networks and their applications: A Review"
-  image: kashu_bc22.png
-  description: 
-  authors: K. Yamazaki, K. Vo-Ho, D. Bulsara, N. Le
-  link:
-    url: https://www.mdpi.com/2076-3425/12/7/863/
-    display:  K. Yamazaki, K. Vo-Ho, D. Bulsara, N. Le, Brain Sciences, 2022
-  type: 2
-  news2:
-  year: 2022
-  
-# 2021
-
-- title: "A Multi-task Contextual Atrous Residual Network for Brain Tumor Detection and Segmentation"
-  image: le_icpr20a.png
-  description: 
-  authors: N. Le, K. Yamazaki, K. Quach, D. Truong, and M. Savvides
-  link:
-    url: https://ieeexplore.ieee.org/iel7/9411940/9411911/09412414.pdf
-    display:  N. Le, K. Yamazaki, K. Quach, D. Truong, and M. Savvides, International Conference on Pattern Recognition (ICPR), 2021
-  type: 1
-  news2:
-  year: 2021 
-
-- title: "Offset Curves Loss for Imbalanced Problem in Medical Segmentation"
-  image: le_icpr20b.png
-  description: 
-  authors: N. Le, T. Le, K. Yamazaki, B. Toan, K. Luu
-  link:
-    url: https://ieeexplore.ieee.org/iel7/9411940/9411911/09411921.pdf
-    display:  N. Le, T. Le, K. Yamazaki, B. Toan, K. Luu, International Conference on Pattern Recognition (ICPR), 2021
-  type: 1
-  news2:
-  year: 2021  
-
-- title: "Agent-Environment Network for Temporal Action Proposal Generation"
-  image: khoa_icassp21.png
-  description: 
-  authors: V. Vo-Ho, N. Le, K. Yamazaki, A. Sugimoto, and M. Tran
-  link:
-    url: https://ieeexplore.ieee.org/iel7/9413349/9413350/09415101.pdf
-    display:  V. Vo-Ho, N. Le, K. Yamazaki, A. Sugimoto, and M. Tran, IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "Deep reinforcement learning in medical imaging: A literature review"
-  image: s_k_zhou_mia22.png
-  description: 
-  authors:  S. K. Zhou, N. Le, K. Luu, H. V. Nguyen, N. Ayache
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S1361841521002395
-    display: S. K. Zhou, N. Le, K. Luu, H. V. Nguyen, N. Ayache,  Medical Image Analysis, 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "Enhance portable radiograph for fast and high accurate covid-19 monitoring"
-  image: n_le_mdpi21.png
-  description: 
-  authors:  N. Le, J. Sorensen, T. Bui, A. Choudhary, K. Luu, H. Nguyen
-  link:
-    url: https://www.mdpi.com/2075-4418/11/6/1080
-    display: N. Le, J. Sorensen, T. Bui, A. Choudhary, K. Luu, H. Nguyen,  MDPI, 2021
-  type: 2
-  news2:
-  year: 2021  
-
-- title: "The Right to Talk: An Audio-Visual Transformer Approach"
-  image: t.-d_truong_iccv21.png
-  description: 
-  authors:  T.-D Truong, C. Nhan Duong, T. D. Vu, H. Anh Pham, B. Raj, N. Le, K. Luu
-  link:
-    url: https://openaccess.thecvf.com/content/ICCV2021/html/Truong_The_Right_To_Talk_An_Audio-Visual_Transformer_Approach_ICCV_2021_paper.html5
-    display: T.-D Truong, C. Nhan Duong, T. D. Vu, H. Anh Pham, B. Raj, N. Le, K. Luu,  ICCV, 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "Narrow Band Active Contour Attention Model for Medical Segmentation"
-  image: le_diag21.png
-  description: 
-  authors: N. Le, T. Bui, K. Vo-Ho, K. Yamazaki, K. Luu 
-  link:
-    url: https://www.mdpi.com/2075-4418/11/8/1393/htm
-    display:  N. Le, T. Bui, K. Vo-Ho, K. Yamazaki, K. Luu, Diagnostics, 2021
-  type: 2
-  news2:
-  year: 2021
-
-- title: "BiMaL: Bijective Maximum Likelihood Approach to Domain Adaptation in Semantic Scene Segmentation"
-  image: t.-d_truong_iccv21-2.png
-  description: 
-  authors:  T.-D Truong, C. N. Duong, N. Le, S. L. Phung, C. Rainwater, K. Luu
-  link:
-    url: https://openaccess.thecvf.com/content/ICCV2021/html/Truong_BiMaL_Bijective_Maximum_Likelihood_Approach_to_Domain_Adaptation_in_Semantic_ICCV_2021_paper.html
-    display: T.-D Truong, C. N. Duong, N. Le, S. L. Phung, C. Rainwater, K. Luu,  ICCV, 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "Fast flow reconstruction via robust invertible n× n convolution"
-  image: t.-d_truong_mdpi21.png
-  description: 
-  authors:  T.-D Truong, C. N. Duong, M.-T Tran, N. Le, K. Luu
-  link:
-    url: https://www.mdpi.com/1999-5903/13/7/179
-    display: T.-D Truong, C. N. Duong, M.-T Tran, N. Le, K. Luu,  MDPI, 2021
-  type: 2
-  news2:
-  year: 2021
-
-- title: "Teaching yourself: A self-knowledge distillation approach to action recognition"
-  image: d.-q_vu_ieee21.png
-  description: 
-  authors:  D.-Q Vu, N. Le, J.-C Wang
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9495804
-    display: D.-Q Vu, N. Le, J.-C Wang,  IEEE, 2021
-  type: 2
-  news2:
-  year: 2021
-
-- title: "Multi-module Recurrent Convolutional Neural Network with Transformer Encoder for ECG Arrhythmia Classification"
-  image: m._d._le_ieee21.png
-  description: 
-  authors:  M. D. Le, V. S. Rathour, Q. S. Truong, Q. Mai, P. Brijesh, N. Le
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9508527
-    display: M. D. Le, V. S. Rathour, Q. S. Truong, Q. Mai, P. Brijesh, N. Le,  IEEE, 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "Pairflow: Enhancing portable chest x-ray by flow-based deformation for covid-19 diagnosing"
-  image: n._le_icip21.png
-  description: 
-  authors:  N. Le, J. Sorensen, T. D. Bui, A. Choudhary, K. Luu, H. Nguyen
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9506579
-    display: N. Le, J. Sorensen, T. D. Bui, A. Choudhary, K. Luu, H. Nguyen,  ICIP, 2021
-  type: 1
-  news2:
-  year: 2021 
-
-- title: "Roughness Index and Roughness Distance for Benchmarking Medical Segmentation"
-  image: v._dingh_rathour_bioimaging21.png
-  description: 
-  authors:  V. Singh Rathour, K. Yamakazi, T Le
-  link:
-    url: https://arxiv.org/abs/2103.12350
-    display:  V. Singh Rathour, K. Yamakazi, T Le, Bioimaging, 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "AEI: Actors-Environment Interaction with Adaptive Attention for Temporal Action Proposals Generation"
-  image: k_vo_bmvc21.png
-  description: 
-  authors:  K. Vo, H. Joo, K. Yamazaki, S. Truong, K. Kitani, M.-T Tran, N Le
-  link:
-    url: https://arxiv.org/abs/2110.11474
-    display:  K. Vo, H. Joo, K. Yamazaki, S. Truong, K. Kitani, M.-T Tran, N Le, BMVC, 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "DAM-AL: Dilated Attention Mechanism with Attention Loss for 3D Infant Brain Image Segmentation"
-  image: d._h_hoang_acm21.png
-  description: 
-  authors:  D.-H Hoang, G.-H Diep, M.-T Tran, N. Le
-  link:
-    url: https://dl.acm.org/doi/abs/10.1145/3477314.3507112
-    display:   D.-H Hoang, G.-H Diep, M.-T Tran, N. Le, ACM, 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "3d-ucaps: 3d capsules unet for volumetric image segmentation"
-  image: t_nguyen_springer21.png
-  description: 
-  authors:  T. Nguyen, B.-S Hua, N. Le
-  link:
-    url: https://link.springer.com/chapter/10.1007/978-3-030-87193-2_52
-    display:   T. Nguyen, B.-S Hua, N. Le, Springer, 2021
-  type: 1
-  news2:
-  year: 2021
-
-- title: "ABN: Agent-Aware Boundary Networks for Temporal Action Proposal Generation"
-  image: khoa_access21.png
-  description: 
-  authors: K. Vo, K. Yamazaki, S. Truong, M.-T. Tran, A. Sugimoto, and N. Le
-  link:
-    url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9530693
-    display:  K. Vo, K. Yamazaki, S. Truong, M.-T. Tran, A. Sugimoto, and N. Le, IEEE Access, 2021
-  type: 2
-  news2:
-  year: 2021
-
-
-- title: "AEI: Actors-Environment Interaction with Adaptive Attention for Temporal Action Proposals Generation"
-  image: khoa_bmvc21.png
-  description: 
-  authors: K. Vo, H. Joo, K. Yamazaki, S. Truong, K. Kitani,, M.-T. Tran, N. Le
-  link:
-    url: https://papertalk.org/papertalks/34372
-    display:  K. Vo, H. Joo, K. Yamazaki, S. Truong, K. Kitani,, M.-T. Tran, N. Le, BMVC, 2021 **Oral Presentation**
-  type: 1
-  news2:
-  year: 2021
-
-#2020
-
-- title: "Follow then Forage Exploration: Improving Asynchronous Advantage Actor Critic"
-  image: j_b_holliday_csit20.png
-  description: 
-  authors:  James B. Holliday, N Le
-  link:
-    url: https://d1wqtxts1xzle7.cloudfront.net/63952589/csit10090920200718-25654-gym0t5-libre.pdf?1595062441=&response-content-disposition=inline%3B+filename%3DFOLLOW_THEN_FORAGE_EXPLORATION_IMPROVING.pdf&Expires=1715110968&Signature=cqWITcWENQ1-2qQujh9QCeNiIh8yYMzmjLlQiqd91~p8KZLsouAcWBehVutjFpOx9q4AhPrlKfNBPUMPvinUP5fg3Ni30BLjEbXnMnDQbPk~dH6540pe4iSiAoqeq1jXeUF1J75LR0S1J2XsS7R7naUahKN2Q2eoIi-eUuJO8jidD-Ks04VRahHeDRIYPm7nWHzx~ZOszBlIBKtiUVp0RF5UpC2XimX07vL24CvrGVfTNCYRz7JIMg0N2QhG~Y40YjG75WTLyKvUMOQz3njxlaFdpw2m-CqHVg~~f~pb9~~~mTY2dF~Ol1NHU6nh284lLFdxAIIyQc-4oFJeVouOPQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
-    display:   James B. Holliday, N Le, CSIT, 2020
-  type: 1
-  news2:
-  year: 2020
-
-- title: "Flow-based deformation guidance for unpaired multi-contrast mri image-to-image translation"
-  image: t_d_bui_springer20.png
-  description: 
-  authors:  T. D. Bui, M. Nguyen, N. Le, K. Luu
-  link:
-    url: https://link.springer.com/chapter/10.1007/978-3-030-59713-9_70
-    display:   T. D. Bui, M. Nguyen, N. Le, K. Luu, Springer, 2020
-  type: 1
-  news2:
-  year: 2020
-
-#2019
-
-- title: "Learning from longitudinal face demonstration—where tractable deep modeling meets inverse reinforcement learning"
-  image: c_n_doung_springer19.png
-  description: 
-  authors:  C. N. Duong, K. G. Quach, K. Luu, T Le, M. Savvides, T. D. Bui
-  link:
-    url: https://arxiv.org/abs/1711.10520
-    display:  C. N. Duong, K. G. Quach, K. Luu, T Le, M. Savvides, T. D. Bui, Springer, 2019
-  type: 1
-  news2:
-  year: 2019
-
-- title: "Mobiface: A lightweight deep learning face recognition on mobile devices"
-  image: c_n_doung_ieee19.png
-  description: 
-  authors:  C. N. Duong, K. G. Quach, I. Jalata, N. Le, K. Luu
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/9185981
-    display: C. N. Duong, K. G. Quach, I. Jalata, N. Le, K. Luu, IEEE, 2019
-  type: 1
-  news2:
-  year: 2019
-
-- title: "Shrinkteanet: Million-scale lightweight face recognition via shrinking teacher-student networks"
-  image: c_n_duong_arxiv19.png
-  description: 
-  authors:  C. N. Duong, K. Luu, K. G. Quach, N. Le
-  link:
-    url: https://arxiv.org/abs/1905.10620
-    display: C. N. Duong, K. Luu, K. G. Quach, N. Le, arXiv, 2019
-  type: 2
-  news2:
-  year: 2019
-
-- title: "Recurrent level set networks for instance segmentation"
-  image: n_le_intechopen19.png
-  description: 
-  authors:  N. Le, K. Luu, M. Savvides, K. G. Quach, C. N. Duong
-  link:
-    url: https://books.google.com/books?hl=en&lr=&id=PTj8DwAAQBAJ&oi=fnd&pg=PA41&dq=info:NMbKkjs-hDEJ:scholar.google.com&ots=t6woBegJiq&sig=OOh0OgrM8KVk6VasONNDWaZttxs#v=onepage&q&f=false
-    display: N. Le, K. Luu, M. Savvides, K. G. Quach, C. N. Duong, IntechOpen, 2019
-  type: 2
-  news2:
-  year: 2019
-
-#2018
-
-- title: "Reformulating level sets as deep recurrent neural network approach to semantic segmentation"
-  image: n_le_ieee18.png
-  description: 
-  authors:   N. Le, K. G. Quach, K. Luu, C. N. Duong, M. Savvides
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/8259369
-    display: N. Le, K. G. Quach, K. Luu, C. N. Duong, M. Savvides, IEEE, 2018
-  type: 2
-  news2:
-  year: 2018
-
-- title: "Contextual Recurrent Level Set Networks and Recurrent Residual Networks for Semantic Labeling"
-  image: n_le_cmu18.png
-  description: 
-  authors:   N. Le
-  link:
-    url: https://www.proquest.com/docview/2042942159?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses
-    display: N. Le, Carnegie Mellon University, 2018
-  type: 2
-  news2:
-  year: 2018
-
-- title: "Deep Recurrent Level Set for Segmenting Brain Tumors"
-  image: n_le_springer18.png
-  description: 
-  authors:   N. Le, R. Gummadi, M. Savvides
-  link:
-    url: https://link.springer.com/chapter/10.1007/978-3-030-00931-1_74
-    display: N. Le, R. Gummadi, M. Savvides, Springer, 2018
-  type: 1
-  news2:
-  year: 2018
-
-- title: "Automatic Face Aging in Videos via Deep Reinforcement Learning"
-  image: c_n_duong_cvpr18.png
-  description: 
-  authors:   C.N. Duong, K. Luu, K.G. Quach, N. Nguyen, E. Patterson, T.D. Bui, N. Le
-  link:
-    url: https://openaccess.thecvf.com/content_CVPR_2019/html/Duong_Automatic_Face_Aging_in_Videos_via_Deep_Reinforcement_Learning_CVPR_2019_paper.html
-    display:  C.N. Duong, K. Luu, K.G. Quach, N. Nguyen, E. Patterson, T.D. Bui, N. Le, CVPR, 2018
-  type: 1
-  news2:
-  year: 2018
-
-# 2017
-
-- title: "Semi self-training beard/moustache detection and segmentation simultaneously"
-  image: n_le_elsevier17.png
-  description: 
-  authors:   N. Le, K. Luu, C. Zhu, M. Savvides
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S0262885616301500
-    display: N. Le, K. Luu, C. Zhu, M. Savvides, Elsevier, 2017
-  type: 2
-  news2:
-  year: 2017
-
-- title: "An automatic cells detection and segmentation"
-  image: l_han_spie17.png
-  description: 
-  authors:   L. Han, N. Le, M. Savvides
-  link:
-    url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10137/1/An-automatic-cells-detection-and-segmentation/10.1117/12.2254068.full
-    display: L. Han, N. Le, M. Savvides, SPIE, 2017
-  type: 1
-  news2:
-  year: 2017
-
-
-- title: "DeepSafeDrive: A grammar-aware driver parsing approach to Driver Behavioral Situational Awareness (DB-SAW)"
-  image: n_le_pergamon17.png
-  description: 
-  authors:   N. Le, C. Zhu, Y. Zheng, K. Luu, M. Savvides
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S0031320316303867
-    display: N. Le, C. Zhu, Y. Zheng, K. Luu, M. Savvides, Pergamon, 2017
-  type: 1
-  news2:
-  year: 2017
-
-- title: "Robust Hand Detection and Classification in Vehicles and in the Wild."
-  image: c_n_doung_ieee17.png
-  description: 
-  authors:   C. N. Duong, K. G. Quach, K. Luu, N. Le, M. Savvides
-  link:
-    url: https://openaccess.thecvf.com/content_cvpr_2017_workshops/w13/html/Le_Robust_Hand_Detection_CVPR_2017_paper.html
-    display: C. N. Duong, K. G. Quach, K. Luu, N. Le, M. Savvides, IEEE, 2017
-  type: 2
-  news2:
-  year: 2017
-
-
-#2016
-
-- title: "Weakly supervised facial analysis with dense hyper-column features"
-  image: c_zhu_ieee16.png
-  description: 
-  authors:   C. Zhu, Y. Zheng, K. Luu, N. Le, C. Bhagavatula, M Savvides
-  link:
-    url: https://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w4/html/Zhu_Weakly_Supervised_Facial_CVPR_2016_paper.html
-    display: C. Zhu, Y. Zheng, K. Luu, N. Le, C. Bhagavatula, M Savvides, IEEE, 2016
-  type: 2
-  news2:
-  year: 2016
-
-
-- title: "Multiple scale faster-rcnn approach to driver's cell-phone usage and hands on steering wheel detection"
-  image: n_le_iee16.png
-  description: 
-  authors:   N. Le, Y. Zheng, C. Zhu, K. Luu, M. Savvides
-  link:
-    url: https://www.cv-foundation.org/openaccess/content_cvpr_2016_workshops/w3/html/Le_Multiple_Scale_Faster-RCNN_CVPR_2016_paper.html
-    display: N. Le, Y. Zheng, C. Zhu, K. Luu, M. Savvides, IEEE, 2016
-  type: 1
-  news2:
-  year: 2016
-
-- title: "A novel shape constrained feature-based active contour model for lips/mouth segmentation in the wild"
-  image: n_le_pergamon16.png
-  description: 
-  authors:   N. Le, M. Savvides
-  link:
-    url: https://www.sciencedirect.com/science/article/pii/S003132031500429X
-    display: N. Le, M. Savvides, Pergamon, 2016
-  type: 1
-  news2:
-  year: 2016
-
-- title: "Robust hand detection in vehicles"
-  image: n_le_ieee16.png
-  description: 
-  authors:  N. Le, C. Zhu, Y. Zheng, K. Luu, M. Savvides
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/7899695
-    display: N. Le, C. Zhu, Y. Zheng, K. Luu, M. Savvides, IEEE, 2016
-  type: 1
-  news2:
-  year: 2016
-
-- title: "Towards a deep learning framework for unconstrained face detection"
-  image: y_zheng_ieee16.png
-  description: 
-  authors:  Y. Zheng, C. Zhu, K. Luu, C. Bhagavatula, N. Le, M. Savvides
-  link:
-    url: https://ieeexplore.ieee.org/abstract/document/7791203
-    display: Y. Zheng, C. Zhu, K. Luu, C. Bhagavatula, N. Le, M. Savvides, IEEE, 2016
-  type: 1
-  news2:
-  year: 2016
-
-
-# Patents
-
-- title: "Chicken Processing Plant With Automated Computer Vision"
-  image:
-  description: 
-  authors: Ngan T.H. Le, Michael Kidd
-  link:
-    url:
-    display:  Ngan T.H. Le, Michael Kidd, P2757US00, UADA 2021-020 (UAF 2021-032)
-  type: 3
-  news2:
-  
-- title: "Artificial Intelligence And Vision-Based Broiler Body Weight Measurement System And Process"
-  image:
-  description: 
-  authors: Ngan T.H. Le, Michael Kidd
-  link:
-    url:
-    display:  Ngan T.H. Le, Michael Kidd, P2736US00, UADA 2021-009 (UAF 2021-017)
-  type: 3
-  news2:
-
-- title: "Robust Gait Learning"
-  image: go1_isaac_gym.gif
-  description: 
-  authors: 
-  link:
-    url: null
-    display: "While quadrupeds can open the operational domains of robots thanks to their dynamic locomotion capabilities, conventional controllers for legged locomotion constraint their applications to relatively simple environments that can be taken over by wheeled robots. Here we use reinforcement learning to train a quadruped to walk on various terrains. In the simulation, a quadruped robot (Unitree Go1) learns to walk across challenging terrain, including uneven surfaces, slopes, stairs, and obstacles, while following linear- and angular- velocity commands."
   type: 4
-  year: 2024
+  paper_type: 'P'
+  category: 'Mobility Systems'
+  category_label: 'Preprint / Working Paper'
+  venue: 'arXiv preprint'
+  issue_page: '2312.00819'
+  venue_display: 'arXiv preprint, 2024, 2312.00819'
+  authors_text: 'Baichuan Mo, Hanyong Xu, Dingyi Zhuang, Ruoyun Ma, Xiaotong Guo, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Hanyong Xu</span><sup class="author-corresponding">*</sup>, Dingyi Zhuang, Ruoyun Ma, Xiaotong Guo, Jinhua Zhao'
+  corresponding_authors: 'Hanyong Xu'
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: 'https://arxiv.org/abs/2312.00819'
+  external_label: 'arXiv'
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
 
-- title: "Chick Sexing on Face Part <br> <br> AI Processing Plant"
-  image: chick_sexing.png
-  description: 
-  authors: 
-  link:
-    url: null
-    display: " Artificial Intelligence And Vision-Based Broiler Body Weight Measurement System And Process <br> <br> - Chicken Processing Plant With Automated Computer Vision"
+- title: 'Robust path recommendations during public transit disruptions under demand uncertainty'
+  year: 2023
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part B: Methodological'
+  issue_page: '169, 82-107'
+  venue_display: 'Transportation Research Part B: Methodological, 2023, 169, 82-107'
+  authors_text: 'Baichuan Mo, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Path_recommendation_with_uncertainty__TRB_2022__V2.pdf'
+  external_url: 'https://doi.org/10.1016/j.trb.2023.02.004'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '6.8'
+  if_sci: true
+  representative: true
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Predicting drivers'' route trajectories in last-mile delivery using a pair-wise attention-based pointer neural network'
+  year: 2023
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility Systems'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part E: Logistics and Transportation Review'
+  issue_page: '175, 103168'
+  venue_display: 'Transportation Research Part E: Logistics and Transportation Review, 2023, 175, 103168'
+  authors_text: 'Baichuan Mo, Qingyi Wang, Xiaotong Guo, Matthias Winkenbach, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Qingyi Wang</span><sup class="author-corresponding">*</sup>, Xiaotong Guo, Matthias Winkenbach, Jinhua Zhao'
+  corresponding_authors: 'Qingyi Wang'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Predicting%20drivers%27%20route%20trajectories%20in%20last-mile%20delivery%20using%20a%20pair-wise%20attention-based%20pointer%20neural%20network.pdf'
+  external_url: 'https://doi.org/10.1016/j.tre.2023.103168'
+  external_label: 'DOI'
+  code_url: 'https://github.com/mbc96325/A-Pair-wise-Attention-based-Pointer-Neural-Network-for-Trajectory-Prediction'
+  impact_factor: '10.6'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Proof of Travel for Trust-Based Data Validation in V2I Communication'
+  year: 2023
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility Systems'
+  category_label: 'Journal Article'
+  venue: 'IEEE Internet of Things Journal'
+  issue_page: '10 (11), 9565-9584'
+  venue_display: 'IEEE Internet of Things Journal, 2023, 10 (11), 9565-9584'
+  authors_text: 'Dajiang Suo, Baichuan Mo, Jinhua Zhao, Sanjay E Sarma'
+  authors_html: '<span class="author-corresponding-name">Dajiang Suo</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao, Sanjay E Sarma'
+  corresponding_authors: 'Dajiang Suo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Proof_of_Travel__final_IEEEIoT_.pdf'
+  external_url: 'https://doi.org/10.1109/JIOT.2023.3236623'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '10.23'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Individual Longitudinal Adoption Pattern Analysis under Fare Incentives Using Smart Card Data'
+  year: 2023
+  type: 1
+  paper_type: 'C'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 102th Annual Meeting (TRB 2023)'
+  issue_page: 'Oral Presentation'
+  venue_display: 'Transportation Research Board 102th Annual Meeting (TRB 2023), 2023, Oral Presentation'
+  authors_text: 'Leizhen Wang, Zhenliang Ma, Pengfei Zhang, Xin Chen, Baichuan Mo, Peibo Duan'
+  authors_html: 'Leizhen Wang, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Pengfei Zhang, Xin Chen, <strong class="author-me">Baichuan Mo</strong>, Peibo Duan'
+  corresponding_authors: 'Zhenliang Ma'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/TRBAM-21-03587.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Individual mobility prediction in mass transit systems using smart card data: an interpretable activity-based hidden Markov approach'
+  year: 2022
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'IEEE Transactions on Intelligent Transportation Systems'
+  issue_page: '23 (8), 12014-12026'
+  venue_display: 'IEEE Transactions on Intelligent Transportation Systems, 2022, 23 (8), 12014-12026'
+  authors_text: 'Baichuan Mo, Zhan Zhao, Haris N Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhan Zhao</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Zhan Zhao'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Individual_Mobility_Prediction_in_Mass_Transit_Systems_Using_Smart_Card_Data_An_Interpretable_Activity-Based_Hidden_Markov_Approach.pdf'
+  external_url: 'https://doi.org/10.1109/TITS.2021.3109428'
+  external_label: 'DOI'
+  code_url: 'https://github.com/mbc96325/IOHMM-for-individual-mobility-prediction'
+  impact_factor: '9.55'
+  if_sci: true
+  representative: true
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Ex post path choice estimation for urban rail systems using smart card data: An aggregated time-space hypernetwork approach'
+  year: 2022
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'Transportation Science'
+  issue_page: '57 (2), 313-335'
+  venue_display: 'Transportation Science, 2022, 57 (2), 313-335'
+  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Zhenliang Ma'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/TRSC20221177_Rev3.pdf'
+  external_url: 'https://doi.org/10.1287/trsc.2022.1177'
+  external_label: 'DOI'
+  code_url: 'https://github.com/mbc96325/Path-Choice-Estimation-Using-Smart-Card-Data'
+  impact_factor: '4.9'
+  if_sci: true
+  representative: true
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Inferring passenger responses to urban rail disruptions using smart card data: A probabilistic framework'
+  year: 2022
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part E: Logistics and Transportation Review'
+  issue_page: '159, 102628'
+  venue_display: 'Transportation Research Part E: Logistics and Transportation Review, 2022, 159, 102628'
+  authors_text: 'Baichuan Mo, Haris N. Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Inferring%20passenger%20responses%20to%20urban%20rail%20disruptions%20using%20smart.pdf'
+  external_url: 'https://doi.org/10.1016/j.tre.2022.102628'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '10.1'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Alleviating data sparsity problems in estimated time of arrival via auxiliary metric learning'
+  year: 2022
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility Systems'
+  category_label: 'Journal Article'
+  venue: 'IEEE Transactions on Intelligent Transportation Systems'
+  issue_page: '23 (12), 23231-23243'
+  venue_display: 'IEEE Transactions on Intelligent Transportation Systems, 2022, 23 (12), 23231-23243'
+  authors_text: 'Yiwen Sun, Wenzheng Hu, Donghua Zhou, Baichuan Mo, Kun Fu, Zhengping Che, Zheng Wang, Shenhao Wang, Jinhua Zhao, Jieping Ye, Jian Tang, Changshui Zhang'
+  authors_html: 'Yiwen Sun, Wenzheng Hu, Donghua Zhou, <strong class="author-me">Baichuan Mo</strong>, Kun Fu, Zhengping Che, Zheng Wang, Shenhao Wang, Jinhua Zhao, Jieping Ye, Jian Tang, <span class="author-corresponding-name">Changshui Zhang</span><sup class="author-corresponding">*</sup>'
+  corresponding_authors: 'Changshui Zhang'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Alleviating_Data_Sparsity_Problems_in_Estimated_Time_of_Arrival_via_Auxiliary_Metric_Learning.pdf'
+  external_url: 'https://doi.org/10.1109/TITS.2022.3200445'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '9.55'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Impact of unplanned long-term service disruptions on urban public transit systems'
+  year: 2022
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'IEEE Open Journal of Intelligent Transportation Systems'
+  issue_page: '3, 551-569'
+  venue_display: 'IEEE Open Journal of Intelligent Transportation Systems, 2022, 3, 551-569'
+  authors_text: 'Baichuan Mo, Max Y Von Franque, Haris N Koutsopoulos, John P Attanucci, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Max Y Von Franque, Haris N Koutsopoulos, John P Attanucci, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Impact_of_Unplanned_Long-Term_Service_Disruptions_on_Urban_Public_Transit_Systems.pdf'
+  external_url: 'https://doi.org/10.1109/OJITS.2022.3199108'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '4.6'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Robust Path Recommendations During Public Transit Disruptions Under Demand Uncertainty'
+  year: 2022
+  type: 1
+  paper_type: 'C'
+  category: 'Public Transit Resilience'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 101th Annual Meeting (TRB 2022)'
+  issue_page: 'Poster Presentation'
+  venue_display: 'Transportation Research Board 101th Annual Meeting (TRB 2022), 2022, Poster Presentation'
+  authors_text: 'Baichuan Mo, Haris N. Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Path_recommendation_with_uncertainty__TRB_2022__V2.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Modeling Epidemic Spreading through Public Transit Using Time-Varying Encounter Network'
+  year: 2021
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: '122, 102893'
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2021, 122, 102893'
+  authors_text: 'Baichuan Mo, Kairui Feng, Yu Shen, Clarence Tam, Daqing Li, Yafeng Yin, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-equal">&dagger;</sup>, <span class="author-equal-name">Kairui Feng</span><sup class="author-equal">&dagger;</sup>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Clarence Tam, Daqing Li, Yafeng Yin, Jinhua Zhao'
+  corresponding_authors: 'Yu Shen'
+  co_first_authors: 'Baichuan Mo, Kairui Feng'
+  pdf_url: '/documents/publication/Modeling%20Epidemic%20Spreading%20through%20Public%20Transit%20using%20Time-Varying%20Encounter%20Network.pdf'
+  external_url: 'https://doi.org/10.1016/j.trc.2020.102893'
+  external_label: 'DOI'
+  code_url: 'https://github.com/mbc96325/Epidemic-spreading-model-on-public-transit'
+  impact_factor: '9.02'
+  if_sci: true
+  representative: true
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Competition between shared autonomous vehicles and public transit: A case study in Singapore'
+  year: 2021
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: '127, 103058'
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2021, 127, 103058'
+  authors_text: 'Baichuan Mo, Zhejing Cao, Hongmou Zhang, Yu Shen, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, Zhejing Cao, Hongmou Zhang, Yu Shen, <span class="author-corresponding-name">Jinhua Zhao</span><sup class="author-corresponding">*</sup>'
+  corresponding_authors: 'Jinhua Zhao'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Competition%20between%20Shared%20Autonomous%20Vehicles%20and%20Public%20Transit%20A%20Case%20Study%20in%20Singapore.pdf'
+  external_url: 'https://doi.org/10.1016/j.trc.2021.103058'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '9.02'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Impacts of subjective evaluations and inertia from existing travel modes on adoption of autonomous mobility-on-demand'
+  year: 2021
+  type: 2
+  paper_type: 'J'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: '130, 103281'
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2021, 130, 103281'
+  authors_text: 'Baichuan Mo, Qing Yi Wang, Joanna Moody, Yu Shen, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, Qing Yi Wang, <span class="author-corresponding-name">Joanna Moody</span><sup class="author-corresponding">*</sup>, Yu Shen, Jinhua Zhao'
+  corresponding_authors: 'Joanna Moody'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Impacts%20of%20subjective%20evaluations%20and%20inertia%20from%20existing%20travel%20modes%20on%20adoption%20of%20autonomous%20mobility-on-demand.pdf'
+  external_url: 'https://doi.org/10.1016/j.trc.2021.103281'
+  external_label: 'DOI'
+  code_url: 'https://github.com/mbc96325/Mixture-logit-model-for-AV-adoption'
+  impact_factor: '9.02'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Theory-based residual neural networks: A synergy of discrete choice models and deep neural networks'
+  year: 2021
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility AI'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part B: Methodological'
+  issue_page: '146, 333-358'
+  venue_display: 'Transportation Research Part B: Methodological, 2021, 146, 333-358'
+  authors_text: 'Shenhao Wang, Baichuan Mo, Jinhua Zhao'
+  authors_html: '<span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao'
+  corresponding_authors: 'Shenhao Wang'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Theory-based%20Deep%20Residual%20Neural%20Networks%20A%20Synergy%20of%20Decision-making%20Theories%20and%20Deep%20Neural%20Networks.pdf'
+  external_url: 'https://doi.org/10.1016/j.trb.2021.03.002'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '7.63'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Impact of pricing policy change on on-street parking demand and user satisfaction: A case study in Nanning, China'
+  year: 2021
+  type: 2
+  paper_type: 'J'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part A: Policy and Practice'
+  issue_page: '148, 445-469'
+  venue_display: 'Transportation Research Part A: Policy and Practice, 2021, 148, 445-469'
+  authors_text: 'Baichuan Mo, Hui Kong, Hao Wang, Xiaokun Cara Wang, Ruimin Li'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, Hui Kong, Hao Wang, Xiaokun Cara Wang, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>'
+  corresponding_authors: 'Ruimin Li'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Impact%20of%20pricing%20policy%20change%20on%20on-street%20parking%20demand%20and%20user%20satisfaction%20A%20case%20study%20in%20Nanning%2C%20China.pdf'
+  external_url: 'https://doi.org/10.1016/j.tra.2021.04.013'
+  external_label: 'DOI'
+  code_url: 'https://github.com/mbc96325/Parking-data-analysis'
+  impact_factor: '6.62'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Calibrating Path Choices and Train Capacities for Urban Rail Transit Simulation Models Using Smart Card and Train Movement Data'
+  year: 2021
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'Journal of Advanced Transportation'
+  issue_page: '5597130'
+  venue_display: 'Journal of Advanced Transportation, 2021, 5597130'
+  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Zhenliang Ma'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Calibrating%20Path%20Choices%20and%20Train%20Capacities%20for%20Urban%20Rail%20Transit%20Simulation%20Models%20Using%20Smart%20Card%20and%20Train%20Movement%20Data.pdf'
+  external_url: 'https://doi.org/10.1155/2021/5597130'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '2.25'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Impact of Unplanned Rail Disruption on Urban Transit Systems'
+  year: 2021
+  type: 1
+  paper_type: 'C'
+  category: 'Public Transit Resilience'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 100th Annual Meeting (TRB 2021)'
+  issue_page: 'Poster Presentation'
+  venue_display: 'Transportation Research Board 100th Annual Meeting (TRB 2021), 2021, Poster Presentation'
+  authors_text: 'Baichuan Mo, Max Y von Franque, Haris N. Koutsopoulos, John Attanucci, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Max Y von Franque, Haris N. Koutsopoulos, John Attanucci, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/TRBAM-21-03587.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Estimating dynamic origin–destination demand: A hybrid framework using license plate recognition data'
+  year: 2020
+  type: 2
+  paper_type: 'J'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Journal Article'
+  venue: 'Computer‐Aided Civil and Infrastructure Engineering'
+  issue_page: '35 (7), 734-752'
+  venue_display: 'Computer‐Aided Civil and Infrastructure Engineering, 2020, 35 (7), 734-752'
+  authors_text: 'Baichuan Mo, Ruimin Li, Jingchen Dai'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>, Jingchen Dai'
+  corresponding_authors: 'Ruimin Li'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Estimating%20dynamic%20origin%E2%80%93destination%20demand%20A%20hybrid%20framework%20using%20license%20plate%20recognition%20data.pdf'
+  external_url: 'https://doi.org/10.1111/mice.12526'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '11.78'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Deep neural networks for choice analysis: Architecture design with alternative-specific utility functions'
+  year: 2020
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility AI'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: '112, 234-251'
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2020, 112, 234-251'
+  authors_text: 'Shenhao Wang, Baichuan Mo, Jinhua Zhao'
+  authors_html: '<span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao'
+  corresponding_authors: 'Shenhao Wang'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Deep%20neural%20networks%20for%20choice%20analysis%20Architecture%20design%20with%20alternative-specific%20utility%20functions.pdf'
+  external_url: 'https://doi.org/10.1016/j.trc.2020.01.012'
+  external_label: 'DOI'
+  code_url: 'https://github.com/cjsyzwsh/ASU-DNN'
+  impact_factor: '8.1'
+  if_sci: true
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Capacity-constrained network performance model for urban rail systems'
+  year: 2020
+  type: 2
+  paper_type: 'J'
+  category: 'Public Transit Resilience'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Record'
+  issue_page: '2674 (5), 59-69'
+  venue_display: 'Transportation Research Record, 2020, 2674 (5), 59-69'
+  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Zhenliang Ma'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Capacity-Constrained%20Network%20Performance%20Model%20for%20Urban%20Rail%20Systems.pdf'
+  external_url: 'https://doi.org/10.1177/0361198120914309'
+  external_label: 'DOI'
+  code_url: 'https://github.com/mbc96325/Network-performance-model'
+  impact_factor: '1.56'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Calibrating Route Choice for Urban Rail System: A Comparative Analysis Using Simulation-based Optimization Methods'
+  year: 2020
+  type: 1
+  paper_type: 'C'
+  category: 'Public Transit Resilience'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
+  issue_page: 'Poster Presentation'
+  venue_display: 'Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation'
+  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Zhenliang Ma'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Calibrating%20Route%20Choice%20for%20Urban%20Rail%20System%20A%20Comparative%20Analysis%C2%A0Using%20Simulation-based%20Optimization%20Methods.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Latent Attitudes of Existing Travel Modes on Autonomous Vehicle Adoption'
+  year: 2020
+  type: 1
+  paper_type: 'C'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
+  issue_page: 'Poster Presentation'
+  venue_display: 'Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation'
+  authors_text: 'Baichuan Mo, Qing Yi Wang, Yu Shen, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, Qing Yi Wang, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
+  corresponding_authors: 'Yu Shen'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Latent%20Attitudes%20of%20Existing%20Travel%20Modes%20on%20Autonomous%20Vehicle%20Adoption.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Network Performance Model for Urban Rail Systems'
+  year: 2020
+  type: 1
+  paper_type: 'C'
+  category: 'Public Transit Resilience'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
+  issue_page: 'Oral Presentation'
+  venue_display: 'Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Oral Presentation'
+  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Zhenliang Ma'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Network%20Performance%20Model%20for%20Urban%20Rail%20Systems.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Predicting Travel Mode Choice with 86 Machine Learning Classifiers: An Empirical Benchmark Study'
+  year: 2020
+  type: 1
+  paper_type: 'C'
+  category: 'Mobility AI'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
+  issue_page: 'Poster Presentation'
+  venue_display: 'Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation'
+  authors_text: 'Shenhao Wang, Baichuan Mo, Jinhua Zhao'
+  authors_html: '<span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao'
+  corresponding_authors: 'Shenhao Wang'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Predicting%20Travel%20Mode%20Choice%20with%2086%20Machine%20Learning%20Classifiers%20An%20Empirical%20Benchmark%20Study.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Built Environment and Autonomous Vehicle Mode Choice: A First-Mile Scenario in Singapore'
+  year: 2019
+  type: 1
+  paper_type: 'C'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 98th Annual Meeting (TRB 2019)'
+  issue_page: 'Poster Presentation'
+  venue_display: 'Transportation Research Board 98th Annual Meeting (TRB 2019), 2019, Poster Presentation'
+  authors_text: 'Yu Shen, Baichuan Mo, Xiaohu Zhang, Jinhua Zhao'
+  authors_html: 'Yu Shen, <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Xiaohu Zhang</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
+  corresponding_authors: 'Xiaohu Zhang'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Built%20Environment%20and%20Autonomous%20Vehicle%20Mode%20Choice%20A%20First-Mile%20Scenario%20in%20Singapore.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'Impact of built environment on first-and last-mile travel mode choice'
+  year: 2018
+  type: 2
+  paper_type: 'J'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Record'
+  issue_page: '2672 (6), 40-51'
+  venue_display: 'Transportation Research Record, 2018, 2672 (6), 40-51'
+  authors_text: 'Baichuan Mo, Yu Shen, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
+  corresponding_authors: 'Yu Shen'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Impact%20of%20built%20environment%20on%20first-and%20last-mile%20travel%20mode%20choice%20TRR.pdf'
+  external_url: 'https://doi.org/10.1177/0361198118788423'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '0.75'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Impact of Built Environment on First- and Last-mile Travel Mode Choice'
+  year: 2018
+  type: 1
+  paper_type: 'C'
+  category: 'Travel Behavior and Demand'
+  category_label: 'Conference Paper'
+  venue: 'Transportation Research Board 97th Annual Meeting (TRB 2018)'
+  issue_page: 'Oral Presentation'
+  venue_display: 'Transportation Research Board 97th Annual Meeting (TRB 2018), 2018, Oral Presentation'
+  authors_text: 'Baichuan Mo, Yu Shen, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
+  corresponding_authors: 'Yu Shen'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Impact%20of%20built%20environment%20on%20first-and%20last-mile%20travel%20mode%20choice%20TRR.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Speed profile estimation using license plate recognition data'
+  year: 2017
+  type: 2
+  paper_type: 'J'
+  category: 'Mobility Systems'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: '82, 358-378'
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2017, 82, 358-378'
+  authors_text: 'Baichuan Mo, Ruimin Li, Xianyuan Zhan'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>, Xianyuan Zhan'
+  corresponding_authors: 'Ruimin Li'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Speed%20pro%EF%AC%81le%20estimation%20using%20license%20plate%20recognition%20data.pdf'
+  external_url: 'https://doi.org/10.1016/j.trc.2017.07.006'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '3.97'
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
+
+- title: 'Evaluation of Public Transit Systems under Short Random Service Suspensions: A Bulk-Service Queuing Approach'
+  year: null
   type: 4
-  year: 2024
+  paper_type: 'P'
+  category: 'Public Transit Resilience'
+  category_label: 'Preprint / Working Paper'
+  venue: 'To be submitted to Informs Journal on Computing'
+  issue_page: ''
+  venue_display: 'To be submitted to Informs Journal on Computing'
+  authors_text: 'Baichuan Mo, Li Jin, Haris N Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Li Jin, Haris N Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Resilience_of_Public_Transit_System_Under_Short_Random_Service_Suspension__A_Bulk_Service_Queue_Model.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''
 
+- title: 'Passenger Path Choice Estimation Using Smart Card Data: A Latent Class Approach with Panel Effects Across Days'
+  year: null
+  type: 4
+  paper_type: 'P'
+  category: 'Public Transit Resilience'
+  category_label: 'Preprint / Working Paper'
+  venue: 'To be submitted to Transportation Research Part E'
+  issue_page: ''
+  venue_display: 'To be submitted to Transportation Research Part E'
+  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N Koutsopoulos, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Jinhua Zhao'
+  corresponding_authors: 'Zhenliang Ma'
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  representative: false
+  first_author: true
+  featured: false
+  feature_image: ''

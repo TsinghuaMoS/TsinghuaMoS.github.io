@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Urban cyber physical social resilience</title>
+  <desc id="desc">A city grid connecting cyber, physical, and social systems during extreme weather.</desc>
+  <rect width="900" height="520" fill="#f7faf8"/>
+  <g opacity=".95">
+    <rect x="92" y="300" width="78" height="128" fill="#dbe9f6" stroke="#8fb4d9"/>
+    <rect x="196" y="242" width="96" height="186" fill="#e9edf7" stroke="#a9b4d0"/>
+    <rect x="322" y="278" width="62" height="150" fill="#dbeee8" stroke="#83b8a9"/>
+    <rect x="412" y="202" width="110" height="226" fill="#f3ead5" stroke="#d2b875"/>
+    <rect x="548" y="262" width="72" height="166" fill="#e8e7f8" stroke="#a9a2d9"/>
+    <rect x="650" y="218" width="102" height="210" fill="#d8edf1" stroke="#8ac3ce"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="5">
+    <path d="M112 330h38M112 365h38M112 400h38"/>
+    <path d="M218 278h54M218 318h54M218 358h54M218 398h54"/>
+    <path d="M430 242h74M430 284h74M430 326h74M430 368h74"/>
+    <path d="M668 256h66M668 300h66M668 344h66M668 388h66"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M144 210c84-64 190-78 302-40s194 28 312-64" stroke="#159895" stroke-width="8"/>
+    <path d="M146 210c88 22 154 70 218 130 72 68 154 83 250 35 68-34 106-90 148-186" stroke="#7254c7" stroke-width="8"/>
+    <path d="M238 122c56 70 92 120 166 126 88 8 142-42 224-24" stroke="#e8a33a" stroke-width="7" stroke-dasharray="18 16"/>
+  </g>
+  <g fill="#ffffff" stroke="#23324d" stroke-width="5">
+    <circle cx="144" cy="210" r="20"/>
+    <circle cx="312" cy="166" r="20"/>
+    <circle cx="466" cy="176" r="20"/>
+    <circle cx="628" cy="224" r="20"/>
+    <circle cx="758" cy="106" r="20"/>
+    <circle cx="404" cy="248" r="20"/>
+    <circle cx="614" cy="374" r="20"/>
+  </g>
+  <g transform="translate(650 62)">
+    <path d="M44 0c20 0 34 15 34 35 26 2 48 24 48 52 0 30-24 54-55 54H28c-24 0-44-20-44-44 0-22 15-39 36-43C22 22 32 0 44 0Z" fill="#e7f2ff" stroke="#5288c7" stroke-width="6"/>
+    <path d="M22 92h84M38 116h54" stroke="#5288c7" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(76 56)">
+    <rect width="284" height="88" rx="8" fill="#ffffff" stroke="#d9e0ea"/>
+    <text x="22" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#23324d">Urban Resilience</text>
+    <text x="22" y="64" font-family="Arial, sans-serif" font-size="18" fill="#5f6f87">cyber + physical + social systems</text>
+  </g>
+</svg>

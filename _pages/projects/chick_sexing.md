@@ -3,6 +3,7 @@ title: "MoS Lab - Research"
 layout: gridlay
 excerpt: "MoS Lab -- Research"
 sitemap: false
+published: false
 permalink: /projects/chick/
 ---
 
