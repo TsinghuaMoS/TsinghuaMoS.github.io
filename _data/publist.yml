@@ -20,11 +20,12 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: ''
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: false
-  featured: true
-  feature_image: '/images/featured/urban_resilience.svg'
+  featured: false
+  feature_image: ''
 
 - title: 'Housing exchange framework to reduce carbon emissions from commuting'
   year: 2025
@@ -44,11 +45,12 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '27.2'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: true
   first_author: false
   featured: true
-  feature_image: '/images/featured/sustainable_commuting.svg'
+  feature_image: '/images/featured/housing_commute.png'
 
 - title: 'Robust binary and multinomial logit models for classification with data uncertainties'
   year: 2025
@@ -68,11 +70,12 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '6.0'
+  cas_quartile: 'Q2'
   if_sci: true
   representative: true
   first_author: true
   featured: true
-  feature_image: '/images/featured/mobility_ai.svg'
+  feature_image: '/images/featured/robust_logit.png'
 
 - title: 'Individual path recommendation under public transit service disruptions considering behavior uncertainty'
   year: 2025
@@ -92,11 +95,12 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '4.8'
+  cas_quartile: 'Q2'
   if_sci: true
   representative: true
   first_author: true
   featured: true
-  feature_image: '/images/featured/transit_resilience.svg'
+  feature_image: '/images/featured/path_recommendation.png'
 
 - title: 'Data-driven analysis and modeling of individual longitudinal behavior response to fare incentives in public transport'
   year: 2025
@@ -116,6 +120,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '4.2'
+  cas_quartile: 'Q2'
   if_sci: true
   representative: false
   first_author: false
@@ -140,6 +145,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '1.6'
+  cas_quartile: 'Q4'
   if_sci: true
   representative: false
   first_author: false
@@ -212,6 +218,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '7.9'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: false
@@ -260,6 +267,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '5.8'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: false
@@ -284,6 +292,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '5.1'
+  cas_quartile: 'Q2'
   if_sci: true
   representative: false
   first_author: true
@@ -332,6 +341,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '6.8'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: true
   first_author: true
@@ -356,6 +366,7 @@
   external_label: 'DOI'
   code_url: 'https://github.com/mbc96325/A-Pair-wise-Attention-based-Pointer-Neural-Network-for-Trajectory-Prediction'
   impact_factor: '10.6'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: true
@@ -380,6 +391,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '10.23'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: false
@@ -428,6 +440,7 @@
   external_label: 'DOI'
   code_url: 'https://github.com/mbc96325/IOHMM-for-individual-mobility-prediction'
   impact_factor: '9.55'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: true
   first_author: true
@@ -452,11 +465,12 @@
   external_label: 'DOI'
   code_url: 'https://github.com/mbc96325/Path-Choice-Estimation-Using-Smart-Card-Data'
   impact_factor: '4.9'
+  cas_quartile: 'Q2'
   if_sci: true
   representative: true
   first_author: true
-  featured: false
-  feature_image: ''
+  featured: true
+  feature_image: '/images/featured/path_choice_hypernetwork.png'
 
 - title: 'Inferring passenger responses to urban rail disruptions using smart card data: A probabilistic framework'
   year: 2022
@@ -476,6 +490,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '10.1'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: true
@@ -500,6 +515,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '9.55'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: false
@@ -524,6 +540,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '4.6'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: true
@@ -572,6 +589,7 @@
   external_label: 'DOI'
   code_url: 'https://github.com/mbc96325/Epidemic-spreading-model-on-public-transit'
   impact_factor: '9.02'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: true
   first_author: true
@@ -596,6 +614,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '9.02'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: true
@@ -620,6 +639,7 @@
   external_label: 'DOI'
   code_url: 'https://github.com/mbc96325/Mixture-logit-model-for-AV-adoption'
   impact_factor: '9.02'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: true
@@ -644,6 +664,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '7.63'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: false
@@ -668,6 +689,7 @@
   external_label: 'DOI'
   code_url: 'https://github.com/mbc96325/Parking-data-analysis'
   impact_factor: '6.62'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: true
@@ -692,6 +714,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '2.25'
+  cas_quartile: 'Q4'
   if_sci: true
   representative: false
   first_author: true
@@ -740,6 +763,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '11.78'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: true
@@ -764,6 +788,7 @@
   external_label: 'DOI'
   code_url: 'https://github.com/cjsyzwsh/ASU-DNN'
   impact_factor: '8.1'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: false
@@ -788,6 +813,7 @@
   external_label: 'DOI'
   code_url: 'https://github.com/mbc96325/Network-performance-model'
   impact_factor: '1.56'
+  cas_quartile: 'Q4'
   if_sci: true
   representative: false
   first_author: true
@@ -932,6 +958,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '0.75'
+  cas_quartile: 'Q4'
   if_sci: true
   representative: false
   first_author: true
@@ -980,6 +1007,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '3.97'
+  cas_quartile: 'Q1 Top'
   if_sci: true
   representative: false
   first_author: true

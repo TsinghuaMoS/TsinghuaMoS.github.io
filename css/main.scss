@@ -493,6 +493,8 @@ a:focus {
   overflow: visible !important;
   border: 0 !important;
   padding: 0 !important;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 
 #newsid .well {
@@ -571,12 +573,22 @@ a:focus {
   margin-bottom: 34px;
 }
 
-.pub-year {
-  margin: 34px 0 14px 0;
-  padding-top: 18px;
-  border-top: 2px solid #dce4ef;
+.pub-section-title {
+  margin: 6px 0 18px 0;
+  padding: 10px 0 12px 0;
+  border-bottom: 3px solid #159895;
   color: #23324d;
-  font-size: 29px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.pub-year {
+  margin: 24px 0 12px 0;
+  padding-top: 14px;
+  border-top: 1px solid #dce4ef;
+  color: #44536a;
+  font-size: 21px;
   font-weight: 800;
   letter-spacing: 0;
 }
@@ -672,7 +684,7 @@ a:focus {
 }
 
 .author-corresponding-name {
-  font-weight: 650;
+  font-weight: 400;
 }
 
 .author-equal-name {
@@ -732,6 +744,12 @@ a:focus {
 .pub-metric {
   background: #edf2f7;
   color: #44536a;
+}
+
+.pub-metric-cas {
+  background: #e6f4f1;
+  color: #0b726f;
+  font-weight: 800;
 }
 
 .full-list-note {

@@ -18,6 +18,10 @@ permalink: /publications/
   </div>
 </section>
 
+<section class="full-list-note">
+  <p>For citation counts and the most current indexing, please visit <a class="regtext" href="https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en">Google Scholar</a>.</p>
+</section>
+
 <section class="section-heading compact">
   <p class="eyebrow">Featured Research</p>
   <h2>Representative themes</h2>
@@ -39,78 +43,73 @@ permalink: /publications/
 
 {% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017" | split: "," %}
 
+<!-- Journal Articles first, grouped by year -->
 <section class="publication-list">
+  <h2 class="pub-section-title">Journal Articles</h2>
 {% for year in years %}
 {% assign date = year | plus: 0 %}
 {% assign containsJournal = false %}
-{% assign containsConference = false %}
-{% assign containsWorking = false %}
-
 {% for publi in site.data.publist %}
-{% if publi.year == date %}
-{% if publi.type == 2 %}
+{% if publi.year == date and publi.type == 2 %}
 {% assign containsJournal = true %}
-{% elsif publi.type == 1 %}
-{% assign containsConference = true %}
-{% elsif publi.type == 4 %}
-{% assign containsWorking = true %}
-{% endif %}
 {% endif %}
 {% endfor %}
-
-{% if containsJournal or containsConference or containsWorking %}
-  <h2 class="pub-year">{{ year }}</h2>
-{% endif %}
-
 {% if containsJournal %}
-  <h3 class="pub-group-heading">Journal Articles</h3>
+  <h3 class="pub-year">{{ year }}</h3>
   {% for publi in site.data.publist %}
   {% if publi.year == date and publi.type == 2 %}
   {% include publication_card.html pub=publi %}
   {% endif %}
   {% endfor %}
 {% endif %}
+{% endfor %}
+</section>
 
+<!-- Conference Papers and Working Papers grouped together at the back -->
+<section class="publication-list">
+  <h2 class="pub-section-title">Conference Papers</h2>
+{% for year in years %}
+{% assign date = year | plus: 0 %}
+{% assign containsConference = false %}
+{% for publi in site.data.publist %}
+{% if publi.year == date and publi.type == 1 %}
+{% assign containsConference = true %}
+{% endif %}
+{% endfor %}
 {% if containsConference %}
-  <h3 class="pub-group-heading">Conference Papers</h3>
+  <h3 class="pub-year">{{ year }}</h3>
   {% for publi in site.data.publist %}
   {% if publi.year == date and publi.type == 1 %}
   {% include publication_card.html pub=publi %}
   {% endif %}
   {% endfor %}
 {% endif %}
+{% endfor %}
+</section>
 
+<section class="publication-list">
+  <h2 class="pub-section-title">Preprints and Working Papers</h2>
+{% for year in years %}
+{% assign date = year | plus: 0 %}
+{% assign containsWorking = false %}
+{% for publi in site.data.publist %}
+{% if publi.year == date and publi.type == 4 %}
+{% assign containsWorking = true %}
+{% endif %}
+{% endfor %}
 {% if containsWorking %}
-  <h3 class="pub-group-heading">Preprints and Working Papers</h3>
+  <h3 class="pub-year">{{ year }}</h3>
   {% for publi in site.data.publist %}
   {% if publi.year == date and publi.type == 4 %}
   {% include publication_card.html pub=publi %}
   {% endif %}
   {% endfor %}
 {% endif %}
-
 {% endfor %}
-</section>
-
-{% assign containsUndatedWorking = false %}
-{% for publi in site.data.publist %}
-{% if publi.type == 4 and publi.year == nil %}
-{% assign containsUndatedWorking = true %}
-{% endif %}
-{% endfor %}
-
-{% if containsUndatedWorking %}
-<section class="publication-list">
-  <h2 class="pub-year">Working Papers</h2>
   {% for publi in site.data.publist %}
   {% if publi.type == 4 and publi.year == nil %}
   {% include publication_card.html pub=publi %}
   {% endif %}
   {% endfor %}
-</section>
-{% endif %}
-
-<section class="full-list-note">
-  <p>For citation counts and the most current indexing, please visit <a class="regtext" href="https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en">Google Scholar</a>.</p>
 </section>
 {:/nomarkdown}

@@ -30,6 +30,9 @@
       {% if include.pub.impact_factor %}
       <span class="pub-metric">IF {{ include.pub.impact_factor }}</span>
       {% endif %}
+      {% if include.pub.cas_quartile %}
+      <span class="pub-metric pub-metric-cas">CAS {{ include.pub.cas_quartile }}</span>
+      {% endif %}
     </div>
   </div>
 </article>
