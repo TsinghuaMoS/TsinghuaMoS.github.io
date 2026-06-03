@@ -44,10 +44,10 @@ It rewrites every title to sentence case and is **idempotent** (already-correct 
    - `pdf_url` — put the PDF in `documents/publication/` and use a URL-encoded path (spaces → `%20`, commas → `%2C`).
    - `code_url` — repo link if any.
    - `impact_factor` (JCR, 1 decimal) and `cas_quartile` (`Q1 Top`, `Q1`, `Q2`, `Q3`, `Q4`; empty to hide).
-   - `if_sci`, `representative`, `first_author`.
+   - `if_sci`, `first_author`.
    - `featured` + `feature_image` — see step 3.
 2. **PDF** — add the file under `documents/publication/`; reference it from `pdf_url`.
-3. **Feature it (optional)** — set `featured: true`, add `feature_image: /images/featured/<name>.png` (a **real figure from the paper**, placed in `images/featured/`), and optionally `feature_title`, `feature_description`, `feature_alt` for nicer card copy (otherwise the card falls back to the paper title). The Home and Research **Featured Research** grids automatically show the **4 most recent** `featured: true` papers — no separate file to edit and no need to pick which four. Featured papers should be Baichuan-Mo first/co-first authored.
+3. **Feature it (optional)** — there is a single `featured` flag (no more `representative`). Setting `featured: true` adds the amber **"Featured"** badge + purple border in the publication list and includes the paper in the "★ Featured only" filter. To also show it as a **Featured Research card** on the Home/Research pages, additionally give it `feature_image: /images/featured/<name>.png` (a **real figure from the paper**, placed in `images/featured/`) and optionally `feature_title`, `feature_description`, `feature_alt` for nicer card copy. Those grids automatically show the **4 most recent** featured papers that have a `feature_image` — no separate file, no picking which four. Featured papers should be Baichuan-Mo first/co-first authored.
 4. **News** — add a line to `_data/news.yml`.
 5. **CV** — add the row to `documents/papers.xlsx` (the CV's data source), then rebuild both CVs (see README → CV) and place the PDFs at `cv/CV_Baichuan_EN.pdf` and `cv/CV_Baichuan_CN.pdf`.
 6. **Commit & push** — pushing to `main` rebuilds and deploys via GitHub Actions.

@@ -15,7 +15,7 @@ permalink: /research/
 
 <h2 class="pub-section-title">Featured Research</h2>
 <div class="featured-grid research-featured">
-{% assign featured_pubs = site.data.publist | where_exp: "p", "p.featured" | sort: "year" | reverse %}
+{% assign featured_pubs = site.data.publist | where_exp: "p", "p.featured and p.feature_image and p.feature_image != ''" | sort: "year" | reverse %}
 {% for item in featured_pubs limit:4 %}
 {% if item.pdf_url and item.pdf_url != "" %}{% assign flink = item.pdf_url | relative_url %}{% else %}{% assign flink = item.external_url %}{% endif %}
   <article class="feature-card">

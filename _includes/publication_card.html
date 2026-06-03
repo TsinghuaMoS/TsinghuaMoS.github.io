@@ -1,11 +1,11 @@
-<article class="pub-card{% if include.pub.representative %} pub-card-featured{% endif %}">
+<article class="pub-card{% if include.pub.featured %} pub-card-featured{% endif %}">
   {% assign pdf_href = include.pub.pdf_url | relative_url | replace: "'", "%27" %}
   <div class="pub-card-main">
     <div class="pub-card-topline">
       {% if include.num %}<span class="pub-index">#{{ include.num }}</span>{% endif %}
       <span class="pub-type">{{ include.pub.category_label }}</span>
       {% if include.pub.category %}<span class="pub-topic">{{ include.pub.category }}</span>{% endif %}
-      {% if include.pub.representative %}<span class="pub-topic pub-topic-accent">Featured</span>{% endif %}
+      {% if include.pub.featured %}<span class="pub-topic pub-topic-accent">Featured</span>{% endif %}
     </div>
     <h3 class="pub-title">
       {% if include.pub.external_url and include.pub.external_url != "" %}

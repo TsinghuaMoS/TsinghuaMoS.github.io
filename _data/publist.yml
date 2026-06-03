@@ -24,7 +24,6 @@
   impact_factor: '12.8'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -49,7 +48,6 @@
   impact_factor: '4.2'
   cas_quartile: 'Q3'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -74,7 +72,6 @@
   impact_factor: '11.0'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -99,7 +96,6 @@
   impact_factor: '27.2'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: true
   first_author: false
   featured: true
   feature_image: '/images/featured/housing_commute.png'
@@ -127,9 +123,8 @@
   impact_factor: '6.0'
   cas_quartile: 'Q2'
   if_sci: true
-  representative: true
   first_author: true
-  featured: false
+  featured: true
   feature_image: ''
 
 - title: 'Individual path recommendation under public transit service disruptions considering behavior uncertainty'
@@ -152,7 +147,6 @@
   impact_factor: '4.8'
   cas_quartile: 'Q2'
   if_sci: true
-  representative: true
   first_author: true
   featured: true
   feature_image: '/images/featured/path_recommendation.png'
@@ -180,7 +174,6 @@
   impact_factor: '4.2'
   cas_quartile: 'Q2'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -205,7 +198,6 @@
   impact_factor: '1.6'
   cas_quartile: 'Q4'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -229,7 +221,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -253,7 +244,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -278,7 +268,6 @@
   impact_factor: '7.9'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -302,7 +291,6 @@
   code_url: ''
   impact_factor: '7.0'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -327,7 +315,6 @@
   impact_factor: '5.8'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -352,7 +339,6 @@
   impact_factor: '5.1'
   cas_quartile: 'Q2'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -376,7 +362,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -401,9 +386,8 @@
   impact_factor: '6.8'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: true
   first_author: true
-  featured: false
+  featured: true
   feature_image: ''
 
 - title: 'Predicting drivers'' route trajectories in last-mile delivery using a pair-wise attention-based pointer neural network'
@@ -426,7 +410,6 @@
   impact_factor: '10.6'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: true
   first_author: true
   featured: true
   feature_image: '/images/featured/lastmile_delivery.png'
@@ -454,7 +437,6 @@
   impact_factor: '10.23'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -478,7 +460,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -503,9 +484,8 @@
   impact_factor: '9.55'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: true
   first_author: true
-  featured: false
+  featured: true
   feature_image: ''
 
 - title: 'Ex post path choice estimation for urban rail systems using smart card data: An aggregated time-space hypernetwork approach'
@@ -528,7 +508,6 @@
   impact_factor: '4.9'
   cas_quartile: 'Q2'
   if_sci: true
-  representative: true
   first_author: true
   featured: true
   feature_image: '/images/featured/path_choice_hypernetwork.png'
@@ -556,7 +535,6 @@
   impact_factor: '10.1'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -581,7 +559,6 @@
   impact_factor: '9.55'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -606,7 +583,6 @@
   impact_factor: '4.6'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -630,7 +606,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -655,9 +630,8 @@
   impact_factor: '9.02'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: true
   first_author: true
-  featured: false
+  featured: true
   feature_image: ''
 
 - title: 'Competition between shared autonomous vehicles and public transit: A case study in Singapore'
@@ -680,7 +654,6 @@
   impact_factor: '9.02'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -705,7 +678,6 @@
   impact_factor: '9.02'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -730,7 +702,6 @@
   impact_factor: '7.63'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -755,7 +726,6 @@
   impact_factor: '6.62'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -780,7 +750,6 @@
   impact_factor: '2.25'
   cas_quartile: 'Q4'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -804,7 +773,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -829,7 +797,6 @@
   impact_factor: '11.78'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -854,7 +821,6 @@
   impact_factor: '8.1'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -879,7 +845,6 @@
   impact_factor: '1.56'
   cas_quartile: 'Q4'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -903,7 +868,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -927,7 +891,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -951,7 +914,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -975,7 +937,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -999,7 +960,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: false
   featured: false
   feature_image: ''
@@ -1024,7 +984,6 @@
   impact_factor: '0.75'
   cas_quartile: 'Q4'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -1048,7 +1007,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -1073,7 +1031,6 @@
   impact_factor: '3.97'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -1097,7 +1054,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''
@@ -1121,7 +1077,6 @@
   code_url: ''
   impact_factor: ''
   if_sci: false
-  representative: false
   first_author: true
   featured: false
   feature_image: ''

@@ -51,9 +51,8 @@ Edit `_data/publist.yml`. Each entry:
   impact_factor: '6.0'
   cas_quartile: 'Q2'    # CAS quartile badge, e.g. 'Q1 Top', 'Q2'; empty to hide
   if_sci: true
-  representative: false
   first_author: true
-  featured: false        # show as a Featured Research card
+  featured: false        # adds the "Featured" badge in the list AND, with a feature_image, a Featured Research card
   feature_image: ''
 ```
 
