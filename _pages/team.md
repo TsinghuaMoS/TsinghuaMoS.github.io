@@ -27,11 +27,17 @@ permalink: /team/
   {% for member in site.data.team_members %}
   {% if member.group == gid %}
     <article class="team-card">
+      {% if member.url and member.url != "" %}
       <a class="team-photo" href="{{ member.url }}">
         <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
       </a>
+      {% else %}
+      <span class="team-photo">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
+      </span>
+      {% endif %}
       <div class="team-card-body">
-        <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
+        <h3>{% if member.url and member.url != "" %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
         <p>{{ member.info }}</p>
         {% if member.affiliation %}<p class="team-affil">{{ member.affiliation }}</p>{% endif %}
         {% if member.cv_en != nil and member.cv_en != "" or member.cv_cn != nil and member.cv_cn != "" %}
