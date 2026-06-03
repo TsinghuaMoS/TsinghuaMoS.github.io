@@ -1196,23 +1196,16 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 18px 34px;
+  gap: 30px;
   margin-top: 16px;
 }
 .partner-logos img {
-  height: 52px;
+  height: 60px;
   width: auto;
   object-fit: contain;
   margin: 0 !important;
   border-radius: 0 !important;
   box-shadow: none !important;
-  filter: grayscale(100%);
-  opacity: 0.78;
-  transition: filter 0.15s ease, opacity 0.15s ease;
-}
-.partner-logos img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
 }
 
 .partner-logos a, .funding-logos a { display: inline-flex; align-items: center; line-height: 0; }
