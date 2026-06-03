@@ -75,23 +75,24 @@ permalink: /
 <section class="support-note">
   <p class="eyebrow">Research Support</p>
   <div class="funding-logos">
-    <img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China">
-    <img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance">
+    <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="National Natural Science Foundation of China"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China"></a>
+    <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="ByteDance"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance"></a>
   </div>
 </section>
 
 <section class="support-note">
   <p class="eyebrow">Collaborating Institutions</p>
   <div class="partner-logos">
-    <img src="{{ '/images/partners/mit.png' | relative_url }}" alt="Massachusetts Institute of Technology">
-    <img src="{{ '/images/partners/northeastern.png' | relative_url }}" alt="Northeastern University">
-    <img src="{{ '/images/partners/uc_berkeley.png' | relative_url }}" alt="UC Berkeley">
-    <img src="{{ '/images/partners/hku.png' | relative_url }}" alt="The University of Hong Kong">
-    <img src="{{ '/images/partners/pku.png' | relative_url }}" alt="Peking University">
-    <img src="{{ '/images/partners/tongji.png' | relative_url }}" alt="Tongji University">
-    <img src="{{ '/images/partners/kth.png' | relative_url }}" alt="KTH Royal Institute of Technology">
-    <img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University">
-    <img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore">
+    <a href="https://www.mit.edu/" target="_blank" rel="noopener" title="Massachusetts Institute of Technology"><img src="{{ '/images/partners/mit.png' | relative_url }}" alt="Massachusetts Institute of Technology"></a>
+    <a href="https://www.northeastern.edu/" target="_blank" rel="noopener" title="Northeastern University"><img src="{{ '/images/partners/northeastern.png' | relative_url }}" alt="Northeastern University"></a>
+    <a href="https://www.berkeley.edu/" target="_blank" rel="noopener" title="University of California, Berkeley"><img src="{{ '/images/partners/uc_berkeley.png' | relative_url }}" alt="UC Berkeley"></a>
+    <a href="https://www.hku.hk/" target="_blank" rel="noopener" title="The University of Hong Kong"><img src="{{ '/images/partners/hku.png' | relative_url }}" alt="The University of Hong Kong"></a>
+    <a href="https://www.pku.edu.cn/" target="_blank" rel="noopener" title="Peking University"><img src="{{ '/images/partners/pku.png' | relative_url }}" alt="Peking University"></a>
+    <a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener" title="Tongji University"><img src="{{ '/images/partners/tongji.png' | relative_url }}" alt="Tongji University"></a>
+    <a href="https://www.kth.se/" target="_blank" rel="noopener" title="KTH Royal Institute of Technology"><img src="{{ '/images/partners/kth.png' | relative_url }}" alt="KTH Royal Institute of Technology"></a>
+    <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener" title="Zhejiang University"><img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University"></a>
+    <a href="https://nus.edu.sg/" target="_blank" rel="noopener" title="National University of Singapore"><img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore"></a>
+    <a href="https://www.cnu.edu.cn/" target="_blank" rel="noopener" title="Capital Normal University"><img src="{{ '/images/partners/cnu.png' | relative_url }}" alt="Capital Normal University"></a>
   </div>
 </section>
 {:/nomarkdown}

@@ -1214,3 +1214,5 @@ a:focus {
   filter: grayscale(0%);
   opacity: 1;
 }
+
+.partner-logos a, .funding-logos a { display: inline-flex; align-items: center; line-height: 0; }
