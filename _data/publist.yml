@@ -1,6 +1,8 @@
 # Publications for MoS Lab / Baichuan Mo.
 # Generated from CV_Update/papers.xlsx plus local PDFs in New/Baichuan/publication.
 # type: 1 = conference papers, 2 = journal articles, 4 = preprints / working papers
+# Before adding an entry, read MAINTAINING.md (title casing rule + full checklist).
+# Titles use SENTENCE CASE (only first word + first word after a colon + proper nouns/acronyms capitalized).
 
 - title: 'A federated meta-learning approach for interpretable, privacy-preserving, and customizable behavior analysis'
   year: 2026
