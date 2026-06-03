@@ -1149,3 +1149,23 @@ a:focus {
   font-style: italic;
   margin: 4px 0 6px 0;
 }
+
+.team-cv {
+  margin: 8px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.team-cv a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border: 1px solid #d5deeb;
+  border-radius: 6px;
+  background: #f8fafc;
+  color: #4f3aa7;
+  font-size: 12.5px;
+  font-weight: 700;
+}
+.team-cv a:hover { border-color: #159895; color: #0b726f; text-decoration: none; }

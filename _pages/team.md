@@ -10,7 +10,7 @@ permalink: /team/
 <section class="pub-page-head">
   <p class="eyebrow">People</p>
   <h1>Team</h1>
-  <p>Click a name to view a member profile.</p>
+  <p>MoS Lab strives to build a warm, inclusive, and supportive team grounded in collaboration, mutual respect, and innovation.</p>
 </section>
 
 {% assign groups = "0,7,1,2,3,4,8" | split: "," %}
@@ -33,13 +33,19 @@ permalink: /team/
       <div class="team-card-body">
         <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
         <p>{{ member.info }}</p>
+        {% if member.cv_en != nil and member.cv_en != "" or member.cv_cn != nil and member.cv_cn != "" %}
+        <p class="team-cv">
+          {% if member.cv_en and member.cv_en != "" %}<a href="{{ member.cv_en | relative_url }}" download title="Download CV (English)"><i class="fa fa-file-pdf"></i> CV (EN)</a>{% endif %}
+          {% if member.cv_cn and member.cv_cn != "" %}<a href="{{ member.cv_cn | relative_url }}" download title="下载简历（中文）"><i class="fa fa-file-pdf"></i> CV (中文)</a>{% endif %}
+        </p>
+        {% endif %}
       </div>
     </article>
   {% endif %}
   {% endfor %}
   </div>
   {% else %}
-  <p class="team-empty">We are recruiting. See the <a href="{{ '/recruitment/' | relative_url }}">Join Us</a> page.</p>
+  <p class="team-empty">We are recruiting. See the <a href="{{ '/contact/' | relative_url }}">Join Us</a> section.</p>
   {% endif %}
 </section>
 {% endfor %}

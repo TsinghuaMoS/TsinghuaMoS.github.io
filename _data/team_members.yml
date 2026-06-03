@@ -3,6 +3,8 @@
   name: Baichuan Mo
   photo: baichuan_mo.jpg
   url: /team/baichuan_mo.html
+  cv_cn: /cv/CV_Baichuan_CN.pdf
+  cv_en: ''
 
 - group: 7
   info: Research Affiliate
