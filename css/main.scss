@@ -1040,3 +1040,98 @@ a:focus {
     font-size: 18px;
   }
 }
+
+/* ===== Refreshed styling for content / team / member / funding ===== */
+
+/* Cross-section jump links on the publications page */
+.pub-year-nav-section {
+  background: #ede9fb !important;
+  color: #4f3aa7 !important;
+  border-color: #d9d0f5 !important;
+}
+.pub-year-nav-section:hover,
+.pub-year-nav-section:focus {
+  background: #e0d8f8 !important;
+  border-color: #4f3aa7 !important;
+}
+#conference,
+#working {
+  scroll-margin-top: 80px;
+}
+
+/* Content pages (recruitment, contact, about) — match the refreshed look */
+#textid {
+  background: #ffffff;
+  border: 1px solid #e1e7f0;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(35, 50, 77, 0.06);
+  padding: 30px 34px !important;
+  margin-bottom: 30px;
+}
+#textid > .eyebrow { margin-bottom: 6px; }
+#textid h1 {
+  font-size: 34px; font-weight: 900; color: #23324d;
+  margin: 2px 0 16px 0;
+}
+#textid h2 {
+  font-size: 21px; font-weight: 800; color: #23324d;
+  margin: 26px 0 12px 0; padding-bottom: 8px;
+  border-bottom: 2px solid #eef1f6;
+}
+#textid h3 {
+  font-size: 17px; font-weight: 800; color: #159895;
+  margin: 18px 0 8px 0;
+}
+#textid p, #textid li { color: #44536a; font-size: 16px; line-height: 1.65; }
+#textid ul { padding-left: 20px; }
+#textid li { margin-bottom: 6px; }
+
+/* Team page */
+.team-section { margin-bottom: 30px; }
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.team-card {
+  display: flex; align-items: center; gap: 14px;
+  padding: 16px;
+  background: #ffffff;
+  border: 1px solid #e1e7f0;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(35, 50, 77, 0.06);
+}
+.team-photo { flex: 0 0 auto; display: block; }
+.team-photo img {
+  width: 80px; height: 80px;
+  object-fit: cover; border-radius: 50%;
+  margin: 0 !important; border: 1px solid #e1e7f0; box-shadow: none !important;
+}
+.team-card-body h3 { margin: 0 0 4px 0; font-size: 17px; font-weight: 800; }
+.team-card-body h3 a { color: #23324d; }
+.team-card-body h3 a:hover { color: #0b726f; }
+.team-card-body p { margin: 0; color: #64748b; font-size: 14px; }
+
+/* Member profile page */
+.member-bio { font-style: normal; color: #44536a; font-size: 16px; line-height: 1.7; }
+.member-bio h3 { font-size: 18px; font-weight: 800; color: #159895; margin: 22px 0 10px 0; }
+.member-bio ul { padding-left: 20px; }
+.member-bio li { margin-bottom: 6px; }
+.member-bio a { color: #4f3aa7; }
+.bigtitle { font-size: 36px; line-height: 1.2; font-weight: 800; color: #23324d; }
+.smallhead { color: #159895; font-weight: 800; }
+.content-photo { border-radius: 12px; box-shadow: 0 10px 28px rgba(35, 50, 77, 0.10); }
+
+/* Funding / research support logos */
+.funding-logos {
+  display: flex; align-items: center; flex-wrap: wrap;
+  gap: 30px; margin-top: 16px;
+}
+.funding-logos img {
+  height: 60px; width: auto; object-fit: contain;
+  margin: 0 !important; border-radius: 0 !important; box-shadow: none !important;
+}
+
+@media (max-width: 768px) {
+  .team-grid { grid-template-columns: 1fr; }
+}

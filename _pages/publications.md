@@ -56,6 +56,8 @@ permalink: /publications/
 {% endfor %}
 {% if containsJournal %}<a href="#journal-{{ year }}">{{ year }}</a>{% endif %}
 {% endfor %}
+    <a class="pub-year-nav-section" href="#conference">Conference Papers ↓</a>
+    <a class="pub-year-nav-section" href="#working">Preprints &amp; Working Papers ↓</a>
   </nav>
 
 {% for year in years %}
@@ -82,7 +84,7 @@ permalink: /publications/
 </section>
 
 <!-- Conference Papers: plain stacked list (no boxes), grouped by year -->
-<section class="publication-list">
+<section class="publication-list" id="conference">
   <h2 class="pub-section-title">Conference Papers</h2>
   <div class="pub-line-list">
 {% for year in years %}
@@ -104,7 +106,7 @@ permalink: /publications/
 </section>
 
 <!-- Preprints and Working Papers: plain stacked list (no boxes), no year headings -->
-<section class="publication-list">
+<section class="publication-list" id="working">
   <h2 class="pub-section-title">Preprints and Working Papers</h2>
   <div class="pub-line-list">
 {% for publi in site.data.publist %}

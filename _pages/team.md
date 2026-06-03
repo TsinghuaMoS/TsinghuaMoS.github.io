@@ -6,254 +6,39 @@ sitemap: false
 permalink: /team/
 ---
 
-# Team Members
-(Please click the name below for the lab memeber's profile)
+{::nomarkdown}
+<section class="pub-page-head">
+  <p class="eyebrow">People</p>
+  <h1>Team</h1>
+  <p>Click a name to view a member profile.</p>
+</section>
 
+{% assign groups = "0,7,1,2,3,4,8" | split: "," %}
+{% assign group_names = "Principal Investigator,Researchers,PhD Students,MSc Students,Undergraduate Students,Interns,Alumni" | split: "," %}
 
----
-
-## Principal Investigator
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 0 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
----
-
-## Researchers
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 7 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
+{% for g in groups %}
+{% assign gid = g | plus: 0 %}
+{% assign has_members = false %}
+{% for member in site.data.team_members %}{% if member.group == gid %}{% assign has_members = true %}{% endif %}{% endfor %}
+{% if has_members %}
+<section class="team-section">
+  <h2 class="pub-section-title">{{ group_names[forloop.index0] }}</h2>
+  <div class="team-grid">
+  {% for member in site.data.team_members %}
+  {% if member.group == gid %}
+    <article class="team-card">
+      <a class="team-photo" href="{{ member.url }}">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
+      </a>
+      <div class="team-card-body">
+        <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
+        <p>{{ member.info }}</p>
+      </div>
+    </article>
+  {% endif %}
+  {% endfor %}
+  </div>
+</section>
 {% endif %}
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
----
-
-## PhD Students
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 1 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
----
-
-## MSc Students
-
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
----
-
-## Undergraduate Students
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 3 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
----
-
-## Interns
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 4 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
----
-
-## Alumni
-
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 8 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
-  <i>{{ member.info }}</i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-<!-- ---
-
-## Administrative Support
-Please contact our lab manager, <a href="mailto:Clif.Duhn@ucsf.edu">Clif Duhn</a>. -->
-
-
-
-
-
-
-
-
-
+{:/nomarkdown}

@@ -74,5 +74,9 @@ permalink: /
 <section class="support-note">
   <p class="eyebrow">Research Support</p>
   <p>Funding information for active MoS Lab projects will be updated here as new projects are announced.</p>
+  <div class="funding-logos">
+    <img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China">
+    <img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance">
+  </div>
 </section>
 {:/nomarkdown}

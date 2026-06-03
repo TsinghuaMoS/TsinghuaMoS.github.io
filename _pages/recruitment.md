@@ -6,6 +6,8 @@ sitemap: false
 permalink: /recruitment/
 ---
 
+<p class="eyebrow">Opportunities</p>
+
 # Join Us
 
 MoS Lab welcomes highly motivated students and collaborators interested in resilient, intelligent, and sustainable transportation systems.
