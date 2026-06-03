@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Baichuan Mo
-position: Assistant Professor (Tenure-Track), Department of Transportation Engineering, Tsinghua University
+position: Assistant Professor (Tenure-Track)<br>Department of Transportation Engineering, Tsinghua University
 handle: baichuan_mo
 email: 
 twitter:
@@ -14,7 +14,7 @@ cv_cn: /cv/CV_Baichuan_CN.pdf
 ---
 
 ### Overview
-Dr. Baichuan Mo is the Principal Investigator of MoS Lab. His research focuses on resilient and intelligent transportation systems, with applications in public transit operations, passenger behavior modeling, mobility demand prediction, incident-aware control strategy design, and interactions between public transit and emerging mobility services.
+Dr. Baichuan Mo is an Assistant Professor in the Department of Transportation Engineering, Tsinghua University, and the Principal Investigator of MoS Lab. His research focuses on resilient and intelligent transportation systems, with applications in public transit operations, passenger behavior modeling, mobility demand prediction, incident-aware control strategy design, and interactions between public transit and emerging mobility services.
 
 His work combines optimization, probability and statistics, machine learning, econometrics, and game theory to support data-driven decision-making in urban mobility systems.
 
