@@ -44,8 +44,10 @@ permalink: /
 </section>
 
 <div class="featured-grid">
-{% assign featured_pubs = site.data.publist | where_exp: "p", "p.featured and p.feature_image and p.feature_image != ''" | sort: "year" | reverse %}
-{% for item in featured_pubs limit:4 %}
+{% assign featured_count = 0 %}
+{% assign sorted_pubs = site.data.publist | sort: "year" | reverse %}
+{% for item in sorted_pubs %}
+{% if item.featured and item.feature_image and item.feature_image != "" and featured_count < 4 %}
 {% if item.pdf_url and item.pdf_url != "" %}{% assign flink = item.pdf_url | relative_url %}{% else %}{% assign flink = item.external_url %}{% endif %}
   <article class="feature-card">
     <a class="feature-image" href="{{ flink }}">
@@ -58,6 +60,8 @@ permalink: /
       <a class="text-link" href="{{ flink }}">Read paper</a>
     </div>
   </article>
+{% assign featured_count = featured_count | plus: 1 %}
+{% endif %}
 {% endfor %}
 </div>
 
