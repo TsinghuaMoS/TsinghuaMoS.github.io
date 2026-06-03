@@ -12,7 +12,6 @@ permalink: /publications/
   <h1>Selected work from MoS Lab and collaborators.</h1>
   <p>Research spanning public transit resilience, travel behavior, robust learning, mobility AI, and sustainable urban systems.</p>
   <div class="pub-legend">
-    <span><strong>Baichuan Mo</strong> highlighted in author lists</span>
     <span><sup class="author-corresponding">*</sup> Corresponding author</span>
     <span><sup class="author-equal">&dagger;</sup> Equal contribution</span>
   </div>
