@@ -14,6 +14,8 @@ permalink: /contact/
 
 For research collaboration, student supervision, and prospective student inquiries, please contact [Dr. Baichuan Mo]({{ site.url }}{{ site.baseurl }}/team/baichuan_mo.html).
 
+**Email:** [mbcbmo@gmail.com](mailto:mbcbmo@gmail.com)
+
 # Location
 
 MoS Lab is based at Tsinghua University in Beijing, China.
@@ -44,6 +46,6 @@ Please prepare:
 - Publication list, if applicable.
 - A brief statement describing your research interests and how they connect with MoS Lab.
 
-Please contact [Dr. Baichuan Mo]({{ site.url }}{{ site.baseurl }}/team/baichuan_mo.html) with the materials above.
+Please email [Dr. Baichuan Mo](mailto:mbcbmo@gmail.com) at [mbcbmo@gmail.com](mailto:mbcbmo@gmail.com) with the materials above.
 
 </div>

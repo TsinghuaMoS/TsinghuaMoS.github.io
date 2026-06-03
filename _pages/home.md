@@ -18,6 +18,7 @@ permalink: /
     <div class="hero-actions">
       <a class="hero-button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
       <a class="hero-button" href="{{ '/publications/' | relative_url }}">View Publications</a>
+      <a class="hero-button" href="mailto:mbcbmo@gmail.com">Email Us</a>
     </div>
   </div>
 </section>
