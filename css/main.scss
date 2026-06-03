@@ -1190,3 +1190,27 @@ a:focus {
   font-weight: 800;
   letter-spacing: 0.02em;
 }
+
+/* Collaborating institution logos */
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 34px;
+  margin-top: 16px;
+}
+.partner-logos img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  filter: grayscale(100%);
+  opacity: 0.78;
+  transition: filter 0.15s ease, opacity 0.15s ease;
+}
+.partner-logos img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}

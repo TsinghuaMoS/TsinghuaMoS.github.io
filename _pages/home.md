@@ -79,4 +79,19 @@ permalink: /
     <img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance">
   </div>
 </section>
+
+<section class="support-note">
+  <p class="eyebrow">Collaborating Institutions</p>
+  <div class="partner-logos">
+    <img src="{{ '/images/partners/mit.png' | relative_url }}" alt="Massachusetts Institute of Technology">
+    <img src="{{ '/images/partners/northeastern.png' | relative_url }}" alt="Northeastern University">
+    <img src="{{ '/images/partners/uc_berkeley.png' | relative_url }}" alt="UC Berkeley">
+    <img src="{{ '/images/partners/hku.png' | relative_url }}" alt="The University of Hong Kong">
+    <img src="{{ '/images/partners/pku.png' | relative_url }}" alt="Peking University">
+    <img src="{{ '/images/partners/tongji.png' | relative_url }}" alt="Tongji University">
+    <img src="{{ '/images/partners/kth.png' | relative_url }}" alt="KTH Royal Institute of Technology">
+    <img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University">
+    <img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore">
+  </div>
+</section>
 {:/nomarkdown}
