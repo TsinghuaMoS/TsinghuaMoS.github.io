@@ -117,13 +117,24 @@ permalink: /publications/
   var toggle = document.getElementById('featured-toggle');
   if (toggle) {
     toggle.addEventListener('click', function () {
-      var on = document.body.classList.toggle('show-featured-only');
+      var on = !document.body.classList.contains('show-featured-only');
+      document.body.classList.toggle('show-featured-only', on);
       toggle.setAttribute('aria-pressed', String(on));
-      // Hide journal year-groups that have no featured paper; expand the rest
+      toggle.textContent = on ? '★ Showing featured ✕' : '★ Featured only';
+      // Hide every non-featured journal card
+      document.querySelectorAll('.pub-card').forEach(function (c) {
+        c.style.display = (on && !c.classList.contains('pub-card-featured')) ? 'none' : '';
+      });
+      // Hide year groups with no featured paper; expand the rest
       document.querySelectorAll('.pub-year-group').forEach(function (group) {
         var hasFeatured = group.querySelector('.pub-card-featured');
         group.style.display = (on && !hasFeatured) ? 'none' : '';
         if (on && hasFeatured) group.classList.remove('is-collapsed');
+      });
+      // Hide the Conference and Working sections (no featured papers there)
+      ['conference', 'working'].forEach(function (id) {
+        var s = document.getElementById(id);
+        if (s) s.style.display = on ? 'none' : '';
       });
     });
   }
