@@ -6,6 +6,8 @@ sitemap: false
 permalink: /contact/
 ---
 
+<div class="content-panel" markdown="1">
+
 <p class="eyebrow">Get in touch</p>
 
 # Contact
@@ -15,6 +17,12 @@ For research collaboration, student supervision, and prospective student inquiri
 # Location
 
 MoS Lab is based at Tsinghua University in Beijing, China.
+
+</div>
+
+<div class="content-panel" markdown="1">
+
+<p class="eyebrow">Opportunities</p>
 
 # Join Us
 
@@ -37,3 +45,5 @@ Please prepare:
 - A brief statement describing your research interests and how they connect with MoS Lab.
 
 Please contact [Dr. Baichuan Mo]({{ site.url }}{{ site.baseurl }}/team/baichuan_mo.html) with the materials above.
+
+</div>
