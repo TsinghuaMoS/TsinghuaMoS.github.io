@@ -31,7 +31,7 @@
   year: 2026
   type: 2
   paper_type: 'J'
-  category: 'Mobility Systems'
+  category: 'Mobility AI'
   category_label: 'Journal Article'
   venue: 'European Transport Research Review'
   issue_page: ''
@@ -56,7 +56,7 @@
   year: 2026
   type: 2
   paper_type: 'J'
-  category: 'Sustainable and Resilient Cities'
+  category: 'Sustainable Urban Systems'
   category_label: 'Journal Article'
   venue: 'Reliability Engineering and System Safety'
   issue_page: '272, 112579'
@@ -81,7 +81,7 @@
   year: 2025
   type: 2
   paper_type: 'J'
-  category: 'Sustainable and Resilient Cities'
+  category: 'Sustainable Urban Systems'
   category_label: 'Journal Article'
   venue: 'Nature Sustainability'
   issue_page: '8, 1259-1269'
@@ -156,7 +156,7 @@
   year: 2025
   type: 2
   paper_type: 'J'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Journal Article'
   venue: 'Transportation'
   issue_page: '52 (1), 263-286'
@@ -328,7 +328,7 @@
   year: 2024
   type: 2
   paper_type: 'J'
-  category: 'Sustainable and Resilient Cities'
+  category: 'Sustainable Urban Systems'
   category_label: 'Journal Article'
   venue: 'Travel Behaviour and Society'
   issue_page: '34, 100689'
@@ -353,7 +353,7 @@
   year: 2024
   type: 4
   paper_type: 'P'
-  category: 'Mobility Systems'
+  category: 'Mobility AI'
   category_label: 'Preprint / Working Paper'
   venue: 'arXiv preprint'
   issue_page: '2312.00819'
@@ -402,7 +402,7 @@
   year: 2023
   type: 2
   paper_type: 'J'
-  category: 'Mobility Systems'
+  category: 'Mobility AI'
   category_label: 'Journal Article'
   venue: 'Transportation Research Part E: Logistics and Transportation Review'
   issue_page: '175, 103168'
@@ -427,7 +427,7 @@
   year: 2023
   type: 2
   paper_type: 'J'
-  category: 'Mobility Systems'
+  category: 'Mobility AI'
   category_label: 'Journal Article'
   venue: 'IEEE Internet of Things Journal'
   issue_page: '10 (11), 9565-9584'
@@ -452,7 +452,7 @@
   year: 2023
   type: 1
   paper_type: 'C'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Conference Paper'
   venue: 'Transportation Research Board 102th Annual Meeting (TRB 2023)'
   issue_page: 'Oral Presentation'
@@ -551,7 +551,7 @@
   year: 2022
   type: 2
   paper_type: 'J'
-  category: 'Mobility Systems'
+  category: 'Mobility AI'
   category_label: 'Journal Article'
   venue: 'IEEE Transactions on Intelligent Transportation Systems'
   issue_page: '23 (12), 23231-23243'
@@ -675,7 +675,7 @@
   year: 2021
   type: 2
   paper_type: 'J'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Journal Article'
   venue: 'Transportation Research Part C: Emerging Technologies'
   issue_page: '130, 103281'
@@ -725,7 +725,7 @@
   year: 2021
   type: 2
   paper_type: 'J'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Journal Article'
   venue: 'Transportation Research Part A: Policy and Practice'
   issue_page: '148, 445-469'
@@ -799,7 +799,7 @@
   year: 2020
   type: 2
   paper_type: 'J'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Journal Article'
   venue: 'Computer‐Aided Civil and Infrastructure Engineering'
   issue_page: '35 (7), 734-752'
@@ -898,7 +898,7 @@
   year: 2020
   type: 1
   paper_type: 'C'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Conference Paper'
   venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
   issue_page: 'Poster Presentation'
@@ -970,7 +970,7 @@
   year: 2019
   type: 1
   paper_type: 'C'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Conference Paper'
   venue: 'Transportation Research Board 98th Annual Meeting (TRB 2019)'
   issue_page: 'Poster Presentation'
@@ -994,7 +994,7 @@
   year: 2018
   type: 2
   paper_type: 'J'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Journal Article'
   venue: 'Transportation Research Record'
   issue_page: '2672 (6), 40-51'
@@ -1019,7 +1019,7 @@
   year: 2018
   type: 1
   paper_type: 'C'
-  category: 'Travel Behavior and Demand'
+  category: 'Travel Behavior & Demand'
   category_label: 'Conference Paper'
   venue: 'Transportation Research Board 97th Annual Meeting (TRB 2018)'
   issue_page: 'Oral Presentation'
@@ -1043,7 +1043,7 @@
   year: 2017
   type: 2
   paper_type: 'J'
-  category: 'Mobility Systems'
+  category: 'Mobility AI'
   category_label: 'Journal Article'
   venue: 'Transportation Research Part C: Emerging Technologies'
   issue_page: '82, 358-378'

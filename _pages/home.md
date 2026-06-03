@@ -17,7 +17,7 @@ permalink: /
     <p class="hero-lede">MoS Lab develops models, algorithms, and data-driven tools for public transit operations, passenger behavior, mobility demand, urban resilience, and sustainable transportation policy.</p>
     <div class="hero-actions">
       <a class="hero-button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
-      <a class="hero-button" href="{{ '/research/' | relative_url }}">View Publications</a>
+      <a class="hero-button" href="{{ '/publications/' | relative_url }}">View Publications</a>
     </div>
   </div>
 </section>

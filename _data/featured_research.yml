@@ -19,7 +19,7 @@
   description: "Estimates urban rail passenger path choices from smart card data via an aggregated time-space hypernetwork."
 
 - title: "Housing exchange to reduce commuting emissions"
-  theme: "Sustainable Mobility"
+  theme: "Sustainable Urban Systems"
   image: "/images/featured/housing_commute.png"
   alt: "Commuting patterns in Beijing, Munich, and Singapore before and after housing exchange (Figure 2, Nature Sustainability)"
   paper: "Housing exchange framework to reduce carbon emissions from commuting"
