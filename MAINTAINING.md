@@ -47,7 +47,7 @@ It rewrites every title to sentence case and is **idempotent** (already-correct 
    - `if_sci`, `representative`, `first_author`.
    - `featured` + `feature_image` — see step 3.
 2. **PDF** — add the file under `documents/publication/`; reference it from `pdf_url`.
-3. **Feature it (optional)** — set `featured: true` and `feature_image: /images/featured/<name>.png`, add a matching card to `_data/featured_research.yml`, and put a **real figure from the paper** in `images/featured/`. Featured papers should be Baichuan-Mo first/co-first authored.
+3. **Feature it (optional)** — set `featured: true`, add `feature_image: /images/featured/<name>.png` (a **real figure from the paper**, placed in `images/featured/`), and optionally `feature_title`, `feature_description`, `feature_alt` for nicer card copy (otherwise the card falls back to the paper title). The Home and Research **Featured Research** grids automatically show the **4 most recent** `featured: true` papers — no separate file to edit and no need to pick which four. Featured papers should be Baichuan-Mo first/co-first authored.
 4. **News** — add a line to `_data/news.yml`.
 5. **CV** — add the row to `documents/papers.xlsx` (the CV's data source), then rebuild both CVs (see README → CV) and place the PDFs at `cv/CV_Baichuan_EN.pdf` and `cv/CV_Baichuan_CN.pdf`.
 6. **Commit & push** — pushing to `main` rebuilds and deploys via GitHub Actions.

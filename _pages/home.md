@@ -44,16 +44,18 @@ permalink: /
 </section>
 
 <div class="featured-grid">
-{% for item in site.data.featured_research %}
+{% assign featured_pubs = site.data.publist | where_exp: "p", "p.featured" | sort: "year" | reverse %}
+{% for item in featured_pubs limit:4 %}
+{% if item.pdf_url and item.pdf_url != "" %}{% assign flink = item.pdf_url | relative_url %}{% else %}{% assign flink = item.external_url %}{% endif %}
   <article class="feature-card">
-    <a class="feature-image" href="{{ item.paper_url | relative_url }}">
-      <img src="{{ item.image | relative_url }}" alt="{{ item.alt }}">
+    <a class="feature-image" href="{{ flink }}">
+      <img src="{{ item.feature_image | relative_url }}" alt="{{ item.feature_alt | default: item.title }}">
     </a>
     <div class="feature-body">
-      <span>{{ item.theme }}</span>
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
-      <a class="text-link" href="{{ item.paper_url | relative_url }}">Read paper</a>
+      <span>{{ item.category }}</span>
+      <h3>{{ item.feature_title | default: item.title }}</h3>
+      <p>{{ item.feature_description }}</p>
+      <a class="text-link" href="{{ flink }}">Read paper</a>
     </div>
   </article>
 {% endfor %}
