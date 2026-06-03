@@ -1082,7 +1082,8 @@ a:focus {
   font-size: 17px; font-weight: 800; color: #159895;
   margin: 18px 0 8px 0;
 }
-#textid p, #textid li { color: #44536a; font-size: 16px; line-height: 1.65; }
+#textid p:not(.eyebrow), #textid li { color: #44536a; font-size: 16px; line-height: 1.65; }
+#textid .eyebrow, #gridid .eyebrow { color: #159895; }
 #textid ul { padding-left: 20px; }
 #textid li { margin-bottom: 6px; }
 
@@ -1140,4 +1141,11 @@ a:focus {
 
 @media (max-width: 768px) {
   .team-grid { grid-template-columns: 1fr; }
+}
+
+.team-empty {
+  color: #94a3b8;
+  font-size: 15px;
+  font-style: italic;
+  margin: 4px 0 6px 0;
 }

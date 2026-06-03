@@ -124,8 +124,8 @@
   if_sci: true
   representative: true
   first_author: true
-  featured: true
-  feature_image: '/images/featured/robust_logit.png'
+  featured: false
+  feature_image: ''
 
 - title: 'Individual path recommendation under public transit service disruptions considering behavior uncertainty'
   year: 2025
@@ -420,8 +420,8 @@
   if_sci: true
   representative: false
   first_author: true
-  featured: false
-  feature_image: ''
+  featured: true
+  feature_image: '/images/featured/lastmile_delivery.png'
 
 - title: 'Proof of Travel for Trust-Based Data Validation in V2I Communication'
   year: 2023

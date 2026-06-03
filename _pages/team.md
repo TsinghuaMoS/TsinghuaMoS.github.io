@@ -20,9 +20,9 @@ permalink: /team/
 {% assign gid = g | plus: 0 %}
 {% assign has_members = false %}
 {% for member in site.data.team_members %}{% if member.group == gid %}{% assign has_members = true %}{% endif %}{% endfor %}
-{% if has_members %}
 <section class="team-section">
   <h2 class="pub-section-title">{{ group_names[forloop.index0] }}</h2>
+  {% if has_members %}
   <div class="team-grid">
   {% for member in site.data.team_members %}
   {% if member.group == gid %}
@@ -38,7 +38,9 @@ permalink: /team/
   {% endif %}
   {% endfor %}
   </div>
+  {% else %}
+  <p class="team-empty">We are recruiting. See the <a href="{{ '/recruitment/' | relative_url }}">Join Us</a> page.</p>
+  {% endif %}
 </section>
-{% endif %}
 {% endfor %}
 {:/nomarkdown}

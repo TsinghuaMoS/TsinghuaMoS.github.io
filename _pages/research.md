@@ -1,6 +1,6 @@
 ---
 title: "MoS Lab - Research"
-layout: textlay
+layout: gridlay
 excerpt: "MoS Lab -- Research"
 sitemap: false
 permalink: /research/
