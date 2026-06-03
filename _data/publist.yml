@@ -420,7 +420,7 @@
   impact_factor: '10.6'
   cas_quartile: 'Q1 Top'
   if_sci: true
-  representative: false
+  representative: true
   first_author: true
   featured: true
   feature_image: '/images/featured/lastmile_delivery.png'
