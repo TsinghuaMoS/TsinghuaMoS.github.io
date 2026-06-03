@@ -24,6 +24,8 @@ permalink: /publications/
 {% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017" | split: "," %}
 
 <!-- Journal Articles: cards grouped by year, with jump-nav and collapsible year groups -->
+{% assign journal_total = site.data.publist | where: "type", 2 | size %}
+{% assign jnum = journal_total %}
 <section class="publication-list">
   <h2 class="pub-section-title">Journal Articles</h2>
 
@@ -55,7 +57,8 @@ permalink: /publications/
     <div class="pub-year-body">
   {% for publi in site.data.publist %}
   {% if publi.year == date and publi.type == 2 %}
-  {% include publication_card.html pub=publi %}
+  {% include publication_card.html pub=publi num=jnum %}
+  {% assign jnum = jnum | minus: 1 %}
   {% endif %}
   {% endfor %}
     </div>
