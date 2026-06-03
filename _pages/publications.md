@@ -18,7 +18,7 @@ permalink: /publications/
 </section>
 
 <section class="full-list-note">
-  <p>For citation counts and the most current indexing, please visit <a class="regtext" href="https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en">Google Scholar</a>.</p>
+  <p>For the most recent publication list, please visit <a href="https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en"><strong><i class="ai ai-google-scholar"></i> Google Scholar</strong></a>.</p>
 </section>
 
 {% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017" | split: "," %}
