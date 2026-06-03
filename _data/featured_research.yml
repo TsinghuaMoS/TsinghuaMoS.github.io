@@ -2,7 +2,7 @@
 # Images are real figures taken from each paper's PDF (or, for the EJOR paper that
 # contains no figures, a chart built from the paper's own reported results).
 
-- title: "Transit disruption response"
+- title: "Individual path recommendation under transit disruptions"
   theme: "Public Transit Resilience"
   image: "/images/featured/path_recommendation.png"
   alt: "Schematic of the individual path recommendation problem on a disrupted rail and bus network (Figure 1, Transportation Science)"
@@ -26,7 +26,7 @@
   paper_url: "/documents/publication/Housing%20exchange%20framework%20to%20reduce%20.pdf"
   description: "Uses household-level housing exchange strategies to reduce excess commuting emissions."
 
-- title: "Robust mobility AI"
+- title: "Robust logit models under data uncertainty"
   theme: "Mobility AI"
   image: "/images/featured/robust_logit.png"
   alt: "Out-of-sample classification accuracy of robust vs. standard logit models under data uncertainty (results from Tables 2 and 4, EJOR)"
