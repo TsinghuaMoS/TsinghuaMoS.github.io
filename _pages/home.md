@@ -12,8 +12,8 @@ permalink: /
 <section class="lab-hero">
   <img class="lab-hero-bg" src="{{ '/images/hero/urban_network.jpg' | relative_url }}" alt="">
   <div class="lab-hero-copy">
-    <p class="eyebrow">Tsinghua Mobility Science Lab</p>
-    <h1>Tsinghua Mobility Science Lab</h1>
+    <p class="eyebrow">Tsinghua University</p>
+    <h1>Mobility Science Lab at Tsinghua University</h1>
     <p class="hero-lede">MoS Lab develops models, algorithms, and data-driven tools for public transit operations, passenger behavior, mobility demand, urban resilience, and sustainable transportation policy.</p>
     <div class="hero-actions">
       <a class="hero-button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
