@@ -35,8 +35,8 @@ permalink: /team/
         <p>{{ member.info }}</p>
         {% if member.cv_en != nil and member.cv_en != "" or member.cv_cn != nil and member.cv_cn != "" %}
         <p class="team-cv">
-          {% if member.cv_en and member.cv_en != "" %}<a href="{{ member.cv_en | relative_url }}" download title="Download CV (English)"><i class="fa fa-file-pdf"></i> CV (EN)</a>{% endif %}
-          {% if member.cv_cn and member.cv_cn != "" %}<a href="{{ member.cv_cn | relative_url }}" download title="下载简历（中文）"><i class="fa fa-file-pdf"></i> CV (中文)</a>{% endif %}
+          {% if member.cv_en and member.cv_en != "" %}<a href="{{ member.cv_en | relative_url }}" target="_blank" rel="noopener" title="View CV (English)"><i class="fa fa-file-pdf"></i> CV (EN)</a>{% endif %}
+          {% if member.cv_cn and member.cv_cn != "" %}<a href="{{ member.cv_cn | relative_url }}" target="_blank" rel="noopener" title="查看简历（中文）"><i class="fa fa-file-pdf"></i> CV (中文)</a>{% endif %}
         </p>
         {% endif %}
       </div>
