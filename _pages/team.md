@@ -33,6 +33,7 @@ permalink: /team/
       <div class="team-card-body">
         <h3><a href="{{ member.url }}">{{ member.name }}</a></h3>
         <p>{{ member.info }}</p>
+        {% if member.affiliation %}<p class="team-affil">{{ member.affiliation }}</p>{% endif %}
         {% if member.cv_en != nil and member.cv_en != "" or member.cv_cn != nil and member.cv_cn != "" %}
         <p class="team-cv">
           {% if member.cv_en and member.cv_en != "" %}<a href="{{ member.cv_en | relative_url }}" target="_blank" rel="noopener" title="View CV (English)"><i class="fa fa-file-pdf"></i> CV (EN)</a>{% endif %}

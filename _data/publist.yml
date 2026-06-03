@@ -45,7 +45,7 @@
   external_label: 'DOI'
   code_url: ''
   impact_factor: '4.2'
-  cas_quartile: ''
+  cas_quartile: 'Q3'
   if_sci: true
   representative: false
   first_author: false
