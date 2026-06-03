@@ -9,7 +9,7 @@ permalink: /
 {% assign journal_count = site.data.publist | where: "type", 2 | size %}
 
 {::nomarkdown}
-<a class="notice-banner" href="{{ '/admission/' | relative_url }}">📢 We're hiring! MoS Lab 2027 级博士招生进行中 —— 查看招生信息 →</a>
+<a class="notice-banner" href="{{ '/admission/' | relative_url }}">📢 We're hiring! MoS Lab 2027 级招生进行中 —— 查看招生信息 →</a>
 
 <section class="lab-hero">
   <img class="lab-hero-bg" src="{{ '/images/hero/urban_network.jpg' | relative_url }}" alt="">
