@@ -12,7 +12,7 @@ permalink: /
 <section class="lab-hero">
   <img class="lab-hero-bg" src="{{ '/images/hero/urban_network.jpg' | relative_url }}" alt="">
   <div class="lab-hero-copy">
-    <p class="eyebrow">Tsinghua University</p>
+    <p class="eyebrow">MoS Lab</p>
     <h1>Mobility Science Lab at Tsinghua University</h1>
     <p class="hero-lede">MoS Lab develops models, algorithms, and data-driven tools for public transit operations, passenger behavior, mobility demand, urban resilience, and sustainable transportation policy.</p>
     <div class="hero-actions">
@@ -73,7 +73,6 @@ permalink: /
 
 <section class="support-note">
   <p class="eyebrow">Research Support</p>
-  <p>Funding information for active MoS Lab projects will be updated here as new projects are announced.</p>
   <div class="funding-logos">
     <img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China">
     <img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance">
