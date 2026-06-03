@@ -6,6 +6,8 @@ sitemap: false
 permalink: /contact/
 ---
 
+<a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/admission">📢 MoS Lab 2027 级博士招生进行中 —— 查看招生信息 →</a>
+
 <div class="content-panel" markdown="1">
 
 <p class="eyebrow">Get in touch</p>

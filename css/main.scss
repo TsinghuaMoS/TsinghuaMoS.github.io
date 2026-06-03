@@ -1237,3 +1237,22 @@ a:focus {
 body.show-featured-only .pub-card:not(.pub-card-featured) { display: none; }
 body.show-featured-only #conference,
 body.show-featured-only #working { display: none; }
+
+/* Admission notice banner */
+.notice-banner {
+  display: block;
+  margin: 0 0 22px 0;
+  padding: 14px 20px;
+  border: 1px solid #cdbef3;
+  border-radius: 10px;
+  background: #f1ecfb;
+  color: #4f3aa7;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(79, 58, 167, 0.10);
+}
+.notice-banner:hover {
+  background: #e7defb;
+  color: #4f3aa7;
+  text-decoration: none;
+}
