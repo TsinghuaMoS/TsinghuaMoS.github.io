@@ -13,6 +13,7 @@ permalink: /research/
   <p>The Tsinghua Mobility Science (MoS) Lab studies how people, infrastructure, and policy interact across transportation systems, especially under uncertainty, disruption, and rapid urban change.</p>
 </section>
 
+<h2 class="pub-section-title">Featured Research</h2>
 <div class="featured-grid research-featured">
 {% for item in site.data.featured_research %}
   <article class="feature-card">
@@ -28,6 +29,7 @@ permalink: /research/
 {% endfor %}
 </div>
 
+<h2 class="pub-section-title">Research Areas</h2>
 <section class="research-pillars">
   <article>
     <span>01</span>
