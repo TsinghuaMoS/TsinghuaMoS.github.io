@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Baichuan Mo
-position: Assistant Professor (Tenure-Track) & Principal Investigator, Department of Transportation Engineering, Tsinghua University
+position: Assistant Professor (Tenure-Track), Department of Transportation Engineering, Tsinghua University
 handle: baichuan_mo
 email: 
 twitter:

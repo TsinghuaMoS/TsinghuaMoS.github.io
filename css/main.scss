@@ -1100,7 +1100,7 @@ a:focus {
 }
 .team-card {
   display: flex; align-items: center; gap: 14px;
-  padding: 16px;
+  padding: 24px 18px;
   background: #ffffff;
   border: 1px solid #e1e7f0;
   border-radius: 10px;
@@ -1155,7 +1155,7 @@ a:focus {
 }
 
 .team-cv {
-  margin: 8px 0 0 0;
+  margin: 16px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
