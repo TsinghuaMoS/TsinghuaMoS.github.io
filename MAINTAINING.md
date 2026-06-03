@@ -17,6 +17,14 @@ Examples:
 - ✅ `SCOPE-MoE: Supply chain forecasting with a pretrained MoE-based large time series model in e-commerce`
 - ❌ `Modeling Epidemic Spreading Through Public Transit Using Time-Varying Encounter Network` (Title Case — don't use)
 
+Don't hand-fix casing — after editing `_data/publist.yml`, just run:
+
+```
+python3 scripts/sentence_case_titles.py
+```
+
+It rewrites every title to sentence case and is **idempotent** (already-correct titles are left alone, so re-running it after adding a new paper only normalizes the new entry). Genuine proper nouns are kept via the `PROPER` set, and acronyms (all-caps, internal caps, or containing digits — `IEEE`, `MoE`, `V2I`, `COVID-19`) are auto-detected; add new proper nouns to `PROPER` in that script if needed.
+
 (The LaTeX CV applies its own Title Case via `cv/A01_common_func.py` → `title_case()`; the `words_map` there is the source of truth for special tokens like `COVID-19`, `V2I`, `TimeMixer++`, `SCOPE-MoE`, `MoE-Based`.)
 
 ## Adding a new publication — checklist
