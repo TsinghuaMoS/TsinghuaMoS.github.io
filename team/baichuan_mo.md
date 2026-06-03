@@ -8,8 +8,9 @@ twitter:
 github: 
 scholar: ORhrfXoAAAAJ
 photo: baichuan_mo.jpg
-web: https://www.mit.edu/~baichuan/
-resume: ../cv/CV_Baichuan_CN.pdf
+linkedin: baichuan-mo-46771a110
+cv_en: /cv/CV_Baichuan_EN.pdf
+cv_cn: /cv/CV_Baichuan_CN.pdf
 ---
 
 ### Overview
@@ -40,7 +41,8 @@ Please refer to the [google scholar](https://scholar.google.com/citations?user=O
 
 ### Work Experience
 - [TikTok](https://www.tiktok.com/)
-  - Senior Machine Learning Scientist, *Dec 2023 - Present*
+  - Staff Machine Learning Scientist & Tech Lead, *Aug 2025 - Jul 2026*
+  - Senior Machine Learning Scientist, *Dec 2023 - Aug 2025*
 - [Lyft](https://www.lyft.com/)
   - Senior Research Scientist, *Oct 2022 - Dec 2023*
   - Research Scientist, *Sep. 2022 - Oct 2023*
