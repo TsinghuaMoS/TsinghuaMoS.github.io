@@ -1217,3 +1217,14 @@ a:focus {
   font-size: 13px;
   line-height: 1.4;
 }
+
+/* Featured-only filter on the publications page */
+.pub-featured-toggle { cursor: pointer; }
+.pub-featured-toggle[aria-pressed="true"] {
+  background: #4f3aa7 !important;
+  color: #ffffff !important;
+  border-color: #4f3aa7 !important;
+}
+body.show-featured-only .pub-card:not(.pub-card-featured) { display: none; }
+body.show-featured-only #conference,
+body.show-featured-only #working { display: none; }
