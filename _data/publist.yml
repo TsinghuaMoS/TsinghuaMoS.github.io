@@ -177,7 +177,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Simulation-Based Optimization for Vertiport Location Selection: A Surrogate Model With Machine Learning Method'
+- title: 'Simulation-based optimization for vertiport location selection: A surrogate model with machine learning method'
   year: 2025
   type: 2
   paper_type: 'J'
@@ -202,7 +202,7 @@
   featured: false
   feature_image: ''
 
-- title: 'SCOPE-MoE: Supply Chain Forecasting with a Pretrained MoE-Based Large Time Series Model in E-Commerce'
+- title: 'SCOPE-MoE: Supply chain forecasting with a pretrained MoE-based large time series model in e-commerce'
   year: 2025
   type: 1
   paper_type: 'C'
@@ -226,7 +226,7 @@
   featured: false
   feature_image: ''
 
-- title: 'TimeMixer++: A General Time Series Pattern Machine for Universal Predictive Analysis'
+- title: 'TimeMixer++: A general time series pattern machine for universal predictive analysis'
   year: 2025
   type: 1
   paper_type: 'C'
@@ -250,7 +250,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Robust Transit Frequency Setting Problem With Demand Uncertainty'
+- title: 'Robust transit frequency setting problem with demand uncertainty'
   year: 2024
   type: 2
   paper_type: 'J'
@@ -275,7 +275,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Robust Reinforcement Learning Strategies with Evolving Curriculum for Efficient Bus Operations in Smart Cities'
+- title: 'Robust reinforcement learning strategies with evolving curriculum for efficient bus operations in smart cities'
   year: 2024
   type: 2
   paper_type: 'J'
@@ -448,7 +448,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Individual Longitudinal Adoption Pattern Analysis under Fare Incentives Using Smart Card Data'
+- title: 'Individual longitudinal adoption pattern analysis under fare incentives using smart card data'
   year: 2023
   type: 1
   paper_type: 'C'
@@ -597,7 +597,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Robust Path Recommendations During Public Transit Disruptions Under Demand Uncertainty'
+- title: 'Robust path recommendations during public transit disruptions under demand uncertainty'
   year: 2022
   type: 1
   paper_type: 'C'
@@ -621,7 +621,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Modeling Epidemic Spreading through Public Transit Using Time-Varying Encounter Network'
+- title: 'Modeling epidemic spreading through public transit using time-varying encounter network'
   year: 2021
   type: 2
   paper_type: 'J'
@@ -746,7 +746,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Calibrating Path Choices and Train Capacities for Urban Rail Transit Simulation Models Using Smart Card and Train Movement Data'
+- title: 'Calibrating path choices and train capacities for urban rail transit simulation models using smart card and train movement data'
   year: 2021
   type: 2
   paper_type: 'J'
@@ -771,7 +771,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Impact of Unplanned Rail Disruption on Urban Transit Systems'
+- title: 'Impact of unplanned rail disruption on urban transit systems'
   year: 2021
   type: 1
   paper_type: 'C'
@@ -870,7 +870,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Calibrating Route Choice for Urban Rail System: A Comparative Analysis Using Simulation-based Optimization Methods'
+- title: 'Calibrating route choice for urban rail system: A comparative analysis using simulation-based optimization methods'
   year: 2020
   type: 1
   paper_type: 'C'
@@ -894,7 +894,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Latent Attitudes of Existing Travel Modes on Autonomous Vehicle Adoption'
+- title: 'Latent attitudes of existing travel modes on autonomous vehicle adoption'
   year: 2020
   type: 1
   paper_type: 'C'
@@ -918,7 +918,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Network Performance Model for Urban Rail Systems'
+- title: 'Network performance model for urban rail systems'
   year: 2020
   type: 1
   paper_type: 'C'
@@ -942,7 +942,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Predicting Travel Mode Choice with 86 Machine Learning Classifiers: An Empirical Benchmark Study'
+- title: 'Predicting travel mode choice with 86 machine learning classifiers: An empirical benchmark study'
   year: 2020
   type: 1
   paper_type: 'C'
@@ -966,7 +966,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Built Environment and Autonomous Vehicle Mode Choice: A First-Mile Scenario in Singapore'
+- title: 'Built environment and autonomous vehicle mode choice: A first-mile scenario in Singapore'
   year: 2019
   type: 1
   paper_type: 'C'
@@ -1015,7 +1015,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Impact of Built Environment on First- and Last-mile Travel Mode Choice'
+- title: 'Impact of built environment on first- and last-mile travel mode choice'
   year: 2018
   type: 1
   paper_type: 'C'
@@ -1064,7 +1064,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Evaluation of Public Transit Systems under Short Random Service Suspensions: A Bulk-Service Queuing Approach'
+- title: 'Evaluation of public transit systems under short random service suspensions: A bulk-service queuing approach'
   year: null
   type: 4
   paper_type: 'P'
@@ -1088,7 +1088,7 @@
   featured: false
   feature_image: ''
 
-- title: 'Passenger Path Choice Estimation Using Smart Card Data: A Latent Class Approach with Panel Effects Across Days'
+- title: 'Passenger path choice estimation using smart card data: A latent class approach with panel effects across days'
   year: null
   type: 4
   paper_type: 'P'
