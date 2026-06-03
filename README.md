@@ -1,92 +1,130 @@
-# Tsinghua MoS Lab
+# Tsinghua Mobility Science (MoS) Lab
 
 <img src="images/lab_logo.jpg" width="450">
 
+Source for the Tsinghua Mobility Science (MoS) Lab website, a [Jekyll](https://jekyllrb.com/) site deployed with GitHub Pages at **https://tsinghuamos.github.io/**.
 
-## Usage
-### Add publications
-1. modify `data/publist.yml`
-1. add picture to `images/pubpic/`
+## Structure
 
-Follow:
-```yaml
-- title: "Z-GMOT with MA-SORT: Zero-shot Generic Multiple Object Tracking (GMOT) with Motion Appearance SORT (MA-SORT)"
-  image: k._tran_z_mot2024.png
-  description: 
-  authors: K. H. Tran, A. D. Le Dinh, T. P. Nguyen, T. Phan, P. Nguyen, K. Luu, D. Adjeroh, G. Doretto, N. Le
-  link:
-    url: https://fsoft-aic.github.io/Z-GMOT/
-    display: K. H. Tran, A. D. Le Dinh, T. P. Nguyen, T. Phan, P. Nguyen, K. Luu, D. Adjeroh, G. Doretto, N. Le, , 2024
-  type: 1
-  news2:
-  year: 2024
-```
+- `_pages/` — page content (`home`, `team`, `research`, `publications`, `contact`, `about`).
+- `_data/` — site data: `publist.yml`, `featured_research.yml`, `team_members.yml`, `news.yml`.
+- `_includes/`, `_layouts/` — templates (e.g. `publication_card.html`, `publication_line.html`).
+- `css/main.scss` — styles (compiled to `/css/main.css` by Jekyll).
+- `images/` — `featured/` (research figures), `funding/` (sponsor logos), `teampic/` (member photos), `hero/`.
+- `cv/` — LaTeX sources and scripts for the PI's CV (see below).
 
-The corresponding type is:
-- `1`: Conference Papers
-- `2`: Journal Papers
-- `3`: Patents
+Navigation: **Home · Team · Research · Publications · Contact**.
 
-### Add Research
-1. modify `data/research.yml`
-1. add picture to `images/respic/`
+## Local preview
 
-Follow:
-```yaml
-- title: "Robust Hand Detection and Classification in Vehicles and in the Wild."
-  image: Res_c_n_doung_ieee17.png
-  url: https://openaccess.thecvf.com/content_cvpr_2017_workshops/w13/html/Le_Robust_Hand_Detection_CVPR_2017_paper.html
-  description: C. N. Duong, K. G. Quach, K. Luu, N. Le, M. Savvides, IEEE, 2017
-  category: Computer Vision
-  subCategory: Image Understanding
-```
-
-### Add news
-1. modify `data/news.yml`
-1. add picture to `images/newspic/`
-
-Follow:
-```yaml
-- date: Dec 13th 2018
-  headline: "New paper! <a href='http://science.sciencemag.org/content/362/6420/eaat6576.long'> An et al. 2018 </a> published in Science, highlights the role of promoters in autism."
-
-```
-
-### Add team member
-1. modify `data/team_members.yml`
-1. add markdown file to `team/`
-1. add picture to `images/teampic/`
-
-or you can run:
 ```bash
-python add_member.py
+bundle install
+bundle exec jekyll serve
 ```
 
-The corresponding group is:
-- `0`: PI
-- `1`: Ph.D.
-- `2`: Masters students
-- `3`: Undergraduate students
-- `4`: Visiting scholar
-- `7`: Researcher
-- `8`: Alumni
+Deployment is automatic: pushing to `main` triggers the GitHub Actions workflow (`.github/workflows/jekyll.yml`), which builds the site and publishes it to GitHub Pages.
 
-Follow:
+## Editing content
+
+### Publications
+
+Edit `_data/publist.yml`. Each entry:
+
 ```yaml
-- name: Stephan Sanders
-  photo: stephansanders.jpg
-  info: Associate Professor
-  url: stephansanders
-  group: 0
+- title: 'Paper title'
+  year: 2025
+  type: 2                 # 1 = conference, 2 = journal, 4 = preprint / working paper
+  paper_type: 'J'
+  category: 'Mobility AI' # one of the four research directions (see below)
+  category_label: 'Journal Article'
+  venue: 'European Journal of Operational Research'
+  issue_page: '327 (2), 577-591'
+  venue_display: 'European Journal of Operational Research, 2025, 327 (2), 577-591'
+  authors_text: 'Baichuan Mo, Yunhan Zheng, ...'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yunhan Zheng</span><sup class="author-corresponding">*</sup>, ...'
+  corresponding_authors: 'Yunhan Zheng'
+  co_first_authors: ''
+  pdf_url: ''            # local PDF under /documents/publication/ (optional)
+  external_url: 'https://doi.org/...'   # paper title links here
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '6.0'
+  cas_quartile: 'Q2'    # CAS quartile badge, e.g. 'Q1 Top', 'Q2'; empty to hide
+  if_sci: true
+  representative: false
+  first_author: true
+  featured: false        # show as a Featured Research card
+  feature_image: ''
 ```
 
-### Add sponser
-1. add picture to `images/logopic/`
+Author markup: wrap the PI in `<strong class="author-me">...</strong>` (bold), the corresponding author in `<span class="author-corresponding-name">...</span><sup class="author-corresponding">*</sup>`, and equal-contribution authors with `<sup class="author-equal">&dagger;</sup>`. The title links to `external_url` (the published page); papers without one show a plain title.
 
-### Open positions
-- edit `_pages/recruitment.md`
+The four research directions used for `category`: **Public Transit Resilience**, **Travel Behavior & Demand**, **Mobility AI**, **Sustainable Urban Systems**.
+
+### Featured Research cards
+
+Edit `_data/featured_research.yml` and add the figure to `images/featured/`. Figures should be real images taken from the paper.
+
+```yaml
+- title: "Card title"
+  theme: "Mobility AI"
+  image: "/images/featured/example.png"
+  alt: "Figure description"
+  paper: "Full paper title"
+  paper_url: "/documents/publication/example.pdf"
+  description: "One-sentence summary."
+```
+
+### News
+
+Edit `_data/news.yml`:
+
+```yaml
+- date: 2026/03/16
+  headline: "New paper: <a href='...'>Title</a> appeared in Journal."
+```
+
+### Team members
+
+Edit `_data/team_members.yml`, add the photo to `images/teampic/`, and (for profiles) a markdown file in `team/`.
+
+```yaml
+- group: 0
+  info: Assistant Professor
+  name: Baichuan Mo
+  photo: baichuan_mo.jpg
+  url: /team/baichuan_mo.html
+  cv_cn: /cv/CV_Baichuan_CN.pdf   # optional CV links (open in browser)
+  cv_en: /cv/CV_Baichuan_EN.pdf
+```
+
+Groups: `0` Principal Investigator · `7` Researchers · `1` PhD Students · `2` MSc Students · `3` Undergraduate Students · `4` Interns · `8` Alumni. Empty groups still show their heading with a recruiting note.
+
+### Funding logos
+
+Add logo images to `images/funding/` and reference them in the Research Support section of `_pages/home.md`.
+
+## CV
+
+The PI's CV is built from LaTeX sources in `cv/`:
+
+- `cv/CV_Baichuan_Academia_EN/` — English CV (moderncv, XeLaTeX).
+- `cv/CV_Baichuan_CN/` — Chinese CV (XeLaTeX with Chinese fonts; needs the `ctex` package).
+- `A01`–`A04` Python scripts generate the publication sections and stats from `papers.xlsx`.
+
+To rebuild after updating publications:
+
+```bash
+cd cv
+cp /path/to/papers.xlsx .            # data source for the publication lists
+python3 A02_generate_CV_EN.py        # -> publication_EN.txt -> b02_publications.tex
+python3 A03_generate_CV_CN.py        # -> publication_CN.txt -> b_publication.tex
+# compile each CV with xelatex (run twice for counters), then place the PDFs:
+#   cv/CV_Baichuan_EN.pdf  and  cv/CV_Baichuan_CN.pdf
+```
+
+The Team page links to `cv/CV_Baichuan_CN.pdf` and `cv/CV_Baichuan_EN.pdf`.
 
 ## Acknowledgement
-Our website is based on the open source templates designed and shared by the labs of [D. Allan Drummond](http://www.allanlab.org/aboutwebsite.html), [Trevor Bedford](http://bedford.io/misc/about/), and modified by [Sanders Lab](https://github.com/sanderslab/sanderslab.github.io) and [AIVC Lab](https://github.com/UARK-AICV). We downloaded source codes from their repository and modified our contents based on shared templates. We greatly thank for this beaultiful codebase. 
 
-The website is deployed using GitHub Pages and the source code is available on GitHub. Please feel free to reuse this code (making sure to cite the Bedford lab and Drummond lab as the original sources of the lab website template).
+This site is built on the open-source academic lab website templates shared by the labs of [D. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](http://bedford.io/misc/about/), with later modifications. If you reuse this code, please credit the Drummond and Bedford labs as the original sources of the template.
