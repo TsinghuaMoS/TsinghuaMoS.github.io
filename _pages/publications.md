@@ -21,6 +21,16 @@ permalink: /publications/
   <p>For the most recent publication list, please visit <a href="https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en"><strong><i class="ai ai-google-scholar"></i> Google Scholar</strong></a>.</p>
 </section>
 
+<!-- Featured (representative) publications -->
+<section class="publication-list" id="featured">
+  <h2 class="pub-section-title">Featured Publications</h2>
+{% for publi in site.data.publist %}
+{% if publi.representative %}
+  {% include publication_card.html pub=publi %}
+{% endif %}
+{% endfor %}
+</section>
+
 {% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017" | split: "," %}
 
 <!-- Journal Articles: cards grouped by year, with jump-nav and collapsible year groups -->
@@ -31,6 +41,7 @@ permalink: /publications/
 
   <nav class="pub-year-nav" aria-label="Jump to year">
     <span class="pub-year-nav-label">Jump to:</span>
+    <a class="pub-year-nav-section" href="#featured">Featured ↑</a>
 {% for year in years %}
 {% assign date = year | plus: 0 %}
 {% assign containsJournal = false %}
