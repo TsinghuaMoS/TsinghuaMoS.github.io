@@ -1256,3 +1256,16 @@ body.show-featured-only #working { display: none; }
   color: #4f3aa7;
   text-decoration: none;
 }
+
+/* Advisor photo on the admission page */
+.advisor-photo {
+  float: right;
+  width: 200px;
+  height: auto;
+  margin: 0 0 16px 22px;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(35, 50, 77, 0.12);
+}
+@media (max-width: 640px) {
+  .advisor-photo { float: none; display: block; width: 160px; margin: 0 0 16px 0; }
+}
