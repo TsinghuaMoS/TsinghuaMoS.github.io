@@ -1258,14 +1258,15 @@ body.show-featured-only #working { display: none; }
 }
 
 /* Advisor photo on the admission page */
-.advisor-photo {
+.content-panel img.advisor-photo {
   float: right;
-  width: 200px;
-  height: auto;
-  margin: 0 0 16px 22px;
-  border-radius: 12px;
+  width: 130px !important;
+  height: 130px !important;
+  object-fit: cover;
+  margin: 0 0 14px 20px !important;
+  border-radius: 50%;
   box-shadow: 0 10px 28px rgba(35, 50, 77, 0.12);
 }
 @media (max-width: 640px) {
-  .advisor-photo { float: none; display: block; width: 160px; margin: 0 0 16px 0; }
+  .content-panel img.advisor-photo { float: none; display: block; margin: 0 0 14px 0 !important; }
 }
