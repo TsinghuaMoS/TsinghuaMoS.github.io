@@ -8,9 +8,12 @@
 # Site settings
 title: MoS Lab
 email: your-email@domain.com
-description: 
+description:
 baseurl: ""
 url: ""
+
+# Google Analytics 4 — paste your Measurement ID here (looks like G-XXXXXXXXXX)
+google_analytics: ""
 
 include:
   - .htaccess
