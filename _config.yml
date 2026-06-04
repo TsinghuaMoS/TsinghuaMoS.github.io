@@ -13,7 +13,7 @@ baseurl: ""
 url: ""
 
 # Google Analytics 4 — paste your Measurement ID here (looks like G-XXXXXXXXXX)
-google_analytics: ""
+google_analytics: "G-KQBZ47JKDZ"
 
 include:
   - .htaccess
