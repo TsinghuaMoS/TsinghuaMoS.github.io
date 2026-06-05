@@ -31,9 +31,10 @@ permalink: /zh/team/
   {% for member in site.data.team_members %}
   {% if member.group == gid %}
   {% case member.info %}{% when 'Assistant Professor' %}{% assign role_zh = '助理教授' %}{% when 'Research Affiliate' %}{% assign role_zh = '合作研究员' %}{% when 'Intern' %}{% assign role_zh = '实习生' %}{% else %}{% assign role_zh = member.info %}{% endcase %}
+  {% if member.group == 0 %}{% assign mlink = '/zh/team/baichuan_mo/' | relative_url %}{% else %}{% assign mlink = member.url %}{% endif %}
     <article class="team-card">
-      {% if member.url and member.url != "" %}
-      <a class="team-photo" href="{{ member.url }}">
+      {% if mlink and mlink != "" %}
+      <a class="team-photo" href="{{ mlink }}">
         <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
       </a>
       {% else %}
@@ -42,7 +43,7 @@ permalink: /zh/team/
       </span>
       {% endif %}
       <div class="team-card-body">
-        <h3>{% if member.url and member.url != "" %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
+        <h3>{% if mlink and mlink != "" %}<a href="{{ mlink }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
         <p>{{ role_zh }}</p>
         {% if member.affiliation %}<p class="team-affil">{{ member.affiliation }}</p>{% endif %}
         {% if member.cv_en != nil and member.cv_en != "" or member.cv_cn != nil and member.cv_cn != "" %}

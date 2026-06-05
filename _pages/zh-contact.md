@@ -18,7 +18,7 @@ permalink: /zh/contact/
 
 # 联系方式
 
-如需开展科研合作、学生指导，或有意向报考，请联系 [莫佰川老师]({{ site.url }}{{ site.baseurl }}/team/baichuan_mo.html)。
+如需开展科研合作、学生指导，或有意向报考，请联系 [莫佰川老师]({{ site.url }}{{ site.baseurl }}/zh/team/baichuan_mo/)。
 
 **邮箱：** [mbcbmo@gmail.com](mailto:mbcbmo@gmail.com)
 

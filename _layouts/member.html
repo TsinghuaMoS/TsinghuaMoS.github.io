@@ -3,6 +3,11 @@ layout: default
 ---
 
 {% assign member = page %}
+{% if member.lang == 'zh' %}
+{% assign label_web = '个人主页' %}{% assign label_scholar = 'Google Scholar' %}{% assign label_linkedin = '领英 LinkedIn' %}{% assign label_email = '邮箱' %}{% assign label_cv = '简历' %}{% assign label_cv_en = 'CV（英文）' %}{% assign label_cv_cn = '简历（中文）' %}
+{% else %}
+{% assign label_web = 'Personal Website' %}{% assign label_scholar = 'Google Scholar' %}{% assign label_linkedin = 'LinkedIn' %}{% assign label_email = 'Email' %}{% assign label_cv = 'Curriculum vitae' %}{% assign label_cv_en = 'CV (English)' %}{% assign label_cv_cn = 'CV (中文)' %}
+{% endif %}
 
 <div class="row">
 	<div class="col-sm-12">
@@ -33,7 +38,7 @@ layout: default
 
 		{% if member.web %}
 		<div class="smallhead">
-			Personal Website
+			{{ label_web }}
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
@@ -69,7 +74,7 @@ layout: default
 
 		{% if member.scholar %}
 		<div class="smallhead">
-			Google Scholar
+			{{ label_scholar }}
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
@@ -81,7 +86,7 @@ layout: default
 
 		{% if member.linkedin %}
 		<div class="smallhead">
-			LinkedIn
+			{{ label_linkedin }}
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
@@ -94,7 +99,7 @@ layout: default
 		{% if member.email %}
 		{% assign emailarray = member.email | split: '@' %}
 		<div class="smallhead">
-			Email
+			{{ label_email }}
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
@@ -106,14 +111,14 @@ layout: default
 
 		{% if member.cv_en or member.cv_cn %}
 		<div class="smallhead">
-			Curriculum vitae
+			{{ label_cv }}
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			{% if member.cv_en %}<i class="fa fa-file-pdf fa-fw"></i>
-			<a class="off" href="{{ member.cv_en | relative_url }}" target="_blank" rel="noopener">CV (English)</a><br>{% endif %}
+			<a class="off" href="{{ member.cv_en | relative_url }}" target="_blank" rel="noopener">{{ label_cv_en }}</a><br>{% endif %}
 			{% if member.cv_cn %}<i class="fa fa-file-pdf fa-fw"></i>
-			<a class="off" href="{{ member.cv_cn | relative_url }}" target="_blank" rel="noopener">CV (中文)</a>{% endif %}
+			<a class="off" href="{{ member.cv_cn | relative_url }}" target="_blank" rel="noopener">{{ label_cv_cn }}</a>{% endif %}
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}

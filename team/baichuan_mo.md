@@ -3,6 +3,9 @@ layout: member
 title: Baichuan Mo
 position: Assistant Professor (Tenure-Track)<br>Department of Transportation Engineering, Tsinghua University
 handle: baichuan_mo
+hreflang: true
+alt_en: /team/baichuan_mo.html
+alt_zh: /zh/team/baichuan_mo/
 email: 
 twitter:
 github: 
