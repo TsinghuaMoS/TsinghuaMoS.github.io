@@ -1,7 +1,7 @@
 ---
 title: "清华大学 MoS Lab｜出行科学与交通智能实验室"
 layout: homelay
-excerpt: "清华大学交通工程系 MoS Lab（出行科学实验室），由助理教授莫佰川负责，研究城市交通、公共交通韧性、出行行为与需求、交通机器学习与优化。"
+excerpt: "清华大学交通工程系 MoS Lab（交通科学实验室），由助理教授莫佰川负责，研究城市交通、公共交通韧性、出行行为与需求、交通机器学习与优化。"
 sitemap: true
 lang: zh
 hreflang: true
@@ -19,7 +19,7 @@ permalink: /zh/
   <img class="lab-hero-bg" src="{{ '/images/hero/urban_network.jpg' | relative_url }}" alt="">
   <div class="lab-hero-copy">
     <p class="eyebrow">清华大学 · MoS Lab</p>
-    <h1>清华大学出行科学实验室</h1>
+    <h1>清华大学交通科学实验室</h1>
     <p class="hero-lede">MoS Lab 致力于为公共交通运营、乘客行为、出行需求、城市韧性与可持续交通政策，研发模型、算法与数据驱动的决策工具。</p>
     <div class="hero-actions">
       <a class="hero-button primary" href="{{ '/zh/research/' | relative_url }}">研究方向</a>
