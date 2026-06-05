@@ -3,6 +3,7 @@ title: "MoS Lab - 2027招生"
 layout: textlay
 excerpt: "2027招生"
 sitemap: true
+lang: zh
 permalink: /admission/
 ---
 

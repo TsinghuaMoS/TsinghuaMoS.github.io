@@ -4,6 +4,9 @@ layout: textlay
 excerpt: "Contact."
 sitemap: true
 permalink: /contact/
+hreflang: true
+alt_en: "/contact/"
+alt_zh: "/zh/contact/"
 ---
 
 <a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/admission">📢 MoS Lab 2027 级招生进行中 —— 查看招生信息 →</a>

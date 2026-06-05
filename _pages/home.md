@@ -5,6 +5,8 @@ excerpt: "Mobility Science (MoS) Lab at Tsinghua University — resilient, intel
 sitemap: true
 hreflang: true
 permalink: /
+alt_en: "/"
+alt_zh: "/zh/"
 ---
 
 {% assign journal_count = site.data.publist | where: "type", 2 | size %}

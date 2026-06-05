@@ -1,40 +1,41 @@
 ---
-title: "MoS Lab - Publications"
+title: "论文 — 清华大学 MoS Lab"
 layout: gridlay
-excerpt: "MoS Lab -- Publications."
+excerpt: "MoS Lab 论文发表列表。"
 sitemap: true
-permalink: /publications/
+lang: zh
 hreflang: true
 alt_en: "/publications/"
 alt_zh: "/zh/publications/"
+permalink: /zh/publications/
 ---
 
 {::nomarkdown}
 <section class="pub-page-head">
-  <p class="eyebrow">Publications</p>
-  <h1>Selected work from MoS Lab and collaborators.</h1>
-  <p>Research spanning public transit resilience, travel behavior, mobility AI, and sustainable urban systems.</p>
+  <p class="eyebrow">论文</p>
+  <h1>MoS Lab 及合作者的代表性工作。</h1>
+  <p>研究涵盖公共交通韧性、出行行为、交通智能与可持续城市系统。</p>
   <div class="pub-legend">
-    <span><sup class="author-corresponding">*</sup> Corresponding author</span>
-    <span><sup class="author-equal">&dagger;</sup> Equal contribution</span>
+    <span><sup class="author-corresponding">*</sup> 通讯作者</span>
+    <span><sup class="author-equal">&dagger;</sup> 同等贡献</span>
   </div>
 </section>
 
 <section class="full-list-note">
-  <p>For the most recent publication list, please visit <a href="https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en"><strong><i class="ai ai-google-scholar"></i> Google Scholar</strong></a>.</p>
+  <p>最新论文列表请见 <a href="https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en"><strong><i class="ai ai-google-scholar"></i> Google Scholar</strong></a>。</p>
 </section>
 
 {% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017" | split: "," %}
 
-<!-- Journal Articles: cards grouped by year, with jump-nav and collapsible year groups -->
+<!-- 期刊论文 -->
 {% assign journal_total = site.data.publist | where: "type", 2 | size %}
 {% assign jnum = journal_total %}
 <section class="publication-list">
-  <h2 class="pub-section-title">Journal Articles</h2>
+  <h2 class="pub-section-title">期刊论文</h2>
 
-  <nav class="pub-year-nav" aria-label="Jump to year">
-    <span class="pub-year-nav-label">Jump to:</span>
-    <button type="button" class="pub-year-nav-section pub-featured-toggle" id="featured-toggle" aria-pressed="false">★ Featured only</button>
+  <nav class="pub-year-nav" aria-label="按年份跳转">
+    <span class="pub-year-nav-label">跳转：</span>
+    <button type="button" class="pub-year-nav-section pub-featured-toggle" id="featured-toggle" aria-pressed="false">★ 仅看代表作</button>
 {% for year in years %}
 {% assign date = year | plus: 0 %}
 {% assign containsJournal = false %}
@@ -43,8 +44,8 @@ alt_zh: "/zh/publications/"
 {% endfor %}
 {% if containsJournal %}<a href="#journal-{{ year }}">{{ year }}</a>{% endif %}
 {% endfor %}
-    <a class="pub-year-nav-section" href="#conference">Conference Papers ↓</a>
-    <a class="pub-year-nav-section" href="#working">Preprints &amp; Working Papers ↓</a>
+    <a class="pub-year-nav-section" href="#conference">会议论文 ↓</a>
+    <a class="pub-year-nav-section" href="#working">预印本与工作论文 ↓</a>
   </nav>
 
 {% for year in years %}
@@ -71,9 +72,9 @@ alt_zh: "/zh/publications/"
 {% endfor %}
 </section>
 
-<!-- Conference Papers: plain stacked list (no boxes), grouped by year -->
+<!-- 会议论文 -->
 <section class="publication-list" id="conference">
-  <h2 class="pub-section-title">Conference Papers</h2>
+  <h2 class="pub-section-title">会议论文</h2>
   <div class="pub-line-list">
 {% for year in years %}
 {% assign date = year | plus: 0 %}
@@ -93,9 +94,9 @@ alt_zh: "/zh/publications/"
   </div>
 </section>
 
-<!-- Preprints and Working Papers: plain stacked list (no boxes), no year headings -->
+<!-- 预印本与工作论文 -->
 <section class="publication-list" id="working">
-  <h2 class="pub-section-title">Preprints and Working Papers</h2>
+  <h2 class="pub-section-title">预印本与工作论文</h2>
   <div class="pub-line-list">
 {% for publi in site.data.publist %}
 {% if publi.type == 4 %}
@@ -116,25 +117,21 @@ alt_zh: "/zh/publications/"
     });
   });
 
-  // Featured-only filter
   var toggle = document.getElementById('featured-toggle');
   if (toggle) {
     toggle.addEventListener('click', function () {
       var on = !document.body.classList.contains('show-featured-only');
       document.body.classList.toggle('show-featured-only', on);
       toggle.setAttribute('aria-pressed', String(on));
-      toggle.textContent = on ? '★ Showing featured ✕' : '★ Featured only';
-      // Hide every non-featured journal card
+      toggle.textContent = on ? '★ 正在显示代表作 ✕' : '★ 仅看代表作';
       document.querySelectorAll('.pub-card').forEach(function (c) {
         c.style.display = (on && !c.classList.contains('pub-card-featured')) ? 'none' : '';
       });
-      // Hide year groups with no featured paper; expand the rest
       document.querySelectorAll('.pub-year-group').forEach(function (group) {
         var hasFeatured = group.querySelector('.pub-card-featured');
         group.style.display = (on && !hasFeatured) ? 'none' : '';
         if (on && hasFeatured) group.classList.remove('is-collapsed');
       });
-      // Hide the Conference and Working sections (no featured papers there)
       ['conference', 'working'].forEach(function (id) {
         var s = document.getElementById(id);
         if (s) s.style.display = on ? 'none' : '';

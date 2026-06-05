@@ -4,6 +4,9 @@ layout: gridlay
 excerpt: "MoS Lab -- Research"
 sitemap: true
 permalink: /research/
+hreflang: true
+alt_en: "/research/"
+alt_zh: "/zh/research/"
 ---
 
 {::nomarkdown}

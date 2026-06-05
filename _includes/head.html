@@ -7,9 +7,11 @@
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | prepend: site.url}}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 	{% if page.hreflang %}
-	<link rel="alternate" hreflang="en" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="alternate" hreflang="zh-CN" href="{{ '/zh/' | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="alternate" hreflang="x-default" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
+	{% assign en_url = page.alt_en | default: '/' %}
+	{% assign zh_url = page.alt_zh | default: '/zh/' %}
+	<link rel="alternate" hreflang="en" href="{{ en_url | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="alternate" hreflang="zh-CN" href="{{ zh_url | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="alternate" hreflang="x-default" href="{{ en_url | prepend: site.baseurl | prepend: site.url }}">
 	{% endif %}
 	<link rel="icon" type="image/x-icon" href="{{ site.url }}{{ site.baseurl }}/images/favicon.ico">
 	<link rel="icon" type="image/png" sizes="256x256" href="{{ site.url }}{{ site.baseurl }}/images/lab_logo_square.png">
