@@ -1,0 +1,184 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\definecolor{cadmiumorange}{rgb}{0.93, 0.53, 0.18}
+
+
+\usepackage{zref-lastpage}
+
+\newcounter{myCounter}
+
+\makeatletter
+\zref@newprop{myCounter}{\the\value{myCounter}}
+\zref@addprop{LastPage}{myCounter}
+\newcommand*{\myCounterLast}{%
+  \zref@extractdefault{LastPage}{myCounter}{0}%
+}
+\renewcommand*{\themyCounter}{%
+  \@arabic{\numexpr\myCounterLast+1-\value{myCounter}\relax}%
+}
+\newcommand*{\themyCounterNum}{%
+  \@arabic{\numexpr\myCounterLast-\value{myCounter}\relax}%
+}
+\makeatother
+
+\newcounter{myCounterNew}
+
+\makeatletter
+\zref@newprop{myCounterNew}{\the\value{myCounterNew}}
+\zref@addprop{LastPage}{myCounterNew}
+\newcommand*{\myCounterLastNew}{%
+  \zref@extractdefault{LastPage}{myCounterNew}{0}%
+}
+\renewcommand*{\themyCounterNew}{%
+  \@arabic{\numexpr\myCounterLastNew+1-\value{myCounterNew}\relax}%
+}
+\newcommand*{\themyCounterNewNum}{%
+  \@arabic{\numexpr\myCounterLast-\value{myCounter}\relax}%
+}
+\makeatother
+
+\newcounter{myFirstAuthor}
+
+\makeatletter
+\zref@newprop{myFirstAuthor}{\the\value{myFirstAuthor}}
+\zref@addprop{LastPage}{myFirstAuthor}
+\newcommand*{\myFirstAuthor}{%
+  \zref@extractdefault{LastPage}{myFirstAuthor}{0}%
+}
+\renewcommand*{\themyFirstAuthor}{%
+  \@arabic{\numexpr\myFirstAuthor+1-\value{myFirstAuthor}\relax}%
+}
+\newcommand*{\themyFirstAuthorNum}{%
+  \@arabic{\numexpr\myFirstAuthor-\value{myFirstAuthor}\relax}%
+}
+\makeatother
+
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+
+\newcounter{myPrePrint}
+
+\makeatletter
+\zref@newprop{myPrePrint}{\the\value{myPrePrint}}
+\zref@addprop{LastPage}{myPrePrint}
+\newcommand*{\myPrePrint}{%
+  \zref@extractdefault{LastPage}{myPrePrint}{0}%
+}
+\renewcommand*{\themyPrePrint}{%
+  \@arabic{\numexpr\myPrePrint+1-\value{myPrePrint}\relax}%
+}
+\makeatother
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shadows}
+
+\newcommand*\keystroke[1]{%
+  \tikz[baseline=(key.base)]
+    \node[%
+      draw,
+      fill=white,
+      drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black,opacity=0.75},
+      rectangle,
+      rounded corners=2pt,
+      inner sep=1pt,
+      line width=0.5pt,
+      font=\scriptsize\sffamily
+    ](key) {#1\strut}
+  ;
+}
+\usepackage[utf8]{inputenc}
+\usepackage{menukeys}
+
+\usepackage{times}
+
+
+% \input{b_publication} % define some constants in b_publication
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{莫佰川}
+
+\basicInfo{
+  \email{baichuan@mit.edu} \textperiodcentered\ 
+  \phone{(+1) 857-999-5906} \textperiodcentered\ 
+  \homepage[主页: \url{mit.edu/~baichuan/}]{http://www.mit.edu/~baichuan/}
+}
+
+\input{a_constants}
+
+%-------------
+% summary
+%-------------
+
+\input{b_summary}
+
+
+%-------------
+% edcucations
+%-------------
+
+\input{b_education}
+
+%-------------
+% publications
+%-------------
+\input{b_publication}
+
+%-------------
+% project
+%-------------
+\input{b_project_and_funding}
+
+%-------------
+% project
+%-------------
+\input{b_work_research_experience}
+
+
+%-------------
+% award
+%-------------
+\input{b_award}
+
+%-------------
+% invited_talks
+%-------------
+\input{b_invited_talks}
+
+%-------------
+% academia_service
+%-------------
+\input{b_academia_service}
+
+
+%-------------
+% social_activity
+%-------------
+\input{b_social_activity}
+
+
+%-------------
+% language
+%-------------
+\section{语言}
+\input{b_language}
+
+
+\end{document}

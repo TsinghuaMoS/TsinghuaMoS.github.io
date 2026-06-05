@@ -1,0 +1,249 @@
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\RequirePackage{fontawesome}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{multicol}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[hyperref]{}
+\usepackage[scale=0.9]{geometry} 
+
+
+\definecolor{brilliantlavender}{rgb}{0.96, 0.73, 1.0}
+\definecolor{buff}{rgb}{0.94, 0.86, 0.51}
+\definecolor{cadmiumorange}{rgb}{0.93, 0.53, 0.18}
+\definecolor{mygray}{rgb}{0.5, 0.5, 0.5}
+
+
+\usepackage{zref-lastpage}
+
+\newcounter{myCounter}
+
+\makeatletter
+\zref@newprop{myCounter}{\the\value{myCounter}}
+\zref@addprop{LastPage}{myCounter}
+\newcommand*{\myCounterLast}{%
+  \zref@extractdefault{LastPage}{myCounter}{0}%
+}
+\renewcommand*{\themyCounter}{%
+  \@arabic{\numexpr\myCounterLast+1-\value{myCounter}\relax}%
+}
+\newcommand*{\themyCounterNum}{%
+  \@arabic{\numexpr\myCounterLast-\value{myCounter}\relax}%
+}
+\makeatother
+
+\newcounter{myCounterNew}
+
+\makeatletter
+\zref@newprop{myCounterNew}{\the\value{myCounterNew}}
+\zref@addprop{LastPage}{myCounterNew}
+\newcommand*{\myCounterLastNew}{%
+  \zref@extractdefault{LastPage}{myCounterNew}{0}%
+}
+\renewcommand*{\themyCounterNew}{%
+  \@arabic{\numexpr\myCounterLastNew+1-\value{myCounterNew}\relax}%
+}
+\newcommand*{\themyCounterNewNum}{%
+  \@arabic{\numexpr\myCounterLast-\value{myCounter}\relax}%
+}
+\makeatother
+
+
+\newcounter{myFirstAuthor}
+
+\makeatletter
+\zref@newprop{myFirstAuthor}{\the\value{myFirstAuthor}}
+\zref@addprop{LastPage}{myFirstAuthor}
+\newcommand*{\myFirstAuthor}{%
+  \zref@extractdefault{LastPage}{myFirstAuthor}{0}%
+}
+\renewcommand*{\themyFirstAuthor}{%
+  \@arabic{\numexpr\myFirstAuthor+1-\value{myFirstAuthor}\relax}%
+}
+\newcommand*{\themyFirstAuthorNum}{%
+  \@arabic{\numexpr\myFirstAuthor-\value{myFirstAuthor}\relax}%
+}
+\makeatother
+
+\newcounter{myPrePrint}
+
+\makeatletter
+\zref@newprop{myPrePrint}{\the\value{myPrePrint}}
+\zref@addprop{LastPage}{myPrePrint}
+\newcommand*{\myPrePrint}{%
+  \zref@extractdefault{LastPage}{myPrePrint}{0}%
+}
+\renewcommand*{\themyPrePrint}{%
+  \@arabic{\numexpr\myPrePrint+1-\value{myPrePrint}\relax}%
+}
+\makeatother
+
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shadows}
+
+\newcommand*\keystroke[1]{%
+  \tikz[baseline=(key.base)]
+    \node[%
+      draw,
+      fill=white,
+      drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black,opacity=0.75},
+      rectangle,
+      rounded corners=2pt,
+      inner sep=1pt,
+      line width=0.5pt,
+      font=\scriptsize\sffamily
+    ](key) {#1\strut}
+  ;
+}
+\usepackage[utf8]{inputenc}
+\usepackage{menukeys}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Baichuan} % Your first name
+\familyname{Mo} % Your last name
+\email {baichuan@mit.edu}
+\homepage{}{\url{http://www.mit.edu/~baichuan/}}
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+%-----------------------------------------------------
+% Summary
+%-----------------------------------------------------
+\input{b00_summary}
+
+%-----------------------------------------------------
+%	Education
+%-----------------------------------------------------
+\input{b01_education}
+
+% \input{b04_mit_coursework}
+
+%-----------------------------------------------------
+%	Publications
+%-----------------------------------------------------
+
+\input{b02_publications}
+
+%-----------------------------------------------------
+%	Work and research
+%-----------------------------------------------------
+
+
+\input{b03_work_research_experience}
+
+
+\input{b05_project_funding}
+
+
+
+\section{Awards \& Honors}
+\cventry{2025}{Spot Bonus Award for Exceeding Expectation, TikTok Shop}{\newline 4/100+ in the global supply chain and logistics algorithm team}{}{}{}
+\cventry{2024}{Global Urban Rail Transit Best Dissertation Award \& Zhongheng Shi Honorary Prize}{\newline First place. Awarded to an outstanding PhD dissertation in urban rail transit}{}{}{}
+\cventry{2023}{Dan \& Eva Roos Thesis Prize, MIT}{\newline Awarded to an outstanding PhD dissertation in transportation and mobility at MIT. Applicants including students from computer science, economy, and operations research}{}{}{}
+\cventry{2022}{Best PhD Dissertation Award, Chinese Overseas Transportation Association (COTA)}{\newline Awarded to top PhD dissertations in transportation. Presented at the Dissertation Award Ceremony at TRB}{}{}{}
+\cventry{2021}{Runner Up Award (2nd Place), Amazon Last-Mile Routing Research Challenge}{\newline }{\$50,000 cash prize shared with my teammates Xiaotong Guo and Qingyi Wang. Featured by {\href{https://www.amazon.science/academic-engagements/winning-last-mile-challenge-team-addresses-problem-of-combining-mathematical-routes-with-driver-knowledge}{\textcolor{blue}{\underline{[Amazon Science]}}}} and {\href{https://news.mit.edu/2021/last-mile-routing-research-challenge-three-winning-teams-0824}{\textcolor{blue}{\underline{[MIT News]}}}} 
+}{}{}
+\cventry{2021}{UPS PhD Fellowship, MIT}{\newline Around \$90,000 fellowship covers one-year tuition and stipends. Awarded to a top PhD student conducting research in logistics, transportation, and supply chain. Applicants including students from computer science and operations research. {\href{https://ctl.mit.edu/news/ups-fellowships-maintain-tradition-graduate-student-support}{\textcolor{blue}{\underline{[More]}}}} }{}{}{}
+\cventry{2018}{Best Bachelor Thesis Award, Tsinghua University}{\newline Top 4\%}{}{}{}
+\cventry{2018}{Outstanding Graduate Award, Tsinghua University and Beijing}{\newline Top 2\%}{}{}{}
+
+\cventry{2017}{Tsinghua Presidential Scholarship (a.k.a. Te Jiang)}{\newline Highest Tsinghua University undergraduate scholarship, 10 out of 3,300+ per year. {\href{https://student.tsinghua.edu.cn/topic/tj2017/mo-bai-chuan.html}{\textcolor{blue}{\underline{[More]}}}}}{}{}{}
+\cventry{2017}{Cai Xiong Scholarship, Tsinghua University}{\newline Awarded to students with strong scientific potential, 10 out of 3,300+ per year. }{}{}{}
+\cventry{2016}{First Place, Structural Design Competition, Tsinghua University}{\newline Along with the Best Loading Capacity Award and Best Structure Calculation Award. Most important competition in Tsinghua Dept. of Civil Engineering}{}{}{}
+\cventry{2016--2022}{Tang Lixin Scholarship, Tsinghua University }{\newline Awarded to students with outstanding academic performance until they finish the graduate study, $\sim$30 out of 3,300+ per year}{}{}{}
+\cventry{2015}{10-th ``Spark'' Innovative Talent Cultivation Program, Tsinghua University}{\newline Academic and scientific research talents training program for top Tsinghua undergraduates,  $\sim$40 per year {\href{http://www.tuef.tsinghua.edu.cn/column/sp1}{\textcolor{blue}{\underline{[More]}}}}}{}{}{}
+\cventry{2015--2018}{Tang Zhongying Moral Education Scholarship, Tsinghua University}{\newline Awarded to students with excellent academic performance and enthusiasm for public welfare, $\sim$100 per year}{}{}{}
+\cventry{2015}{China National Scholarship}{\newline Highest scholarship given by Chinese government, top 0.1\%}{}{}{}
+\cventry{2014}{Outstanding Graduate Award (for High School Students), Beijing}{\newline Top 5\%}{}{}{}
+\cventry{2014}{Ranked 11th in the National College Entrance Exam, Beijing}{\newline Scores 712/750; Admitted by Tsinghua University, top 0.02\%}{}{}{}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Invited Talks
+%----------------------------------------------------------------------------------------
+\section{Invited Talks \& Guest Lectures}
+\cventry{Mar 2024}{Toward a Resilient Transportation System: Applications to Public Transit}{\newline Tsinghua University}{}{}{}
+\cventry{Mar 2024}{Toward a Resilient Transportation System: Applications to Public Transit}{\newline Zhejiang University}{}{}{}
+\cventry{June 2023}{Implementation of Algorithms in Shared Mobility Industry}{\newline MIT, JTL Urban Mobility Lab}{}{}{}
+\cventry{May 2023}{Implementation of Algorithms in Shared Mobility Industry}{\newline University of California, Berkeley}{}{}{}
+\cventry{Dec 2022}{Toward a Resilient Transportation System: Applications to Public Transit}{\newline Young Scholars Symposium on Frontiers in Innovative Technology, Shanghai Jiao Tong University}{}{}{}
+\cventry{July 2022}{Individual Path Recommendation Under Public Transit Service Disruptions Considering Behavior Uncertainty and Equity}{\newline C2SMART Center, New York University}{}{}{}
+\cventry{Aug 2021}{Individual Mobility Prediction: An Interpretable Hidden Markov Approach}{\newline Southeast University-Monash University Joint Graduate School}{}{}{}
+\cventry{May 2021}{Toward a Resilient Public Transit System}{\newline International Young Scholars Forum, Tongji University}{}{}{}
+\cventry{Apr 2021}{Toward a Resilient Public Transit System}{\newline Smart Transportation Lab, McGill University}{}{}{}
+\cventry{Jul 2020}{Modeling Epidemic Spreading through Public Transit using Time-Varying Encounter Network}{\newline MIT Center for Real Estate, Virtual Summer Seminar Series}{}{}{}
+\cventry{Jun 2019}{Assignment-based Path Choice Estimation for Metro Systems Using Smart Card Data}{\newline Southeast University-Monash University Joint Graduate School}{}{}{}
+
+%-----------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------
+
+
+\section{Academic Service}
+
+\cvitem{Journal Referees}{Transportation Research Part A $\bullet$ Transportation Research Part B $\bullet$ Transportation Research Part C $\bullet$ Transportation Research Part E $\bullet$ IEEE Transactions on Intelligent Transportation Systems $\bullet$  Transportation  $\bullet$ Transport Policy $\bullet$ Journal of Transport Geography $\bullet$ Travel Behavior and Society $\bullet$ Transportmetrica A  $\bullet$ Journal of Public Transportation $\bullet$ PLOS One $\bullet$ Journal of Advanced Transportation $\bullet$ Communications in Transportation Research $\bullet$ Data Science for Transportation $\bullet$ Urban Rail Transit $\bullet$ International Journal of Transportation Science and Technology $\bullet$ Computer Modeling in Engineering \& Sciences $\bullet$ Journal of Data Analysis and Information Processing }
+\cvitem{Conference Referees}{Transportation Research Board Annual Meeting (TRB) $\bullet$ IEEE Conference on Intelligent Transportation Systems (IEEE ITSC)}
+
+
+\section{Leadership \& Community Activities}
+
+\cventry{Jan. 2021 -- Sep. 2022}{MIT Chinese Student and Scholar Association (CSSA)}{\newline \underline{Executive Board Member}}{}{}{
+\begin{itemize}
+\item Co-organized 2021 MIT-Harvard online Chinese Lantern festival celebration and 2021 Mid-Autumn festival celebration.
+\item Volunteer for healthy bags dispatching
+\end{itemize}}
+
+\cventry{Jun. 2021 -- Sep. 2022}{MIT Chinese Entrepreneur Organization (CEO)}{\newline \underline{Treasurer and Executive Team Member}}{}{}{
+\begin{itemize}
+\item Reimbursement and funding management
+\item Co-organized ``FreesFund'' mini-salon activity 
+\item Co-organized 2021 Fall MIT Asian Career Info Session Series 
+\end{itemize}}
+
+\cventry{Dec. 2016 -- Dec. 2017}{American Society of Civil Engineers International Student Group (ASCE-ISG) of Tsinghua University }{\newline \underline{President}}{}{}{
+\begin{itemize}
+\item Organized 23rd Tsinghua University Structure Design Competition (300+ participants)
+\item Organized more than 15 group meetings for around 50 active members \item Represented Tsinghua at 3rd ASCE-ISG China Regional Annual Meeting  
+\end{itemize}}
+
+\cventry{Dec. 2016 -- Dec. 2017}{Student Association for Science and Technology (SAST) in Dept. of Civil Engineering}{\newline \underline{President}}{}{}{
+\begin{itemize}
+\item Organized 20+ competitions and activities, including Transportation Technology Competition
+\item Initiated ``Innovative Talent Training Program'', which financially supported undergraduate research projects 
+and summer research training at top international institutions 
+\item  Obtained Outstanding SAST Award in Tsinghua University (< 20\%) 
+\end{itemize}}
+
+\cventry{Sep. 2015 -- Dec. 2016}{Class 42 in Dept. of Civil Engineering}{\newline \underline{Class President}}{}{}{
+\begin{itemize}
+\item Organized class parties and other team-building activities 
+\item Obtained Tsinghua University Excellent Class Award (< 10\%) 
+\end{itemize}}
+
+%-----------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------
+
+\section{Computer Skills}
+
+\cvitem{Proficient}{\texttt{Python}, \texttt{Matlab}, \texttt{R},  \LaTeX, \texttt{Julia}, \texttt{AutoCAD}}
+\cvitem{Familiar}{\texttt{C}, \texttt{MySQL},  \texttt{HTML}, \texttt{ArcGIS}, \texttt{Weka}} 
+\cvitem{Libraries}{\texttt{Pandas}, \texttt{NumPy}, \texttt{Tensorflow}, \texttt{Keras}, \texttt{PyTorch}, \texttt{scikit-learn}, \texttt{SciPy}, \texttt{Gurobi}, \texttt{Matplotlib}}
+
+\section{Language}
+\cvitem{English}{Fluent}
+\cvitem{Chinese}{Mother tongue}
+\end{document}
