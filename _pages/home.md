@@ -1,8 +1,9 @@
 ---
-title: "MoS Lab - Home"
+title: "MoS Lab — Mobility Science Lab at Tsinghua University"
 layout: homelay
-excerpt: "MoS Lab"
-sitemap: false
+excerpt: "Mobility Science (MoS) Lab at Tsinghua University — resilient, intelligent, and sustainable transportation systems. 清华大学出行科学实验室。"
+sitemap: true
+hreflang: true
 permalink: /
 ---
 

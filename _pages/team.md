@@ -2,7 +2,7 @@
 title: "MoS Lab - Team"
 layout: gridlay
 excerpt: "MoS Lab: Team members"
-sitemap: false
+sitemap: true
 permalink: /team/
 ---
 

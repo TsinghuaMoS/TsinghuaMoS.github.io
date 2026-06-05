@@ -10,7 +10,10 @@ title: MoS Lab
 email: your-email@domain.com
 description:
 baseurl: ""
-url: ""
+url: "https://www.tsinghuamos.com"
+
+plugins:
+  - jekyll-sitemap
 
 # Google Analytics 4 — paste your Measurement ID here (looks like G-XXXXXXXXXX)
 google_analytics: "G-KQBZ47JKDZ"

@@ -2,7 +2,7 @@
 title: "MoS Lab - About"
 layout: textlay
 excerpt: "MoS Lab -- About"
-sitemap: false
+sitemap: true
 permalink: /about/
 ---
 

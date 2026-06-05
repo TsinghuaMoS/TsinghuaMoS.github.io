@@ -2,7 +2,7 @@
 title: "MoS Lab - Research"
 layout: gridlay
 excerpt: "MoS Lab -- Research"
-sitemap: false
+sitemap: true
 permalink: /research/
 ---
 
