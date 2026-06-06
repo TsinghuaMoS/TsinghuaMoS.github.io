@@ -265,7 +265,7 @@
   authors_html: '<span class="author-corresponding-name">Xiaotong Guo</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Haris N. Koutsopoulos, Shenhao Wang, Jinhua Zhao'
   corresponding_authors: 'Xiaotong Guo'
   co_first_authors: ''
-  pdf_url: ''
+  pdf_url: '/documents/publication/Guo_Robust.pdf'
   external_url: 'https://doi.org/10.1109/TITS.2024.3395050'
   external_label: 'DOI'
   code_url: ''
