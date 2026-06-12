@@ -7,4 +7,32 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<script>
+  window.jQuery || document.write('<script src="{{ '/js/jquery.min.js' | relative_url }}"><\/script>');
+</script>
+<script src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
+<script>
+  (function () {
+    function toggleMenu(button) {
+      var target = document.querySelector(button.getAttribute('data-target'));
+      if (!target) return;
+      var isOpen = target.classList.contains('in');
+      target.classList.toggle('in', !isOpen);
+      target.classList.toggle('collapse', true);
+      button.classList.toggle('collapsed', isOpen);
+      button.setAttribute('aria-expanded', String(!isOpen));
+    }
+
+    if (window.jQuery && window.jQuery.fn && window.jQuery.fn.collapse) return;
+
+    document.addEventListener('click', function (event) {
+      var button = event.target;
+      while (button && button !== document && !(button.classList && button.classList.contains('navbar-toggle'))) {
+        button = button.parentNode;
+      }
+      if (!button || button === document || button.getAttribute('data-toggle') !== 'collapse') return;
+      event.preventDefault();
+      toggleMenu(button);
+    });
+  })();
+</script>
