@@ -1043,6 +1043,29 @@
   featured: false
   feature_image: ''
 
+- title: 'Equity-oriented inflow control in congested urban rail systems'
+  year: 2026
+  type: 4
+  paper_type: 'P'
+  category: 'Public Transit Resilience'
+  category_label: 'Preprint / Working Paper'
+  venue: 'Preprint'
+  issue_page: ''
+  venue_display: 'Preprint, 2026'
+  authors_text: 'Michael Sun, Baichuan Mo, Ruoyun Ma'
+  authors_html: 'Michael Sun, <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Ruoyun Ma'
+  corresponding_authors: 'Baichuan Mo'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Equity-oriented%20inflow%20control%20in%20congested%20urban%20rail%20systems.pdf'
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  if_sci: false
+  first_author: false
+  featured: false
+  feature_image: ''
+
 - title: 'Evaluation of public transit systems under short random service suspensions: A bulk-service queuing approach'
   year: null
   type: 4
