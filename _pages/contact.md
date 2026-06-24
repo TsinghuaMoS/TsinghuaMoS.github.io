@@ -19,7 +19,7 @@ alt_zh: "/zh/contact/"
 
 For research collaboration, student supervision, and prospective student inquiries, please contact [Dr. Baichuan Mo]({{ site.url }}{{ site.baseurl }}/team/baichuan_mo.html).
 
-**Email:** [mbcbmo@gmail.com](mailto:mbcbmo@gmail.com)
+**Email:** [bmo[at]tsinghua.edu.cn](mailto:bmo@tsinghua.edu.cn)
 
 # Location
 
@@ -51,6 +51,6 @@ Please prepare:
 - Publication list, if applicable.
 - A brief statement describing your research interests and how they connect with MoS Lab.
 
-Please email [Dr. Baichuan Mo](mailto:mbcbmo@gmail.com) at [mbcbmo@gmail.com](mailto:mbcbmo@gmail.com) with the materials above.
+Please email [Dr. Baichuan Mo](mailto:bmo@tsinghua.edu.cn) at [bmo[at]tsinghua.edu.cn](mailto:bmo@tsinghua.edu.cn) with the materials above.
 
 </div>

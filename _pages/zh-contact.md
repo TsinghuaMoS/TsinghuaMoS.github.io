@@ -20,7 +20,7 @@ permalink: /zh/contact/
 
 如需开展科研合作、学生指导，或有意向报考，请联系 [莫佰川老师]({{ site.url }}{{ site.baseurl }}/zh/team/baichuan_mo/)。
 
-**邮箱：** [mbcbmo@gmail.com](mailto:mbcbmo@gmail.com)
+**邮箱：** [bmo[at]tsinghua.edu.cn](mailto:bmo@tsinghua.edu.cn)
 
 # 地址
 
@@ -52,6 +52,6 @@ MoS Lab 欢迎对韧性、智能、可持续交通系统充满热情的同学与
 - 论文列表（如有）。
 - 一段简要说明：你的研究兴趣，以及与 MoS Lab 的契合点。
 
-请将以上材料通过邮件发送给 [莫佰川老师](mailto:mbcbmo@gmail.com)（mbcbmo@gmail.com）。
+请将以上材料通过邮件发送给 [莫佰川老师](mailto:bmo@tsinghua.edu.cn)（bmo[at]tsinghua.edu.cn）。
 
 </div>
