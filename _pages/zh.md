@@ -20,9 +20,9 @@ permalink: /
   <div class="lab-hero-copy">
     <p class="eyebrow">清华大学 · MoS Lab</p>
     <h1>清华大学交通科学实验室</h1>
-    <p class="hero-lede">MoS Lab 聚焦优化理论和机器学习在交通系统中的应用，研究交通系统韧性、AI for Transportation、出行行为与需求建模，以及可持续城市系统。</p>
+    <p class="hero-lede">清华大学交通科学实验室，Mobility Science (MoS) Lab，聚焦优化理论和机器学习在交通系统中的应用，研究交通系统韧性、AI for Transportation、出行行为与需求建模，以及可持续城市系统。</p>
     <div class="hero-actions">
-      <a class="hero-button primary" href="{{ '/research/' | relative_url }}">研究方向</a>
+      <a class="hero-button primary" href="{{ '/team/' | relative_url }}">团队成员</a>
       <a class="hero-button" href="{{ '/publications/' | relative_url }}">论文发表</a>
       <a class="hero-button" href="{{ '/admission/' | relative_url }}">加入我们</a>
     </div>
@@ -46,7 +46,6 @@ permalink: /
 
 <section class="section-heading">
   <p class="eyebrow">代表性研究</p>
-  <h2>从乘客行为到城市尺度的系统韧性。</h2>
 </section>
 
 <div class="featured-grid">
@@ -64,6 +63,7 @@ permalink: /
       <span>{{ cat_zh }}</span>
       <h3>{{ item.feature_title_zh | default: item.feature_title | default: item.title }}</h3>
       <p>{{ item.feature_description_zh | default: item.feature_description }}</p>
+      <p class="feature-citation">{{ item.authors_text }}. {{ item.venue_display }}.</p>
       <a class="text-link" href="{{ flink }}">查看论文</a>
     </div>
   </article>
@@ -72,11 +72,8 @@ permalink: /
 {% endfor %}
 </div>
 
-<section class="home-band">
-  <div>
-    <p class="eyebrow">研究方向</p>
-    <h2>面向能够自适应的交通系统的出行科学。</h2>
-  </div>
+<section class="home-band research-area-band">
+  <p class="eyebrow">研究方向</p>
   <div class="area-list">
     <p><strong>交通系统韧性</strong> 在交通系统发生事故时，如何通过高效的优化与机器学习算法，调整运营、指导乘客，让系统快速恢复。</p>
     <p><strong>AI for Transportation</strong> 应用于公共交通、共享出行、供应链物流等多个场景，包括基于强化学习的实时决策、时序预测大模型、交通管理 Agent 等。</p>

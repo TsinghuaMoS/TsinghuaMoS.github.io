@@ -9,32 +9,27 @@ layout: default
 {% assign label_web = 'Personal Website' %}{% assign label_scholar = 'Google Scholar' %}{% assign label_linkedin = 'LinkedIn' %}{% assign label_email = 'Email' %}{% assign label_cv = 'Curriculum vitae' %}{% assign label_cv_en = 'CV (English)' %}{% assign label_cv_cn = 'CV (中文)' %}
 {% endif %}
 
-<div class="row">
-	<div class="col-sm-12">
+<div class="member-profile">
+	<div class="member-hero-card">
 
 		<img class="pull-left pad-right content-photo"
 			width=160
 			src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
-			style="margin-right: 20px;"> <!-- Add margin-right to space the image -->
+			alt="{{ member.title }}">
 
-		<div>
-			<div class="bigtitle" style="margin-top: 10px;"> <!-- Add margin-top if needed -->
+		<div class="member-hero-copy">
+			<div class="bigtitle">
 				{{ member.title }}
 			</div>
-			<p>
-			<div class="smallhead" style="margin-left: 40px; font-size: 18px; font-weight: bold;">
+			<div class="smallhead member-position">
 				{{ member.position }}
 			</div>
-			</p>
 		</div>
 
 	</div>
-</div>
 
-<div class="bigspacer"></div>
-
-<div class="row">
-	<div class="col-sm-3">
+	<div class="member-detail-card">
+		<aside class="member-links">
 
 		{% if member.web %}
 		<div class="smallhead">
@@ -123,10 +118,11 @@ layout: default
 		<div class="bigspacer"></div>
 		{% endif %}
 
-	</div>
-	<div class="col-sm-9" style="text-align:justify">
+		</aside>
+		<section class="member-main">
 		<div class="member-bio">{{ content }}</div>
 
-	</div>
+		</section>
 
+	</div>
 </div>

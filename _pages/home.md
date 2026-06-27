@@ -21,7 +21,7 @@ alt_zh: "/"
     <h1>Mobility Science Lab at Tsinghua University</h1>
     <p class="hero-lede">MoS Lab studies how optimization theory and machine learning can support transportation systems, with research in system resilience, AI for Transportation, travel behavior and demand modeling, and sustainable urban systems.</p>
     <div class="hero-actions">
-      <a class="hero-button primary" href="{{ '/en/research/' | relative_url }}">Explore Research</a>
+      <a class="hero-button primary" href="{{ '/en/team/' | relative_url }}">Team Members</a>
       <a class="hero-button" href="{{ '/en/publications/' | relative_url }}">View Publications</a>
       <a class="hero-button" href="{{ '/en/contact/' | relative_url }}">Join Us</a>
     </div>
@@ -45,7 +45,6 @@ alt_zh: "/"
 
 <section class="section-heading">
   <p class="eyebrow">Featured Research</p>
-  <h2>From passenger-level behavior to city-scale resilience.</h2>
 </section>
 
 <div class="featured-grid">
@@ -62,6 +61,7 @@ alt_zh: "/"
       <span>{{ item.category }}</span>
       <h3>{{ item.feature_title | default: item.title }}</h3>
       <p>{{ item.feature_description }}</p>
+      <p class="feature-citation">{{ item.authors_text }}. {{ item.venue_display }}.</p>
       <a class="text-link" href="{{ flink }}">Read paper</a>
     </div>
   </article>
@@ -70,11 +70,8 @@ alt_zh: "/"
 {% endfor %}
 </div>
 
-<section class="home-band">
-  <div>
-    <p class="eyebrow">Research Areas</p>
-    <h2>Mobility science for systems that can adapt.</h2>
-  </div>
+<section class="home-band research-area-band">
+  <p class="eyebrow">Research Areas</p>
   <div class="area-list">
     <p><strong>Transportation system resilience</strong> When incidents disrupt transportation systems, we develop efficient optimization and machine learning algorithms to adjust operations, guide passengers, and help systems recover quickly.</p>
     <p><strong>AI for Transportation:</strong> We study real-time decision-making with reinforcement learning, time-series foundation models, and transportation management agents across public transit, shared mobility, and supply-chain logistics.</p>

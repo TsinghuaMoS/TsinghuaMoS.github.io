@@ -14,7 +14,7 @@ permalink: /team/
 <section class="pub-page-head">
   <p class="eyebrow">团队</p>
   <h1>团队成员</h1>
-  <p>MoS Lab 希望建立一个温暖、包容、互助的团队，以协作、相互尊重与创新为根基。</p>
+  <p>MoS Lab 希望建立一个温暖、包容、互助的团队，宗旨是协作、尊重、与创新。</p>
 </section>
 
 {% assign groups = "0,7,1,2,3,4,8" | split: "," %}
