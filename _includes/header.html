@@ -8,27 +8,27 @@
 		<span class="icon-bar"></span>
 	  </button>
 	
-    <a class="navbar-brand" href="{% if page.lang == 'zh' %}{{ site.url }}{{ site.baseurl }}/zh{% else %}{{ site.url }}{{ site.baseurl }}/{% endif %}">MoS Lab</a>
+    <a class="navbar-brand" href="{% if page.lang == 'zh' %}{{ site.url }}{{ site.baseurl }}/{% else %}{{ site.url }}{{ site.baseurl }}/en{% endif %}">MoS Lab</a>
 	</div>
 
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
 	  {% if page.lang == 'zh' %}
-		<li><a href="{{ site.url }}{{ site.baseurl }}/zh">首页</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/zh/team">团队</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/zh/research">研究</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/zh/publications">论文</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/zh/contact">联系</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/">首页</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/team">团队</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/research">研究</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">论文</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/contact">联系</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/admission">2027招生</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">EN</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/en">EN</a></li>
 	  {% else %}
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/contact">Contact</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/en">Home</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/en/team">Team</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/en/research">Research</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/en/publications">Publications</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/en/contact">Contact</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/admission">2027招生</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/zh">中文</a></li>
+		<li><a href="{{ site.url }}{{ site.baseurl }}/">中文</a></li>
 	  {% endif %}
 	  </ul>
 	</div>

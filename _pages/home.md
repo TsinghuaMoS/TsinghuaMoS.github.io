@@ -4,9 +4,9 @@ layout: homelay
 excerpt: "Mobility Science (MoS) Lab at Tsinghua University — resilient, intelligent, and sustainable transportation systems. 清华大学交通科学实验室。"
 sitemap: true
 hreflang: true
-permalink: /
-alt_en: "/"
-alt_zh: "/zh/"
+permalink: /en/
+alt_en: "/en/"
+alt_zh: "/"
 ---
 
 {% assign journal_count = site.data.publist | where: "type", 2 | size %}
@@ -19,11 +19,11 @@ alt_zh: "/zh/"
   <div class="lab-hero-copy">
     <p class="eyebrow">MoS Lab</p>
     <h1>Mobility Science Lab at Tsinghua University</h1>
-    <p class="hero-lede">MoS Lab develops models, algorithms, and data-driven tools for public transit operations, passenger behavior, mobility demand, urban resilience, and sustainable transportation policy.</p>
+    <p class="hero-lede">MoS Lab studies how optimization theory and machine learning can support transportation systems, with research in system resilience, AI for Transportation, travel behavior and demand modeling, and sustainable urban systems.</p>
     <div class="hero-actions">
-      <a class="hero-button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
-      <a class="hero-button" href="{{ '/publications/' | relative_url }}">View Publications</a>
-      <a class="hero-button" href="{{ '/contact/' | relative_url }}">Join Us</a>
+      <a class="hero-button primary" href="{{ '/en/research/' | relative_url }}">Explore Research</a>
+      <a class="hero-button" href="{{ '/en/publications/' | relative_url }}">View Publications</a>
+      <a class="hero-button" href="{{ '/en/contact/' | relative_url }}">Join Us</a>
     </div>
   </div>
 </section>
@@ -76,10 +76,10 @@ alt_zh: "/zh/"
     <h2>Mobility science for systems that can adapt.</h2>
   </div>
   <div class="area-list">
-    <p><strong>Public transit resilience</strong> Disruption management, passenger response inference, path recommendation, and resilient operations.</p>
-    <p><strong>Travel behavior and demand</strong> Route choice, mode choice, smart card analytics, and policy response modeling.</p>
-    <p><strong>AI for mobility and logistics</strong> Robust learning, interpretable prediction, ETA, last-mile delivery, and time-series models.</p>
-    <p><strong>Sustainable urban systems</strong> Commuting emissions, public health risk, housing mobility, and cyber-physical-social resilience.</p>
+    <p><strong>Transportation system resilience</strong> When incidents disrupt transportation systems, we develop efficient optimization and machine learning algorithms to adjust operations, guide passengers, and help systems recover quickly.</p>
+    <p><strong>AI for Transportation:</strong> We study real-time decision-making with reinforcement learning, time-series foundation models, and transportation management agents across public transit, shared mobility, and supply-chain logistics.</p>
+    <p><strong>Travel behavior and demand modeling</strong> We combine policy analysis, surveys, econometric models, machine learning, and optimization to improve traditional behavioral and demand models.</p>
+    <p><strong>Sustainable urban systems</strong> We study commuting carbon emissions, public health risk, housing mobility, and urban cyber-physical-social system resilience for top interdisciplinary venues.</p>
   </div>
 </section>
 

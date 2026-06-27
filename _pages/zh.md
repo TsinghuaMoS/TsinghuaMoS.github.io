@@ -1,13 +1,13 @@
 ---
 title: "清华大学 MoS Lab｜交通科学与交通智能实验室"
 layout: homelay
-excerpt: "清华大学交通工程系 MoS Lab（交通科学实验室），由助理教授莫佰川负责，研究城市交通、公共交通韧性、出行行为与需求、交通机器学习与优化。"
+excerpt: "清华大学交通工程系 MoS Lab（交通科学实验室），由助理教授莫佰川负责，研究交通系统韧性、AI for Transportation、出行行为与需求建模，以及可持续城市系统。"
 sitemap: true
 lang: zh
 hreflang: true
-alt_en: "/"
-alt_zh: "/zh/"
-permalink: /zh/
+alt_en: "/en/"
+alt_zh: "/"
+permalink: /
 ---
 
 {% assign journal_count = site.data.publist | where: "type", 2 | size %}
@@ -20,10 +20,10 @@ permalink: /zh/
   <div class="lab-hero-copy">
     <p class="eyebrow">清华大学 · MoS Lab</p>
     <h1>清华大学交通科学实验室</h1>
-    <p class="hero-lede">MoS Lab 致力于为公共交通运营、乘客行为、出行需求、城市韧性与可持续交通政策，研发模型、算法与数据驱动的决策工具。</p>
+    <p class="hero-lede">MoS Lab 聚焦优化理论和机器学习在交通系统中的应用，研究交通系统韧性、AI for Transportation、出行行为与需求建模，以及可持续城市系统。</p>
     <div class="hero-actions">
-      <a class="hero-button primary" href="{{ '/zh/research/' | relative_url }}">研究方向</a>
-      <a class="hero-button" href="{{ '/zh/publications/' | relative_url }}">论文发表</a>
+      <a class="hero-button primary" href="{{ '/research/' | relative_url }}">研究方向</a>
+      <a class="hero-button" href="{{ '/publications/' | relative_url }}">论文发表</a>
       <a class="hero-button" href="{{ '/admission/' | relative_url }}">加入我们</a>
     </div>
   </div>
@@ -78,10 +78,10 @@ permalink: /zh/
     <h2>面向能够自适应的交通系统的出行科学。</h2>
   </div>
   <div class="area-list">
-    <p><strong>公共交通韧性</strong> 中断管理、乘客响应推断、路径推荐与韧性运营。</p>
-    <p><strong>出行行为与需求</strong> 路径选择、方式选择、刷卡数据分析与政策响应建模。</p>
-    <p><strong>交通智能（AI for Transportation）</strong> 鲁棒学习、可解释预测、到达时间估计、末端配送与时序模型。</p>
-    <p><strong>可持续城市系统</strong> 通勤碳排放、公共健康风险、住房流动性与城市信息物理社会系统韧性。</p>
+    <p><strong>交通系统韧性</strong> 在交通系统发生事故时，如何通过高效的优化与机器学习算法，调整运营、指导乘客，让系统快速恢复。</p>
+    <p><strong>AI for Transportation</strong> 应用于公共交通、共享出行、供应链物流等多个场景，包括基于强化学习的实时决策、时序预测大模型、交通管理 Agent 等。</p>
+    <p><strong>出行行为与需求建模</strong> 政策分析与问卷调研、计量经济学模型应用、基于现代机器学习与优化理论改良传统计量经济学模型等。</p>
+    <p><strong>可持续城市系统</strong> 通勤碳排放、公共健康风险、住房流动性与城市信息物理社会系统韧性，该方向主要 target 顶级跨学科期刊。</p>
   </div>
 </section>
 

@@ -5,9 +5,9 @@ excerpt: "MoS Lab 论文发表列表。"
 sitemap: true
 lang: zh
 hreflang: true
-alt_en: "/publications/"
-alt_zh: "/zh/publications/"
-permalink: /zh/publications/
+alt_en: "/en/publications/"
+alt_zh: "/publications/"
+permalink: /publications/
 ---
 
 {::nomarkdown}

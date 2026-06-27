@@ -1,20 +1,20 @@
 ---
 title: "研究 — 清华大学 MoS Lab"
 layout: gridlay
-excerpt: "MoS Lab 研究方向：公共交通韧性、出行行为与需求、交通智能、可持续城市系统。"
+excerpt: "MoS Lab 研究方向：交通系统韧性、AI for Transportation、出行行为与需求建模、可持续城市系统。"
 sitemap: true
 lang: zh
 hreflang: true
-alt_en: "/research/"
-alt_zh: "/zh/research/"
-permalink: /zh/research/
+alt_en: "/en/research/"
+alt_zh: "/research/"
+permalink: /research/
 ---
 
 {::nomarkdown}
 <section class="pub-page-head research-head">
   <p class="eyebrow">研究</p>
-  <h1>面向自适应交通系统的模型与算法。</h1>
-  <p>清华大学出行科学（MoS）实验室研究人、基础设施与政策如何在交通系统中相互作用，尤其关注不确定性、突发中断与快速城市化下的系统行为。</p>
+  <h1>优化理论与机器学习驱动的交通系统研究。</h1>
+  <p>MoS Lab 关注模型、算法与数据如何帮助交通系统在不确定性、突发事故和快速城市化环境下更高效、更智能、更可持续地运行。</p>
 </section>
 
 <h2 class="pub-section-title">代表性研究</h2>
@@ -44,23 +44,23 @@ permalink: /zh/research/
 <section class="research-pillars">
   <article>
     <span>01</span>
-    <h2>公共交通韧性</h2>
-    <p>研究交通系统与乘客如何应对计划内与计划外的中断，包括事故感知的乘客行为推断、鲁棒路径推荐、网络性能建模，以及降低拥堵、提升服务可靠性的控制策略。</p>
+    <h2>交通系统韧性</h2>
+    <p>在交通系统发生事故时，研究如何通过高效的优化与机器学习算法，调整运营、指导乘客，让系统快速恢复。具体包括事故感知的乘客行为推断、鲁棒路径推荐、网络性能建模与韧性运营控制。</p>
   </article>
   <article>
     <span>02</span>
-    <h2>出行行为与需求建模</h2>
-    <p>利用刷卡数据、车牌识别数据、问卷与运营数据，构建可解释、可预测的出行行为模型；研究路径选择、方式选择、个体出行预测，以及公共交通与新兴出行方式之间的相互作用。</p>
+    <h2>AI for Transportation</h2>
+    <p>将人工智能应用于公共交通、共享出行、供应链物流等多个场景，包括基于强化学习的实时决策、时序预测大模型、交通管理 Agent、ETA 预测与末端配送路径预测等。</p>
   </article>
   <article>
     <span>03</span>
-    <h2>交通智能（AI for Transportation）</h2>
-    <p>将机器学习、深度学习、鲁棒优化与决策模型应用于交通问题，如到达时间估计、末端配送路径预测、时序预测大模型，以及数据不确定性下的分类问题。</p>
+    <h2>出行行为与需求建模</h2>
+    <p>围绕政策分析与问卷调研、计量经济学模型应用、刷卡与车牌识别等多源数据分析，研究如何用现代机器学习与优化理论改良传统计量经济学模型。</p>
   </article>
   <article>
     <span>04</span>
     <h2>可持续城市系统</h2>
-    <p>将交通置于更广义的城市信息物理社会系统中研究，应用包括通勤碳排放、极端天气韧性、通勤中的公共健康风险、住房流动性与政策评估。</p>
+    <p>研究通勤碳排放、公共健康风险、住房流动性与城市信息物理社会系统韧性，并将交通系统放在更广义的城市可持续发展和跨学科政策评估框架中理解。</p>
   </article>
 </section>
 {:/nomarkdown}

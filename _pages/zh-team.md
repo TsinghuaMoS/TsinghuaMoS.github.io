@@ -5,9 +5,9 @@ excerpt: "MoS Lab 团队成员。"
 sitemap: true
 lang: zh
 hreflang: true
-alt_en: "/team/"
-alt_zh: "/zh/team/"
-permalink: /zh/team/
+alt_en: "/en/team/"
+alt_zh: "/team/"
+permalink: /team/
 ---
 
 {::nomarkdown}
@@ -31,7 +31,7 @@ permalink: /zh/team/
   {% for member in site.data.team_members %}
   {% if member.group == gid %}
   {% case member.info %}{% when 'Assistant Professor' %}{% assign role_zh = '助理教授' %}{% when 'Research Affiliate' %}{% assign role_zh = '合作研究员' %}{% when 'MSc Student' %}{% assign role_zh = '硕士生' %}{% when 'Intern' %}{% assign role_zh = '实习生' %}{% else %}{% assign role_zh = member.info %}{% endcase %}
-  {% if member.group == 0 %}{% assign mlink = '/zh/team/baichuan_mo/' | relative_url %}{% elsif member.name == 'Yahui Li' %}{% assign mlink = '/zh/team/yahui_li/' | relative_url %}{% else %}{% assign mlink = member.url %}{% endif %}
+  {% if member.group == 0 %}{% assign mlink = '/team/baichuan_mo/' | relative_url %}{% elsif member.name == 'Yahui Li' %}{% assign mlink = '/team/yahui_li/' | relative_url %}{% else %}{% assign mlink = member.url %}{% endif %}
     <article class="team-card">
       {% if mlink and mlink != "" %}
       <a class="team-photo" href="{{ mlink }}">

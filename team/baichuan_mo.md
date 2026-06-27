@@ -4,8 +4,9 @@ title: Baichuan Mo
 position: Assistant Professor (Tenure Track)<br>Department of Transportation Engineering, Tsinghua University
 handle: baichuan_mo
 hreflang: true
-alt_en: /team/baichuan_mo.html
-alt_zh: /zh/team/baichuan_mo/
+alt_en: /en/team/baichuan_mo.html
+alt_zh: /team/baichuan_mo/
+permalink: /en/team/baichuan_mo.html
 email: 
 twitter:
 github: 
@@ -17,9 +18,13 @@ cv_cn: /cv/CV_Baichuan_CN.pdf
 ---
 
 ### Overview
-Dr. Baichuan Mo is an Assistant Professor (Tenure Track) in the Department of Transportation Engineering, Tsinghua University, and the Principal Investigator of MoS Lab. His research focuses on resilient and intelligent transportation systems, with applications in public transit operations, passenger behavior modeling, mobility demand prediction, incident-aware control strategy design, and interactions between public transit and emerging mobility services.
+Dr. Baichuan Mo is an Assistant Professor (Tenure Track) in the Department of Transportation Engineering, Tsinghua University, and the Principal Investigator of MoS Lab.
 
-His work combines optimization, probability and statistics, machine learning, econometrics, and game theory to support data-driven decision-making in urban mobility systems.
+He received his B.S. in Civil Engineering from Tsinghua University in 2018, ranking 1/105 and receiving the Tsinghua Presidential Scholarship, the highest undergraduate honor at Tsinghua. He received dual Master's degrees in Transportation and Electrical Engineering and Computer Science from MIT in 2020, and his Ph.D. in Transportation from MIT in 2022, supported by the MIT UPS Doctoral Fellowship. His dissertation received the COTA Best Dissertation Award and other honors.
+
+He has published more than 30 papers in leading journals, including Nature Sustainability, Transportation Research Parts A/B/C/E, IEEE Transactions on Intelligent Transportation Systems, European Journal of Operational Research, and Transportation Science.
+
+Before joining Tsinghua, he was a Senior Research Scientist at Lyft, working on real-time driver incentive algorithms. He later served as a Staff Machine Learning Engineer and US Supply Chain Algorithm Lead in the TikTok E-Commerce algorithm team, where he led the development and deployment of algorithms for SKU-level demand forecasting, Sales & Operations Planning (S&OP), replenishment recommendations, stockout alerts, inventory placement and transfer, and truck routing and scheduling.
 
 
 ### Education

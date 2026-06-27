@@ -5,9 +5,9 @@ position: 硕士生<br>清华大学土木工程系
 handle: yahui_li
 lang: zh
 hreflang: true
-alt_en: /team/yahui_li.html
-alt_zh: /zh/team/yahui_li/
-permalink: /zh/team/yahui_li/
+alt_en: /en/team/yahui_li.html
+alt_zh: /team/yahui_li/
+permalink: /team/yahui_li/
 email: lyahui34@gmail.com
 twitter:
 github:

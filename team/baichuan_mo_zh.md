@@ -5,9 +5,9 @@ position: 助理教授（Tenure Track）<br>清华大学交通工程系
 handle: baichuan_mo
 lang: zh
 hreflang: true
-alt_en: /team/baichuan_mo.html
-alt_zh: /zh/team/baichuan_mo/
-permalink: /zh/team/baichuan_mo/
+alt_en: /en/team/baichuan_mo.html
+alt_zh: /team/baichuan_mo/
+permalink: /team/baichuan_mo/
 email: 
 twitter:
 github: 
@@ -19,9 +19,13 @@ cv_cn: /cv/CV_Baichuan_CN.pdf
 ---
 
 ### 简介
-莫佰川博士，清华大学交通工程系助理教授（Tenure Track），MoS Lab（交通科学实验室）负责人。研究方向聚焦于韧性与智能交通系统，应用场景包括公共交通运营、乘客行为建模、出行需求预测、事故感知的控制策略设计，以及公共交通与新兴出行服务之间的交互。
+莫佰川，清华大学交通工程系助理教授（Tenure Track），MoS Lab 负责人。
 
-他的研究融合优化、概率与统计、机器学习、计量经济学与博弈论，为城市交通系统中的数据驱动决策提供支撑。
+2018 年本科毕业于清华大学土木工程系（排名 1/105，获清华大学 2017 年本科生特等奖学金）；2020 年获麻省理工学院（MIT）交通科学与电子工程与计算机科学双硕士学位；2022 年获 MIT 交通科学博士学位（4 年毕业），并获 MIT UPS 博士奖学金，博士论文获 COTA 最佳博士论文奖等多项荣誉。2024 年入选国家级青年人才项目（海外）。
+
+在各类顶级期刊（Nature Sustainability、TR-A/B/C/E、IEEE ITS、EJOR、Transportation Science 等）发表论文 30 余篇（全部 SCI，多篇为中科院一区 Top）。
+
+曾任美国共享出行公司 Lyft 高级研究科学家，负责实时司机激励产品的算法设计；入职清华前于字节跳动国际电商算法部门担任专家级（Staff）机器学习工程师、美国地区供应链算法团队负责人，从 0 到 1 主导多项算法的开发与落地，包括 SKU 级需求预测、销售与运营计划（S&OP）、补货建议与缺货预警、库存布局与调拨、卡车路径规划与调度等。
 
 ### 教育背景
 - 麻省理工学院（MIT）交通科学博士，*2018年9月 – 2022年9月*

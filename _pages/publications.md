@@ -3,10 +3,10 @@ title: "MoS Lab - Publications"
 layout: gridlay
 excerpt: "MoS Lab -- Publications."
 sitemap: true
-permalink: /publications/
+permalink: /en/publications/
 hreflang: true
-alt_en: "/publications/"
-alt_zh: "/zh/publications/"
+alt_en: "/en/publications/"
+alt_zh: "/publications/"
 ---
 
 {::nomarkdown}

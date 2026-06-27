@@ -4,8 +4,9 @@ title: Yahui Li
 position: MSc Student<br>Department of Civil Engineering, Tsinghua University
 handle: yahui_li
 hreflang: true
-alt_en: /team/yahui_li.html
-alt_zh: /zh/team/yahui_li/
+alt_en: /en/team/yahui_li.html
+alt_zh: /team/yahui_li/
+permalink: /en/team/yahui_li.html
 email: lyahui34@gmail.com
 twitter:
 github:

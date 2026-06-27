@@ -3,10 +3,10 @@ title: "MoS Lab - Team"
 layout: gridlay
 excerpt: "MoS Lab: Team members"
 sitemap: true
-permalink: /team/
+permalink: /en/team/
 hreflang: true
-alt_en: "/team/"
-alt_zh: "/zh/team/"
+alt_en: "/en/team/"
+alt_zh: "/team/"
 ---
 
 {::nomarkdown}
@@ -55,7 +55,7 @@ alt_zh: "/zh/team/"
   {% endfor %}
   </div>
   {% else %}
-  <p class="team-empty">We are recruiting. See the <a href="{{ '/contact/' | relative_url }}">Join Us</a> section.</p>
+  <p class="team-empty">We are recruiting. See the <a href="{{ '/en/contact/' | relative_url }}">Join Us</a> section.</p>
   {% endif %}
 </section>
 {% endfor %}
