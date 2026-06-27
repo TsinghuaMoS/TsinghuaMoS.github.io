@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Baichuan Mo
-position: Assistant Professor (Tenure-Track)<br>Department of Transportation Engineering, Tsinghua University
+position: Assistant Professor (Tenure Track)<br>Department of Transportation Engineering, Tsinghua University
 handle: baichuan_mo
 hreflang: true
 alt_en: /team/baichuan_mo.html
@@ -17,7 +17,7 @@ cv_cn: /cv/CV_Baichuan_CN.pdf
 ---
 
 ### Overview
-Dr. Baichuan Mo is an Assistant Professor in the Department of Transportation Engineering, Tsinghua University, and the Principal Investigator of MoS Lab. His research focuses on resilient and intelligent transportation systems, with applications in public transit operations, passenger behavior modeling, mobility demand prediction, incident-aware control strategy design, and interactions between public transit and emerging mobility services.
+Dr. Baichuan Mo is an Assistant Professor (Tenure Track) in the Department of Transportation Engineering, Tsinghua University, and the Principal Investigator of MoS Lab. His research focuses on resilient and intelligent transportation systems, with applications in public transit operations, passenger behavior modeling, mobility demand prediction, incident-aware control strategy design, and interactions between public transit and emerging mobility services.
 
 His work combines optimization, probability and statistics, machine learning, econometrics, and game theory to support data-driven decision-making in urban mobility systems.
 
@@ -43,8 +43,10 @@ Please refer to the [google scholar](https://scholar.google.com/citations?user=O
 - China National Scholarship (国家奖学金), 2015. 
 
 ### Work Experience
+- [Tsinghua University](https://www.tsinghua.edu.cn/en/)
+  - Assistant Professor (Tenure Track), *Jul 2026 - Present*
 - [TikTok](https://www.tiktok.com/)
-  - Staff Machine Learning Scientist & Tech Lead, *Aug 2025 - Jul 2026*
+  - Staff Machine Learning Scientist & US Supply Chain Algorithm Lead, *Aug 2025 - Jun 2026*
   - Senior Machine Learning Scientist, *Dec 2023 - Aug 2025*
 - [Lyft](https://www.lyft.com/)
   - Senior Research Scientist, *Oct 2022 - Oct 2023*
