@@ -11,10 +11,11 @@ alt_zh: "/contact/"
 
 <a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/admission">📢 MoS Lab 2027 级招生进行中 —— 查看招生信息 →</a>
 
-<div class="content-panel" markdown="1">
-
+<section class="section-heading">
 <p class="eyebrow">Get in touch</p>
+</section>
 
+<div class="content-panel" markdown="1">
 # Contact
 
 For research collaboration, student supervision, and prospective student inquiries, please contact [Dr. Baichuan Mo]({{ site.url }}{{ site.baseurl }}/en/team/baichuan_mo.html).
@@ -23,14 +24,15 @@ For research collaboration, student supervision, and prospective student inquiri
 
 # Location
 
-MoS Lab is based at Tsinghua University in Beijing, China.
+MoS Lab is based in Room 315, New Civil Engineering Building, Tsinghua University, Beijing, China.
 
 </div>
 
-<div class="content-panel" markdown="1">
-
+<section class="section-heading">
 <p class="eyebrow">Opportunities</p>
+</section>
 
+<div class="content-panel" markdown="1">
 # Join Us
 
 MoS Lab welcomes highly motivated students and collaborators interested in applying optimization theory and machine learning to transportation systems.

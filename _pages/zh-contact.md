@@ -12,10 +12,11 @@ permalink: /contact/
 
 <a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/admission">📢 MoS Lab 2027 级招生进行中 —— 查看招生信息 →</a>
 
-<div class="content-panel" markdown="1">
-
+<section class="section-heading">
 <p class="eyebrow">联系我们</p>
+</section>
 
+<div class="content-panel" markdown="1">
 # 联系方式
 
 如需开展科研合作、学生指导，或有意向报考，请联系 [莫佰川老师]({{ site.url }}{{ site.baseurl }}/team/baichuan_mo/)。
@@ -24,14 +25,15 @@ permalink: /contact/
 
 # 地址
 
-MoS Lab 位于中国北京清华大学。
+MoS Lab 位于中国北京清华大学新土木馆315。
 
 </div>
 
-<div class="content-panel" markdown="1">
-
+<section class="section-heading">
 <p class="eyebrow">招生</p>
+</section>
 
+<div class="content-panel" markdown="1">
 # 加入我们
 
 MoS Lab 欢迎对优化理论和机器学习在交通系统中应用感兴趣的同学与合作者加入。完整招生信息请见 [2027 级招生]({{ '/admission/' | relative_url }})。

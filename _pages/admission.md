@@ -7,10 +7,11 @@ lang: zh
 permalink: /admission/
 ---
 
-<div class="content-panel" markdown="1">
-
+<section class="section-heading">
 <p class="eyebrow">2027 招生</p>
+</section>
 
+<div class="content-panel" markdown="1">
 # 2027 级招生
 
 MoS Lab（清华大学交通科学实验室）正在招收2027年9月入学的学生，欢迎对优化理论和机器学习在交通系统中应用感兴趣的同学加入。
