@@ -61,7 +61,7 @@ alt_zh: "/"
       <span>{{ item.category }}</span>
       <h3>{{ item.feature_title | default: item.title }}</h3>
       <p>{{ item.feature_description }}</p>
-      <p class="feature-citation">{{ item.authors_text }}. {{ item.venue_display }}.</p>
+      {% include featured_citation.html pub=item %}
       <a class="text-link" href="{{ flink }}">Read paper</a>
     </div>
   </article>
@@ -70,8 +70,11 @@ alt_zh: "/"
 {% endfor %}
 </div>
 
-<section class="home-band research-area-band">
+<section class="section-heading">
   <p class="eyebrow">Research Areas</p>
+</section>
+
+<section class="home-band research-area-band">
   <div class="area-list">
     <p><strong>Transportation system resilience</strong> When incidents disrupt transportation systems, we develop efficient optimization and machine learning algorithms to adjust operations, guide passengers, and help systems recover quickly.</p>
     <p><strong>AI for Transportation:</strong> We study real-time decision-making with reinforcement learning, time-series foundation models, and transportation management agents across public transit, shared mobility, and supply-chain logistics.</p>

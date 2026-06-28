@@ -33,7 +33,7 @@ permalink: /research/
       <span>{{ cat_zh }}</span>
       <h3>{{ item.feature_title_zh | default: item.feature_title | default: item.title }}</h3>
       <p>{{ item.feature_description_zh | default: item.feature_description }}</p>
-      <p class="feature-citation">{{ item.authors_text }}. {{ item.venue_display }}.</p>
+      {% include featured_citation.html pub=item %}
     </div>
   </article>
 {% assign featured_count = featured_count | plus: 1 %}

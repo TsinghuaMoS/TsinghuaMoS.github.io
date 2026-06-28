@@ -359,6 +359,12 @@ a:focus {
   margin: 34px 0 18px 0;
 }
 
+.section-heading > .eyebrow {
+  margin-bottom: 0;
+  font-size: 22px;
+  line-height: 1.16;
+}
+
 .section-heading.compact {
   margin-top: 26px;
 }
@@ -424,7 +430,7 @@ a:focus {
 .feature-body h3 {
   margin: 0 0 8px 0;
   color: #23324d;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.24;
   font-weight: 800;
 }
@@ -436,11 +442,31 @@ a:focus {
   line-height: 1.55;
 }
 
-.feature-body p.feature-citation {
-  margin-top: -4px;
+.feature-citation {
+  margin: -4px 0 12px 0;
   color: #7c8aa3;
   font-size: 11.5px;
   line-height: 1.45;
+}
+
+.feature-citation p {
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.feature-citation-authors {
+  font-weight: 400;
+}
+
+.feature-citation-authors .author-me {
+  font-weight: 900;
+}
+
+.feature-citation-venue {
+  margin-top: 2px;
+  font-style: italic;
 }
 
 .text-link {
@@ -468,10 +494,6 @@ a:focus {
 
 .research-area-band {
   display: block;
-}
-
-.research-area-band > .eyebrow {
-  margin-bottom: 18px;
 }
 
 .research-area-band .area-list {
@@ -1054,6 +1076,14 @@ a:focus {
   .home-band h2,
   .pub-page-head h1 {
     font-size: 25px;
+  }
+
+  .section-heading > .eyebrow {
+    font-size: 20px;
+  }
+
+  .feature-body h3 {
+    font-size: 19px;
   }
 
   .pub-card {

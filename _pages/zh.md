@@ -63,7 +63,7 @@ permalink: /
       <span>{{ cat_zh }}</span>
       <h3>{{ item.feature_title_zh | default: item.feature_title | default: item.title }}</h3>
       <p>{{ item.feature_description_zh | default: item.feature_description }}</p>
-      <p class="feature-citation">{{ item.authors_text }}. {{ item.venue_display }}.</p>
+      {% include featured_citation.html pub=item %}
       <a class="text-link" href="{{ flink }}">查看论文</a>
     </div>
   </article>
@@ -72,8 +72,11 @@ permalink: /
 {% endfor %}
 </div>
 
-<section class="home-band research-area-band">
+<section class="section-heading">
   <p class="eyebrow">研究方向</p>
+</section>
+
+<section class="home-band research-area-band">
   <div class="area-list">
     <p><strong>交通系统韧性</strong> 在交通系统发生事故时，如何通过高效的优化与机器学习算法，调整运营、指导乘客，让系统快速恢复。</p>
     <p><strong>AI for Transportation</strong> 应用于公共交通、共享出行、供应链物流等多个场景，包括基于强化学习的实时决策、时序预测大模型、交通管理 Agent 等。</p>
