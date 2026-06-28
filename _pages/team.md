@@ -24,9 +24,7 @@ alt_zh: "/team/"
 {% assign has_members = false %}
 {% for member in site.data.team_members %}{% if member.group == gid %}{% assign has_members = true %}{% endif %}{% endfor %}
 <section class="team-section">
-  <section class="section-heading">
-    <p class="eyebrow">{{ group_names[forloop.index0] }}</p>
-  </section>
+  <h2 class="pub-section-title">{{ group_names[forloop.index0] }}</h2>
   {% if has_members %}
   <div class="team-grid">
   {% for member in site.data.team_members %}
