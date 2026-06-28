@@ -1253,7 +1253,7 @@ a:focus {
 /* Funding / research support logos */
 .funding-logos {
   display: flex; align-items: center; flex-wrap: wrap;
-  gap: 30px; margin-top: 16px;
+  gap: 30px; margin-top: 0;
 }
 .funding-logos img {
   height: 60px; width: auto; object-fit: contain;
@@ -1360,7 +1360,7 @@ a:focus {
   flex-wrap: wrap;
   align-items: center;
   gap: 30px;
-  margin-top: 16px;
+  margin-top: 0;
 }
 .partner-logos img {
   height: 60px;

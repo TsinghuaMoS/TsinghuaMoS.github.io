@@ -83,16 +83,22 @@ alt_zh: "/"
   </div>
 </section>
 
-<section class="support-note">
+<section class="section-heading">
   <p class="eyebrow">Research Support</p>
+</section>
+
+<section class="support-note">
   <div class="funding-logos">
     <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="National Natural Science Foundation of China"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China"></a>
     <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="ByteDance"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance"></a>
   </div>
 </section>
 
-<section class="support-note">
+<section class="section-heading">
   <p class="eyebrow">Collaborating Institutions</p>
+</section>
+
+<section class="support-note">
   <div class="partner-logos">
     <a href="https://www.mit.edu/" target="_blank" rel="noopener" title="Massachusetts Institute of Technology"><img src="{{ '/images/partners/mit.png' | relative_url }}" alt="Massachusetts Institute of Technology"></a>
     <a href="https://www.northeastern.edu/" target="_blank" rel="noopener" title="Northeastern University"><img src="{{ '/images/partners/northeastern.png' | relative_url }}" alt="Northeastern University"></a>
