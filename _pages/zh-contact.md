@@ -12,9 +12,7 @@ permalink: /contact/
 
 <a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/admission">📢 MoS Lab 2027 级招生进行中 —— 查看招生信息 →</a>
 
-<section class="section-heading">
-<p class="eyebrow">联系我们</p>
-</section>
+<h2 class="pub-section-title">联系我们</h2>
 
 <div class="content-panel" markdown="1">
 # 联系方式
@@ -29,9 +27,7 @@ MoS Lab 位于中国北京清华大学新土木馆315。
 
 </div>
 
-<section class="section-heading">
-<p class="eyebrow">招生</p>
-</section>
+<h2 class="pub-section-title">招生</h2>
 
 <div class="content-panel" markdown="1">
 # 加入我们

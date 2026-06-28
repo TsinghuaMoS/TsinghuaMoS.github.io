@@ -7,10 +7,6 @@ lang: zh
 permalink: /admission/
 ---
 
-<section class="section-heading">
-<p class="eyebrow">2027 招生</p>
-</section>
-
 <div class="content-panel" markdown="1">
 # 2027 级招生
 

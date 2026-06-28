@@ -17,9 +17,7 @@ permalink: /research/
   <p>MoS Lab 关注模型、算法与数据如何帮助交通系统在不确定性、突发事故和快速城市化环境下更高效、更智能、更可持续地运行。</p>
 </section>
 
-<section class="section-heading">
-  <p class="eyebrow">代表性研究</p>
-</section>
+<h2 class="pub-section-title">代表性研究</h2>
 <div class="featured-grid research-featured">
 {% assign featured_count = 0 %}
 {% assign sorted_pubs = site.data.publist | sort: "year" | reverse %}
@@ -43,9 +41,7 @@ permalink: /research/
 {% endfor %}
 </div>
 
-<section class="section-heading">
-  <p class="eyebrow">研究方向</p>
-</section>
+<h2 class="pub-section-title">研究方向</h2>
 <section class="research-pillars">
   <article>
     <span>01</span>

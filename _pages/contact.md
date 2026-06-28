@@ -11,9 +11,7 @@ alt_zh: "/contact/"
 
 <a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/admission">📢 MoS Lab 2027 级招生进行中 —— 查看招生信息 →</a>
 
-<section class="section-heading">
-<p class="eyebrow">Get in touch</p>
-</section>
+<h2 class="pub-section-title">Get in touch</h2>
 
 <div class="content-panel" markdown="1">
 # Contact
@@ -28,9 +26,7 @@ MoS Lab is based in Room 315, New Civil Engineering Building, Tsinghua Universit
 
 </div>
 
-<section class="section-heading">
-<p class="eyebrow">Opportunities</p>
-</section>
+<h2 class="pub-section-title">Opportunities</h2>
 
 <div class="content-panel" markdown="1">
 # Join Us
