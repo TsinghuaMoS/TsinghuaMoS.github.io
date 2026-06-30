@@ -8,7 +8,7 @@
 		<span class="icon-bar"></span>
 	  </button>
 	
-    <a class="navbar-brand" href="{% if page.lang == 'zh' %}{{ site.url }}{{ site.baseurl }}/{% else %}{{ site.url }}{{ site.baseurl }}/en{% endif %}">MoS Lab</a>
+    <a class="navbar-brand" href="{% if page.lang == 'zh' %}{{ site.url }}{{ site.baseurl }}/{% else %}{{ site.url }}{{ site.baseurl }}/en{% endif %}">{% if page.lang == 'zh' %}交通科学实验室{% else %}MoS Lab{% endif %}</a>
 	</div>
 
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">

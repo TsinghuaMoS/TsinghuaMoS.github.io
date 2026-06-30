@@ -1,7 +1,7 @@
 ---
-title: "联系 — 清华大学 MoS Lab"
+title: "联系 — 清华大学交通科学实验室"
 layout: textlay
-excerpt: "联系 MoS Lab 与加入我们。"
+excerpt: "联系清华大学交通科学实验室与加入我们。"
 sitemap: true
 lang: zh
 hreflang: true

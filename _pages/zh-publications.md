@@ -1,7 +1,7 @@
 ---
-title: "论文 — 清华大学 MoS Lab"
+title: "论文 — 清华大学交通科学实验室"
 layout: gridlay
-excerpt: "MoS Lab 论文发表列表。"
+excerpt: "清华大学交通科学实验室论文发表列表。"
 sitemap: true
 lang: zh
 hreflang: true

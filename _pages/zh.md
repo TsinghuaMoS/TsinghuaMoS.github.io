@@ -1,7 +1,7 @@
 ---
-title: "清华大学 MoS Lab｜交通科学与交通智能实验室"
+title: "清华大学交通科学实验室"
 layout: homelay
-excerpt: "清华大学交通工程系 MoS Lab（交通科学实验室），由助理教授莫佰川负责，研究交通系统韧性、AI for Transportation、出行行为与需求建模，以及可持续城市系统。"
+excerpt: "清华大学交通科学实验室，Mobility Science (MoS) Lab，由助理教授莫佰川负责，研究交通系统韧性、AI for Transportation、出行行为与需求建模，以及可持续城市系统。"
 sitemap: true
 lang: zh
 hreflang: true

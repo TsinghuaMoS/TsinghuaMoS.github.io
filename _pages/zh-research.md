@@ -1,7 +1,7 @@
 ---
-title: "研究 — 清华大学 MoS Lab"
+title: "研究 — 清华大学交通科学实验室"
 layout: gridlay
-excerpt: "MoS Lab 研究方向：交通系统韧性、AI for Transportation、出行行为与需求建模、可持续城市系统。"
+excerpt: "清华大学交通科学实验室研究方向：交通系统韧性、AI for Transportation、出行行为与需求建模、可持续城市系统。"
 sitemap: true
 lang: zh
 hreflang: true

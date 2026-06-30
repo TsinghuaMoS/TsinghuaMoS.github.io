@@ -1,7 +1,7 @@
 ---
-title: "团队 — 清华大学 MoS Lab"
+title: "团队 — 清华大学交通科学实验室"
 layout: gridlay
-excerpt: "MoS Lab 团队成员。"
+excerpt: "清华大学交通科学实验室团队成员。"
 sitemap: true
 lang: zh
 hreflang: true
