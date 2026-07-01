@@ -4,6 +4,30 @@
 # Before adding an entry, read MAINTAINING.md (title casing rule + full checklist).
 # Titles use SENTENCE CASE (only first word + first word after a colon + proper nouns/acronyms capitalized).
 
+- title: 'Large language models for travel behavior prediction'
+  year: 2026
+  type: 2
+  paper_type: 'J'
+  category: 'Travel Behavior & Demand'
+  category_label: 'Journal Article'
+  venue: 'Transportation Research Interdisciplinary Perspectives'
+  issue_page: '38, 102124'
+  venue_display: 'Transportation Research Interdisciplinary Perspectives, 2026, 38, 102124'
+  authors_text: 'Baichuan Mo, Hanyong Xu, Ruoyun Ma, Jung-Hoon Cho, Dingyi Zhuang, Xiaotong Guo, Jinhua Zhao'
+  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Hanyong Xu</span><sup class="author-corresponding">*</sup>, Ruoyun Ma, Jung-Hoon Cho, Dingyi Zhuang, Xiaotong Guo, Jinhua Zhao'
+  corresponding_authors: 'Hanyong Xu'
+  co_first_authors: ''
+  pdf_url: '/documents/publication/Large%20language%20models%20for%20travel%20behavior%20prediction.pdf'
+  external_url: 'https://doi.org/10.1016/j.trip.2026.102124'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: '3.8'
+  cas_quartile: 'Q3'
+  if_sci: true
+  first_author: true
+  featured: false
+  feature_image: ''
+
 - title: 'A federated meta-learning approach for interpretable, privacy-preserving, and customizable behavior analysis'
   year: 2026
   type: 2
@@ -343,29 +367,6 @@
   impact_factor: '5.1'
   cas_quartile: 'Q2'
   if_sci: true
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Large language models for travel behavior prediction'
-  year: 2024
-  type: 4
-  paper_type: 'P'
-  category: 'Mobility AI'
-  category_label: 'Preprint / Working Paper'
-  venue: 'arXiv preprint'
-  issue_page: '2312.00819'
-  venue_display: 'arXiv preprint, 2024, 2312.00819'
-  authors_text: 'Baichuan Mo, Hanyong Xu, Dingyi Zhuang, Ruoyun Ma, Xiaotong Guo, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Hanyong Xu</span><sup class="author-corresponding">*</sup>, Dingyi Zhuang, Ruoyun Ma, Xiaotong Guo, Jinhua Zhao'
-  corresponding_authors: 'Hanyong Xu'
-  co_first_authors: ''
-  pdf_url: ''
-  external_url: 'https://arxiv.org/abs/2312.00819'
-  external_label: 'arXiv'
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
   first_author: true
   featured: false
   feature_image: ''

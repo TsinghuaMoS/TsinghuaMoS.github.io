@@ -3,13 +3,19 @@
 
 \vspace{7pt}
 
+\stepcounter{myFirstAuthor}
+\stepcounter{myCounter}
+{\textcolor{gray}{[J\themyCounter, 2026]\;}}{\textbf{Large Language Models for Travel Behavior Prediction} \href{https://doi.org/10.1016/j.trip.2026.102124}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline \underline{Baichuan Mo}, Hanyong Xu*, Ruoyun Ma, Jung-Hoon Cho, Dingyi Zhuang, Xiaotong Guo, Jinhua Zhao}{\newline \emph{Transportation Research Interdisciplinary Perspectives, 2026, 38, 102124}}{{\; \keys{SCI} \keys{IF 3.8} \keys{Q3} }}{}
+\vspace{7pt}
+
+
 \stepcounter{myCounter}
 {\textcolor{gray}{[J\themyCounter, 2026]\;}}{\textbf{Resilience Analysis of Urban Cyber-Physical-Social Systems: Insights from the 2023 Beijing Rainstorm} \href{https://doi.org/10.1016/j.ress.2026.112579}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline Wenxin Ma, \underline{Baichuan Mo}, Ruimin Li*}{\newline \emph{Reliability Engineering and System Safety, 2026, 272, 112579}}{{\; \keys{SCI} \keys{IF 11.0} \keys{Q1} \keys{Top} }}{}
 \vspace{7pt}
 
 
 \stepcounter{myCounter}
-{\textcolor{gray}{[J\themyCounter, 2026]\;}}{\textbf{Application of License Plate Recognition Data in Intelligent Transportation Systems: A Review} \href{https://doi.org/10.1186/s12544-026-00788-3}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline Jiehui Ng, \underline{Baichuan Mo}, Lyuchao Liao, Ruimin Li*}{\newline \emph{European Transport Research Review, 2026}}{{\; \keys{SCI} \keys{IF 4.2} }}{}
+{\textcolor{gray}{[J\themyCounter, 2026]\;}}{\textbf{Application of License Plate Recognition Data in Intelligent Transportation Systems: A Review} \href{https://doi.org/10.1186/s12544-026-00788-3}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline Jiehui Ng, \underline{Baichuan Mo}, Lyuchao Liao, Ruimin Li*}{\newline \emph{European Transport Research Review, 2026, 18, 27}}{{\; \keys{SCI} \keys{IF 4.2} \keys{Q3} }}{}
 \vspace{7pt}
 
 
@@ -239,11 +245,6 @@
 {\small{所有论文初稿均已完成}}{}{}{}
 
 \vspace{7pt}\stepcounter{myPrePrint}
-{\textcolor{gray}{[P\themyPrePrint]\;}}{\textbf{Large Language Models for Travel Behavior Prediction}}{\newline \underline{Baichuan Mo}, Hanyong Xu*, Dingyi Zhuang, Ruoyun Ma, Xiaotong Guo, Jinhua Zhao}{\newline \emph{arXiv preprint, 2312.00819}}{{}}{}
-\vspace{7pt}
-
-
-\stepcounter{myPrePrint}
 {\textcolor{gray}{[P\themyPrePrint]\;}}{\textbf{Passenger Path Choice Estimation Using Smart Card Data: A Latent Class Approach with Panel Effects Across Days}}{\newline \underline{Baichuan Mo}, Zhenliang Ma*, Haris N. Koutsopoulos, Jinhua Zhao}{\newline \emph{To be submitted to Transportation Research Part E}}{{}}{}
 \vspace{7pt}
 
