@@ -43,6 +43,7 @@ Yahui Li (李雅慧) is an MSc student in MoS Lab, Department of Civil Engineeri
 - Honorable Mention, 40th Mathematical Contest in Modeling, 2024.
 - Grand Prize, AI+ Track, 19th Challenge Cup Capital College Students' Extracurricular Academic Science and Technology Works Competition, 2025.
 - Second Prize, Beijing Division, 11th China International College Students' Innovation Competition, 2025.
+- Outstanding Participant, Huazhong University of Science and Technology Global Summer School: 2025 Intelligent Construction and Smart Cities Summer Camp (First Prize in the BIM Reverse Engineering Modeling project); Outstanding Participant, 2025 National Outstanding Student Summer School, College of Transportation Engineering, Tongji University; Outstanding Participant, 2025 National Outstanding Student Summer School, School of Transportation, Southeast University.
 - Academic Excellence Scholarship, Outstanding Student Award, Outstanding Graduate Award, and First-Class Undergraduate Overseas Study Scholarship, Beijing Jiaotong University.
 
 ### Skills
