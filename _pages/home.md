@@ -91,7 +91,7 @@ alt_zh: "/"
   <div class="funding-logos">
     <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="National Natural Science Foundation of China"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China"></a>
     <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="ByteDance"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance"></a>
-    <a href="https://www.mercedes-benz.com/" target="_blank" rel="noopener" title="Mercedes-Benz"><img src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="Mercedes-Benz"></a>
+    <a href="https://www.mercedes-benz.com/" target="_blank" rel="noopener" title="Mercedes-Benz"><img class="funding-logo-mercedes" src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="Mercedes-Benz"></a>
   </div>
 </section>
 

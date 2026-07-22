@@ -93,7 +93,7 @@ permalink: /
   <div class="funding-logos">
     <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="国家自然科学基金委员会"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="国家自然科学基金委员会"></a>
     <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="字节跳动"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="字节跳动"></a>
-    <a href="https://www.mercedes-benz.com.cn/" target="_blank" rel="noopener" title="梅赛德斯-奔驰"><img src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="梅赛德斯-奔驰"></a>
+    <a href="https://www.mercedes-benz.com.cn/" target="_blank" rel="noopener" title="梅赛德斯-奔驰"><img class="funding-logo-mercedes" src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="梅赛德斯-奔驰"></a>
   </div>
 </section>
 
