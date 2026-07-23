@@ -46,7 +46,7 @@ Please prepare:
 
 - CV or resume.
 - Transcript.
-- Publication list, if applicable.
+- Full texts of multiple representative papers, if available.
 - A brief statement describing your research interests and how they connect with MoS Lab.
 
 Please email [Dr. Baichuan Mo](mailto:bmo@tsinghua.edu.cn) at [bmo[at]tsinghua.edu.cn](mailto:bmo@tsinghua.edu.cn) with the materials above.

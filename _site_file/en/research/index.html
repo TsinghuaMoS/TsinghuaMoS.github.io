@@ -84,6 +84,10 @@
 
 
 
+
+
+
+
   <article class="feature-card">
     <a class="feature-image" href="/documents/publication/Housing%20exchange%20framework%20to%20reduce%20carbon%20emissions%20from%20commuting.pdf">
       <img src="/images/featured/housing_commute.png" alt="Title area screenshot from the first page of the Nature Sustainability paper">
@@ -142,10 +146,6 @@
 
 
 
-
-
-
-
   <article class="feature-card">
     <a class="feature-image" href="/documents/publication/Predicting%20drivers''%20route%20trajectories%20in%20last-mile%20delivery%20using%20a%20pair-wise%20attention-based%20pointer%20neural%20network.pdf">
       <img src="/images/featured/lastmile_delivery.png" alt="Title area screenshot from the first page of the Transportation Research Part E paper">
@@ -161,6 +161,8 @@
 
     </div>
   </article>
+
+
 
 
 
@@ -272,7 +274,7 @@
     <div id="footer" class="panel">
   <div class="panel-footer">
 	<div class="container-fluid">
-	  <p class="footer-copy">&copy; Baichuan Mo 2026 &middot; Last updated Jun 29, 2026</p>
+	  <p class="footer-copy">&copy; Baichuan Mo 2026 &middot; Last updated Jul 23, 2026</p>
 	</div>
   </div>
 </div>
@@ -299,6 +301,8 @@
       setMenuOpen(button, target, !isMenuOpen(target));
     }
 
+    if (window.jQuery && window.jQuery.fn && window.jQuery.fn.collapse) return;
+
     document.addEventListener('click', function (event) {
       var button = event.target;
       while (button && button !== document && !(button.classList && button.classList.contains('navbar-toggle'))) {
@@ -306,15 +310,8 @@
       }
       if (!button || button === document || button.getAttribute('data-toggle') !== 'collapse') return;
 
-      var target = document.querySelector(button.getAttribute('data-target'));
-      if (!target) return;
-      var wasOpen = isMenuOpen(target);
-
-      window.setTimeout(function () {
-        if (isMenuOpen(target) === wasOpen) {
-          toggleMenu(button);
-        }
-      }, 80);
+      event.preventDefault();
+      toggleMenu(button);
     });
   })();
 </script>

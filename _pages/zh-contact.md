@@ -47,7 +47,7 @@ MoS Lab 欢迎对优化理论和机器学习在交通系统中应用感兴趣的
 
 - 简历（CV / Resume）。
 - 成绩单。
-- 论文列表（如有）。
+- 多篇代表性论文全文（如有）。
 - 一段简要说明：你的研究兴趣，以及与 MoS Lab 的契合点。
 
 请将以上材料通过邮件发送给 [莫佰川老师](mailto:bmo@tsinghua.edu.cn)（bmo[at]tsinghua.edu.cn）。

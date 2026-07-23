@@ -103,7 +103,7 @@
   <ul>
     <li>CV or resume.</li>
     <li>Transcript.</li>
-    <li>Publication list, if applicable.</li>
+    <li>Full texts of multiple representative papers, if available.</li>
     <li>A brief statement describing your research interests and how they connect with MoS Lab.</li>
   </ul>
 
@@ -119,7 +119,7 @@
     <div id="footer" class="panel">
   <div class="panel-footer">
 	<div class="container-fluid">
-	  <p class="footer-copy">&copy; Baichuan Mo 2026 &middot; Last updated Jun 29, 2026</p>
+	  <p class="footer-copy">&copy; Baichuan Mo 2026 &middot; Last updated Jul 23, 2026</p>
 	</div>
   </div>
 </div>
@@ -146,6 +146,8 @@
       setMenuOpen(button, target, !isMenuOpen(target));
     }
 
+    if (window.jQuery && window.jQuery.fn && window.jQuery.fn.collapse) return;
+
     document.addEventListener('click', function (event) {
       var button = event.target;
       while (button && button !== document && !(button.classList && button.classList.contains('navbar-toggle'))) {
@@ -153,15 +155,8 @@
       }
       if (!button || button === document || button.getAttribute('data-toggle') !== 'collapse') return;
 
-      var target = document.querySelector(button.getAttribute('data-target'));
-      if (!target) return;
-      var wasOpen = isMenuOpen(target);
-
-      window.setTimeout(function () {
-        if (isMenuOpen(target) === wasOpen) {
-          toggleMenu(button);
-        }
-      }, 80);
+      event.preventDefault();
+      toggleMenu(button);
     });
   })();
 </script>

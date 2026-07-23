@@ -101,7 +101,7 @@
 
   <p>计划招收2027年9月入学的<strong>博士生一名</strong>，硕士生名额待定。欢迎具有以下背景的同学申请：<strong>计算机、运筹学、统计、交通</strong>。</p>
 
-  <p>如有意向，请通过 <a href="mailto:bmo@tsinghua.edu.cn">邮件</a>（bmo[at]tsinghua.edu.cn）联系，并附上简历、成绩单、（如有）论文列表，以及一段简要的研究兴趣说明。</p>
+  <p>如有意向，请通过 <a href="mailto:bmo@tsinghua.edu.cn">邮件</a>（bmo[at]tsinghua.edu.cn）联系，并附上简历、成绩单、多篇代表性论文全文（如有），以及一段简要的研究兴趣说明。</p>
 
 </div>
 
@@ -152,7 +152,7 @@
     <div id="footer" class="panel">
   <div class="panel-footer">
 	<div class="container-fluid">
-	  <p class="footer-copy">&copy; Baichuan Mo 2026 &middot; Last updated Jun 30, 2026</p>
+	  <p class="footer-copy">&copy; Baichuan Mo 2026 &middot; Last updated Jul 23, 2026</p>
 	</div>
   </div>
 </div>
@@ -179,6 +179,8 @@
       setMenuOpen(button, target, !isMenuOpen(target));
     }
 
+    if (window.jQuery && window.jQuery.fn && window.jQuery.fn.collapse) return;
+
     document.addEventListener('click', function (event) {
       var button = event.target;
       while (button && button !== document && !(button.classList && button.classList.contains('navbar-toggle'))) {
@@ -186,15 +188,8 @@
       }
       if (!button || button === document || button.getAttribute('data-toggle') !== 'collapse') return;
 
-      var target = document.querySelector(button.getAttribute('data-target'));
-      if (!target) return;
-      var wasOpen = isMenuOpen(target);
-
-      window.setTimeout(function () {
-        if (isMenuOpen(target) === wasOpen) {
-          toggleMenu(button);
-        }
-      }, 80);
+      event.preventDefault();
+      toggleMenu(button);
     });
   })();
 </script>
