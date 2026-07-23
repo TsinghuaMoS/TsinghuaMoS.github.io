@@ -146,7 +146,7 @@
   if_sci: true
   first_author: false
   featured: true
-  feature_image: '/images/featured/housing_commute.png'
+  feature_image: '/images/featured/housing_commute.webp'
   feature_title: 'Housing exchange to reduce commuting emissions'
   feature_description: 'Uses household-level housing exchange strategies to reduce excess commuting emissions.'
   feature_title_zh: '以住房置换降低通勤碳排放'
@@ -199,7 +199,7 @@
   if_sci: true
   first_author: true
   featured: true
-  feature_image: '/images/featured/path_recommendation.png'
+  feature_image: '/images/featured/path_recommendation.webp'
   feature_title: 'Individual path recommendation under transit disruptions'
   feature_description: 'Models passenger behavior uncertainty and recommends resilient paths during service disruptions.'
   feature_title_zh: '公共交通中断下的个性化路径推荐'
@@ -441,7 +441,7 @@
   if_sci: true
   first_author: true
   featured: true
-  feature_image: '/images/featured/lastmile_delivery.png'
+  feature_image: '/images/featured/lastmile_delivery.webp'
   feature_title: 'Last-mile delivery route prediction'
   feature_description: 'A pair-wise attention-based pointer neural network that predicts drivers'' route trajectories in last-mile delivery.'
   feature_title_zh: '末端配送路径轨迹预测'
@@ -541,7 +541,7 @@
   if_sci: true
   first_author: true
   featured: true
-  feature_image: '/images/featured/path_choice_hypernetwork.png'
+  feature_image: '/images/featured/path_choice_hypernetwork.webp'
   feature_title: 'Ex post path choice estimation'
   feature_description: 'Estimates urban rail passenger path choices from smart card data via an aggregated time-space hypernetwork.'
   feature_title_zh: '城市轨道交通事后路径选择估计'

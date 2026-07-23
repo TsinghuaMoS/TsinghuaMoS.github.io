@@ -16,7 +16,7 @@ permalink: /
 <a class="notice-banner" href="{{ '/admission/' | relative_url }}">📢 实验室正在招生！MoS Lab 2027 级招生进行中 —— 查看招生信息 →</a>
 
 <section class="lab-hero">
-  <img class="lab-hero-bg" src="{{ '/images/hero/urban_network.jpg' | relative_url }}" alt="">
+  <img class="lab-hero-bg" src="{{ '/images/hero/urban_network.webp' | relative_url }}" alt="" width="2000" height="1001" decoding="async" fetchpriority="high">
   <div class="lab-hero-copy">
     <p class="eyebrow">清华大学 · MoS Lab</p>
     <h1>清华大学交通科学实验室</h1>
@@ -57,7 +57,7 @@ permalink: /
 {% case item.category %}{% when 'Public Transit Resilience' %}{% assign cat_zh = '公共交通韧性' %}{% when 'Travel Behavior & Demand' %}{% assign cat_zh = '出行行为与需求' %}{% when 'Mobility AI' %}{% assign cat_zh = '交通智能' %}{% when 'Sustainable Urban Systems' %}{% assign cat_zh = '可持续城市系统' %}{% else %}{% assign cat_zh = item.category %}{% endcase %}
   <article class="feature-card">
     <a class="feature-image" href="{{ flink }}">
-      <img src="{{ item.feature_image | relative_url }}" alt="{{ item.feature_alt | default: item.title }}">
+      <img src="{{ item.feature_image | relative_url }}" alt="{{ item.feature_alt | default: item.title }}" width="1200" height="750" loading="lazy" decoding="async">
     </a>
     <div class="feature-body">
       <span>{{ cat_zh }}</span>
@@ -91,9 +91,9 @@ permalink: /
 
 <section class="support-note">
   <div class="funding-logos">
-    <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="国家自然科学基金委员会"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="国家自然科学基金委员会"></a>
-    <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="字节跳动"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="字节跳动"></a>
-    <a href="https://www.mercedes-benz.com.cn/" target="_blank" rel="noopener" title="梅赛德斯-奔驰"><img class="funding-logo-mercedes" src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="梅赛德斯-奔驰"></a>
+    <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="国家自然科学基金委员会"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="国家自然科学基金委员会" width="286" height="320" loading="lazy" decoding="async"></a>
+    <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="字节跳动"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="字节跳动" width="359" height="320" loading="lazy" decoding="async"></a>
+    <a href="https://www.mercedes-benz.com.cn/" target="_blank" rel="noopener" title="梅赛德斯-奔驰"><img class="funding-logo-mercedes" src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="梅赛德斯-奔驰" width="64" height="64" loading="lazy" decoding="async"></a>
   </div>
 </section>
 
@@ -103,16 +103,16 @@ permalink: /
 
 <section class="support-note">
   <div class="partner-logos">
-    <a href="https://www.mit.edu/" target="_blank" rel="noopener" title="麻省理工学院"><img src="{{ '/images/partners/mit.png' | relative_url }}" alt="麻省理工学院"></a>
-    <a href="https://www.northeastern.edu/" target="_blank" rel="noopener" title="东北大学（美国）"><img src="{{ '/images/partners/northeastern.png' | relative_url }}" alt="Northeastern University"></a>
-    <a href="https://www.berkeley.edu/" target="_blank" rel="noopener" title="加州大学伯克利分校"><img src="{{ '/images/partners/uc_berkeley.png' | relative_url }}" alt="UC Berkeley"></a>
-    <a href="https://www.hku.hk/" target="_blank" rel="noopener" title="香港大学"><img src="{{ '/images/partners/hku.png' | relative_url }}" alt="The University of Hong Kong"></a>
-    <a href="https://www.pku.edu.cn/" target="_blank" rel="noopener" title="北京大学"><img src="{{ '/images/partners/pku.png' | relative_url }}" alt="Peking University"></a>
-    <a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener" title="同济大学"><img src="{{ '/images/partners/tongji.png' | relative_url }}" alt="Tongji University"></a>
-    <a href="https://www.kth.se/" target="_blank" rel="noopener" title="瑞典皇家理工学院（KTH）"><img src="{{ '/images/partners/kth.png' | relative_url }}" alt="KTH Royal Institute of Technology"></a>
-    <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener" title="浙江大学"><img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University"></a>
-    <a href="https://nus.edu.sg/" target="_blank" rel="noopener" title="新加坡国立大学"><img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore"></a>
-    <a href="https://www.cnu.edu.cn/" target="_blank" rel="noopener" title="首都师范大学"><img src="{{ '/images/partners/cnu.png' | relative_url }}" alt="Capital Normal University"></a>
+    <a href="https://www.mit.edu/" target="_blank" rel="noopener" title="麻省理工学院"><img src="{{ '/images/partners/mit.png' | relative_url }}" alt="麻省理工学院" width="245" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://www.northeastern.edu/" target="_blank" rel="noopener" title="东北大学（美国）"><img src="{{ '/images/partners/northeastern.png' | relative_url }}" alt="Northeastern University" width="244" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://www.berkeley.edu/" target="_blank" rel="noopener" title="加州大学伯克利分校"><img src="{{ '/images/partners/uc_berkeley.png' | relative_url }}" alt="UC Berkeley" width="244" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://www.hku.hk/" target="_blank" rel="noopener" title="香港大学"><img src="{{ '/images/partners/hku.png' | relative_url }}" alt="The University of Hong Kong" width="222" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://www.pku.edu.cn/" target="_blank" rel="noopener" title="北京大学"><img src="{{ '/images/partners/pku.png' | relative_url }}" alt="Peking University" width="244" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://www.tongji.edu.cn/" target="_blank" rel="noopener" title="同济大学"><img src="{{ '/images/partners/tongji.png' | relative_url }}" alt="Tongji University" width="244" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://www.kth.se/" target="_blank" rel="noopener" title="瑞典皇家理工学院（KTH）"><img src="{{ '/images/partners/kth.png' | relative_url }}" alt="KTH Royal Institute of Technology" width="223" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener" title="浙江大学"><img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University" width="244" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://nus.edu.sg/" target="_blank" rel="noopener" title="新加坡国立大学"><img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore" width="200" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://www.cnu.edu.cn/" target="_blank" rel="noopener" title="首都师范大学"><img src="{{ '/images/partners/cnu.png' | relative_url }}" alt="Capital Normal University" width="208" height="232" loading="lazy" decoding="async"></a>
   </div>
 </section>
 {:/nomarkdown}
