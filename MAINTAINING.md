@@ -59,3 +59,5 @@ Edit `_data/team_members.yml` (group codes: `0` PI · `7` Researchers · `1` PhD
 ## Logos (funding / collaborating institutions)
 
 Drop the official logo into `images/funding/` or `images/partners/`, then trim whitespace and normalize it to a uniform content height on a white background (so the row stays even). Each logo links to the institution's site with a `title` for the hover name.
+
+For new **Research Support / 科研支持** logos, use the current Mercedes-Benz mark as the visual-size reference: its dedicated class renders it at `50px` high, giving it approximately the same perceived size and visual weight as the NSFC emblem. Match this perceived footprint rather than blindly giving every source image the same CSS height, since logos contain different amounts of internal whitespace. Use a logo-specific class when adjustment is needed, and verify alignment at both desktop and `390px` mobile widths.
