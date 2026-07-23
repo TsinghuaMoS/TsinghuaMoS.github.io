@@ -32,11 +32,11 @@ alt_zh: "/team/"
     <article class="team-card">
       {% if member.url and member.url != "" %}
       <a class="team-photo" href="{{ member.url }}">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" width="384" height="384" loading="lazy" decoding="async">
       </a>
       {% else %}
       <span class="team-photo">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" width="384" height="384" loading="lazy" decoding="async">
       </span>
       {% endif %}
       <div class="team-card-body">

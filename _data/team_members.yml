@@ -1,7 +1,7 @@
 - group: 0
   info: Assistant Professor
   name: Baichuan Mo
-  photo: baichuan_mo.jpg
+  photo: optimized/baichuan_mo.webp
   url: /en/team/baichuan_mo.html
   cv_cn: /cv/CV_Baichuan_CN.pdf
   cv_en: /cv/CV_Baichuan_EN.pdf
@@ -9,48 +9,48 @@
 - group: 7
   info: Research Affiliate
   name: Yida Xu
-  photo: yida_xu_clean.jpg
+  photo: optimized/yida_xu_clean.webp
   url: https://www.linkedin.com/in/yida-xu-a2a1482b1/
 
 - group: 7
   info: Research Affiliate
   name: Ruoyun Ma
-  photo: ruoyun_ma.jpeg
+  photo: optimized/ruoyun_ma.webp
   url: https://www.linkedin.com/in/ruoyunma/
 
 - group: 7
   info: Research Affiliate
   name: Qingyi Wang
-  photo: qingyi_wang.jpeg
+  photo: optimized/qingyi_wang.webp
   url: https://www.linkedin.com/in/qingyi-wang-25a164a4/
 
 - group: 7
   info: Research Affiliate
   name: Sunyu Wang
-  photo: sunyu_wang.jpeg
+  photo: optimized/sunyu_wang.webp
   url: https://www.linkedin.com/in/sywang410/
 
 - group: 7
   info: Research Affiliate
   name: Yuhan Tang
-  photo: yuhan_tang.jpeg
+  photo: optimized/yuhan_tang.webp
   url: https://www.linkedin.com/in/yuhan-tang-1b3571227/
 
 - group: 7
   info: Research Affiliate
   name: Fangxin Wang
-  photo: fangxin_wang.jpeg
+  photo: optimized/fangxin_wang.webp
   url: https://www.linkedin.com/in/fangxin-wang-2000/?locale=en
 
 - group: 2
   info: MSc Student
   name: Yahui Li
   name_zh: 李雅慧
-  photo: yahui_li.jpeg
+  photo: optimized/yahui_li.webp
   url: /en/team/yahui_li.html
 
 - group: 4
   info: Intern
   name: Michael Sun
-  photo: michael_sun.png
+  photo: optimized/michael_sun.webp
   url: ''

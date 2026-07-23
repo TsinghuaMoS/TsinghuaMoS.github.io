@@ -99,6 +99,8 @@ Edit `_data/team_members.yml`, add the photo to `images/teampic/`, and (for prof
 
 Groups: `0` Principal Investigator · `7` Researchers · `1` PhD Students · `2` MSc Students · `3` Undergraduate Students · `4` Interns · `8` Alumni. Empty groups still show their heading with a recruiting note.
 
+Team portraits displayed by the site live in `images/teampic/optimized/`. Keep them as 384 x 384 WebP files so the team grid and member profile reuse the same lightweight URL. When replacing an image without changing its filename, bump `IMAGE_CACHE` in `sw.js` so returning visitors receive the new version.
+
 ### Funding logos
 
 Add logo images to `images/funding/` and reference them in the Research Support section of `_pages/home.md`.

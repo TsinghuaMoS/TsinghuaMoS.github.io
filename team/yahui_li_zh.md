@@ -13,7 +13,7 @@ twitter:
 github:
 scholar:
 linkedin:
-photo: yahui_li.jpeg
+photo: optimized/yahui_li.webp
 ---
 
 ### 简介

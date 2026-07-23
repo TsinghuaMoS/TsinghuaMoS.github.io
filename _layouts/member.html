@@ -13,8 +13,11 @@ layout: default
 	<div class="member-hero-card">
 
 		<img class="pull-left pad-right content-photo"
-			width=160
+			width="384"
+			height="384"
 			src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+			decoding="async"
+			fetchpriority="high"
 			alt="{{ member.title }}">
 
 		<div class="member-hero-copy">

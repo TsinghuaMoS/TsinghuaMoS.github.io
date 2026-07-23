@@ -42,3 +42,25 @@
     });
   })();
 </script>
+<script>
+  (function () {
+    if (!('serviceWorker' in navigator) || window.location.protocol !== 'https:') return;
+
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/sw.js').then(function (registration) {
+        return navigator.serviceWorker.ready.then(function () {
+          var worker = navigator.serviceWorker.controller || registration.active;
+          if (!worker) return;
+
+          var loadedImages = Array.prototype.slice.call(document.images)
+            .filter(function (image) { return image.complete && image.naturalWidth > 0; })
+            .map(function (image) { return image.currentSrc || image.src; });
+
+          worker.postMessage({ type: 'CACHE_IMAGES', urls: loadedImages });
+        });
+      }).catch(function () {
+        // The site remains fully functional when browser caching is unavailable.
+      });
+    });
+  })();
+</script>

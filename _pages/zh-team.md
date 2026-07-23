@@ -35,11 +35,11 @@ permalink: /team/
     <article class="team-card">
       {% if mlink and mlink != "" %}
       <a class="team-photo" href="{{ mlink }}">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" width="384" height="384" loading="lazy" decoding="async">
       </a>
       {% else %}
       <span class="team-photo">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" width="384" height="384" loading="lazy" decoding="async">
       </span>
       {% endif %}
       <div class="team-card-body">

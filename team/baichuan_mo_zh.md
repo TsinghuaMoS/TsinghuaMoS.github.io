@@ -12,7 +12,7 @@ email:
 twitter:
 github: 
 scholar: ORhrfXoAAAAJ
-photo: baichuan_mo.jpg
+photo: optimized/baichuan_mo.webp
 linkedin: baichuan-mo-46771a110
 cv_en: /cv/CV_Baichuan_EN.pdf
 cv_cn: /cv/CV_Baichuan_CN.pdf
