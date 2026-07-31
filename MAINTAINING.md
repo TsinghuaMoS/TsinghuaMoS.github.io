@@ -56,6 +56,18 @@ It rewrites every title to sentence case and is **idempotent** (already-correct 
 
 Edit `_data/team_members.yml` (group codes: `0` PI · `7` Researchers · `1` PhD · `2` MSc · `3` Undergrad · `4` Interns · `8` Alumni), add the photo to `images/teampic/`, and a profile markdown to `team/` if needed.
 
+## PI personal-information synchronization
+
+Whenever the PI biography, position, education, employment dates, contact details, research summary, awards, or representative publications change, update all applicable copies together:
+
+1. Website profile and recruitment content in `team/baichuan_mo.md`, `team/baichuan_mo_zh.md`, and `_pages/admission.md`.
+2. English and Chinese CV sources and generated PDFs under `cv/`.
+3. The two local Tsinghua faculty-profile forms:
+   - `private/tsinghua_profile_forms/清华大学土水学院教师个人信息登记表（中文）_填写版.docx`
+   - `private/tsinghua_profile_forms/清华大学土水学院教师个人信息登记表（英文）_填写版.docx`
+
+The two `.docx` forms are intentionally ignored by Git because this is a public repository and the forms may contain personal information. Keep them local and visually verify both documents after every content update.
+
 ## Logos (funding / collaborating institutions)
 
 Drop the official logo into `images/funding/` or `images/partners/`, then trim whitespace and normalize it to a uniform content height on a white background (so the row stays even). Each logo links to the institution's site with a `title` for the hover name.
