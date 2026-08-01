@@ -16,7 +16,7 @@ def title_case(title):
     small_words = {'of', 'on', 'with', 'and', 'but', 'or', 'nor', 'the', 'for', 'in', 'to', 'at', 'by',
                    'from'}
     words_map = {'covid-19': 'COVID-19', 'timemixer++:': 'TimeMixer$^{++}$:', 'v2i': 'V2I', 'scope-moe:': 'SCOPE-MoE:',
-                 'moe-based': 'MoE-Based', 'conflux:': 'ConFlux:'
+                 'moe-based': 'MoE-Based'
                  }
     def capitalize_word(word, is_first_word):
         # Handle dash-separated words
