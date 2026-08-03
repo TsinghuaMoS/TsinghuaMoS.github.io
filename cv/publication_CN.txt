@@ -32,13 +32,13 @@
 
 \stepcounter{myFirstAuthor}
 \stepcounter{myCounter}
-{\textcolor{gray}{[J\themyCounter, 2025]\;}}{\textbf{Individual Path Recommendation Under Public Transit Service Disruptions Considering Behavior Uncertainty}}{\newline \underline{Baichuan Mo}*, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao}{\newline \emph{Transportation Science, 2025, Accepted}}{{\; \keys{SCI} \keys{IF 4.8} \keys{Q2} }}{}
+{\textcolor{gray}{[J\themyCounter, 2025]\;}}{\textbf{Individual Path Recommendation Under Public Transit Service Disruptions Considering Behavior Uncertainty}}{\newline \underline{Baichuan Mo}*, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao}{\newline \emph{Transportation Science, 2025, 59 (6), 1235-1258}}{{\; \keys{SCI} \keys{IF 4.8} \keys{Q2} }}{}
 \vspace{7pt}
 
 
 \stepcounter{myFirstAuthor}
 \stepcounter{myCounter}
-{\textcolor{gray}{[J\themyCounter, 2025]\;}}{\textbf{Households Housing Exchange to Reduce Carbon Emissions}}{\newline Juanjuan Zhao$^\dagger$, \underline{Baichuan Mo}$^\dagger$*, Nicholas S. Caros, Jinhua Zhao}{\newline \emph{Nature Sustainability, 2025, Accepted}}{{\; \keys{SCI} \keys{IF 27.2} \keys{Q1} \keys{Top} }}{}
+{\textcolor{gray}{[J\themyCounter, 2025]\;}}{\textbf{Households Housing Exchange to Reduce Carbon Emissions}}{\newline Juanjuan Zhao$^\dagger$, \underline{Baichuan Mo}$^\dagger$*, Nicholas S. Caros, Jinhua Zhao}{\newline \emph{Nature Sustainability, 2025, 8, 1259-1269}}{{\; \keys{SCI} \keys{IF 27.2} \keys{Q1} \keys{Top} }}{}
 \vspace{7pt}
 
 
