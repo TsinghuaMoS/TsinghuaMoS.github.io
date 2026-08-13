@@ -55,7 +55,7 @@ alt_zh: "/team/"
   {% endfor %}
   </div>
   {% else %}
-  <p class="team-empty">We are recruiting. See the <a href="{{ '/en/contact/' | relative_url }}">Join Us</a> section.</p>
+  <p class="team-empty">We are recruiting. See our <a href="{{ '/en/admission/' | relative_url }}">postdoctoral and research assistant openings</a>.</p>
   {% endif %}
 </section>
 {% endfor %}

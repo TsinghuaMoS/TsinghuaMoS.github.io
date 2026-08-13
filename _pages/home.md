@@ -12,7 +12,7 @@ alt_zh: "/"
 {% assign journal_count = site.data.publist | where: "type", 2 | size %}
 
 {::nomarkdown}
-<a class="notice-banner" href="{{ '/admission/' | relative_url }}">📢 We're hiring! MoS Lab 2027 级招生进行中 —— 查看招生信息 →</a>
+<a class="notice-banner" href="{{ '/en/admission/' | relative_url }}">📢 We are hiring postdoctoral fellows and full-time research assistants — View openings →</a>
 
 <section class="lab-hero">
   <img class="lab-hero-bg" src="{{ '/images/hero/urban_network.webp' | relative_url }}" alt="" width="2000" height="1001" decoding="async" fetchpriority="high">
@@ -23,7 +23,7 @@ alt_zh: "/"
     <div class="hero-actions">
       <a class="hero-button primary" href="{{ '/en/team/' | relative_url }}">Team Members</a>
       <a class="hero-button" href="{{ '/en/publications/' | relative_url }}">View Publications</a>
-      <a class="hero-button" href="{{ '/en/contact/' | relative_url }}">Join Us</a>
+      <a class="hero-button" href="{{ '/en/admission/' | relative_url }}">Join Us</a>
     </div>
   </div>
 </section>

@@ -59,7 +59,7 @@ permalink: /team/
   {% endfor %}
   </div>
   {% else %}
-  <p class="team-empty">招生中，详见 <a href="{{ '/admission/' | relative_url }}">2027 级招生</a>。</p>
+  <p class="team-empty">招聘中，详见<a href="{{ '/admission/' | relative_url }}">博士后与全职科研助理招聘</a>。</p>
   {% endif %}
 </section>
 {% endfor %}
