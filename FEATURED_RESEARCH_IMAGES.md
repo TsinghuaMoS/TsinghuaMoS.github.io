@@ -10,7 +10,7 @@ Each `feature_image` should be a screenshot of the title area from the paper PDF
 - Output format: `.png`
 - Output size: `1200 x 750`
 - Aspect ratio: `16:10`
-- Source: the paper PDF in `documents/publication/`
+- Source: the paper PDF in the matching `documents/publication/{journals,conferences,preprints}/` folder
 - For `Transportation Science` papers: use page 2, because page 1 is the INFORMS information / cover page.
 - For other papers: use page 1 unless the real article title starts on a later page.
 
@@ -38,10 +38,10 @@ These are the current four featured-card images:
 
 | File | Source PDF | Page |
 | --- | --- | --- |
-| `images/featured/housing_commute.png` | `documents/publication/Housing exchange framework to reduce carbon emissions from commuting.pdf` | 1 |
-| `images/featured/path_recommendation.png` | `documents/publication/Individual path recommendation under public transit service disruptions considering behavior uncertainty.pdf` | 2 |
-| `images/featured/lastmile_delivery.png` | `documents/publication/Predicting drivers'' route trajectories in last-mile delivery using a pair-wise attention-based pointer neural network.pdf` | 1 |
-| `images/featured/path_choice_hypernetwork.png` | `documents/publication/Ex post path choice estimation for urban rail systems using smart card data - An aggregated time-space hypernetwork approach.pdf` | 2 |
+| `images/featured/housing_commute.png` | `documents/publication/journals/Housing exchange framework to reduce carbon emissions from commuting.pdf` | 1 |
+| `images/featured/path_recommendation.png` | `documents/publication/journals/Individual path recommendation under public transit service disruptions considering behavior uncertainty.pdf` | 2 |
+| `images/featured/lastmile_delivery.png` | `documents/publication/journals/Predicting drivers'' route trajectories in last-mile delivery using a pair-wise attention-based pointer neural network.pdf` | 1 |
+| `images/featured/path_choice_hypernetwork.png` | `documents/publication/journals/Ex post path choice estimation for urban rail systems using smart card data - An aggregated time-space hypernetwork approach.pdf` | 2 |
 
 ## Render PDF pages
 
@@ -52,19 +52,19 @@ PDFTOPPM="$HOME/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/pdf
 mkdir -p /private/tmp/mos_feature_titles
 
 "$PDFTOPPM" -f 1 -l 1 -r 180 -png \
-  "documents/publication/Housing exchange framework to reduce carbon emissions from commuting.pdf" \
+  "documents/publication/journals/Housing exchange framework to reduce carbon emissions from commuting.pdf" \
   /private/tmp/mos_feature_titles/housing
 
 "$PDFTOPPM" -f 2 -l 2 -r 180 -png \
-  "documents/publication/Individual path recommendation under public transit service disruptions considering behavior uncertainty.pdf" \
+  "documents/publication/journals/Individual path recommendation under public transit service disruptions considering behavior uncertainty.pdf" \
   /private/tmp/mos_feature_titles/path_recommendation
 
 "$PDFTOPPM" -f 1 -l 1 -r 180 -png \
-  "documents/publication/Predicting drivers'' route trajectories in last-mile delivery using a pair-wise attention-based pointer neural network.pdf" \
+  "documents/publication/journals/Predicting drivers'' route trajectories in last-mile delivery using a pair-wise attention-based pointer neural network.pdf" \
   /private/tmp/mos_feature_titles/lastmile
 
 "$PDFTOPPM" -f 2 -l 2 -r 180 -png \
-  "documents/publication/Ex post path choice estimation for urban rail systems using smart card data - An aggregated time-space hypernetwork approach.pdf" \
+  "documents/publication/journals/Ex post path choice estimation for urban rail systems using smart card data - An aggregated time-space hypernetwork approach.pdf" \
   /private/tmp/mos_feature_titles/path_choice
 ```
 

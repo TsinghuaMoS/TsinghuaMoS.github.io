@@ -44,7 +44,7 @@ Edit `_data/publist.yml`. Each entry:
   authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yunhan Zheng</span><sup class="author-corresponding">*</sup>, ...'
   corresponding_authors: 'Yunhan Zheng'
   co_first_authors: ''
-  pdf_url: ''            # local PDF under /documents/publication/ (optional)
+  pdf_url: ''            # local PDF under /documents/publication/{journals,conferences,preprints}/ (optional)
   external_url: 'https://doi.org/...'   # paper title links here
   external_label: 'DOI'
   code_url: ''
@@ -70,7 +70,7 @@ Edit `_data/featured_research.yml` and add the figure to `images/featured/`. Fig
   image: "/images/featured/example.png"
   alt: "Figure description"
   paper: "Full paper title"
-  paper_url: "/documents/publication/example.pdf"
+  paper_url: "/documents/publication/journals/example.pdf"
   description: "One-sentence summary."
 ```
 

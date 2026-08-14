@@ -41,12 +41,12 @@ It rewrites every title to sentence case and is **idempotent** (already-correct 
      - equal contribution: `<sup class="author-equal">&dagger;</sup>`
    - `corresponding_authors`, `co_first_authors`.
    - `external_url` = DOI (the **title links here**; leave empty → plain title), `external_label` (`DOI`).
-   - `pdf_url` — put the PDF in `documents/publication/` and use a URL-encoded path (spaces → `%20`, commas → `%2C`).
+   - `pdf_url` — put the PDF in `documents/publication/journals/`, `documents/publication/conferences/`, or `documents/publication/preprints/` according to `type`, and use a URL-encoded path (spaces → `%20`, commas → `%2C`, plus signs → `%2B`).
    - `code_url` — repo link if any.
    - `impact_factor` (JCR, 1 decimal) and `cas_quartile` (`Q1 Top`, `Q1`, `Q2`, `Q3`, `Q4`; empty to hide).
    - `if_sci`, `first_author`.
    - `featured` + `feature_image` — see step 3.
-2. **PDF** — add the file under `documents/publication/`; reference it from `pdf_url`.
+2. **PDF** — add the file under the matching `documents/publication/{journals,conferences,preprints}/` folder; reference it from `pdf_url`.
 3. **Feature it (optional)** — there is a single `featured` flag (no more `representative`). Setting `featured: true` adds the amber **"Featured"** badge + purple border in the publication list and includes the paper in the "★ Featured only" filter. To also show it as a **Featured Research card** on the Home/Research pages, additionally give it `feature_image: /images/featured/<name>.png` and optionally `feature_title`, `feature_description`, `feature_alt` for nicer card copy. The image should be a title-area screenshot from the paper PDF; follow `FEATURED_RESEARCH_IMAGES.md`. Those grids automatically show the **4 most recent** featured papers that have a `feature_image` — no separate file, no picking which four. Featured papers should be Baichuan-Mo first/co-first authored.
 4. **News** — add a line to `_data/news.yml`.
 5. **CV** — add the row to `documents/papers.xlsx` (the CV's data source), then rebuild both CVs (see README → CV) and place the PDFs at `cv/CV_Baichuan_EN.pdf` and `cv/CV_Baichuan_CN.pdf`.
