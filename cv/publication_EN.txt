@@ -19,7 +19,7 @@
 
 
 \stepcounter{myCounter}
-\cventry{\textcolor{gray}{[J\themyCounter]} 2026}{A Federated Meta-Learning Approach for Interpretable, Privacy-Preserving, and Customizable Behavior Analysis \href{https://doi.org/10.26599/commtr.2026.9640014}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline Linlin You, Kunxu Chen, \underline{Baichuan Mo}*, Jiemin Xie, Juanjuan Zhao*, Jinhua Zhao}{\newline \emph{Communications in Transportation Research, 2026, 6, 9640014}}{{\; \keys{SCI} \keys{IF 12.8}}}{}
+\cventry{\textcolor{gray}{[J\themyCounter]} 2026}{A Federated Meta-Learning Approach for Interpretable, Privacy-Preserving, and Customizable Behavior Analysis \href{https://doi.org/10.26599/commtr.2026.9640014}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline Linlin You, Kunxu Chen, \underline{Baichuan Mo}*, Jiemin Xie, Juanjuan Zhao*, Jinhua Zhao}{\newline \emph{Communications in Transportation Research, 2026, 6 (1), 9640014}}{{\; \keys{SCI} \keys{IF 12.8}}}{}
 
 
 \stepcounter{myFirstAuthor}
@@ -34,7 +34,7 @@
 
 \stepcounter{myFirstAuthor}
 \stepcounter{myCounter}
-\cventry{\textcolor{gray}{[J\themyCounter]} 2025}{Households Housing Exchange to Reduce Carbon Emissions}{\newline Juanjuan Zhao$^\dagger$, \underline{Baichuan Mo}$^\dagger$*, Nicholas S. Caros, Jinhua Zhao}{\newline \emph{Nature Sustainability, 2025, 8, 1259-1269}}{{\; \keys{SCI} \keys{IF 27.2}}}{}
+\cventry{\textcolor{gray}{[J\themyCounter]} 2025}{Households Housing Exchange to Reduce Carbon Emissions}{\newline Juanjuan Zhao$^\dagger$, \underline{Baichuan Mo}$^\dagger$*, Nicholas S. Caros, Jinhua Zhao}{\newline \emph{Nature Sustainability, 2025, 8 (11), 1259-1269}}{{\; \keys{SCI} \keys{IF 27.2}}}{}
 
 
 \stepcounter{myCounter}
