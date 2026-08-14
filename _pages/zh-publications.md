@@ -44,6 +44,7 @@ permalink: /publications/
 {% endfor %}
 {% if containsJournal %}<a href="#journal-{{ year }}">{{ year }}</a>{% endif %}
 {% endfor %}
+    <a class="pub-year-nav-section" href="#book">著作章节 ↓</a>
     <a class="pub-year-nav-section" href="#conference">会议论文 ↓</a>
     <a class="pub-year-nav-section" href="#working">预印本与工作论文 ↓</a>
   </nav>
@@ -70,6 +71,28 @@ permalink: /publications/
   </div>
 {% endif %}
 {% endfor %}
+</section>
+
+<!-- 著作章节 -->
+<section class="publication-list" id="book">
+  <h2 class="pub-section-title">著作章节</h2>
+  <div class="pub-line-list">
+{% for year in years %}
+{% assign date = year | plus: 0 %}
+{% assign containsBook = false %}
+{% for publi in site.data.publist %}
+{% if publi.year == date and publi.type == 3 %}{% assign containsBook = true %}{% endif %}
+{% endfor %}
+{% if containsBook %}
+  <h3 class="pub-year-plain">{{ year }}</h3>
+  {% for publi in site.data.publist %}
+  {% if publi.year == date and publi.type == 3 %}
+  {% include publication_line.html pub=publi %}
+  {% endif %}
+  {% endfor %}
+{% endif %}
+{% endfor %}
+  </div>
 </section>
 
 <!-- 会议论文 -->
@@ -132,7 +155,7 @@ permalink: /publications/
         group.style.display = (on && !hasFeatured) ? 'none' : '';
         if (on && hasFeatured) group.classList.remove('is-collapsed');
       });
-      ['conference', 'working'].forEach(function (id) {
+      ['book', 'conference', 'working'].forEach(function (id) {
         var s = document.getElementById(id);
         if (s) s.style.display = on ? 'none' : '';
       });

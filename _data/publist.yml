@@ -1,6 +1,6 @@
 # Publications for MoS Lab / Baichuan Mo.
 # Generated from CV_Update/papers.xlsx plus local PDFs in New/Baichuan/publication.
-# type: 1 = conference papers, 2 = journal articles, 4 = preprints / working papers
+# type: 1 = conference papers, 2 = journal articles, 3 = book chapters, 4 = preprints / working papers
 # Before adding an entry, read MAINTAINING.md (title casing rule + full checklist).
 # Titles use SENTENCE CASE (only first word + first word after a colon + proper nouns/acronyms capitalized).
 
@@ -96,6 +96,30 @@
   impact_factor: '11.0'
   cas_quartile: 'Q1 Top'
   if_sci: true
+  first_author: false
+  featured: false
+  feature_image: ''
+
+- title: 'User-centric transit data analytics for inference, prediction, and optimization'
+  year: 2026
+  type: 3
+  paper_type: 'B'
+  category: 'Travel Behavior & Demand'
+  category_label: 'Book Chapter'
+  venue: 'Mobility Patterns, Big Data and Transport Analytics (2nd ed.)'
+  issue_page: '421-461'
+  venue_display: 'Mobility Patterns, Big Data and Transport Analytics (2nd ed.), 2026, 421-461'
+  authors_text: 'Zhenliang Ma, Haris N. Koutsopoulos, Baichuan Mo, Jinhua Zhao'
+  authors_html: 'Zhenliang Ma, Haris N. Koutsopoulos, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao'
+  corresponding_authors: ''
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: 'https://doi.org/10.1016/B978-0-443-26789-5.00018-3'
+  external_label: 'DOI'
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
   first_author: false
   featured: false
   feature_image: ''

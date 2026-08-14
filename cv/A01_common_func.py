@@ -93,7 +93,7 @@ def get_journal_issue(row):
     journal_issue_part = ''
     if row['journal']:
         journal_issue_part += row['journal']
-    if row['year'] and row['paper_type'] == 'J':
+    if row['year'] and row['paper_type'] in {'J', 'B'}:
         journal_issue_part += f", {int(round(row['year']))}"
     if row['issue_page']:
         journal_issue_part += f", {row['issue_page']}"
@@ -118,6 +118,11 @@ def get_paper_type(row, version):
             paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyCounterNew, {}]\;}}}}".format('C', year)
         else:
             paper_type_part = "\\cventry{{\\textcolor{{gray}}{{[{}\\themyCounterNew]}} {}}}".format('C', year)
+    elif row['paper_type'] == 'B':
+        if version == 'CN':
+            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyBookChapter, {}]\;}}}}".format('B', year)
+        else:
+            paper_type_part = "\\cventry{{\\textcolor{{gray}}{{[{}\\themyBookChapter]}} {}}}".format('B', year)
     else:
         year = ''
         if version == 'CN':

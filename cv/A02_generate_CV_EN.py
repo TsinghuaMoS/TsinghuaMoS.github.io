@@ -28,6 +28,7 @@ def generate_cventries_from_excel(file_path):
     df = df.reset_index(drop=True)
     # Separate entries by paper type
     cventries_J = []
+    cventries_B = []
     cventries_C = []
     cventries_P = []
 
@@ -68,6 +69,9 @@ def generate_cventries_from_excel(file_path):
             if row['is_first_authored']:
                 entry = "\\stepcounter{myFirstAuthor}\n" + entry
             cventries_J.append(entry)
+        elif row['paper_type'] == 'B':
+            entry = "\\stepcounter{myBookChapter}\n" + entry
+            cventries_B.append(entry)
         elif row['paper_type'] == 'C':
             entry = "\\stepcounter{myCounterNew}\n" + entry
             cventries_C.append(entry)
@@ -89,6 +93,10 @@ def generate_cventries_from_excel(file_path):
                 "\\cventry{}{}{\small{* means corresponding author. }}{\small{$^\\dagger$ means contributing equally}}{}{}\n\n"
             )
         result += "\n\n".join(cventries_J) + "\n\n"
+
+        # Book Chapters
+        if cventries_B:
+            result += "\\section{Book Chapters}\n" + "\n\n".join(cventries_B) + "\n\n"
 
         # Conference Proceedings
         if cventries_C:

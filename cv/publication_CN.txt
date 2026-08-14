@@ -183,6 +183,14 @@
 \vspace{7pt}
 
 
+\section{著作章节}
+\stepcounter{myBookChapter}
+{\textcolor{gray}{[B\themyBookChapter, 2026]\;}}{\textbf{User-Centric Transit Data Analytics for Inference, Prediction, and Optimization} \href{https://doi.org/10.1016/B978-0-443-26789-5.00018-3}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline Zhenliang Ma, Haris N. Koutsopoulos, \underline{Baichuan Mo}, Jinhua Zhao}{\newline \emph{Mobility Patterns, Big Data and Transport Analytics (2nd ed.), 2026, 421-461}}{{}}{}
+\vspace{7pt}
+
+
+\vspace{7pt}
+
 \section{会议论文}
 \stepcounter{myCounterNew}
 {\textcolor{gray}{[C\themyCounterNew, 2025]\;}}{\textbf{SCOPE-MoE: Supply Chain Forecasting with A Pretrained MoE-Based Large Time Series Model in E-Commerce}}{\newline Shiyu Wang*, Xinyue Zhong, Jiawei Li, \underline{Baichuan Mo}, Zhou Ye, Ming Jin*}{\newline \emph{IEEE 28th International Conference on Intelligent Transportation Systems (ITSC 2025), Accepted}}{{}}{}

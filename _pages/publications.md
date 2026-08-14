@@ -43,6 +43,7 @@ alt_zh: "/publications/"
 {% endfor %}
 {% if containsJournal %}<a href="#journal-{{ year }}">{{ year }}</a>{% endif %}
 {% endfor %}
+    <a class="pub-year-nav-section" href="#book">Book Chapters ↓</a>
     <a class="pub-year-nav-section" href="#conference">Conference Papers ↓</a>
     <a class="pub-year-nav-section" href="#working">Preprints &amp; Working Papers ↓</a>
   </nav>
@@ -69,6 +70,28 @@ alt_zh: "/publications/"
   </div>
 {% endif %}
 {% endfor %}
+</section>
+
+<!-- Book Chapters: plain stacked list, grouped by year -->
+<section class="publication-list" id="book">
+  <h2 class="pub-section-title">Book Chapters</h2>
+  <div class="pub-line-list">
+{% for year in years %}
+{% assign date = year | plus: 0 %}
+{% assign containsBook = false %}
+{% for publi in site.data.publist %}
+{% if publi.year == date and publi.type == 3 %}{% assign containsBook = true %}{% endif %}
+{% endfor %}
+{% if containsBook %}
+  <h3 class="pub-year-plain">{{ year }}</h3>
+  {% for publi in site.data.publist %}
+  {% if publi.year == date and publi.type == 3 %}
+  {% include publication_line.html pub=publi %}
+  {% endif %}
+  {% endfor %}
+{% endif %}
+{% endfor %}
+  </div>
 </section>
 
 <!-- Conference Papers: plain stacked list (no boxes), grouped by year -->
@@ -135,7 +158,7 @@ alt_zh: "/publications/"
         if (on && hasFeatured) group.classList.remove('is-collapsed');
       });
       // Hide the Conference and Working sections (no featured papers there)
-      ['conference', 'working'].forEach(function (id) {
+      ['book', 'conference', 'working'].forEach(function (id) {
         var s = document.getElementById(id);
         if (s) s.style.display = on ? 'none' : '';
       });

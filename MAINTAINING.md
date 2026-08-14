@@ -31,9 +31,9 @@ It rewrites every title to sentence case and is **idempotent** (already-correct 
 
 1. **`_data/publist.yml`** — add an entry (newest first). Required fields:
    - `title` — sentence case (see rule above).
-   - `year`, `type` (`1`=conference, `2`=journal, `4`=preprint/working), `paper_type` (`J`/`C`/`P`).
+   - `year`, `type` (`1`=conference, `2`=journal, `3`=book chapter, `4`=preprint/working), `paper_type` (`J`/`C`/`B`/`P`).
    - `category` — exactly one of the four directions: `Public Transit Resilience`, `Travel Behavior & Demand`, `Mobility AI`, `Sustainable Urban Systems`. **No other labels.**
-   - `category_label` — `Journal Article` / `Conference Paper` / `Preprint / Working Paper`.
+   - `category_label` — `Journal Article` / `Conference Paper` / `Book Chapter` / `Preprint / Working Paper`.
    - `venue`, `issue_page`, `venue_display`.
    - `authors_text` (plain) and `authors_html`. In `authors_html`:
      - PI: `<strong class="author-me">Baichuan Mo</strong>`
