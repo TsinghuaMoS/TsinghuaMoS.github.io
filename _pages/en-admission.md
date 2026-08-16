@@ -1,7 +1,7 @@
 ---
-title: "Postdoctoral Fellows and Full-Time Research Assistants — MoS Lab"
+title: "Postdoctoral Fellows, Full-Time Research Assistants, Research Interns, and Visiting Students — MoS Lab"
 layout: textlay
-excerpt: "MoS Lab at Tsinghua University is recruiting postdoctoral fellows and full-time research assistants."
+excerpt: "MoS Lab at Tsinghua University is recruiting postdoctoral fellows, full-time research assistants, research interns, and visiting students."
 sitemap: true
 hreflang: true
 alt_en: "/en/admission/"
@@ -10,9 +10,9 @@ permalink: /en/admission/
 ---
 
 <div class="content-panel" markdown="1">
-# Postdoctoral Fellows and Full-Time Research Assistants
+# Postdoctoral Fellows, Full-Time Research Assistants, Research Interns, and Visiting Students
 
-The Mobility Science Lab (MoS Lab) at Tsinghua University is recruiting postdoctoral fellows and full-time research assistants. We study optimization, machine learning, and their applications in transportation and operations management. We welcome applicants committed to rigorous research and publication in leading international journals.
+The Mobility Science Lab (MoS Lab) at Tsinghua University is recruiting postdoctoral fellows, full-time research assistants, research interns, and visiting students. We study optimization, machine learning, and their applications in transportation and operations management. We welcome applicants seeking to conduct rigorous research or systematically develop their research capabilities.
 
 </div>
 
@@ -31,6 +31,13 @@ The Mobility Science Lab (MoS Lab) at Tsinghua University is recruiting postdoct
 - This is a research-focused position comparable to a Research Scientist role at a U.S. university or research institution, with scholarly research and publication as its primary responsibilities.
 - Depending on their interests and expertise, research assistants will independently or collaboratively develop research projects and contribute to problem formulation, modeling, computational experiments, and paper writing.
 - Compensation will be determined based on the candidate’s research record, experience, and overall qualifications. In general, it will be no lower than the salary level of the Shuimu Tsinghua Scholar Program.
+
+### Research Interns / Visiting Students
+
+- Collaboration will be primarily remote, and applicants from all educational levels are welcome.
+- The principal investigator may provide a research topic, or students may propose a topic of interest and pursue it under the principal investigator’s guidance.
+- The lab will provide necessary computing resources, AI tools, and research mentoring. The primary objectives are learning, skill development, and knowledge growth.
+- Students who produce substantive research outputs will receive research compensation based on the nature of the outputs and their actual contributions.
 
 </div>
 
@@ -70,7 +77,9 @@ See his full [faculty profile]({{ site.url }}{{ site.baseurl }}/en/team/baichuan
 - A background in operations research, management science, transportation, computer science, statistics, applied mathematics, or a related field.
 - Strong foundations in mathematical modeling, optimization, machine learning, econometrics, or data analytics.
 - Demonstrated research ability and strong academic reading and writing skills in English, with a commitment to producing high-quality scholarly work.
-- Postdoctoral applicants should hold, or expect to receive soon, a doctoral degree. Qualifications for full-time research assistants will be evaluated holistically based on educational background and research experience.
+- Postdoctoral applicants must hold a doctoral degree or be able to obtain one before starting the position.
+- Full-time research assistant applicants must hold a master’s degree or above.
+- Research interns and visiting students are welcome at all educational levels; research interests, learning ability, and research potential will be the primary considerations.
 
 </div>
 
@@ -84,6 +93,6 @@ Please email the following materials to [bmo[at]tsinghua.edu.cn](mailto:bmo@tsin
 2. Full texts of representative papers;
 3. Three letters of recommendation.
 
-Please use the subject line “Postdoctoral Application — Your Name” or “Full-Time Research Assistant Application — Your Name.”
+Please use the subject line “Postdoctoral Application — Your Name,” “Full-Time Research Assistant Application — Your Name,” or “Research Intern/Visiting Student Application — Your Name.”
 
 </div>

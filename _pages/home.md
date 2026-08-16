@@ -12,7 +12,7 @@ alt_zh: "/"
 {% assign journal_count = site.data.publist | where: "type", 2 | size %}
 
 {::nomarkdown}
-<a class="notice-banner" href="{{ '/en/admission/' | relative_url }}">📢 We are hiring postdoctoral fellows and full-time research assistants — View openings →</a>
+<a class="notice-banner" href="{{ '/en/admission/' | relative_url }}">📢 We are hiring postdoctoral fellows, research assistants, interns, and visiting students — View openings →</a>
 
 <section class="lab-hero">
   <img class="lab-hero-bg" src="{{ '/images/hero/urban_network.webp' | relative_url }}" alt="" width="2000" height="1001" decoding="async" fetchpriority="high">

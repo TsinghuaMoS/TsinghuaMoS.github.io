@@ -9,7 +9,7 @@ alt_en: "/en/contact/"
 alt_zh: "/contact/"
 ---
 
-<a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/en/admission">📢 We are hiring postdoctoral fellows and full-time research assistants — View openings →</a>
+<a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/en/admission">📢 We are hiring postdoctoral fellows, research assistants, interns, and visiting students — View openings →</a>
 
 <h2 class="pub-section-title">Get in touch</h2>
 
@@ -31,6 +31,6 @@ MoS Lab is based in Room 315, New Civil Engineering Building, Tsinghua Universit
 <div class="content-panel" markdown="1">
 # Join Us
 
-MoS Lab is recruiting postdoctoral fellows and full-time research assistants for research-intensive roles focused on publication in leading venues, including UTD24 journals, Transportation Science, and Transportation Research Part B. Please see the [full announcement]({{ '/en/admission/' | relative_url }}) for compensation, qualifications, and application materials.
+MoS Lab is recruiting postdoctoral fellows, full-time research assistants, research interns, and visiting students. Postdoctoral and research assistant positions focus on high-impact research and publication, while internships and visiting opportunities emphasize remote collaboration, learning, and research development. Please see the [full announcement]({{ '/en/admission/' | relative_url }}) for compensation, qualifications, and application materials.
 
 </div>

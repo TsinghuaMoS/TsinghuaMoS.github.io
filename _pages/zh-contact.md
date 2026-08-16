@@ -10,7 +10,7 @@ alt_zh: "/contact/"
 permalink: /contact/
 ---
 
-<a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/admission">📢 招聘博士后与全职科研助理 —— 查看招聘信息 →</a>
+<a class="notice-banner" href="{{ site.url }}{{ site.baseurl }}/admission">📢 招聘博士后、科研助理、科研实习生及访问学生 —— 查看招聘信息 →</a>
 
 <h2 class="pub-section-title">联系我们</h2>
 
@@ -32,6 +32,6 @@ MoS Lab 位于中国北京清华大学新土木馆315。
 <div class="content-panel" markdown="1">
 # 加入我们
 
-MoS Lab 现招聘博士后与全职科研助理，主要开展高水平科研并发表国际顶级期刊论文，重点面向 UTD24 期刊、Transportation Science、Transportation Research Part B 等。岗位待遇、申请条件及材料要求请见[完整招聘信息]({{ '/admission/' | relative_url }})。
+MoS Lab 现招聘博士后、全职科研助理、科研实习生与访问学生。博士后与科研助理岗位以高水平科研和国际顶级期刊论文发表为主要目标；科研实习生与访问学生以远程合作、学习和科研能力提升为主。岗位待遇、申请条件及材料要求请见[完整招聘信息]({{ '/admission/' | relative_url }})。
 
 </div>
