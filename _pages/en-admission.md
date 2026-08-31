@@ -25,7 +25,6 @@ The Mobility Science Lab (MoS Lab) at Tsinghua University is recruiting postdoct
 - The position focuses on high-impact research and scholarly publication. Fellows will conduct independent and collaborative research within the lab’s areas of interest.
 - Assist the principal investigator with mentoring students, preparing grant applications, managing research projects, and related responsibilities.
 - Eligible candidates will receive full support in applying for Tsinghua University’s Shuimu Tsinghua Scholar Program.
-- For outstanding candidates who qualify for the Shuimu Tsinghua Scholar Program but are not selected, the principal investigator will provide compensation matching the program’s salary level.
 
 ### Full-Time Research Assistants
 
