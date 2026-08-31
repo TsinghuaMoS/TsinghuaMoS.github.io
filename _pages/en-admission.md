@@ -23,14 +23,16 @@ The Mobility Science Lab (MoS Lab) at Tsinghua University is recruiting postdoct
 ### Postdoctoral Fellows
 
 - The position focuses on high-impact research and scholarly publication. Fellows will conduct independent and collaborative research within the lab’s areas of interest.
+- Assist the principal investigator with mentoring students, preparing grant applications, managing research projects, and related responsibilities.
 - Eligible candidates will receive full support in applying for Tsinghua University’s Shuimu Tsinghua Scholar Program.
-- For outstanding candidates who qualify for the Shuimu Tsinghua Scholar Program but are not selected, the principal investigator will provide compensation matching or exceeding the program’s salary level.
+- For outstanding candidates who qualify for the Shuimu Tsinghua Scholar Program but are not selected, the principal investigator will provide compensation matching the program’s salary level.
 
 ### Full-Time Research Assistants
 
 - This is a research-focused position comparable to a Research Scientist role at a U.S. university or research institution, with scholarly research and publication as its primary responsibilities.
 - Depending on their interests and expertise, research assistants will independently or collaboratively develop research projects and contribute to problem formulation, modeling, computational experiments, and paper writing.
-- Compensation will be determined based on the candidate’s research record, experience, and overall qualifications. In general, it will be no lower than the salary level of the Shuimu Tsinghua Scholar Program.
+- Assist the principal investigator with mentoring students, preparing grant applications, managing research projects, and related responsibilities.
+- Compensation will be determined based on the candidate’s research record, experience, and overall qualifications.
 
 ### Research Interns / Visiting Students
 
@@ -45,10 +47,10 @@ The Mobility Science Lab (MoS Lab) at Tsinghua University is recruiting postdoct
 
 ## Research Areas and Target Journals
 
-- **Transportation system resilience and operations optimization:** disruption management, resource allocation, path recommendation, robust optimization, and intelligent scheduling.
-- **AI for Transportation:** reinforcement learning, foundation models for time-series forecasting, transportation management agents, and AI applications in public transit, shared mobility, and supply-chain logistics.
+- **Transportation system resilience and operations optimization:** multimodal information collection, pre-disruption resource allocation, and real-time control during disruptions. Information collection requires post-training multimodal large models, while control strategies primarily use large-scale mixed-integer optimization, stochastic optimization, robust optimization, and related methods.
+- **AI for Transportation:** transportation management agents, LLM for OR, learn-to-optimize, and decision-making across diverse transportation scenarios in the AI era.
 - **Travel behavior and demand modeling:** econometrics, discrete choice models, modern machine learning, and optimization-driven behavioral and demand analysis.
-- **Sustainable urban systems:** commuting emissions, public health, housing mobility, and the resilience of urban cyber-physical-social systems.
+- **Sustainable urban systems:** carbon emissions from commuting, public health, and the resilience of urban cyber-physical-social systems, with a primary focus on publication in leading multidisciplinary journals.
 
 Our research is driven by publication in leading international venues, with a primary focus on **UTD24 journals, Transportation Science, and Transportation Research Part B**, as well as other leading journals and conferences in transportation, operations management, artificial intelligence, and interdisciplinary research.
 
@@ -91,7 +93,7 @@ Please email the following materials to [bmo[at]tsinghua.edu.cn](mailto:bmo@tsin
 
 1. Curriculum vitae;
 2. Full texts of representative papers;
-3. Three letters of recommendation.
+3. Contact information for three referees.
 
 Please use the subject line “Postdoctoral Application — Your Name,” “Full-Time Research Assistant Application — Your Name,” or “Research Intern/Visiting Student Application — Your Name.”
 
