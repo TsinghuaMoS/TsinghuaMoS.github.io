@@ -54,8 +54,8 @@ Please refer to the [google scholar](https://scholar.google.com/citations?user=O
   - Staff Machine Learning Scientist & US Supply Chain Algorithm Lead, *Aug 2025 - Jun 2026*
   - Senior Machine Learning Scientist, *Dec 2023 - Aug 2025*
 - [Lyft](https://www.lyft.com/)
-  - Senior Research Scientist, *Oct 2022 - Oct 2023*
-  - Research Scientist, *Sep. 2022 - Oct 2023*
+  - Senior Research Scientist, *Oct 2023 - Dec 2023*
+  - Research Scientist, *Sep 2022 - Oct 2023*
   - Research Scientist Intern, *May 2022 - Aug 2022*
 - [Chicago Transit Authority (CTA)](https://www.transitchicago.com/)
   - Research intern, *Jan 2020*
