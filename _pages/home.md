@@ -96,7 +96,7 @@ alt_zh: "/"
 </section>
 
 <section class="section-heading">
-  <p class="eyebrow">Collaborating Institutions</p>
+  <p class="eyebrow">Collaborating Partners</p>
 </section>
 
 <section class="support-note">
@@ -111,6 +111,7 @@ alt_zh: "/"
     <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener" title="Zhejiang University"><img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University" width="244" height="232" loading="lazy" decoding="async"></a>
     <a href="https://nus.edu.sg/" target="_blank" rel="noopener" title="National University of Singapore"><img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore" width="200" height="232" loading="lazy" decoding="async"></a>
     <a href="https://www.cnu.edu.cn/" target="_blank" rel="noopener" title="Capital Normal University"><img src="{{ '/images/partners/cnu.png' | relative_url }}" alt="Capital Normal University" width="208" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://zhilingtech.com/" target="_blank" rel="noopener" title="zhilingtech"><img src="{{ '/images/partners/zhilingtech.png' | relative_url }}" alt="zhilingtech" width="221" height="96" loading="lazy" decoding="async"></a>
   </div>
 </section>
 {:/nomarkdown}

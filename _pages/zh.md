@@ -98,7 +98,7 @@ permalink: /
 </section>
 
 <section class="section-heading">
-  <p class="eyebrow">合作院校</p>
+  <p class="eyebrow">合作伙伴</p>
 </section>
 
 <section class="support-note">
@@ -113,6 +113,7 @@ permalink: /
     <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener" title="浙江大学"><img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University" width="244" height="232" loading="lazy" decoding="async"></a>
     <a href="https://nus.edu.sg/" target="_blank" rel="noopener" title="新加坡国立大学"><img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore" width="200" height="232" loading="lazy" decoding="async"></a>
     <a href="https://www.cnu.edu.cn/" target="_blank" rel="noopener" title="首都师范大学"><img src="{{ '/images/partners/cnu.png' | relative_url }}" alt="Capital Normal University" width="208" height="232" loading="lazy" decoding="async"></a>
+    <a href="https://zhilingtech.com/" target="_blank" rel="noopener" title="智翎科技"><img src="{{ '/images/partners/zhilingtech.png' | relative_url }}" alt="智翎科技" width="221" height="96" loading="lazy" decoding="async"></a>
   </div>
 </section>
 {:/nomarkdown}
