@@ -92,6 +92,7 @@ alt_zh: "/"
     <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="National Natural Science Foundation of China"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China" width="286" height="320" loading="lazy" decoding="async"></a>
     <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="ByteDance"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance" width="359" height="320" loading="lazy" decoding="async"></a>
     <a href="https://www.mercedes-benz.com/" target="_blank" rel="noopener" title="Mercedes-Benz"><img class="funding-logo-mercedes" src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="Mercedes-Benz" width="64" height="64" loading="lazy" decoding="async"></a>
+    <a href="https://zhilingtech.com/" target="_blank" rel="noopener" title="zhilingtech"><img class="funding-logo-zhiling" src="{{ '/images/funding/zhilingtech.png' | relative_url }}" alt="zhilingtech" width="1936" height="642" loading="lazy" decoding="async"></a>
   </div>
 </section>
 
@@ -111,7 +112,6 @@ alt_zh: "/"
     <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener" title="Zhejiang University"><img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University" width="244" height="232" loading="lazy" decoding="async"></a>
     <a href="https://nus.edu.sg/" target="_blank" rel="noopener" title="National University of Singapore"><img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore" width="200" height="232" loading="lazy" decoding="async"></a>
     <a href="https://www.cnu.edu.cn/" target="_blank" rel="noopener" title="Capital Normal University"><img src="{{ '/images/partners/cnu.png' | relative_url }}" alt="Capital Normal University" width="208" height="232" loading="lazy" decoding="async"></a>
-    <a href="https://zhilingtech.com/" target="_blank" rel="noopener" title="zhilingtech"><img src="{{ '/images/partners/zhilingtech.png' | relative_url }}" alt="zhilingtech" width="221" height="96" loading="lazy" decoding="async"></a>
   </div>
 </section>
 {:/nomarkdown}

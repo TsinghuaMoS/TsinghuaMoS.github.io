@@ -94,6 +94,7 @@ permalink: /
     <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="国家自然科学基金委员会"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="国家自然科学基金委员会" width="286" height="320" loading="lazy" decoding="async"></a>
     <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="字节跳动"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="字节跳动" width="359" height="320" loading="lazy" decoding="async"></a>
     <a href="https://www.mercedes-benz.com.cn/" target="_blank" rel="noopener" title="梅赛德斯-奔驰"><img class="funding-logo-mercedes" src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="梅赛德斯-奔驰" width="64" height="64" loading="lazy" decoding="async"></a>
+    <a href="https://zhilingtech.com/" target="_blank" rel="noopener" title="智翎科技"><img class="funding-logo-zhiling" src="{{ '/images/funding/zhilingtech.png' | relative_url }}" alt="智翎科技" width="1936" height="642" loading="lazy" decoding="async"></a>
   </div>
 </section>
 
@@ -113,7 +114,6 @@ permalink: /
     <a href="https://www.zju.edu.cn/" target="_blank" rel="noopener" title="浙江大学"><img src="{{ '/images/partners/zhejiang.png' | relative_url }}" alt="Zhejiang University" width="244" height="232" loading="lazy" decoding="async"></a>
     <a href="https://nus.edu.sg/" target="_blank" rel="noopener" title="新加坡国立大学"><img src="{{ '/images/partners/nus.png' | relative_url }}" alt="National University of Singapore" width="200" height="232" loading="lazy" decoding="async"></a>
     <a href="https://www.cnu.edu.cn/" target="_blank" rel="noopener" title="首都师范大学"><img src="{{ '/images/partners/cnu.png' | relative_url }}" alt="Capital Normal University" width="208" height="232" loading="lazy" decoding="async"></a>
-    <a href="https://zhilingtech.com/" target="_blank" rel="noopener" title="智翎科技"><img src="{{ '/images/partners/zhilingtech.png' | relative_url }}" alt="智翎科技" width="221" height="96" loading="lazy" decoding="async"></a>
   </div>
 </section>
 {:/nomarkdown}
