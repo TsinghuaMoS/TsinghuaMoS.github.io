@@ -92,7 +92,7 @@ alt_zh: "/"
     <a href="https://www.nsfc.gov.cn/" target="_blank" rel="noopener" title="National Natural Science Foundation of China"><img src="{{ '/images/funding/nsfc.png' | relative_url }}" alt="National Natural Science Foundation of China" width="286" height="320" loading="lazy" decoding="async"></a>
     <a href="https://www.bytedance.com/" target="_blank" rel="noopener" title="ByteDance"><img src="{{ '/images/funding/bytedance.png' | relative_url }}" alt="ByteDance" width="359" height="320" loading="lazy" decoding="async"></a>
     <a href="https://www.mercedes-benz.com/" target="_blank" rel="noopener" title="Mercedes-Benz"><img class="funding-logo-mercedes" src="{{ '/images/funding/mercedes_benz.svg' | relative_url }}" alt="Mercedes-Benz" width="64" height="64" loading="lazy" decoding="async"></a>
-    <a href="https://zhilingtech.com/" target="_blank" rel="noopener" title="zhilingtech"><img class="funding-logo-zhiling" src="{{ '/images/funding/zhilingtech.png' | relative_url }}" alt="zhilingtech" width="1936" height="642" loading="lazy" decoding="async"></a>
+    <a href="https://zhilingtech.com/" target="_blank" rel="noopener" title="Zhiling Tech"><img class="funding-logo-zhiling" src="{{ '/images/funding/zhilingtech.png' | relative_url }}" alt="Zhiling Tech" width="1936" height="642" loading="lazy" decoding="async"></a>
   </div>
 </section>
 
