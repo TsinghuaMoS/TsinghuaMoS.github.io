@@ -1,41 +1,22 @@
 import numpy as np
 import pandas as pd
 
+def latex_text(value):
+    """Escape text without changing the canonical wording stored in Excel."""
+    replacements = {'\\': r'\textbackslash{}', '&': r'\&', '%': r'\%',
+                    '$': r'\$', '#': r'\#', '_': r'\_', '{': r'\{',
+                    '}': r'\}', '~': r'\textasciitilde{}', '^': r'\textasciicircum{}',
+                    '–': '--', '—': '---', '‐': '-', '‑': '-'}
+    return ''.join(replacements.get(c, c) for c in str(value or ''))
 
-def title_case(title):
-    """
-    Converts a string to title case, including handling dash-separated words,
-    while excluding specific small words from capitalization.
 
-    Args:
-        title (str): The original title.
-
-    Returns:
-        str: The title-cased string.
-    """
-    small_words = {'of', 'on', 'with', 'and', 'but', 'or', 'nor', 'the', 'for', 'in', 'to', 'at', 'by',
-                   'from'}
-    words_map = {'covid-19': 'COVID-19', 'timemixer++:': 'TimeMixer$^{++}$:', 'v2i': 'V2I', 'scope-moe:': 'SCOPE-MoE:',
-                 'moe-based': 'MoE-Based'
-                 }
-    def capitalize_word(word, is_first_word):
-        # Handle dash-separated words
-        parts = word.split('-')
-        capitalized_parts = [
-            part.capitalize() if is_first_word or part.lower() not in small_words else part.lower()
-            for part in parts
-        ]
-        return '-'.join(capitalized_parts)
-
-    words = title.split()
-    title_cased = [
-        capitalize_word(word, i == 0) for i, word in enumerate(words)
-    ]
-
-    title_cased_modified = [words_map[key.lower()] if key.lower() in words_map else key for key in title_cased]
-    final = ' '.join(title_cased_modified)
-
-    return final
+def publication_links(row):
+    """CV: one original-style icon for the DOI or online paper landing page."""
+    url = row.get('doi') or row.get('external_url')
+    if not url:
+        return ''
+    return (r' \href{' + latex_text(url)
+            + r'}{\textcolor{cadmiumorange}{\faExternalLink}}')
 
 
 def format_authors(authors, co_first_authors, corresponding_authors):
@@ -97,8 +78,7 @@ def get_journal_issue(row):
         journal_issue_part += f", {int(round(row['year']))}"
     if row['issue_page']:
         journal_issue_part += f", {row['issue_page']}"
-    journal_issue_part = journal_issue_part.replace('%', '\%')
-    return journal_issue_part
+    return latex_text(journal_issue_part)
 
 
 
@@ -110,23 +90,23 @@ def get_paper_type(row, version):
         year = str(int(round(row['year'])))
     if row['paper_type'] == 'J':
         if version == 'CN':
-            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyCounter, {}]\;}}}}".format('J', year)
+            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyCounter, {}]\\;}}}}".format('J', year)
         else:
             paper_type_part = "\\cventry{{\\textcolor{{gray}}{{[{}\\themyCounter]}} {}}}".format('J', year)
     elif row['paper_type'] == 'C':
         if version == 'CN':
-            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyCounterNew, {}]\;}}}}".format('C', year)
+            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyCounterNew, {}]\\;}}}}".format('C', year)
         else:
             paper_type_part = "\\cventry{{\\textcolor{{gray}}{{[{}\\themyCounterNew]}} {}}}".format('C', year)
     elif row['paper_type'] == 'B':
         if version == 'CN':
-            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyBookChapter, {}]\;}}}}".format('B', year)
+            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyBookChapter, {}]\\;}}}}".format('B', year)
         else:
             paper_type_part = "\\cventry{{\\textcolor{{gray}}{{[{}\\themyBookChapter]}} {}}}".format('B', year)
     else:
         year = ''
         if version == 'CN':
-            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyPrePrint]\;}}}}".format('P', year)
+            paper_type_part = "{{\\textcolor{{gray}}{{[{}\\themyPrePrint]\\;}}}}".format('P', year)
         else:
             paper_type_part = "\\cventry{{\\textcolor{{gray}}{{[{}\\themyPrePrint]}} {}}}".format('P', year)
 

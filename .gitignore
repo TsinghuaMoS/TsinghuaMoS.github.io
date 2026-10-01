@@ -2,6 +2,7 @@ _site/
 *-cache/
 .DS_Store
 Gemfile.lock
+__pycache__/
 
 # Local Tsinghua profile forms may contain personal information.
 private/tsinghua_profile_forms/

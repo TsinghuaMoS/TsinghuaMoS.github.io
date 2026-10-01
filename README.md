@@ -111,20 +111,21 @@ The PI's CV is built from LaTeX sources in `cv/`:
 
 - `cv/CV_Baichuan_Academia_EN/` — English CV (moderncv, XeLaTeX).
 - `cv/CV_Baichuan_CN/` — Chinese CV (XeLaTeX with Chinese fonts; needs the `ctex` package).
-- `A01`–`A04` Python scripts generate the publication sections and stats from `papers.xlsx`.
+- `documents/papers.xlsx` is the single source for all publication metadata, website presentation fields, links, and CV publication statistics. See its `Guide` sheet.
+- `scripts/sync_publications.py` generates the website data and both CV publication sections. Other CV sections remain in their existing LaTeX source files.
 
 To rebuild after updating publications:
 
 ```bash
-cd cv
-cp /path/to/papers.xlsx .            # data source for the publication lists
-python3 A02_generate_CV_EN.py        # -> publication_EN.txt -> b02_publications.tex
-python3 A03_generate_CV_CN.py        # -> publication_CN.txt -> b_publication.tex
-# compile each CV with xelatex (run twice for counters), then place the PDFs:
-#   cv/CV_Baichuan_EN.pdf  and  cv/CV_Baichuan_CN.pdf
+# Run from the repository root (Python 3.10+; XeLaTeX on PATH).
+python3 -m pip install -r scripts/requirements-publications.txt
+python3 scripts/sync_publications.py --build-cv
+python3 scripts/sync_publications.py --check
+python3 -m unittest discover -s tests -p 'test_publications.py'
 ```
 
 The Team page links to `cv/CV_Baichuan_CN.pdf` and `cv/CV_Baichuan_EN.pdf`.
+The build command also updates the source-folder PDFs and `_site_file/cv/` copies. Without `--build-cv`, only the generated text/YAML is updated; `--check` is read-only and detects text drift, not PDF freshness. Missing DOI is allowed for conference presentations and working papers. CVs use the original external-link icon for a DOI or online paper landing page (e.g. OpenReview), preferring DOI when present; no local PDF, code, or text-label links are added. The website retains all available links. Titles, author ordering, volume/issue/page information, and links are maintained only in Excel.
 
 ## Acknowledgement
 

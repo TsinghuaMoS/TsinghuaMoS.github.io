@@ -1,121 +1,114 @@
-# Publications for MoS Lab / Baichuan Mo.
-# Generated from CV_Update/papers.xlsx plus local PDFs in New/Baichuan/publication.
-# type: 1 = conference papers, 2 = journal articles, 3 = book chapters, 4 = preprints / working papers
-# Before adding an entry, read MAINTAINING.md (title casing rule + full checklist).
-# Titles use SENTENCE CASE (only first word + first word after a colon + proper nouns/acronyms capitalized).
+# GENERATED from documents/papers.xlsx. Do not edit directly.
+# Run: python3 scripts/sync_publications.py --build-cv
 
-- title: 'Large language models for travel behavior prediction'
+- title: Large language models for travel behavior prediction
   year: 2026
   type: 2
-  paper_type: 'J'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Interdisciplinary Perspectives'
-  issue_page: '38, 102124'
-  venue_display: 'Transportation Research Interdisciplinary Perspectives, 2026, 38, 102124'
-  authors_text: 'Baichuan Mo, Hanyong Xu, Ruoyun Ma, Jung-Hoon Cho, Dingyi Zhuang, Xiaotong Guo, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Hanyong Xu</span><sup class="author-corresponding">*</sup>, Ruoyun Ma, Jung-Hoon Cho, Dingyi Zhuang, Xiaotong Guo, Jinhua Zhao'
-  corresponding_authors: 'Hanyong Xu'
+  paper_type: J
+  category: Travel Behavior & Demand
+  category_label: Journal Article
+  venue: Transportation Research Interdisciplinary Perspectives
+  issue_page: 38, 102124
+  venue_display: Transportation Research Interdisciplinary Perspectives, 2026, 38, 102124
+  authors_text: Baichuan Mo, Hanyong Xu, Ruoyun Ma, Jung-Hoon Cho, Dingyi Zhuang, Xiaotong Guo, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Hanyong Xu</span><sup class="author-corresponding">*</sup>, Ruoyun Ma, Jung-Hoon Cho, Dingyi Zhuang, Xiaotong Guo, Jinhua Zhao
+  corresponding_authors: Hanyong Xu
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Large%20language%20models%20for%20travel%20behavior%20prediction.pdf'
-  external_url: 'https://doi.org/10.1016/j.trip.2026.102124'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Large%20language%20models%20for%20travel%20behavior%20prediction.pdf
+  external_url: https://doi.org/10.1016/j.trip.2026.102124
+  external_label: DOI
   code_url: ''
   impact_factor: '3.8'
-  cas_quartile: 'Q3'
+  cas_quartile: Q3
   if_sci: true
   first_author: true
   featured: false
   feature_image: ''
-
-- title: 'A federated meta-learning approach for interpretable, privacy-preserving, and customizable behavior analysis'
+- title: A federated meta-learning approach for interpretable, privacy-preserving, and customizable behavior analysis
   year: 2026
   type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'Communications in Transportation Research'
-  issue_page: '6 (1), 9640014'
-  venue_display: 'Communications in Transportation Research, 2026, 6 (1), 9640014'
-  authors_text: 'Linlin You, Kunxu Chen, Baichuan Mo, Jiemin Xie, Juanjuan Zhao, Jinhua Zhao'
-  authors_html: 'Linlin You, Kunxu Chen, <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Jiemin Xie, <span class="author-corresponding-name">Juanjuan Zhao</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo, Juanjuan Zhao'
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: Communications in Transportation Research
+  issue_page: 6 (1), 9640014
+  venue_display: Communications in Transportation Research, 2026, 6 (1), 9640014
+  authors_text: Linlin You, Kunxu Chen, Baichuan Mo, Jiemin Xie, Juanjuan Zhao, Jinhua Zhao
+  authors_html: Linlin You, Kunxu Chen, <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Jiemin Xie, <span class="author-corresponding-name">Juanjuan Zhao</span><sup class="author-corresponding">*</sup>, Jinhua Zhao
+  corresponding_authors: Baichuan Mo, Juanjuan Zhao
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/A%20federated%20meta-learning%20approach%20for%20interpretable%2C%20privacy-preserving%2C%20and%20customizable%20behavior%20analysis.pdf'
-  external_url: 'https://doi.org/10.26599/commtr.2026.9640014'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/A%20federated%20meta-learning%20approach%20for%20interpretable%2C%20privacy-preserving%2C%20and%20customizable%20behavior%20analysis.pdf
+  external_url: https://doi.org/10.26599/commtr.2026.9640014
+  external_label: DOI
   code_url: ''
   impact_factor: '12.8'
-  cas_quartile: 'Q1 Top'
+  cas_quartile: Q1 Top
   if_sci: true
   first_author: false
   featured: false
   feature_image: ''
-
 - title: 'Application of license plate recognition data in intelligent transportation systems: A review'
   year: 2026
   type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'European Transport Research Review'
-  issue_page: '18, 27'
-  venue_display: 'European Transport Research Review, 2026, 18, 27'
-  authors_text: 'Jiehui Ng, Baichuan Mo, Lyuchao Liao, Ruimin Li'
-  authors_html: 'Jiehui Ng, <strong class="author-me">Baichuan Mo</strong>, Lyuchao Liao, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>'
-  corresponding_authors: 'Ruimin Li'
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: European Transport Research Review
+  issue_page: 18 (1), 27
+  venue_display: European Transport Research Review, 2026, 18 (1), 27
+  authors_text: Jiehui Ng, Baichuan Mo, Lyuchao Liao, Ruimin Li
+  authors_html: Jiehui Ng, <strong class="author-me">Baichuan Mo</strong>, Lyuchao Liao, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>
+  corresponding_authors: Ruimin Li
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Application%20of%20license%20plate%20recognition%20data%20in%20intelligent%20transportation%20systems%20-%20A%20review.pdf'
-  external_url: 'https://doi.org/10.1186/s12544-026-00788-3'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Application%20of%20license%20plate%20recognition%20data%20in%20intelligent%20transportation%20systems%20-%20A%20review.pdf
+  external_url: https://doi.org/10.1186/s12544-026-00788-3
+  external_label: DOI
   code_url: ''
   impact_factor: '4.2'
-  cas_quartile: 'Q3'
+  cas_quartile: Q3
   if_sci: true
   first_author: false
   featured: false
   feature_image: ''
-
 - title: 'Resilience analysis of urban cyber-physical-social systems: Insights from the 2023 Beijing rainstorm'
   year: 2026
   type: 2
-  paper_type: 'J'
-  category: 'Sustainable Urban Systems'
-  category_label: 'Journal Article'
-  venue: 'Reliability Engineering and System Safety'
-  issue_page: '272, 112579'
-  venue_display: 'Reliability Engineering and System Safety, 2026, 272, 112579'
-  authors_text: 'Wenxin Ma, Baichuan Mo, Ruimin Li'
-  authors_html: 'Wenxin Ma, <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>'
-  corresponding_authors: 'Ruimin Li'
+  paper_type: J
+  category: Sustainable Urban Systems
+  category_label: Journal Article
+  venue: Reliability Engineering and System Safety
+  issue_page: 272, 112579
+  venue_display: Reliability Engineering and System Safety, 2026, 272, 112579
+  authors_text: Wenxin Ma, Baichuan Mo, Ruimin Li
+  authors_html: Wenxin Ma, <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>
+  corresponding_authors: Ruimin Li
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Resilience%20analysis%20of%20urban%20cyber-physical-social%20systems%20-%20Insights%20from%20the%202023%20Beijing%20rainstorm.pdf'
-  external_url: 'https://doi.org/10.1016/j.ress.2026.112579'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Resilience%20analysis%20of%20urban%20cyber-physical-social%20systems%20-%20Insights%20from%20the%202023%20Beijing%20rainstorm.pdf
+  external_url: https://doi.org/10.1016/j.ress.2026.112579
+  external_label: DOI
   code_url: ''
   impact_factor: '11.0'
-  cas_quartile: 'Q1 Top'
+  cas_quartile: Q1 Top
   if_sci: true
   first_author: false
   featured: false
   feature_image: ''
-
-- title: 'User-centric transit data analytics for inference, prediction, and optimization'
+- title: User-centric transit data analytics for inference, prediction, and optimization
   year: 2026
   type: 3
-  paper_type: 'B'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Book Chapter'
-  venue: 'Mobility Patterns, Big Data and Transport Analytics (2nd ed.)'
-  issue_page: '421-461'
-  venue_display: 'Mobility Patterns, Big Data and Transport Analytics (2nd ed.), 2026, 421-461'
-  authors_text: 'Zhenliang Ma, Haris N. Koutsopoulos, Baichuan Mo, Jinhua Zhao'
-  authors_html: 'Zhenliang Ma, Haris N. Koutsopoulos, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao'
+  paper_type: B
+  category: Travel Behavior & Demand
+  category_label: Book Chapter
+  venue: Mobility Patterns, Big Data and Transport Analytics (2nd ed.)
+  issue_page: 421-461
+  venue_display: Mobility Patterns, Big Data and Transport Analytics (2nd ed.), 2026, 421-461
+  authors_text: Zhenliang Ma, Haris N. Koutsopoulos, Baichuan Mo, Jinhua Zhao
+  authors_html: Zhenliang Ma, Haris N. Koutsopoulos, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao
   corresponding_authors: ''
   co_first_authors: ''
   pdf_url: ''
-  external_url: 'https://doi.org/10.1016/B978-0-443-26789-5.00018-3'
-  external_label: 'DOI'
+  external_url: https://doi.org/10.1016/B978-0-443-26789-5.00018-3
+  external_label: DOI
   code_url: ''
   impact_factor: ''
   cas_quartile: ''
@@ -123,1015 +116,1011 @@
   first_author: false
   featured: false
   feature_image: ''
-
-- title: 'Housing exchange framework to reduce carbon emissions from commuting'
-  year: 2025
-  type: 2
-  paper_type: 'J'
-  category: 'Sustainable Urban Systems'
-  category_label: 'Journal Article'
-  venue: 'Nature Sustainability'
-  issue_page: '8 (11), 1259-1269'
-  venue_display: 'Nature Sustainability, 2025, 8 (11), 1259-1269'
-  authors_text: 'Juanjuan Zhao, Baichuan Mo, Nicholas S. Caros, Jinhua Zhao'
-  authors_html: '<span class="author-equal-name">Juanjuan Zhao</span><sup class="author-equal">&dagger;</sup>, <strong class="author-me">Baichuan Mo</strong><sup class="author-equal">&dagger;</sup><sup class="author-corresponding">*</sup>, Nicholas S. Caros, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo'
-  co_first_authors: 'Juanjuan Zhao, Baichuan Mo'
-  pdf_url: '/documents/publication/journals/Housing%20exchange%20framework%20to%20reduce%20carbon%20emissions%20from%20commuting.pdf'
-  external_url: 'https://doi.org/10.1038/s41893-025-01658-x'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '27.2'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
-  first_author: false
-  featured: true
-  feature_image: '/images/featured/housing_commute.webp'
-  feature_title: 'Housing exchange to reduce commuting emissions'
-  feature_description: 'Uses household-level housing exchange strategies to reduce excess commuting emissions.'
-  feature_title_zh: '以住房置换降低通勤碳排放'
-  feature_description_zh: '通过住户层面的住房置换策略，降低过量通勤带来的碳排放。'
-  feature_alt: 'Title area screenshot from the first page of the Nature Sustainability paper'
-
-- title: 'Robust binary and multinomial logit models for classification with data uncertainties'
-  year: 2025
-  type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'European Journal of Operational Research'
-  issue_page: '327 (2), 577-591'
-  venue_display: 'European Journal of Operational Research, 2025, 327 (2), 577-591'
-  authors_text: 'Baichuan Mo, Yunhan Zheng, Xiaotong Guo, Ruoyun Ma, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yunhan Zheng</span><sup class="author-corresponding">*</sup>, Xiaotong Guo, Ruoyun Ma, Jinhua Zhao'
-  corresponding_authors: 'Yunhan Zheng'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Robust%20binary%20and%20multinomial%20logit%20models%20for%20classification%20with%20data%20uncertainties.pdf'
-  external_url: 'https://doi.org/10.1016/j.ejor.2025.05.013'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '6.0'
-  cas_quartile: 'Q2'
-  if_sci: true
-  first_author: true
-  featured: true
-  feature_image: ''
-
-- title: 'Individual path recommendation under public transit service disruptions considering behavior uncertainty'
-  year: 2025
-  type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'Transportation Science'
-  issue_page: '59 (6), 1235-1258'
-  venue_display: 'Transportation Science, 2025, 59 (6), 1235-1258'
-  authors_text: 'Baichuan Mo, Haris N Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Individual%20path%20recommendation%20under%20public%20transit%20service%20disruptions%20considering%20behavior%20uncertainty.pdf'
-  external_url: 'https://doi.org/10.1287/trsc.2025.0042'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '4.8'
-  cas_quartile: 'Q2'
-  if_sci: true
-  first_author: true
-  featured: true
-  feature_image: '/images/featured/path_recommendation.webp'
-  feature_title: 'Individual path recommendation under transit disruptions'
-  feature_description: 'Models passenger behavior uncertainty and recommends resilient paths during service disruptions.'
-  feature_title_zh: '公共交通中断下的个性化路径推荐'
-  feature_description_zh: '建模乘客行为的不确定性，在服务中断时为乘客推荐更具韧性的出行路径。'
-  feature_alt: 'Title area screenshot from the second page of the Transportation Science paper'
-
-- title: 'Data-driven analysis and modeling of individual longitudinal behavior response to fare incentives in public transport'
-  year: 2025
-  type: 2
-  paper_type: 'J'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Journal Article'
-  venue: 'Transportation'
-  issue_page: '52 (1), 263-286'
-  venue_display: 'Transportation, 2025, 52 (1), 263-286'
-  authors_text: 'Leizhen Wang, Xin Chen, Zhenliang Ma, Pengfei Zhang, Baichuan Mo, Peibo Duan'
-  authors_html: 'Leizhen Wang, Xin Chen, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Pengfei Zhang, <strong class="author-me">Baichuan Mo</strong>, Peibo Duan'
-  corresponding_authors: 'Zhenliang Ma'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Data-driven%20analysis%20and%20modeling%20of%20individual%20longitudinal%20behavior%20response%20to%20fare%20incentives%20in%20public%20transport.pdf'
-  external_url: 'https://doi.org/10.1007/s11116-023-10419-8'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '4.2'
-  cas_quartile: 'Q2'
-  if_sci: true
-  first_author: false
-  featured: false
-  feature_image: ''
-
-- title: 'Simulation-based optimization for vertiport location selection: A surrogate model with machine learning method'
-  year: 2025
-  type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Record'
-  issue_page: '2679 (2), 2099-2110'
-  venue_display: 'Transportation Research Record, 2025, 2679 (2), 2099-2110'
-  authors_text: 'Xuan Jiang, Shangqing Cao, Baichuan Mo, Junzhe Cao, Hao Yang, Yuhan Tang, Mark Hansen, Jinhua Zhao, Raja Sengupta'
-  authors_html: '<span class="author-corresponding-name">Xuan Jiang</span><sup class="author-corresponding">*</sup>, Shangqing Cao, <strong class="author-me">Baichuan Mo</strong>, Junzhe Cao, Hao Yang, Yuhan Tang, Mark Hansen, Jinhua Zhao, Raja Sengupta'
-  corresponding_authors: 'Xuan Jiang'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Simulation-based%20optimization%20for%20vertiport%20location%20selection%20-%20A%20surrogate%20model%20with%20machine%20learning%20method.pdf'
-  external_url: 'https://doi.org/10.1177/03611981241277755'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '1.6'
-  cas_quartile: 'Q4'
-  if_sci: true
-  first_author: false
-  featured: false
-  feature_image: ''
-
-- title: 'SCOPE-MoE: Supply chain forecasting with a pretrained MoE-based large time series model in e-commerce'
-  year: 2025
-  type: 1
-  paper_type: 'C'
-  category: 'Mobility AI'
-  category_label: 'Conference Paper'
-  venue: 'IEEE 28th International Conference on Intelligent Transportation Systems (ITSC 2025)'
+- title: Equity-oriented inflow control in congested urban rail systems
+  year: 2026
+  type: 4
+  paper_type: P
+  category: Public Transit Resilience
+  category_label: Preprint / Working Paper
+  venue: Preprint
   issue_page: ''
-  venue_display: 'IEEE 28th International Conference on Intelligent Transportation Systems (ITSC 2025), 2025'
-  authors_text: 'Shiyu Wang, Xinyue Zhong, Jiawei Li, Baichuan Mo, Zhou Ye, Ming Jin'
-  authors_html: '<span class="author-corresponding-name">Shiyu Wang</span><sup class="author-corresponding">*</sup>, Xinyue Zhong, Jiawei Li, <strong class="author-me">Baichuan Mo</strong>, Zhou Ye, <span class="author-corresponding-name">Ming Jin</span><sup class="author-corresponding">*</sup>'
-  corresponding_authors: 'Shiyu Wang, Ming Jin'
+  venue_display: Preprint, 2026
+  authors_text: Michael Sun, Baichuan Mo, Ruoyun Ma
+  authors_html: Michael Sun, <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Ruoyun Ma
+  corresponding_authors: Baichuan Mo
   co_first_authors: ''
-  pdf_url: ''
-  external_url: 'https://ieeexplore.ieee.org/document/11423301'
-  external_label: 'IEEE Xplore'
+  pdf_url: /documents/publication/preprints/Equity-oriented%20inflow%20control%20in%20congested%20urban%20rail%20systems.pdf
+  external_url: ''
+  external_label: ''
   code_url: ''
   impact_factor: ''
+  cas_quartile: ''
   if_sci: false
   first_author: false
   featured: false
   feature_image: ''
-
+- title: 'ConFlux: Multivariate time series in flux, one unified forecast in confluence'
+  year: 2026
+  type: 1
+  paper_type: C
+  category: Mobility AI
+  category_label: Conference Paper
+  venue: 43rd International Conference on Machine Learning (ICML 2026)
+  issue_page: Oral Presentation (Top 0.7%)
+  venue_display: 43rd International Conference on Machine Learning (ICML 2026), 2026, Oral Presentation (Top 0.7%)
+  authors_text: Shiyu Wang, Juntong Ni, Ziyi Zhang, Baichuan Mo, Xinyue Zhong, Chengxin Wang, Yuchen Fang, Zhou Ye, Yang Xiang
+  authors_html: <span class="author-equal-name">Shiyu Wang</span><sup class="author-equal">&dagger;</sup>, <span class="author-equal-name">Juntong Ni</span><sup class="author-equal">&dagger;</sup>, Ziyi Zhang, <strong class="author-me">Baichuan Mo</strong>, Xinyue Zhong, Chengxin Wang, <span class="author-corresponding-name">Yuchen Fang</span><sup class="author-corresponding">*</sup>, Zhou Ye, Yang Xiang
+  corresponding_authors: Yuchen Fang
+  co_first_authors: Shiyu Wang, Juntong Ni
+  pdf_url: /documents/publication/conferences/ConFlux%20-%20Multivariate%20time%20series%20in%20flux%2C%20one%20unified%20forecast%20in%20confluence.pdf
+  external_url: https://openreview.net/forum?id=qugRvYjaFx
+  external_label: OpenReview
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: false
+  featured: false
+  feature_image: ''
 - title: 'TimeMixer++: A general time series pattern machine for universal predictive analysis'
   year: 2025
   type: 1
-  paper_type: 'C'
-  category: 'Mobility AI'
-  category_label: 'Conference Paper'
-  venue: 'The 13th International Conference on Learning Representations (ICLR 2025)'
-  issue_page: 'Oral Presentation (0.6%)'
-  venue_display: 'The 13th International Conference on Learning Representations (ICLR 2025), 2025, Oral Presentation (0.6%)'
-  authors_text: 'Shiyu Wang, Jiawei Li, Xiaoming Shi, Zhou Ye, Baichuan Mo, Wenze Lin, Shengtong Ju, Zhixuan Chu, Ming Jin'
-  authors_html: '<span class="author-equal-name">Shiyu Wang</span><sup class="author-equal">&dagger;</sup>, <span class="author-equal-name">Jiawei Li</span><sup class="author-equal">&dagger;</sup>, Xiaoming Shi, Zhou Ye, <strong class="author-me">Baichuan Mo</strong>, Wenze Lin, Shengtong Ju, <span class="author-corresponding-name">Zhixuan Chu</span><sup class="author-corresponding">*</sup>, <span class="author-corresponding-name">Ming Jin</span><sup class="author-corresponding">*</sup>'
-  corresponding_authors: 'Zhixuan Chu, Ming Jin'
-  co_first_authors: 'Shiyu Wang, Jiawei Li'
-  pdf_url: '/documents/publication/conferences/TimeMixer%2B%2B%20-%20A%20general%20time%20series%20pattern%20machine%20for%20universal%20predictive%20analysis.pdf'
-  external_url: 'https://openreview.net/forum?id=1CLzLXSFNn'
-  external_label: 'OpenReview'
+  paper_type: C
+  category: Mobility AI
+  category_label: Conference Paper
+  venue: The 13th International Conference on Learning Representations (ICLR 2025)
+  issue_page: Oral Presentation (0.6%)
+  venue_display: The 13th International Conference on Learning Representations (ICLR 2025), 2025, Oral Presentation (0.6%)
+  authors_text: Shiyu Wang, Jiawei Li, Xiaoming Shi, Zhou Ye, Baichuan Mo, Wenze Lin, Shengtong Ju, Zhixuan Chu, Ming Jin
+  authors_html: <span class="author-equal-name">Shiyu Wang</span><sup class="author-equal">&dagger;</sup>, <span class="author-equal-name">Jiawei Li</span><sup class="author-equal">&dagger;</sup>, Xiaoming Shi, Zhou Ye, <strong class="author-me">Baichuan Mo</strong>, Wenze Lin, Shengtong Ju, <span class="author-corresponding-name">Zhixuan Chu</span><sup class="author-corresponding">*</sup>, <span class="author-corresponding-name">Ming Jin</span><sup class="author-corresponding">*</sup>
+  corresponding_authors: Zhixuan Chu, Ming Jin
+  co_first_authors: Shiyu Wang, Jiawei Li
+  pdf_url: /documents/publication/conferences/TimeMixer%2B%2B%20-%20A%20general%20time%20series%20pattern%20machine%20for%20universal%20predictive%20analysis.pdf
+  external_url: https://openreview.net/forum?id=1CLzLXSFNn
+  external_label: OpenReview
   code_url: ''
   impact_factor: ''
+  cas_quartile: ''
   if_sci: false
   first_author: false
   featured: false
   feature_image: ''
-
-- title: 'Robust transit frequency setting problem with demand uncertainty'
-  year: 2024
+- title: Robust binary and multinomial logit models for classification with data uncertainties
+  year: 2025
   type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'IEEE Transactions on Intelligent Transportation Systems'
-  issue_page: '25 (10), 13305-13322'
-  venue_display: 'IEEE Transactions on Intelligent Transportation Systems, 2024, 25 (10), 13305-13322'
-  authors_text: 'Xiaotong Guo, Baichuan Mo, Haris N. Koutsopoulos, Shenhao Wang, Jinhua Zhao'
-  authors_html: '<span class="author-corresponding-name">Xiaotong Guo</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Haris N. Koutsopoulos, Shenhao Wang, Jinhua Zhao'
-  corresponding_authors: 'Xiaotong Guo'
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: European Journal of Operational Research
+  issue_page: 327 (2), 577-591
+  venue_display: European Journal of Operational Research, 2025, 327 (2), 577-591
+  authors_text: Baichuan Mo, Yunhan Zheng, Xiaotong Guo, Ruoyun Ma, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yunhan Zheng</span><sup class="author-corresponding">*</sup>, Xiaotong Guo, Ruoyun Ma, Jinhua Zhao
+  corresponding_authors: Yunhan Zheng
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Robust%20transit%20frequency%20setting%20problem%20with%20demand%20uncertainty.pdf'
-  external_url: 'https://doi.org/10.1109/TITS.2024.3395050'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Robust%20binary%20and%20multinomial%20logit%20models%20for%20classification%20with%20data%20uncertainties.pdf
+  external_url: https://doi.org/10.1016/j.ejor.2025.05.013
+  external_label: DOI
   code_url: ''
-  impact_factor: '7.9'
-  cas_quartile: 'Q1 Top'
+  impact_factor: '6.0'
+  cas_quartile: Q2
+  if_sci: true
+  first_author: true
+  featured: true
+  feature_image: ''
+- title: 'Simulation-based optimization for vertiport location selection: A surrogate model with machine learning method'
+  year: 2025
+  type: 2
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: Transportation Research Record
+  issue_page: 2679 (2), 2099-2110
+  venue_display: Transportation Research Record, 2025, 2679 (2), 2099-2110
+  authors_text: Xuan Jiang, Shangqing Cao, Baichuan Mo, Junzhe Cao, Hao Yang, Yuhan Tang, Mark Hansen, Jinhua Zhao, Raja Sengupta
+  authors_html: <span class="author-corresponding-name">Xuan Jiang</span><sup class="author-corresponding">*</sup>, Shangqing Cao, <strong class="author-me">Baichuan Mo</strong>, Junzhe Cao, Hao Yang, Yuhan Tang, Mark Hansen, Jinhua Zhao, Raja Sengupta
+  corresponding_authors: Xuan Jiang
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Simulation-based%20optimization%20for%20vertiport%20location%20selection%20-%20A%20surrogate%20model%20with%20machine%20learning%20method.pdf
+  external_url: https://doi.org/10.1177/03611981241277755
+  external_label: DOI
+  code_url: ''
+  impact_factor: '1.6'
+  cas_quartile: Q4
   if_sci: true
   first_author: false
   featured: false
   feature_image: ''
-
-- title: 'Robust reinforcement learning strategies with evolving curriculum for efficient bus operations in smart cities'
-  year: 2024
+- title: Data-driven analysis and modeling of individual longitudinal behavior response to fare incentives in public transport
+  year: 2025
   type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'Smart Cities'
-  issue_page: '7(6), 3658-3677'
-  venue_display: 'Smart Cities, 2024, 7(6), 3658-3677'
-  authors_text: 'Yuhan Tang, Ao Qu, Xuan Jiang, Baichuan Mo, Shangqing Cao, Joseph Rodriguez, Haris N. Koutsopoulos, Cathy Wu, Jinhua Zhao'
-  authors_html: 'Yuhan Tang, <span class="author-corresponding-name">Ao Qu</span><sup class="author-corresponding">*</sup>, Xuan Jiang, <strong class="author-me">Baichuan Mo</strong>, Shangqing Cao, Joseph Rodriguez, Haris N. Koutsopoulos, Cathy Wu, Jinhua Zhao'
-  corresponding_authors: 'Ao Qu'
+  paper_type: J
+  category: Travel Behavior & Demand
+  category_label: Journal Article
+  venue: Transportation
+  issue_page: 52 (1), 263-286
+  venue_display: Transportation, 2025, 52 (1), 263-286
+  authors_text: Leizhen Wang, Xin Chen, Zhenliang Ma, Pengfei Zhang, Baichuan Mo, Peibo Duan
+  authors_html: Leizhen Wang, Xin Chen, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Pengfei Zhang, <strong class="author-me">Baichuan Mo</strong>, Peibo Duan
+  corresponding_authors: Zhenliang Ma
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Robust%20reinforcement%20learning%20strategies%20with%20evolving%20curriculum%20for%20efficient%20bus%20operations%20in%20smart%20cities.pdf'
-  external_url: 'https://doi.org/10.3390/smartcities7060141'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Data-driven%20analysis%20and%20modeling%20of%20individual%20longitudinal%20behavior%20response%20to%20fare%20incentives%20in%20public%20transport.pdf
+  external_url: https://doi.org/10.1007/s11116-023-10419-8
+  external_label: DOI
   code_url: ''
-  impact_factor: '7.0'
+  impact_factor: '4.2'
+  cas_quartile: Q2
   if_sci: true
   first_author: false
   featured: false
   feature_image: ''
-
+- title: Individual path recommendation under public transit service disruptions considering behavior uncertainty
+  year: 2025
+  type: 2
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: Transportation Science
+  issue_page: 59 (6), 1235-1258
+  venue_display: Transportation Science, 2025, 59 (6), 1235-1258
+  authors_text: Baichuan Mo, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao
+  corresponding_authors: Baichuan Mo
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Individual%20path%20recommendation%20under%20public%20transit%20service%20disruptions%20considering%20behavior%20uncertainty.pdf
+  external_url: https://doi.org/10.1287/trsc.2025.0042
+  external_label: DOI
+  code_url: ''
+  impact_factor: '4.8'
+  cas_quartile: Q2
+  if_sci: true
+  first_author: true
+  featured: true
+  feature_image: /images/featured/path_recommendation.webp
+  feature_title: Individual path recommendation under transit disruptions
+  feature_description: Models passenger behavior uncertainty and recommends resilient paths during service disruptions.
+  feature_title_zh: 公共交通中断下的个性化路径推荐
+  feature_description_zh: 建模乘客行为的不确定性，在服务中断时为乘客推荐更具韧性的出行路径。
+  feature_alt: Title area screenshot from the second page of the Transportation Science paper
+- title: Housing exchange framework to reduce carbon emissions from commuting
+  year: 2025
+  type: 2
+  paper_type: J
+  category: Sustainable Urban Systems
+  category_label: Journal Article
+  venue: Nature Sustainability
+  issue_page: 8 (11), 1259-1269
+  venue_display: Nature Sustainability, 2025, 8 (11), 1259-1269
+  authors_text: Juanjuan Zhao, Baichuan Mo, Nicholas S. Caros, Jinhua Zhao
+  authors_html: <span class="author-equal-name">Juanjuan Zhao</span><sup class="author-equal">&dagger;</sup>, <strong class="author-me">Baichuan Mo</strong><sup class="author-equal">&dagger;</sup><sup class="author-corresponding">*</sup>, Nicholas S. Caros, Jinhua Zhao
+  corresponding_authors: Baichuan Mo
+  co_first_authors: Juanjuan Zhao, Baichuan Mo
+  pdf_url: /documents/publication/journals/Housing%20exchange%20framework%20to%20reduce%20carbon%20emissions%20from%20commuting.pdf
+  external_url: https://doi.org/10.1038/s41893-025-01658-x
+  external_label: DOI
+  code_url: ''
+  impact_factor: '27.2'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: true
+  featured: true
+  feature_image: /images/featured/housing_commute.webp
+  feature_title: Housing exchange to reduce commuting emissions
+  feature_description: Uses household-level housing exchange strategies to reduce excess commuting emissions.
+  feature_title_zh: 以住房置换降低通勤碳排放
+  feature_description_zh: 通过住户层面的住房置换策略，降低过量通勤带来的碳排放。
+  feature_alt: Title area screenshot from the first page of the Nature Sustainability paper
+- title: 'SCOPE-MoE: Supply chain forecasting with a pretrained MoE-based large time series model in e-commerce'
+  year: 2025
+  type: 1
+  paper_type: C
+  category: Mobility AI
+  category_label: Conference Paper
+  venue: IEEE 28th International Conference on Intelligent Transportation Systems (ITSC 2025)
+  issue_page: 3340-3345
+  venue_display: IEEE 28th International Conference on Intelligent Transportation Systems (ITSC 2025), 2025, 3340-3345
+  authors_text: Shiyu Wang, Xinyue Zhong, Jiawei Li, Baichuan Mo, Zhou Ye, Ming Jin
+  authors_html: <span class="author-corresponding-name">Shiyu Wang</span><sup class="author-corresponding">*</sup>, Xinyue Zhong, Jiawei Li, <strong class="author-me">Baichuan Mo</strong>, Zhou Ye, <span class="author-corresponding-name">Ming Jin</span><sup class="author-corresponding">*</sup>
+  corresponding_authors: Shiyu Wang, Ming Jin
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: https://doi.org/10.1109/ITSC60802.2025.11423301
+  external_label: DOI
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: false
+  featured: false
+  feature_image: ''
 - title: 'Comparing hundreds of machine learning and discrete choice models for travel demand modeling: An empirical benchmark'
   year: 2024
   type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
   venue: 'Transportation Research Part B: Methodological'
-  issue_page: '190, 103061'
+  issue_page: 190, 103061
   venue_display: 'Transportation Research Part B: Methodological, 2024, 190, 103061'
-  authors_text: 'Shenhao Wang, Baichuan Mo, Yunhan Zheng, Stephane Hess, Jinhua Zhao'
-  authors_html: '<span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Yunhan Zheng, Stephane Hess, Jinhua Zhao'
-  corresponding_authors: 'Shenhao Wang'
+  authors_text: Shenhao Wang, Baichuan Mo, Yunhan Zheng, Stephane Hess, Jinhua Zhao
+  authors_html: <span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Yunhan Zheng, Stephane Hess, Jinhua Zhao
+  corresponding_authors: Shenhao Wang
   co_first_authors: ''
   pdf_url: ''
-  external_url: 'https://doi.org/10.1016/j.trb.2024.103061'
-  external_label: 'DOI'
+  external_url: https://doi.org/10.1016/j.trb.2024.103061
+  external_label: DOI
   code_url: ''
   impact_factor: '5.8'
-  cas_quartile: 'Q1 Top'
+  cas_quartile: Q1 Top
   if_sci: true
   first_author: false
   featured: false
   feature_image: ''
-
+- title: Robust transit frequency setting problem with demand uncertainty
+  year: 2024
+  type: 2
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: IEEE Transactions on Intelligent Transportation Systems
+  issue_page: 25 (10), 13305-13322
+  venue_display: IEEE Transactions on Intelligent Transportation Systems, 2024, 25 (10), 13305-13322
+  authors_text: Xiaotong Guo, Baichuan Mo, Haris N. Koutsopoulos, Shenhao Wang, Jinhua Zhao
+  authors_html: <span class="author-corresponding-name">Xiaotong Guo</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Haris N. Koutsopoulos, Shenhao Wang, Jinhua Zhao
+  corresponding_authors: Xiaotong Guo
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Robust%20transit%20frequency%20setting%20problem%20with%20demand%20uncertainty.pdf
+  external_url: https://doi.org/10.1109/TITS.2024.3395050
+  external_label: DOI
+  code_url: ''
+  impact_factor: '7.9'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: false
+  featured: false
+  feature_image: ''
 - title: 'Modeling virus transmission risks in commuting with emerging mobility services: A case study of COVID-19'
   year: 2024
   type: 2
-  paper_type: 'J'
-  category: 'Sustainable Urban Systems'
-  category_label: 'Journal Article'
-  venue: 'Travel Behaviour and Society'
-  issue_page: '34, 100689'
-  venue_display: 'Travel Behaviour and Society, 2024, 34, 100689'
-  authors_text: 'Baichuan Mo, Peyman Noursalehi, Haris N. Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Peyman Noursalehi, Haris N. Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo'
+  paper_type: J
+  category: Sustainable Urban Systems
+  category_label: Journal Article
+  venue: Travel Behaviour and Society
+  issue_page: 34, 100689
+  venue_display: Travel Behaviour and Society, 2024, 34, 100689
+  authors_text: Baichuan Mo, Peyman Noursalehi, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Peyman Noursalehi, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Baichuan Mo
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Modeling%20virus%20transmission%20risks%20in%20commuting%20with%20emerging%20mobility%20services%20-%20A%20case%20study%20of%20COVID-19.pdf'
-  external_url: 'https://doi.org/10.1016/j.tbs.2023.100689'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Modeling%20virus%20transmission%20risks%20in%20commuting%20with%20emerging%20mobility%20services%20-%20A%20case%20study%20of%20COVID-19.pdf
+  external_url: https://doi.org/10.1016/j.tbs.2023.100689
+  external_label: DOI
   code_url: ''
   impact_factor: '5.1'
-  cas_quartile: 'Q2'
+  cas_quartile: Q2
   if_sci: true
   first_author: true
   featured: false
   feature_image: ''
-
-- title: 'Robust path recommendations during public transit disruptions under demand uncertainty'
-  year: 2023
+- title: Robust reinforcement learning strategies with evolving curriculum for efficient bus operations in smart cities
+  year: 2024
   type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Part B: Methodological'
-  issue_page: '169, 82-107'
-  venue_display: 'Transportation Research Part B: Methodological, 2023, 169, 82-107'
-  authors_text: 'Baichuan Mo, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo'
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: Smart Cities
+  issue_page: 7(6), 3658-3677
+  venue_display: Smart Cities, 2024, 7(6), 3658-3677
+  authors_text: Yuhan Tang, Ao Qu, Xuan Jiang, Baichuan Mo, Shangqing Cao, Joseph Rodriguez, Haris N. Koutsopoulos, Cathy Wu, Jinhua Zhao
+  authors_html: Yuhan Tang, <span class="author-corresponding-name">Ao Qu</span><sup class="author-corresponding">*</sup>, Xuan Jiang, <strong class="author-me">Baichuan Mo</strong>, Shangqing Cao, Joseph Rodriguez, Haris N. Koutsopoulos, Cathy Wu, Jinhua Zhao
+  corresponding_authors: Ao Qu
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Robust%20path%20recommendations%20during%20public%20transit%20disruptions%20under%20demand%20uncertainty.pdf'
-  external_url: 'https://doi.org/10.1016/j.trb.2023.02.004'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Robust%20reinforcement%20learning%20strategies%20with%20evolving%20curriculum%20for%20efficient%20bus%20operations%20in%20smart%20cities.pdf
+  external_url: https://doi.org/10.3390/smartcities7060141
+  external_label: DOI
   code_url: ''
-  impact_factor: '6.8'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
-  first_author: true
-  featured: true
-  feature_image: ''
-
-- title: 'Predicting drivers'' route trajectories in last-mile delivery using a pair-wise attention-based pointer neural network'
-  year: 2023
-  type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Part E: Logistics and Transportation Review'
-  issue_page: '175, 103168'
-  venue_display: 'Transportation Research Part E: Logistics and Transportation Review, 2023, 175, 103168'
-  authors_text: 'Baichuan Mo, Qingyi Wang, Xiaotong Guo, Matthias Winkenbach, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Qingyi Wang</span><sup class="author-corresponding">*</sup>, Xiaotong Guo, Matthias Winkenbach, Jinhua Zhao'
-  corresponding_authors: 'Qingyi Wang'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Predicting%20drivers%27%27%20route%20trajectories%20in%20last-mile%20delivery%20using%20a%20pair-wise%20attention-based%20pointer%20neural%20network.pdf'
-  external_url: 'https://doi.org/10.1016/j.tre.2023.103168'
-  external_label: 'DOI'
-  code_url: 'https://github.com/mbc96325/A-Pair-wise-Attention-based-Pointer-Neural-Network-for-Trajectory-Prediction'
-  impact_factor: '10.6'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
-  first_author: true
-  featured: true
-  feature_image: '/images/featured/lastmile_delivery.webp'
-  feature_title: 'Last-mile delivery route prediction'
-  feature_description: 'A pair-wise attention-based pointer neural network that predicts drivers'' route trajectories in last-mile delivery.'
-  feature_title_zh: '末端配送路径轨迹预测'
-  feature_description_zh: '基于成对注意力的指针神经网络，预测司机在末端配送中的行驶轨迹。'
-  feature_alt: 'Title area screenshot from the first page of the Transportation Research Part E paper'
-
-- title: 'Proof of travel for trust-based data validation in V2I communication'
-  year: 2023
-  type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'IEEE Internet of Things Journal'
-  issue_page: '10 (11), 9565-9584'
-  venue_display: 'IEEE Internet of Things Journal, 2023, 10 (11), 9565-9584'
-  authors_text: 'Dajiang Suo, Baichuan Mo, Jinhua Zhao, Sanjay E Sarma'
-  authors_html: '<span class="author-corresponding-name">Dajiang Suo</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao, Sanjay E Sarma'
-  corresponding_authors: 'Dajiang Suo'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Proof%20of%20travel%20for%20trust-based%20data%20validation%20in%20V2I%20communication.pdf'
-  external_url: 'https://doi.org/10.1109/JIOT.2023.3236623'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '10.2'
-  cas_quartile: 'Q1 Top'
+  impact_factor: '7.0'
+  cas_quartile: ''
   if_sci: true
   first_author: false
   featured: false
   feature_image: ''
-
-- title: 'Individual longitudinal adoption pattern analysis under fare incentives using smart card data'
+- title: 'Ex post path choice estimation for urban rail systems using smart card data: An aggregated time-space hypernetwork approach'
+  year: 2023
+  type: 2
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: Transportation Science
+  issue_page: 57 (2), 313-335
+  venue_display: Transportation Science, 2023, 57 (2), 313-335
+  authors_text: Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Zhenliang Ma
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Ex%20post%20path%20choice%20estimation%20for%20urban%20rail%20systems%20using%20smart%20card%20data%20-%20An%20aggregated%20time-space%20hypernetwork%20approach.pdf
+  external_url: https://doi.org/10.1287/trsc.2022.1177
+  external_label: DOI
+  code_url: https://github.com/mbc96325/Path-Choice-Estimation-Using-Smart-Card-Data
+  impact_factor: '4.9'
+  cas_quartile: Q2
+  if_sci: true
+  first_author: true
+  featured: true
+  feature_image: /images/featured/path_choice_hypernetwork.webp
+  feature_title: Ex post path choice estimation
+  feature_description: Estimates urban rail passenger path choices from smart card data via an aggregated time-space hypernetwork.
+  feature_title_zh: 城市轨道交通事后路径选择估计
+  feature_description_zh: 基于刷卡数据与聚合时空超网络，估计城市轨道乘客的路径选择。
+  feature_alt: Title area screenshot from the second page of the Transportation Science paper
+- title: Predicting drivers' route trajectories in last-mile delivery using a pair-wise attention-based pointer neural network
+  year: 2023
+  type: 2
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: 'Transportation Research Part E: Logistics and Transportation Review'
+  issue_page: 175, 103168
+  venue_display: 'Transportation Research Part E: Logistics and Transportation Review, 2023, 175, 103168'
+  authors_text: Baichuan Mo, Qingyi Wang, Xiaotong Guo, Matthias Winkenbach, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Qingyi Wang</span><sup class="author-corresponding">*</sup>, Xiaotong Guo, Matthias Winkenbach, Jinhua Zhao
+  corresponding_authors: Qingyi Wang
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Predicting%20drivers%27%27%20route%20trajectories%20in%20last-mile%20delivery%20using%20a%20pair-wise%20attention-based%20pointer%20neural%20network.pdf
+  external_url: https://doi.org/10.1016/j.tre.2023.103168
+  external_label: DOI
+  code_url: https://github.com/mbc96325/A-Pair-wise-Attention-based-Pointer-Neural-Network-for-Trajectory-Prediction
+  impact_factor: '10.6'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: true
+  featured: true
+  feature_image: /images/featured/lastmile_delivery.webp
+  feature_title: Last-mile delivery route prediction
+  feature_description: A pair-wise attention-based pointer neural network that predicts drivers' route trajectories in last-mile delivery.
+  feature_title_zh: 末端配送路径轨迹预测
+  feature_description_zh: 基于成对注意力的指针神经网络，预测司机在末端配送中的行驶轨迹。
+  feature_alt: Title area screenshot from the first page of the Transportation Research Part E paper
+- title: Robust path recommendations during public transit disruptions under demand uncertainty
+  year: 2023
+  type: 2
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: 'Transportation Research Part B: Methodological'
+  issue_page: 169, 82-107
+  venue_display: 'Transportation Research Part B: Methodological, 2023, 169, 82-107'
+  authors_text: Baichuan Mo, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao
+  corresponding_authors: Baichuan Mo
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Robust%20path%20recommendations%20during%20public%20transit%20disruptions%20under%20demand%20uncertainty.pdf
+  external_url: https://doi.org/10.1016/j.trb.2023.02.004
+  external_label: DOI
+  code_url: ''
+  impact_factor: '6.8'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: true
+  featured: true
+  feature_image: ''
+- title: Proof of travel for trust-based data validation in V2I communication
+  year: 2023
+  type: 2
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: IEEE Internet of Things Journal
+  issue_page: 10 (11), 9565-9584
+  venue_display: IEEE Internet of Things Journal, 2023, 10 (11), 9565-9584
+  authors_text: Dajiang Suo, Baichuan Mo, Jinhua Zhao, Sanjay E Sarma
+  authors_html: <span class="author-corresponding-name">Dajiang Suo</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao, Sanjay E Sarma
+  corresponding_authors: Dajiang Suo
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Proof%20of%20travel%20for%20trust-based%20data%20validation%20in%20V2I%20communication.pdf
+  external_url: https://doi.org/10.1109/JIOT.2023.3236623
+  external_label: DOI
+  code_url: ''
+  impact_factor: '10.2'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: false
+  featured: false
+  feature_image: ''
+- title: Individual longitudinal adoption pattern analysis under fare incentives using smart card data
   year: 2023
   type: 1
-  paper_type: 'C'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 102th Annual Meeting (TRB 2023)'
-  issue_page: 'Oral Presentation'
-  venue_display: 'Transportation Research Board 102th Annual Meeting (TRB 2023), 2023, Oral Presentation'
-  authors_text: 'Leizhen Wang, Zhenliang Ma, Pengfei Zhang, Xin Chen, Baichuan Mo, Peibo Duan'
-  authors_html: 'Leizhen Wang, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Pengfei Zhang, Xin Chen, <strong class="author-me">Baichuan Mo</strong>, Peibo Duan'
-  corresponding_authors: 'Zhenliang Ma'
+  paper_type: C
+  category: Travel Behavior & Demand
+  category_label: Conference Paper
+  venue: Transportation Research Board 102nd Annual Meeting (TRB 2023)
+  issue_page: Oral Presentation
+  venue_display: Transportation Research Board 102nd Annual Meeting (TRB 2023), 2023, Oral Presentation
+  authors_text: Leizhen Wang, Zhenliang Ma, Pengfei Zhang, Xin Chen, Baichuan Mo, Peibo Duan
+  authors_html: Leizhen Wang, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Pengfei Zhang, Xin Chen, <strong class="author-me">Baichuan Mo</strong>, Peibo Duan
+  corresponding_authors: Zhenliang Ma
   co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Individual%20longitudinal%20adoption%20pattern%20analysis%20under%20fare%20incentives%20using%20smart%20card%20data.pdf'
+  pdf_url: /documents/publication/conferences/Individual%20longitudinal%20adoption%20pattern%20analysis%20under%20fare%20incentives%20using%20smart%20card%20data.pdf
   external_url: ''
   external_label: ''
   code_url: ''
   impact_factor: ''
+  cas_quartile: ''
   if_sci: false
   first_author: false
   featured: false
   feature_image: ''
-
-- title: 'Individual mobility prediction in mass transit systems using smart card data: An interpretable activity-based hidden Markov approach'
-  year: 2022
-  type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'IEEE Transactions on Intelligent Transportation Systems'
-  issue_page: '23 (8), 12014-12026'
-  venue_display: 'IEEE Transactions on Intelligent Transportation Systems, 2022, 23 (8), 12014-12026'
-  authors_text: 'Baichuan Mo, Zhan Zhao, Haris N Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhan Zhao</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Zhan Zhao'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Individual%20mobility%20prediction%20in%20mass%20transit%20systems%20using%20smart%20card%20data%20-%20An%20interpretable%20activity-based%20hidden%20Markov%20approach.pdf'
-  external_url: 'https://doi.org/10.1109/TITS.2021.3109428'
-  external_label: 'DOI'
-  code_url: 'https://github.com/mbc96325/IOHMM-for-individual-mobility-prediction'
-  impact_factor: '9.6'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
-  first_author: true
-  featured: true
-  feature_image: ''
-
-- title: 'Ex post path choice estimation for urban rail systems using smart card data: An aggregated time-space hypernetwork approach'
-  year: 2022
-  type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'Transportation Science'
-  issue_page: '57 (2), 313-335'
-  venue_display: 'Transportation Science, 2022, 57 (2), 313-335'
-  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Zhenliang Ma'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Ex%20post%20path%20choice%20estimation%20for%20urban%20rail%20systems%20using%20smart%20card%20data%20-%20An%20aggregated%20time-space%20hypernetwork%20approach.pdf'
-  external_url: 'https://doi.org/10.1287/trsc.2022.1177'
-  external_label: 'DOI'
-  code_url: 'https://github.com/mbc96325/Path-Choice-Estimation-Using-Smart-Card-Data'
-  impact_factor: '4.9'
-  cas_quartile: 'Q2'
-  if_sci: true
-  first_author: true
-  featured: true
-  feature_image: '/images/featured/path_choice_hypernetwork.webp'
-  feature_title: 'Ex post path choice estimation'
-  feature_description: 'Estimates urban rail passenger path choices from smart card data via an aggregated time-space hypernetwork.'
-  feature_title_zh: '城市轨道交通事后路径选择估计'
-  feature_description_zh: '基于刷卡数据与聚合时空超网络，估计城市轨道乘客的路径选择。'
-  feature_alt: 'Title area screenshot from the second page of the Transportation Science paper'
-
 - title: 'Inferring passenger responses to urban rail disruptions using smart card data: A probabilistic framework'
   year: 2022
   type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
   venue: 'Transportation Research Part E: Logistics and Transportation Review'
-  issue_page: '159, 102628'
+  issue_page: 159, 102628
   venue_display: 'Transportation Research Part E: Logistics and Transportation Review, 2022, 159, 102628'
-  authors_text: 'Baichuan Mo, Haris N. Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo'
+  authors_text: Baichuan Mo, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Baichuan Mo
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Inferring%20passenger%20responses%20to%20urban%20rail%20disruptions%20using%20smart%20card%20data%20-%20A%20probabilistic%20framework.pdf'
-  external_url: 'https://doi.org/10.1016/j.tre.2022.102628'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Inferring%20passenger%20responses%20to%20urban%20rail%20disruptions%20using%20smart%20card%20data%20-%20A%20probabilistic%20framework.pdf
+  external_url: https://doi.org/10.1016/j.tre.2022.102628
+  external_label: DOI
   code_url: ''
   impact_factor: '10.1'
-  cas_quartile: 'Q1 Top'
+  cas_quartile: Q1 Top
   if_sci: true
   first_author: true
   featured: false
   feature_image: ''
-
-- title: 'Alleviating data sparsity problems in estimated time of arrival via auxiliary metric learning'
+- title: Alleviating data sparsity problems in estimated time of arrival via auxiliary metric learning
   year: 2022
   type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'IEEE Transactions on Intelligent Transportation Systems'
-  issue_page: '23 (12), 23231-23243'
-  venue_display: 'IEEE Transactions on Intelligent Transportation Systems, 2022, 23 (12), 23231-23243'
-  authors_text: 'Yiwen Sun, Wenzheng Hu, Donghua Zhou, Baichuan Mo, Kun Fu, Zhengping Che, Zheng Wang, Shenhao Wang, Jinhua Zhao, Jieping Ye, Jian Tang, Changshui Zhang'
-  authors_html: 'Yiwen Sun, Wenzheng Hu, Donghua Zhou, <strong class="author-me">Baichuan Mo</strong>, Kun Fu, Zhengping Che, Zheng Wang, Shenhao Wang, Jinhua Zhao, Jieping Ye, Jian Tang, <span class="author-corresponding-name">Changshui Zhang</span><sup class="author-corresponding">*</sup>'
-  corresponding_authors: 'Changshui Zhang'
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: IEEE Transactions on Intelligent Transportation Systems
+  issue_page: 23 (12), 23231-23243
+  venue_display: IEEE Transactions on Intelligent Transportation Systems, 2022, 23 (12), 23231-23243
+  authors_text: Yiwen Sun, Wenzheng Hu, Donghua Zhou, Baichuan Mo, Kun Fu, Zhengping Che, Zheng Wang, Shenhao Wang, Jinhua Zhao, Jieping Ye, Jian Tang, Changshui Zhang
+  authors_html: Yiwen Sun, Wenzheng Hu, Donghua Zhou, <strong class="author-me">Baichuan Mo</strong>, Kun Fu, Zhengping Che, Zheng Wang, Shenhao Wang, Jinhua Zhao, Jieping Ye, Jian Tang, <span class="author-corresponding-name">Changshui Zhang</span><sup class="author-corresponding">*</sup>
+  corresponding_authors: Changshui Zhang
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Alleviating%20data%20sparsity%20problems%20in%20estimated%20time%20of%20arrival%20via%20auxiliary%20metric%20learning.pdf'
-  external_url: 'https://doi.org/10.1109/TITS.2022.3200445'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Alleviating%20data%20sparsity%20problems%20in%20estimated%20time%20of%20arrival%20via%20auxiliary%20metric%20learning.pdf
+  external_url: https://doi.org/10.1109/TITS.2022.3200445
+  external_label: DOI
   code_url: ''
   impact_factor: '9.6'
-  cas_quartile: 'Q1 Top'
+  cas_quartile: Q1 Top
   if_sci: true
   first_author: false
   featured: false
   feature_image: ''
-
-- title: 'Impact of unplanned long-term service disruptions on urban public transit systems'
+- title: Impact of unplanned long-term service disruptions on urban public transit systems
   year: 2022
   type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'IEEE Open Journal of Intelligent Transportation Systems'
-  issue_page: '3, 551-569'
-  venue_display: 'IEEE Open Journal of Intelligent Transportation Systems, 2022, 3, 551-569'
-  authors_text: 'Baichuan Mo, Max Y Von Franque, Haris N Koutsopoulos, John P Attanucci, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Max Y Von Franque, Haris N Koutsopoulos, John P Attanucci, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo'
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: IEEE Open Journal of Intelligent Transportation Systems
+  issue_page: 3, 551-569
+  venue_display: IEEE Open Journal of Intelligent Transportation Systems, 2022, 3, 551-569
+  authors_text: Baichuan Mo, Max Y Von Franque, Haris N. Koutsopoulos, John P Attanucci, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Max Y Von Franque, Haris N. Koutsopoulos, John P Attanucci, Jinhua Zhao
+  corresponding_authors: Baichuan Mo
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Impact%20of%20unplanned%20long-term%20service%20disruptions%20on%20urban%20public%20transit%20systems.pdf'
-  external_url: 'https://doi.org/10.1109/OJITS.2022.3199108'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Impact%20of%20unplanned%20long-term%20service%20disruptions%20on%20urban%20public%20transit%20systems.pdf
+  external_url: https://doi.org/10.1109/OJITS.2022.3199108
+  external_label: DOI
   code_url: ''
   impact_factor: '4.6'
-  cas_quartile: 'Q1 Top'
+  cas_quartile: Q2
   if_sci: true
   first_author: true
   featured: false
   feature_image: ''
-
-- title: 'Robust path recommendations during public transit disruptions under demand uncertainty'
+- title: 'Individual mobility prediction in mass transit systems using smart card data: An interpretable activity-based hidden Markov approach'
   year: 2022
-  type: 1
-  paper_type: 'C'
-  category: 'Public Transit Resilience'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 101th Annual Meeting (TRB 2022)'
-  issue_page: 'Poster Presentation'
-  venue_display: 'Transportation Research Board 101th Annual Meeting (TRB 2022), 2022, Poster Presentation'
-  authors_text: 'Baichuan Mo, Haris N. Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Path_recommendation_with_uncertainty__TRB_2022__V2.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Modeling epidemic spreading through public transit using time-varying encounter network'
-  year: 2021
   type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Part C: Emerging Technologies'
-  issue_page: '122, 102893'
-  venue_display: 'Transportation Research Part C: Emerging Technologies, 2021, 122, 102893'
-  authors_text: 'Baichuan Mo, Kairui Feng, Yu Shen, Clarence Tam, Daqing Li, Yafeng Yin, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-equal">&dagger;</sup>, <span class="author-equal-name">Kairui Feng</span><sup class="author-equal">&dagger;</sup>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Clarence Tam, Daqing Li, Yafeng Yin, Jinhua Zhao'
-  corresponding_authors: 'Yu Shen'
-  co_first_authors: 'Baichuan Mo, Kairui Feng'
-  pdf_url: '/documents/publication/journals/Modeling%20epidemic%20spreading%20through%20public%20transit%20using%20time-varying%20encounter%20network.pdf'
-  external_url: 'https://doi.org/10.1016/j.trc.2020.102893'
-  external_label: 'DOI'
-  code_url: 'https://github.com/mbc96325/Epidemic-spreading-model-on-public-transit'
-  impact_factor: '9.0'
-  cas_quartile: 'Q1 Top'
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: IEEE Transactions on Intelligent Transportation Systems
+  issue_page: 23 (8), 12014-12026
+  venue_display: IEEE Transactions on Intelligent Transportation Systems, 2022, 23 (8), 12014-12026
+  authors_text: Baichuan Mo, Zhan Zhao, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhan Zhao</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Zhan Zhao
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Individual%20mobility%20prediction%20in%20mass%20transit%20systems%20using%20smart%20card%20data%20-%20An%20interpretable%20activity-based%20hidden%20Markov%20approach.pdf
+  external_url: https://doi.org/10.1109/TITS.2021.3109428
+  external_label: DOI
+  code_url: https://github.com/mbc96325/IOHMM-for-individual-mobility-prediction
+  impact_factor: '9.6'
+  cas_quartile: Q1 Top
   if_sci: true
   first_author: true
   featured: true
   feature_image: ''
-
-- title: 'Competition between shared autonomous vehicles and public transit: A case study in Singapore'
-  year: 2021
-  type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Part C: Emerging Technologies'
-  issue_page: '127, 103058'
-  venue_display: 'Transportation Research Part C: Emerging Technologies, 2021, 127, 103058'
-  authors_text: 'Baichuan Mo, Zhejing Cao, Hongmou Zhang, Yu Shen, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, Zhejing Cao, Hongmou Zhang, Yu Shen, <span class="author-corresponding-name">Jinhua Zhao</span><sup class="author-corresponding">*</sup>'
-  corresponding_authors: 'Jinhua Zhao'
+- title: Robust path recommendations during public transit disruptions under demand uncertainty
+  year: 2022
+  type: 1
+  paper_type: C
+  category: Public Transit Resilience
+  category_label: Conference Paper
+  venue: Transportation Research Board 101st Annual Meeting (TRB 2022)
+  issue_page: Poster Presentation
+  venue_display: Transportation Research Board 101st Annual Meeting (TRB 2022), 2022, Poster Presentation
+  authors_text: Baichuan Mo, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Baichuan Mo
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Competition%20between%20shared%20autonomous%20vehicles%20and%20public%20transit%20-%20A%20case%20study%20in%20Singapore.pdf'
-  external_url: 'https://doi.org/10.1016/j.trc.2021.103058'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/conferences/Path_recommendation_with_uncertainty__TRB_2022__V2.pdf
+  external_url: ''
+  external_label: ''
   code_url: ''
-  impact_factor: '9.0'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
   first_author: true
   featured: false
   feature_image: ''
-
-- title: 'Impacts of subjective evaluations and inertia from existing travel modes on adoption of autonomous mobility-on-demand'
+- title: Modeling epidemic spreading through public transit using time-varying encounter network
   year: 2021
   type: 2
-  paper_type: 'J'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Journal Article'
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
   venue: 'Transportation Research Part C: Emerging Technologies'
-  issue_page: '130, 103281'
+  issue_page: 122, 102893
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2021, 122, 102893'
+  authors_text: Baichuan Mo, Kairui Feng, Yu Shen, Clarence Tam, Daqing Li, Yafeng Yin, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong><sup class="author-equal">&dagger;</sup>, <span class="author-equal-name">Kairui Feng</span><sup class="author-equal">&dagger;</sup>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Clarence Tam, Daqing Li, Yafeng Yin, Jinhua Zhao
+  corresponding_authors: Yu Shen
+  co_first_authors: Baichuan Mo, Kairui Feng
+  pdf_url: /documents/publication/journals/Modeling%20epidemic%20spreading%20through%20public%20transit%20using%20time-varying%20encounter%20network.pdf
+  external_url: https://doi.org/10.1016/j.trc.2020.102893
+  external_label: DOI
+  code_url: https://github.com/mbc96325/Epidemic-spreading-model-on-public-transit
+  impact_factor: '9.0'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: true
+  featured: true
+  feature_image: ''
+- title: Impacts of subjective evaluations and inertia from existing travel modes on adoption of autonomous mobility-on-demand
+  year: 2021
+  type: 2
+  paper_type: J
+  category: Travel Behavior & Demand
+  category_label: Journal Article
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: 130, 103281
   venue_display: 'Transportation Research Part C: Emerging Technologies, 2021, 130, 103281'
-  authors_text: 'Baichuan Mo, Qing Yi Wang, Joanna Moody, Yu Shen, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, Qing Yi Wang, <span class="author-corresponding-name">Joanna Moody</span><sup class="author-corresponding">*</sup>, Yu Shen, Jinhua Zhao'
-  corresponding_authors: 'Joanna Moody'
+  authors_text: Baichuan Mo, Qing Yi Wang, Joanna Moody, Yu Shen, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, Qing Yi Wang, <span class="author-corresponding-name">Joanna Moody</span><sup class="author-corresponding">*</sup>, Yu Shen, Jinhua Zhao
+  corresponding_authors: Joanna Moody
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Impacts%20of%20subjective%20evaluations%20and%20inertia%20from%20existing%20travel%20modes%20on%20adoption%20of%20autonomous%20mobility-on-demand.pdf'
-  external_url: 'https://doi.org/10.1016/j.trc.2021.103281'
-  external_label: 'DOI'
-  code_url: 'https://github.com/mbc96325/Mixture-logit-model-for-AV-adoption'
+  pdf_url: /documents/publication/journals/Impacts%20of%20subjective%20evaluations%20and%20inertia%20from%20existing%20travel%20modes%20on%20adoption%20of%20autonomous%20mobility-on-demand.pdf
+  external_url: https://doi.org/10.1016/j.trc.2021.103281
+  external_label: DOI
+  code_url: https://github.com/mbc96325/Mixture-logit-model-for-AV-adoption
   impact_factor: '9.0'
-  cas_quartile: 'Q1 Top'
+  cas_quartile: Q1 Top
   if_sci: true
   first_author: true
   featured: false
   feature_image: ''
-
-- title: 'Theory-based residual neural networks: A synergy of discrete choice models and deep neural networks'
-  year: 2021
-  type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Part B: Methodological'
-  issue_page: '146, 333-358'
-  venue_display: 'Transportation Research Part B: Methodological, 2021, 146, 333-358'
-  authors_text: 'Shenhao Wang, Baichuan Mo, Jinhua Zhao'
-  authors_html: '<span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao'
-  corresponding_authors: 'Shenhao Wang'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Theory-based%20residual%20neural%20networks%20-%20A%20synergy%20of%20discrete%20choice%20models%20and%20deep%20neural%20networks.pdf'
-  external_url: 'https://doi.org/10.1016/j.trb.2021.03.002'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '7.6'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
-  first_author: false
-  featured: false
-  feature_image: ''
-
 - title: 'Impact of pricing policy change on on-street parking demand and user satisfaction: A case study in Nanning, China'
   year: 2021
   type: 2
-  paper_type: 'J'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Journal Article'
+  paper_type: J
+  category: Travel Behavior & Demand
+  category_label: Journal Article
   venue: 'Transportation Research Part A: Policy and Practice'
-  issue_page: '148, 445-469'
+  issue_page: 148, 445-469
   venue_display: 'Transportation Research Part A: Policy and Practice, 2021, 148, 445-469'
-  authors_text: 'Baichuan Mo, Hui Kong, Hao Wang, Xiaokun Cara Wang, Ruimin Li'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, Hui Kong, Hao Wang, Xiaokun Cara Wang, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>'
-  corresponding_authors: 'Ruimin Li'
+  authors_text: Baichuan Mo, Hui Kong, Hao Wang, Xiaokun Cara Wang, Ruimin Li
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, Hui Kong, Hao Wang, Xiaokun Cara Wang, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>
+  corresponding_authors: Ruimin Li
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Impact%20of%20pricing%20policy%20change%20on%20on-street%20parking%20demand%20and%20user%20satisfaction%20-%20A%20case%20study%20in%20Nanning%2C%20China.pdf'
-  external_url: 'https://doi.org/10.1016/j.tra.2021.04.013'
-  external_label: 'DOI'
-  code_url: 'https://github.com/mbc96325/Parking-data-analysis'
+  pdf_url: /documents/publication/journals/Impact%20of%20pricing%20policy%20change%20on%20on-street%20parking%20demand%20and%20user%20satisfaction%20-%20A%20case%20study%20in%20Nanning%2C%20China.pdf
+  external_url: https://doi.org/10.1016/j.tra.2021.04.013
+  external_label: DOI
+  code_url: https://github.com/mbc96325/Parking-data-analysis
   impact_factor: '6.6'
-  cas_quartile: 'Q1 Top'
+  cas_quartile: Q1 Top
   if_sci: true
   first_author: true
   featured: false
   feature_image: ''
-
-- title: 'Calibrating path choices and train capacities for urban rail transit simulation models using smart card and train movement data'
+- title: 'Competition between shared autonomous vehicles and public transit: A case study in Singapore'
   year: 2021
   type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'Journal of Advanced Transportation'
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: 127, 103058
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2021, 127, 103058'
+  authors_text: Baichuan Mo, Zhejing Cao, Hongmou Zhang, Yu Shen, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, Zhejing Cao, Hongmou Zhang, Yu Shen, <span class="author-corresponding-name">Jinhua Zhao</span><sup class="author-corresponding">*</sup>
+  corresponding_authors: Jinhua Zhao
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Competition%20between%20shared%20autonomous%20vehicles%20and%20public%20transit%20-%20A%20case%20study%20in%20Singapore.pdf
+  external_url: https://doi.org/10.1016/j.trc.2021.103058
+  external_label: DOI
+  code_url: ''
+  impact_factor: '9.0'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: 'Theory-based residual neural networks: A synergy of discrete choice models and deep neural networks'
+  year: 2021
+  type: 2
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: 'Transportation Research Part B: Methodological'
+  issue_page: 146, 333-358
+  venue_display: 'Transportation Research Part B: Methodological, 2021, 146, 333-358'
+  authors_text: Shenhao Wang, Baichuan Mo, Jinhua Zhao
+  authors_html: <span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao
+  corresponding_authors: Shenhao Wang
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Theory-based%20residual%20neural%20networks%20-%20A%20synergy%20of%20discrete%20choice%20models%20and%20deep%20neural%20networks.pdf
+  external_url: https://doi.org/10.1016/j.trb.2021.03.002
+  external_label: DOI
+  code_url: ''
+  impact_factor: '7.6'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: false
+  featured: false
+  feature_image: ''
+- title: Calibrating path choices and train capacities for urban rail transit simulation models using smart card and train movement data
+  year: 2021
+  type: 2
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: Journal of Advanced Transportation
   issue_page: '5597130'
-  venue_display: 'Journal of Advanced Transportation, 2021, 5597130'
-  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Zhenliang Ma'
+  venue_display: Journal of Advanced Transportation, 2021, 5597130
+  authors_text: Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Zhenliang Ma
   co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Calibrating%20path%20choices%20and%20train%20capacities%20for%20urban%20rail%20transit%20simulation%20models%20using%20smart%20card%20and%20train%20movement%20data.pdf'
-  external_url: 'https://doi.org/10.1155/2021/5597130'
-  external_label: 'DOI'
+  pdf_url: /documents/publication/journals/Calibrating%20path%20choices%20and%20train%20capacities%20for%20urban%20rail%20transit%20simulation%20models%20using%20smart%20card%20and%20train%20movement%20data.pdf
+  external_url: https://doi.org/10.1155/2021/5597130
+  external_label: DOI
   code_url: ''
-  impact_factor: '2.3'
-  cas_quartile: 'Q4'
+  impact_factor: '2.2'
+  cas_quartile: Q4
   if_sci: true
   first_author: true
   featured: false
   feature_image: ''
-
-- title: 'Impact of unplanned rail disruption on urban transit systems'
+- title: Impact of unplanned rail disruption on urban transit systems
   year: 2021
   type: 1
-  paper_type: 'C'
-  category: 'Public Transit Resilience'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 100th Annual Meeting (TRB 2021)'
-  issue_page: 'Poster Presentation'
-  venue_display: 'Transportation Research Board 100th Annual Meeting (TRB 2021), 2021, Poster Presentation'
-  authors_text: 'Baichuan Mo, Max Y von Franque, Haris N. Koutsopoulos, John Attanucci, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Max Y von Franque, Haris N. Koutsopoulos, John Attanucci, Jinhua Zhao'
-  corresponding_authors: 'Baichuan Mo'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Individual%20longitudinal%20adoption%20pattern%20analysis%20under%20fare%20incentives%20using%20smart%20card%20data.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Estimating dynamic origin–destination demand: A hybrid framework using license plate recognition data'
-  year: 2020
-  type: 2
-  paper_type: 'J'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Journal Article'
-  venue: 'Computer‐Aided Civil and Infrastructure Engineering'
-  issue_page: '35 (7), 734-752'
-  venue_display: 'Computer‐Aided Civil and Infrastructure Engineering, 2020, 35 (7), 734-752'
-  authors_text: 'Baichuan Mo, Ruimin Li, Jingchen Dai'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>, Jingchen Dai'
-  corresponding_authors: 'Ruimin Li'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Estimating%20dynamic%20origin%E2%80%93destination%20demand%20-%20A%20hybrid%20framework%20using%20license%20plate%20recognition%20data.pdf'
-  external_url: 'https://doi.org/10.1111/mice.12526'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '11.8'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Deep neural networks for choice analysis: Architecture design with alternative-specific utility functions'
-  year: 2020
-  type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Part C: Emerging Technologies'
-  issue_page: '112, 234-251'
-  venue_display: 'Transportation Research Part C: Emerging Technologies, 2020, 112, 234-251'
-  authors_text: 'Shenhao Wang, Baichuan Mo, Jinhua Zhao'
-  authors_html: '<span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao'
-  corresponding_authors: 'Shenhao Wang'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Deep%20neural%20networks%20for%20choice%20analysis%20-%20Architecture%20design%20with%20alternative-specific%20utility%20functions.pdf'
-  external_url: 'https://doi.org/10.1016/j.trc.2020.01.012'
-  external_label: 'DOI'
-  code_url: 'https://github.com/cjsyzwsh/ASU-DNN'
-  impact_factor: '8.1'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
-  first_author: false
-  featured: false
-  feature_image: ''
-
-- title: 'Capacity-constrained network performance model for urban rail systems'
-  year: 2020
-  type: 2
-  paper_type: 'J'
-  category: 'Public Transit Resilience'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Record'
-  issue_page: '2674 (5), 59-69'
-  venue_display: 'Transportation Research Record, 2020, 2674 (5), 59-69'
-  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Zhenliang Ma'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Capacity-constrained%20network%20performance%20model%20for%20urban%20rail%20systems.pdf'
-  external_url: 'https://doi.org/10.1177/0361198120914309'
-  external_label: 'DOI'
-  code_url: 'https://github.com/mbc96325/Network-performance-model'
-  impact_factor: '1.6'
-  cas_quartile: 'Q4'
-  if_sci: true
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Calibrating route choice for urban rail system: A comparative analysis using simulation-based optimization methods'
-  year: 2020
-  type: 1
-  paper_type: 'C'
-  category: 'Public Transit Resilience'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
-  issue_page: 'Poster Presentation'
-  venue_display: 'Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation'
-  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Zhenliang Ma'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Calibrating%20route%20choice%20for%20urban%20rail%20system%20-%20A%20comparative%20analysis%20using%20simulation-based%20optimization%20methods.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Latent attitudes of existing travel modes on autonomous vehicle adoption'
-  year: 2020
-  type: 1
-  paper_type: 'C'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
-  issue_page: 'Poster Presentation'
-  venue_display: 'Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation'
-  authors_text: 'Baichuan Mo, Qing Yi Wang, Yu Shen, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, Qing Yi Wang, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
-  corresponding_authors: 'Yu Shen'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Latent%20attitudes%20of%20existing%20travel%20modes%20on%20autonomous%20vehicle%20adoption.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Network performance model for urban rail systems'
-  year: 2020
-  type: 1
-  paper_type: 'C'
-  category: 'Public Transit Resilience'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
-  issue_page: 'Oral Presentation'
-  venue_display: 'Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Oral Presentation'
-  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Zhenliang Ma'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Network%20performance%20model%20for%20urban%20rail%20systems.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Predicting travel mode choice with 86 machine learning classifiers: An empirical benchmark study'
-  year: 2020
-  type: 1
-  paper_type: 'C'
-  category: 'Mobility AI'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 99th Annual Meeting (TRB 2020)'
-  issue_page: 'Poster Presentation'
-  venue_display: 'Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation'
-  authors_text: 'Shenhao Wang, Baichuan Mo, Jinhua Zhao'
-  authors_html: '<span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao'
-  corresponding_authors: 'Shenhao Wang'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Predicting%20travel%20mode%20choice%20with%2086%20machine%20learning%20classifiers%20-%20An%20empirical%20benchmark%20study.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: false
-  featured: false
-  feature_image: ''
-
-- title: 'Built environment and autonomous vehicle mode choice: A first-mile scenario in Singapore'
-  year: 2019
-  type: 1
-  paper_type: 'C'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 98th Annual Meeting (TRB 2019)'
-  issue_page: 'Poster Presentation'
-  venue_display: 'Transportation Research Board 98th Annual Meeting (TRB 2019), 2019, Poster Presentation'
-  authors_text: 'Yu Shen, Baichuan Mo, Xiaohu Zhang, Jinhua Zhao'
-  authors_html: 'Yu Shen, <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Xiaohu Zhang</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
-  corresponding_authors: 'Xiaohu Zhang'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Built%20environment%20and%20autonomous%20vehicle%20mode%20choice%20-%20A%20first-mile%20scenario%20in%20Singapore.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: false
-  featured: false
-  feature_image: ''
-
-- title: 'Impact of built environment on first-and last-mile travel mode choice'
-  year: 2018
-  type: 2
-  paper_type: 'J'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Record'
-  issue_page: '2672 (6), 40-51'
-  venue_display: 'Transportation Research Record, 2018, 2672 (6), 40-51'
-  authors_text: 'Baichuan Mo, Yu Shen, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
-  corresponding_authors: 'Yu Shen'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Impact%20of%20built%20environment%20on%20first-and%20last-mile%20travel%20mode%20choice.pdf'
-  external_url: 'https://doi.org/10.1177/0361198118788423'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '0.8'
-  cas_quartile: 'Q4'
-  if_sci: true
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Impact of built environment on first- and last-mile travel mode choice'
-  year: 2018
-  type: 1
-  paper_type: 'C'
-  category: 'Travel Behavior & Demand'
-  category_label: 'Conference Paper'
-  venue: 'Transportation Research Board 97th Annual Meeting (TRB 2018)'
-  issue_page: 'Oral Presentation'
-  venue_display: 'Transportation Research Board 97th Annual Meeting (TRB 2018), 2018, Oral Presentation'
-  authors_text: 'Baichuan Mo, Yu Shen, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao'
-  corresponding_authors: 'Yu Shen'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/conferences/Impact%20of%20built%20environment%20on%20first-and%20last-mile%20travel%20mode%20choice%20TRB.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Speed profile estimation using license plate recognition data'
-  year: 2017
-  type: 2
-  paper_type: 'J'
-  category: 'Mobility AI'
-  category_label: 'Journal Article'
-  venue: 'Transportation Research Part C: Emerging Technologies'
-  issue_page: '82, 358-378'
-  venue_display: 'Transportation Research Part C: Emerging Technologies, 2017, 82, 358-378'
-  authors_text: 'Baichuan Mo, Ruimin Li, Xianyuan Zhan'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>, Xianyuan Zhan'
-  corresponding_authors: 'Ruimin Li'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/journals/Speed%20profile%20estimation%20using%20license%20plate%20recognition%20data.pdf'
-  external_url: 'https://doi.org/10.1016/j.trc.2017.07.006'
-  external_label: 'DOI'
-  code_url: ''
-  impact_factor: '4.0'
-  cas_quartile: 'Q1 Top'
-  if_sci: true
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Equity-oriented inflow control in congested urban rail systems'
-  year: 2026
-  type: 4
-  paper_type: 'P'
-  category: 'Public Transit Resilience'
-  category_label: 'Preprint / Working Paper'
-  venue: 'Preprint'
-  issue_page: ''
-  venue_display: 'Preprint, 2026'
-  authors_text: 'Michael Sun, Baichuan Mo, Ruoyun Ma'
-  authors_html: 'Michael Sun, <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Ruoyun Ma'
-  corresponding_authors: 'Baichuan Mo'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/preprints/Equity-oriented%20inflow%20control%20in%20congested%20urban%20rail%20systems.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: false
-  featured: false
-  feature_image: ''
-
-- title: 'Evaluation of public transit systems under short random service suspensions: A bulk-service queuing approach'
-  year: null
-  type: 4
-  paper_type: 'P'
-  category: 'Public Transit Resilience'
-  category_label: 'Preprint / Working Paper'
-  venue: 'To be submitted to Informs Journal on Computing'
-  issue_page: ''
-  venue_display: 'To be submitted to Informs Journal on Computing'
-  authors_text: 'Baichuan Mo, Li Jin, Haris N Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Li Jin</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao'
-  corresponding_authors: 'Li Jin'
-  co_first_authors: ''
-  pdf_url: '/documents/publication/preprints/Evaluation%20of%20public%20transit%20systems%20under%20short%20random%20service%20suspensions%20-%20A%20bulk-service%20queuing%20approach.pdf'
-  external_url: ''
-  external_label: ''
-  code_url: ''
-  impact_factor: ''
-  if_sci: false
-  first_author: true
-  featured: false
-  feature_image: ''
-
-- title: 'Passenger path choice estimation using smart card data: A latent class approach with panel effects across days'
-  year: null
-  type: 4
-  paper_type: 'P'
-  category: 'Public Transit Resilience'
-  category_label: 'Preprint / Working Paper'
-  venue: 'To be submitted to Transportation Research Part E'
-  issue_page: ''
-  venue_display: 'To be submitted to Transportation Research Part E'
-  authors_text: 'Baichuan Mo, Zhenliang Ma, Haris N Koutsopoulos, Jinhua Zhao'
-  authors_html: '<strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N Koutsopoulos, Jinhua Zhao'
-  corresponding_authors: 'Zhenliang Ma'
+  paper_type: C
+  category: Public Transit Resilience
+  category_label: Conference Paper
+  venue: Transportation Research Board 100th Annual Meeting (TRB 2021)
+  issue_page: Poster Presentation
+  venue_display: Transportation Research Board 100th Annual Meeting (TRB 2021), 2021, Poster Presentation
+  authors_text: Baichuan Mo, Max Y von Franque, Haris N. Koutsopoulos, John Attanucci, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong><sup class="author-corresponding">*</sup>, Max Y von Franque, Haris N. Koutsopoulos, John Attanucci, Jinhua Zhao
+  corresponding_authors: Baichuan Mo
   co_first_authors: ''
   pdf_url: ''
   external_url: ''
   external_label: ''
   code_url: ''
   impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: Capacity-constrained network performance model for urban rail systems
+  year: 2020
+  type: 2
+  paper_type: J
+  category: Public Transit Resilience
+  category_label: Journal Article
+  venue: Transportation Research Record
+  issue_page: 2674 (5), 59-69
+  venue_display: Transportation Research Record, 2020, 2674 (5), 59-69
+  authors_text: Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Zhenliang Ma
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Capacity-constrained%20network%20performance%20model%20for%20urban%20rail%20systems.pdf
+  external_url: https://doi.org/10.1177/0361198120914309
+  external_label: DOI
+  code_url: https://github.com/mbc96325/Network-performance-model
+  impact_factor: '1.6'
+  cas_quartile: Q4
+  if_sci: true
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: 'Deep neural networks for choice analysis: Architecture design with alternative-specific utility functions'
+  year: 2020
+  type: 2
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: 112, 234-251
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2020, 112, 234-251'
+  authors_text: Shenhao Wang, Baichuan Mo, Jinhua Zhao
+  authors_html: <span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao
+  corresponding_authors: Shenhao Wang
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Deep%20neural%20networks%20for%20choice%20analysis%20-%20Architecture%20design%20with%20alternative-specific%20utility%20functions.pdf
+  external_url: https://doi.org/10.1016/j.trc.2020.01.012
+  external_label: DOI
+  code_url: https://github.com/cjsyzwsh/ASU-DNN
+  impact_factor: '8.1'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: false
+  featured: false
+  feature_image: ''
+- title: 'Estimating dynamic origin–destination demand: A hybrid framework using license plate recognition data'
+  year: 2020
+  type: 2
+  paper_type: J
+  category: Travel Behavior & Demand
+  category_label: Journal Article
+  venue: Computer‐Aided Civil and Infrastructure Engineering
+  issue_page: 35 (7), 734-752
+  venue_display: Computer‐Aided Civil and Infrastructure Engineering, 2020, 35 (7), 734-752
+  authors_text: Baichuan Mo, Ruimin Li, Jingchen Dai
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>, Jingchen Dai
+  corresponding_authors: Ruimin Li
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Estimating%20dynamic%20origin%E2%80%93destination%20demand%20-%20A%20hybrid%20framework%20using%20license%20plate%20recognition%20data.pdf
+  external_url: https://doi.org/10.1111/mice.12526
+  external_label: DOI
+  code_url: ''
+  impact_factor: '11.8'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: 'Calibrating route choice for urban rail system: A comparative analysis using simulation-based optimization methods'
+  year: 2020
+  type: 1
+  paper_type: C
+  category: Public Transit Resilience
+  category_label: Conference Paper
+  venue: Transportation Research Board 99th Annual Meeting (TRB 2020)
+  issue_page: Poster Presentation
+  venue_display: Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation
+  authors_text: Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Zhenliang Ma
+  co_first_authors: ''
+  pdf_url: /documents/publication/conferences/Calibrating%20route%20choice%20for%20urban%20rail%20system%20-%20A%20comparative%20analysis%20using%20simulation-based%20optimization%20methods.pdf
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: Network performance model for urban rail systems
+  year: 2020
+  type: 1
+  paper_type: C
+  category: Public Transit Resilience
+  category_label: Conference Paper
+  venue: Transportation Research Board 99th Annual Meeting (TRB 2020)
+  issue_page: Oral Presentation
+  venue_display: Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Oral Presentation
+  authors_text: Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Zhenliang Ma
+  co_first_authors: ''
+  pdf_url: /documents/publication/conferences/Network%20performance%20model%20for%20urban%20rail%20systems.pdf
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: Latent attitudes of existing travel modes on autonomous vehicle adoption
+  year: 2020
+  type: 1
+  paper_type: C
+  category: Travel Behavior & Demand
+  category_label: Conference Paper
+  venue: Transportation Research Board 99th Annual Meeting (TRB 2020)
+  issue_page: Poster Presentation
+  venue_display: Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation
+  authors_text: Baichuan Mo, Qing Yi Wang, Yu Shen, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, Qing Yi Wang, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao
+  corresponding_authors: Yu Shen
+  co_first_authors: ''
+  pdf_url: /documents/publication/conferences/Latent%20attitudes%20of%20existing%20travel%20modes%20on%20autonomous%20vehicle%20adoption.pdf
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: 'Predicting travel mode choice with 86 machine learning classifiers: An empirical benchmark study'
+  year: 2020
+  type: 1
+  paper_type: C
+  category: Mobility AI
+  category_label: Conference Paper
+  venue: Transportation Research Board 99th Annual Meeting (TRB 2020)
+  issue_page: Poster Presentation
+  venue_display: Transportation Research Board 99th Annual Meeting (TRB 2020), 2020, Poster Presentation
+  authors_text: Shenhao Wang, Baichuan Mo, Jinhua Zhao
+  authors_html: <span class="author-corresponding-name">Shenhao Wang</span><sup class="author-corresponding">*</sup>, <strong class="author-me">Baichuan Mo</strong>, Jinhua Zhao
+  corresponding_authors: Shenhao Wang
+  co_first_authors: ''
+  pdf_url: /documents/publication/conferences/Predicting%20travel%20mode%20choice%20with%2086%20machine%20learning%20classifiers%20-%20An%20empirical%20benchmark%20study.pdf
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: false
+  featured: false
+  feature_image: ''
+- title: 'Built environment and autonomous vehicle mode choice: A first-mile scenario in Singapore'
+  year: 2019
+  type: 1
+  paper_type: C
+  category: Travel Behavior & Demand
+  category_label: Conference Paper
+  venue: Transportation Research Board 98th Annual Meeting (TRB 2019)
+  issue_page: Poster Presentation
+  venue_display: Transportation Research Board 98th Annual Meeting (TRB 2019), 2019, Poster Presentation
+  authors_text: Yu Shen, Baichuan Mo, Xiaohu Zhang, Jinhua Zhao
+  authors_html: Yu Shen, <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Xiaohu Zhang</span><sup class="author-corresponding">*</sup>, Jinhua Zhao
+  corresponding_authors: Xiaohu Zhang
+  co_first_authors: ''
+  pdf_url: /documents/publication/conferences/Built%20environment%20and%20autonomous%20vehicle%20mode%20choice%20-%20A%20first-mile%20scenario%20in%20Singapore.pdf
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: false
+  featured: false
+  feature_image: ''
+- title: Impact of built environment on first- and last-mile travel mode choice
+  year: 2018
+  type: 2
+  paper_type: J
+  category: Travel Behavior & Demand
+  category_label: Journal Article
+  venue: Transportation Research Record
+  issue_page: 2672 (6), 40-51
+  venue_display: Transportation Research Record, 2018, 2672 (6), 40-51
+  authors_text: Baichuan Mo, Yu Shen, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao
+  corresponding_authors: Yu Shen
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Impact%20of%20built%20environment%20on%20first-and%20last-mile%20travel%20mode%20choice.pdf
+  external_url: https://doi.org/10.1177/0361198118788423
+  external_label: DOI
+  code_url: ''
+  impact_factor: '0.8'
+  cas_quartile: Q4
+  if_sci: true
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: Impact of built environment on first- and last-mile travel mode choice
+  year: 2018
+  type: 1
+  paper_type: C
+  category: Travel Behavior & Demand
+  category_label: Conference Paper
+  venue: Transportation Research Board 97th Annual Meeting (TRB 2018)
+  issue_page: Oral Presentation
+  venue_display: Transportation Research Board 97th Annual Meeting (TRB 2018), 2018, Oral Presentation
+  authors_text: Baichuan Mo, Yu Shen, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Yu Shen</span><sup class="author-corresponding">*</sup>, Jinhua Zhao
+  corresponding_authors: Yu Shen
+  co_first_authors: ''
+  pdf_url: /documents/publication/conferences/Impact%20of%20built%20environment%20on%20first-and%20last-mile%20travel%20mode%20choice%20TRB.pdf
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: Speed profile estimation using license plate recognition data
+  year: 2017
+  type: 2
+  paper_type: J
+  category: Mobility AI
+  category_label: Journal Article
+  venue: 'Transportation Research Part C: Emerging Technologies'
+  issue_page: 82, 358-378
+  venue_display: 'Transportation Research Part C: Emerging Technologies, 2017, 82, 358-378'
+  authors_text: Baichuan Mo, Ruimin Li, Xianyuan Zhan
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Ruimin Li</span><sup class="author-corresponding">*</sup>, Xianyuan Zhan
+  corresponding_authors: Ruimin Li
+  co_first_authors: ''
+  pdf_url: /documents/publication/journals/Speed%20profile%20estimation%20using%20license%20plate%20recognition%20data.pdf
+  external_url: https://doi.org/10.1016/j.trc.2017.07.006
+  external_label: DOI
+  code_url: ''
+  impact_factor: '4.0'
+  cas_quartile: Q1 Top
+  if_sci: true
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: 'Passenger path choice estimation using smart card data: A latent class approach with panel effects across days'
+  year: null
+  type: 4
+  paper_type: P
+  category: Public Transit Resilience
+  category_label: Preprint / Working Paper
+  venue: To be submitted to Transportation Research Part E
+  issue_page: ''
+  venue_display: To be submitted to Transportation Research Part E
+  authors_text: Baichuan Mo, Zhenliang Ma, Haris N. Koutsopoulos, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Zhenliang Ma</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Jinhua Zhao
+  corresponding_authors: Zhenliang Ma
+  co_first_authors: ''
+  pdf_url: ''
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
+  if_sci: false
+  first_author: true
+  featured: false
+  feature_image: ''
+- title: 'Evaluation of public transit systems under short random service suspensions: A bulk-service queuing approach'
+  year: null
+  type: 4
+  paper_type: P
+  category: Public Transit Resilience
+  category_label: Preprint / Working Paper
+  venue: To be submitted to Informs Journal on Computing
+  issue_page: ''
+  venue_display: To be submitted to Informs Journal on Computing
+  authors_text: Baichuan Mo, Li Jin, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao
+  authors_html: <strong class="author-me">Baichuan Mo</strong>, <span class="author-corresponding-name">Li Jin</span><sup class="author-corresponding">*</sup>, Haris N. Koutsopoulos, Zuo-Jun Max Shen, Jinhua Zhao
+  corresponding_authors: Li Jin
+  co_first_authors: ''
+  pdf_url: /documents/publication/preprints/Evaluation%20of%20public%20transit%20systems%20under%20short%20random%20service%20suspensions%20-%20A%20bulk-service%20queuing%20approach.pdf
+  external_url: ''
+  external_label: ''
+  code_url: ''
+  impact_factor: ''
+  cas_quartile: ''
   if_sci: false
   first_author: true
   featured: false

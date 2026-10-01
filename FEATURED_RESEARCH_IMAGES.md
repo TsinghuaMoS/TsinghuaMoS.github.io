@@ -16,7 +16,7 @@ Each `feature_image` should be a screenshot of the title area from the paper PDF
 
 ## Site data
 
-The homepage and research-page cards are generated from `_data/publist.yml`.
+The homepage and research-page cards use `_data/publist.yml`, which is generated from `documents/papers.xlsx`. Maintain `if_featured`, `feature_image`, and the optional card-copy fields in Excel, then run `python3 scripts/sync_publications.py --build-cv`. Do not edit the generated YAML directly.
 
 A publication appears as a card only when both are true:
 
@@ -126,7 +126,7 @@ cp /private/tmp/mos_feature_titles/crops/lastmile_delivery.png images/featured/l
 cp /private/tmp/mos_feature_titles/crops/path_choice_hypernetwork.png images/featured/path_choice_hypernetwork.png
 ```
 
-If replacing an old featured image with a new filename, update `_data/publist.yml` and delete the unused old file from `images/featured/`.
+If replacing an old featured image with a new filename, update the `feature_image` cell in `documents/papers.xlsx`, regenerate, and remove the unused old file from `images/featured/` only after confirming no remaining references.
 
 ## Final checks
 

@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
-import numpy as np
-import pandas as pd
-from A01_common_func import title_case, author_sequence, author_sequence, format_authors, get_journal_issue, get_paper_type, print_stats
+from A01_common_func import latex_text, publication_links, author_sequence, format_authors, get_journal_issue, get_paper_type, print_stats
 
 
 def generate_cventries_from_excel(file_path):
@@ -17,6 +15,7 @@ def generate_cventries_from_excel(file_path):
     """
     df = pd.read_excel(file_path)
     df = df.where(pd.notnull(df), None)
+    df = df.astype(object).replace({np.nan: None})
     # Add a column for first-authored status
     df[['is_first_authored', 'author_position']] = df[['authors','co_first_authors']].apply(
         lambda row: pd.Series(author_sequence(row['authors'], row['co_first_authors'])),
@@ -32,7 +31,6 @@ def generate_cventries_from_excel(file_path):
     cventries_C = []
     cventries_P = []
 
-    print_stats(df)
 
 
     for idx, row in df.iterrows():
@@ -42,12 +40,10 @@ def generate_cventries_from_excel(file_path):
             corresponding_authors=row['corresponding_authors']
         )
 
-        title = title_case(row['title'])
+        title = latex_text(row['title'])
 
         # Check if DOI exists
-        doi_part = ""
-        if row['doi']:
-            doi_part = f" \\href{{{row['doi']}}}{{\\textcolor{{cadmiumorange}}{{\\faExternalLink}}}}"
+        doi_part = publication_links(row)
 
         ### get journal issue
         journal_issue_part = get_journal_issue(row)
@@ -60,7 +56,7 @@ def generate_cventries_from_excel(file_path):
         entry += "{{\\newline \\emph{{{}}}}}".format(journal_issue_part)
         entry += "{{"
         entry += ("\\; \\keys{SCI} " if row['if_sci'] == 1 else "")
-        entry += (f"\\keys{{IF {round(row['impact_factor'],1)}}}" if not np.isnan(row['impact_factor']) else "")
+        entry += (f"\\keys{{IF {round(row['impact_factor'],1)}}}" if row['impact_factor'] is not None else "")
         entry += "}}{}\n"
 
         # Add stepcounter logic based on paper type
@@ -90,7 +86,7 @@ def generate_cventries_from_excel(file_path):
                 "{\\small{\\href{https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en}{\\textcolor{blue}{\\underline{[Google Scholar}}}} ; }\n"
                 "{\\small{\\href{https://www.researchgate.net/profile/Baichuan-Mo}{\\textcolor{blue}{\\underline{Research Gate]}}}}}\n"
                 "{}{}\n"
-                "\\cventry{}{}{\small{* means corresponding author. }}{\small{$^\\dagger$ means contributing equally}}{}{}\n\n"
+                "\\cventry{}{}{\\small{* means corresponding author. }}{\\small{$^\\dagger$ means contributing equally}}{}{}\n\n"
             )
         result += "\n\n".join(cventries_J) + "\n\n"
 
@@ -106,7 +102,7 @@ def generate_cventries_from_excel(file_path):
         if cventries_P:
             result += (
                     "\\section{In Preparation}\n"
-                    "\\cventry{}{}{\small{All manuscripts are available upon reasonable requests}}{}{}{}\n\n"
+                    "\\cventry{}{}{\\small{All manuscripts are available upon reasonable requests}}{}{}{}\n\n"
                     + "\n\n".join(cventries_P)
                     + "\n\n"
             )
@@ -115,11 +111,6 @@ def generate_cventries_from_excel(file_path):
     return result
 
 if __name__ == '__main__':
-    # Example usage
-    file_path = 'papers.xlsx'  # Replace with the path to your Excel file
-    result = generate_cventries_from_excel(file_path)
-
-    # Save or print the results
-    with open('publication_EN.txt', 'w') as f:
-        f.write(result)
-    print("Cventries saved to 'publication_EN.txt'")
+    from pathlib import Path
+    import runpy
+    runpy.run_path(str(Path(__file__).resolve().parents[1] / 'scripts/sync_publications.py'), run_name='__main__')

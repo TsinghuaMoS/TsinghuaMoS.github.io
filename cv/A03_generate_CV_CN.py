@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
-import numpy as np
-import pandas as pd
-from A01_common_func import title_case, author_sequence, author_sequence, format_authors, get_journal_issue, \
+from A01_common_func import latex_text, publication_links, author_sequence, format_authors, get_journal_issue, \
     get_paper_type, print_stats
 
 
@@ -38,7 +36,6 @@ def generate_cventries_from_excel(file_path):
     num_C = len(df.loc[df['paper_type'] == 'C'])
     num_P = len(df.loc[df['paper_type'] == 'P'])
 
-    print_stats(df)
 
     for idx, row in df.iterrows():
         formatted_authors = format_authors(
@@ -47,12 +44,10 @@ def generate_cventries_from_excel(file_path):
             corresponding_authors=row['corresponding_authors']
         )
 
-        title = title_case(row['title'])
+        title = latex_text(row['title'])
 
         # Check if DOI exists
-        doi_part = ""
-        if row['doi']:
-            doi_part = f" \\href{{{row['doi']}}}{{\\textcolor{{cadmiumorange}}{{\\faExternalLink}}}}"
+        doi_part = publication_links(row)
 
 
         ### get journal issue
@@ -72,7 +67,9 @@ def generate_cventries_from_excel(file_path):
         entry += (f"\\keys{{Q{int(round(row['CAS_Q']))}}} " if row['CAS_Q'] else "")
         entry += ("\\keys{Top} " if row['if_CAS_Top'] else "")
         entry += "}}{}\n"
-        entry += "\\vspace{7pt}\n"
+        # Keep each complete citation together across page boundaries.
+        entry = "\\par\\noindent\\begin{minipage}{\\linewidth}\n" + entry
+        entry += "\\end{minipage}\\par\\vspace{5pt}\n"
         # Add stepcounter logic based on paper type
         if row['paper_type'] == 'J':
             # if len(cventries_J) != num_J-1:
@@ -101,8 +98,8 @@ def generate_cventries_from_excel(file_path):
         if cventries_J:
             result += "\\section{期刊论文}\n"
             result += (
-                "{\\small{\href{https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en}{\\textcolor{blue}{\\underline{[Google Scholar}}}}\\; ; \\;}"
-                "{\\small{\href{https://www.researchgate.net/profile/Baichuan-Mo}{\\textcolor{blue}{\\underline{Research Gate]}}}}}"
+                "{\\small{\\href{https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en}{\\textcolor{blue}{\\underline{[Google Scholar}}}}\\; ; \\;}"
+                "{\\small{\\href{https://www.researchgate.net/profile/Baichuan-Mo}{\\textcolor{blue}{\\underline{Research Gate]}}}}}"
                 "\\quad {\\small{* 代表通讯作者，}}{\\small{$ ^ \\dagger$ 代表贡献相同，\\keys{Q1-4}代表中科院分区，\\keys{Top}代表中科院Top期刊}，\\keys{IF}代表论文发表时的期刊影响因子}{}{}\n\n"
                 "\\vspace{7pt}\n\n"
             )
@@ -120,7 +117,7 @@ def generate_cventries_from_excel(file_path):
         if cventries_P:
             result += (
                     "\\section{在投或准备中论文}\n"
-                    "{\small{所有论文初稿均已完成}}{}{}{}\n\n"
+                    "{\\small{所有论文初稿均已完成}}{}{}{}\n\n"
                     "\\vspace{7pt}"
                     + "\n\n".join(cventries_P)
                     + "\n\n"
@@ -130,11 +127,6 @@ def generate_cventries_from_excel(file_path):
     return result
 
 if __name__ == '__main__':
-    # Example usage
-    file_path = 'papers.xlsx'  # Replace with the path to your Excel file
-    result = generate_cventries_from_excel(file_path)
-
-    # Save or print the results
-    with open('publication_CN.txt', 'w') as f:
-        f.write(result)
-    print("Cventries saved to 'publication_CN.txt'")
+    from pathlib import Path
+    import runpy
+    runpy.run_path(str(Path(__file__).resolve().parents[1] / 'scripts/sync_publications.py'), run_name='__main__')
