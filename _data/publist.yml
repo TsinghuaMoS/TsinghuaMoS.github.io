@@ -146,8 +146,8 @@
   category: Mobility AI
   category_label: Conference Paper
   venue: 43rd International Conference on Machine Learning (ICML 2026)
-  issue_page: Oral Presentation (Top 0.7%)
-  venue_display: 43rd International Conference on Machine Learning (ICML 2026), 2026, Oral Presentation (Top 0.7%)
+  issue_page: Oral Presentation (0.7%)
+  venue_display: 43rd International Conference on Machine Learning (ICML 2026), 2026, Oral Presentation (0.7%)
   authors_text: Shiyu Wang, Juntong Ni, Ziyi Zhang, Baichuan Mo, Xinyue Zhong, Chengxin Wang, Yuchen Fang, Zhou Ye, Yang Xiang
   authors_html: <span class="author-equal-name">Shiyu Wang</span><sup class="author-equal">&dagger;</sup>, <span class="author-equal-name">Juntong Ni</span><sup class="author-equal">&dagger;</sup>, Ziyi Zhang, <strong class="author-me">Baichuan Mo</strong>, Xinyue Zhong, Chengxin Wang, <span class="author-corresponding-name">Yuchen Fang</span><sup class="author-corresponding">*</sup>, Zhou Ye, Yang Xiang
   corresponding_authors: Yuchen Fang

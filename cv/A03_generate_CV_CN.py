@@ -69,7 +69,7 @@ def generate_cventries_from_excel(file_path):
         entry += "}}{}\n"
         # Keep each complete citation together across page boundaries.
         entry = "\\par\\noindent\\begin{minipage}{\\linewidth}\n" + entry
-        entry += "\\end{minipage}\\par\\vspace{5pt}\n"
+        entry += "\\end{minipage}\\par\\vspace{5.5pt}\n"
         # Add stepcounter logic based on paper type
         if row['paper_type'] == 'J':
             # if len(cventries_J) != num_J-1:
