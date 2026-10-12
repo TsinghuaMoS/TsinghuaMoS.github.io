@@ -23,10 +23,14 @@ github: ShuyangZhu
 - 香港理工大学，民航及航空工程系，研究助理，*2025.12 - 2026.10*
 
 ### 科研成果
-[1] Zhang Y, **Zhu S**, Pu K, Cui H, Gan M, Liu X, Ai R. (2026). Dynamic multimodal transport planning with drones for emergency logistics: mathematical model and heuristic algorithm, Transportation Research Part E: Logistics and Transportation Review, 206, 104558. (中科院一区TOP, ABS 3星)
-[2] Zhang Y, **Zhu S**, Chen Y, Li P, Feng J, Li R, Liu X, Gan M, Yang S, Chen N, Ai R (2026). Priority-based Multi-task Scheduling for Shared Micro-mobility Systems, Transportation Research Part C: Emerging Technologies, 190, 105796. (中科院一区TOP)
-[3] Zhang Y, **Zhu S**, Li Y, Tan X, Liu Z, Tang H, Gan M, Liu X, Ai R (2026). Dynamic Multimodal Routing with Drones under Communication Uncertainty in Emergency Logistics: A Hybrid Reinforcement Learning–Heuristic Approach, IET Intelligent Transport Systems 20, no. 1 (2026): e70302. (JCR 2区)
-[4] Zhang Y, Huang L, Wang J, Lin H, **Zhu S**, Gan M, Liu X, Ai R. (2026). Data-driven optimization for maritime logistics: integrating transport network mining with ship fleet routing, Transportation Research Part C: Emerging Technologies, 183, 105451. (中科院一区TOP).
+[1] Zhang Y, **Zhu S**, Pu K, Cui H, Gan M, Liu X, Ai R. (2026). Dynamic multimodal transport planning with drones for emergency logistics: mathematical model and heuristic algorithm, Transportation Research Part E: Logistics and Transportation Review, 206, 104558. (中科院一区TOP, ABS 3星，IF=9.3)
+
+[2] Zhang Y, **Zhu S**, Chen Y, Li P, Feng J, Li R, Liu X, Gan M, Yang S, Chen N, Ai R (2026). Priority-based Multi-task Scheduling for Shared Micro-mobility Systems, Transportation Research Part C: Emerging Technologies, 190, 105796. (中科院一区TOP, IF=8.4)
+
+[3] Zhang Y, **Zhu S**, Li Y, Tan X, Liu Z, Tang H, Gan M, Liu X, Ai R (2026). Dynamic Multimodal Routing with Drones under Communication Uncertainty in Emergency Logistics: A Hybrid Reinforcement Learning–Heuristic Approach, IET Intelligent Transport Systems 20, no. 1 (2026): e70302. (JCR 2区，IF=3.72)
+
+[4] Zhang Y, Huang L, Wang J, Lin H, **Zhu S**, Gan M, Liu X, Ai R. (2026). Data-driven optimization for maritime logistics: integrating transport network mining with ship fleet routing, Transportation Research Part C: Emerging Technologies, 183, 105451. (中科院一区TOP, IF=8.4).
+
 [5] 甘蜜，谭湘蓉，罗骁宇，张义萌，**朱舒阳**，丁万斌，刘晓波，马霖. 面向多主体参与的多式联运竞合方法研究综述[J/OL]. 交通运输工程与信息学报. (中文核心期刊)
 
 
