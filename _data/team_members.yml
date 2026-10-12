@@ -42,6 +42,13 @@
   photo: optimized/fangxin_wang.webp
   url: https://www.linkedin.com/in/fangxin-wang-2000/?locale=en
 
+- group: 1
+  info: PhD Student
+  name: Meng Cao
+  name_zh: 曹矇
+  photo: optimized/meng_cao.webp
+  url: /en/team/meng_cao.html
+
 - group: 2
   info: MSc Student
   name: Yahui Li

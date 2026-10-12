@@ -30,8 +30,8 @@ permalink: /team/
   <div class="team-grid">
   {% for member in site.data.team_members %}
   {% if member.group == gid %}
-  {% case member.info %}{% when 'Assistant Professor' %}{% assign role_zh = '助理教授' %}{% when 'Research Affiliate' %}{% assign role_zh = '合作研究员' %}{% when 'MSc Student' %}{% assign role_zh = '硕士生' %}{% when 'Intern' %}{% assign role_zh = '实习生' %}{% else %}{% assign role_zh = member.info %}{% endcase %}
-  {% if member.group == 0 %}{% assign mlink = '/team/baichuan_mo/' | relative_url %}{% elsif member.name == 'Yahui Li' %}{% assign mlink = '/team/yahui_li/' | relative_url %}{% else %}{% assign mlink = member.url %}{% endif %}
+  {% case member.info %}{% when 'Assistant Professor' %}{% assign role_zh = '助理教授' %}{% when 'Research Affiliate' %}{% assign role_zh = '合作研究员' %}{% when 'PhD Student' %}{% assign role_zh = '博士生' %}{% when 'MSc Student' %}{% assign role_zh = '硕士生' %}{% when 'Intern' %}{% assign role_zh = '实习生' %}{% else %}{% assign role_zh = member.info %}{% endcase %}
+  {% if member.group == 0 %}{% assign mlink = '/team/baichuan_mo/' | relative_url %}{% elsif member.name == 'Yahui Li' %}{% assign mlink = '/team/yahui_li/' | relative_url %}{% elsif member.name == 'Meng Cao' %}{% assign mlink = '/team/meng_cao/' | relative_url %}{% else %}{% assign mlink = member.url %}{% endif %}
     <article class="team-card">
       {% if mlink and mlink != "" %}
       <a class="team-photo" href="{{ mlink }}">
