@@ -49,6 +49,12 @@
   photo: optimized/meng_cao.webp
   url: /en/team/meng_cao.html
 
+- group: 1
+  info: PhD Student
+  name: Shuyang Zhu
+  name_zh: 朱舒阳
+  url: /en/team/shuyang_zhu.html
+
 - group: 2
   info: MSc Student
   name: Yahui Li

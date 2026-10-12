@@ -12,6 +12,7 @@ layout: default
 <div class="member-profile">
 	<div class="member-hero-card">
 
+		{% if member.photo and member.photo != "" %}
 		<img class="pull-left pad-right content-photo"
 			width="384"
 			height="384"
@@ -19,6 +20,7 @@ layout: default
 			decoding="async"
 			fetchpriority="high"
 			alt="{{ member.title }}">
+		{% endif %}
 
 		<div class="member-hero-copy">
 			<div class="bigtitle">

@@ -30,6 +30,7 @@ alt_zh: "/team/"
   {% for member in site.data.team_members %}
   {% if member.group == gid %}
     <article class="team-card">
+      {% if member.photo and member.photo != "" %}
       {% if member.url and member.url != "" %}
       <a class="team-photo" href="{{ member.url }}">
         <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" width="384" height="384" loading="lazy" decoding="async">
@@ -38,6 +39,7 @@ alt_zh: "/team/"
       <span class="team-photo">
         <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" width="384" height="384" loading="lazy" decoding="async">
       </span>
+      {% endif %}
       {% endif %}
       <div class="team-card-body">
         <h3>{% if member.url and member.url != "" %}<a href="{{ member.url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h3>
