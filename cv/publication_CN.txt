@@ -83,7 +83,7 @@
 
 \stepcounter{myCounter}
 \par\noindent\begin{minipage}{\linewidth}
-{\textcolor{gray}{[J\themyCounter, 2024]\;}}{\textbf{Robust reinforcement learning strategies with evolving curriculum for efficient bus operations in smart cities} \href{https://doi.org/10.3390/smartcities7060141}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline Yuhan Tang, Ao Qu*, Xuan Jiang, \underline{Baichuan Mo}, Shangqing Cao, Joseph Rodriguez, Haris N. Koutsopoulos, Cathy Wu, Jinhua Zhao}{\newline \emph{Smart Cities, 2024, 7(6), 3658-3677}}{{\; \keys{SCI} \keys{IF 7.0} }}{}
+{\textcolor{gray}{[J\themyCounter, 2024]\;}}{\textbf{Robust reinforcement learning strategies with evolving curriculum for efficient bus operations in smart cities} \href{https://doi.org/10.3390/smartcities7060141}{\textcolor{cadmiumorange}{\faExternalLink}}}{\newline Yuhan Tang, Ao Qu*, Xuan Jiang, \underline{Baichuan Mo}, Shangqing Cao, Joseph Rodriguez, Haris N. Koutsopoulos, Cathy Wu, Jinhua Zhao}{\newline \emph{Smart Cities, 2024, 7(6), 3658-3677}}{{\; \keys{SCI} \keys{IF 7.0} \keys{Q2} }}{}
 \end{minipage}\par\vspace{5.5pt}
 
 
