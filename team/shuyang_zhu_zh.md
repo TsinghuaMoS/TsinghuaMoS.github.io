@@ -10,8 +10,8 @@ alt_zh: /team/shuyang_zhu/
 permalink: /team/shuyang_zhu/
 email: shuyangzhu150@gmail.com
 github: ShuyangZhu
-Google Scholar: [Google Scholar](https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en)
-ORCID: [0009-0002-0886-2601](https://orcid.org/my-orcid?orcid=0009-0002-0886-2601)
+Google Scholar: https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en
+ORCID: https://orcid.org/my-orcid?orcid=0009-0002-0886-2601
 ---
 
 ### 简介
