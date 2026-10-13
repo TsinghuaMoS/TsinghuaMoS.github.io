@@ -13,7 +13,7 @@ github: ShuyangZhu
 photo: optimized/shuyang_zhu.webp
 ---
 
-### 简介（[ORCID](https://orcid.org/my-orcid?orcid=0009-0002-0886-2601)）
+### 简介（ORCID：[0009-0002-0886-2601](https://orcid.org/my-orcid?orcid=0009-0002-0886-2601)）
 朱舒阳是清华大学 MoS Lab 博士生。研究兴趣包括多模式交通协同运输、应急物流系统以及交通服务网络设计。
 
 ### 教育背景
