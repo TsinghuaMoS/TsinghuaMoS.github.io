@@ -8,11 +8,14 @@ hreflang: true
 alt_en: /en/team/shuyang_zhu.html
 alt_zh: /team/shuyang_zhu/
 permalink: /team/shuyang_zhu/
+email: shuyangzhu150@gmail.com
 github: ShuyangZhu
+Google Scholar: [Google Scholar](https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en)
+ORCID: [0009-0002-0886-2601](https://orcid.org/my-orcid?orcid=0009-0002-0886-2601)
 ---
 
 ### 简介
-朱舒阳是清华大学 MoS Lab 博士生。研究兴趣包括智能交通系统、轨道交通运营、应急处置决策支持以及数据驱动的交通政策分析。
+朱舒阳是清华大学 MoS Lab 博士生。研究兴趣包括多模式交通协同运输、应急物流系统以及交通服务网络设计。
 
 ### 教育背景
 - 清华大学，交通工程系，交通与城镇化，博士，*2027.09 -*
