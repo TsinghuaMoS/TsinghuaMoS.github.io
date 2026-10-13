@@ -14,7 +14,7 @@ photo: optimized/shuyang_zhu.webp
 ---
 
 ### 简介
-朱舒阳是清华大学 MoS Lab 博士生。研究兴趣包括多模式交通协同运输、应急物流系统以及交通服务网络设计。 [Google Scholar](https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en)；[ORCID](https://orcid.org/my-orcid?orcid=0009-0002-0886-2601)
+朱舒阳是清华大学 MoS Lab 博士生。研究兴趣包括多模式交通协同运输、应急物流系统以及交通服务网络设计。 [ORCID](https://orcid.org/my-orcid?orcid=0009-0002-0886-2601)
 
 ### 教育背景
 - 清华大学，交通工程系，交通与城镇化，博士，*2027.09 -*
@@ -24,7 +24,7 @@ photo: optimized/shuyang_zhu.webp
 ### 科研工作经历
 - 香港理工大学，民航及航空工程系，项目研究助理，*2025.12 - 2026.10*
 
-### 科研成果
+### 科研成果（详见[Google Scholar](https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en)）
 [1] Zhang Y, **Zhu S**, Pu K, Cui H, Gan M, Liu X, Ai R. (2026). Dynamic multimodal transport planning with drones for emergency logistics: mathematical model and heuristic algorithm, Transportation Research Part E: Logistics and Transportation Review, 206, 104558. (中科院一区TOP, ABS 3星，IF=9.3)
 
 [2] Zhang Y, **Zhu S**, Chen Y, Li P, Feng J, Li R, Liu X, Gan M, Yang S, Chen N, Ai R (2026). Priority-based Multi-task Scheduling for Shared Micro-mobility Systems, Transportation Research Part C: Emerging Technologies, 190, 105796. (中科院一区TOP, IF=8.4)
