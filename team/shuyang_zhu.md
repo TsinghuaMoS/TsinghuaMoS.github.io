@@ -20,8 +20,7 @@ Shuyang Zhu (朱舒阳) is a PhD student in MoS Lab, Tsinghua University. His re
 - B.Eng. in Transportation, Southwest Jiaotong University, *Sep 2021 - Jun 2025*
 
 ### Research Experience
-- Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University
-  - Project Research Assistant, *2025.12 - 2026.10*
+- Project Research Assistant in Department of Aeronautical and Aviation Engineering, The Hong Kong Polytechnic University, *2025.12 - 2026.10*
 
 ### Publications (See [Google Scholar](https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en))
 [1] Zhang Y, **Zhu S**, Pu K, Cui H, Gan M, Liu X, Ai R. (2026). Dynamic multimodal transport planning with drones for emergency logistics: mathematical model and heuristic algorithm, Transportation Research Part E: Logistics and Transportation Review, 206, 104558. (JCR Q1, ABS/AJG 3, IF=9.3)
