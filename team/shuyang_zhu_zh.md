@@ -14,11 +14,7 @@ photo: optimized/shuyang_zhu.webp
 ---
 
 ### 简介
-朱舒阳是清华大学 MoS Lab 博士生。研究兴趣包括多模式交通协同运输、应急物流系统以及交通服务网络设计。
-
-Google Scholar: [Google Scholar](https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en)
-
-ORCID: [ORCID](https://orcid.org/my-orcid?orcid=0009-0002-0886-2601)
+朱舒阳是清华大学 MoS Lab 博士生。研究兴趣包括多模式交通协同运输、应急物流系统以及交通服务网络设计。 [Google Scholar](https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en)；[ORCID](https://orcid.org/my-orcid?orcid=0009-0002-0886-2601)
 
 ### 教育背景
 - 清华大学，交通工程系，交通与城镇化，博士，*2027.09 -*
