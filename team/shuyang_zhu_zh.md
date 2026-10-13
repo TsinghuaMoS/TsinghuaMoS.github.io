@@ -19,11 +19,11 @@ ORCID: https://orcid.org/my-orcid?orcid=0009-0002-0886-2601
 
 ### 教育背景
 - 清华大学，交通工程系，交通与城镇化，博士，*2027.09 -*
-- 香港大学，工业工程与物流管理，工学硕士，*2025.09 - 2026.12*
-- 西南交通大学，交通运输，工学本科，*2021.09 - 2025.06*
+- 香港大学，数据及系统工程系，工业工程与物流管理，工学硕士，*2025.09 - 2026.12*
+- 西南交通大学，交通运输与物流学院，交通运输，工学本科，*2021.09 - 2025.06*
 
 ### 科研工作经历
-- 香港理工大学，民航及航空工程系，研究助理，*2025.12 - 2026.10*
+- 香港理工大学，民航及航空工程系，项目研究助理，*2025.12 - 2026.10*
 
 ### 科研成果
 [1] Zhang Y, **Zhu S**, Pu K, Cui H, Gan M, Liu X, Ai R. (2026). Dynamic multimodal transport planning with drones for emergency logistics: mathematical model and heuristic algorithm, Transportation Research Part E: Logistics and Transportation Review, 206, 104558. (中科院一区TOP, ABS 3星，IF=9.3)
