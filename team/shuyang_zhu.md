@@ -8,6 +8,7 @@ alt_en: /en/team/shuyang_zhu.html
 alt_zh: /team/shuyang_zhu/
 permalink: /en/team/shuyang_zhu.html
 github: ShuyangZhu
+email: shuyangzhu150@gmail.com
 photo: optimized/shuyang_zhu.webp
 ---
 
