@@ -12,6 +12,7 @@ email: shuyangzhu150@gmail.com
 github: ShuyangZhu
 Google Scholar: https://scholar.google.com/citations?user=QSUECcUAAAAJ&hl=en
 ORCID: https://orcid.org/my-orcid?orcid=0009-0002-0886-2601
+photo: optimized/shuyang_zhu.webp
 ---
 
 ### 简介
