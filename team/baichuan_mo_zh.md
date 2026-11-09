@@ -38,7 +38,7 @@ cv_cn: /cv/CV_Baichuan_CN.pdf
 最新论文列表请见 [Google Scholar](https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en)。
 
 ### 荣誉与奖励
-- INFORMS 铁路应用分会 2026 年问题求解竞赛第三名，获奖作品：A Unified Primal-Dual Framework for Integrated Railroad Blocking Design（PKUNo2 团队：Baichuan Mo、Yida Xu、Zhengzhong Ricky You、Ruoyun Ma），2026年。
+- INFORMS 铁路应用分会问题求解竞赛第三名，2026年。
 - 中国海外交通运输协会（COTA）最佳博士论文奖，2022年。
 - MIT UPS 博士奖学金，2021年。
 - 清华大学优秀本科毕业论文奖，2018年。

@@ -38,7 +38,7 @@ Before joining Tsinghua, he was a Senior Research Scientist at Lyft, working on 
 Please refer to the [google scholar](https://scholar.google.com/citations?user=ORhrfXoAAAAJ&hl=en) page for the up to date publication list.
 
 ### Awards & Honors 
-- Third Place, INFORMS Railway Applications 2026 Problem-Solving Competition, for “A Unified Primal-Dual Framework for Integrated Railroad Blocking Design” (Team PKUNo2: Baichuan Mo, Yida Xu, Zhengzhong Ricky You, and Ruoyun Ma), 2026.
+- Third Place, INFORMS Railway Applications Problem-Solving Competition, 2026.
 - Best PhD Dissertation Award, Chinese Overseas Transportation Association (COTA), 2022.
 - UPS PhD Fellowship, MIT, 2021.
 - Best Bachelor Thesis Award, Tsinghua University, 2018.
